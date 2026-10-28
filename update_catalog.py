@@ -117,7 +117,7 @@ def main():
             continue
 
         # 3. Ligne de séparation (|---|---|...)
-        if in_table and re.match(r'^\|[\s-:]+\|', line):
+        if in_table and re.match(r'^\|[-:\s]+\|', line):
             continue
 
         # 4. Parsing des lignes de données
