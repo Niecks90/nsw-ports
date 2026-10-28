@@ -4,145 +4,156 @@ import json
 import logging
 import sys
 
-# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
 URL = "https://raw.githubusercontent.com/robzilla10001/SwitchPorts/main/README.md"
 OUTPUT_FILE = "catalog.json"
 
-# Games known to require original assets
+# Jeux nécessitant généralement des assets originaux (PC, Android, etc.)
 ASSET_GAMES = {
     'half-life', 'quake', 'doom', 'gta', 'grand theft auto', 'tomb raider',
     'zelda', 'mario', 'sonic', 'duke nukem', 'shadow warrior', 'blood',
     'max payne', 'bully', 'return to castle wolfenstein', 'jediknight',
     'diablo', 'fallout', 'chrono trigger', 'need for speed', 'halo',
-    'burnout', 'mortal kombat', 'super mario'
+    'burnout', 'mortal kombat', 'super mario', 'modern combat', 'dead space',
+    'rayman', 'plants vs. zombies', 'angry birds', 'spider-man', 'dark knight'
 }
 
 def slugify(text):
     text = re.sub(r'[^a-zA-Z0-9\s-]', '', text).strip().lower()
     return re.sub(r'[\s-]+', '-', text)
 
-def parse_link(link_md):
-    """Parses markdown link and extracts author/repo and raw URL"""
-    match = re.search(r'\[(.*?)\]\((.*?)\)', link_md)
+def parse_link(cell_text):
+    """Extrait l'auteur et normalise l'URL (gère Markdown et texte brut user/repo)."""
+    cell_text = cell_text.strip()
+    if not cell_text:
+        return "", ""
+
+    # Cas 1 : Lien Markdown [Texte](URL)
+    match = re.search(r'\[(.*?)\]\((.*?)\)', cell_text)
     if match:
-        author_hint = match.group(1)
-        url = match.group(2)
-    else:
-        # Fallback if it's just text or a raw URL
-        author_hint = ""
-        url = link_md.strip()
+        label = match.group(1).strip()
+        url = match.group(2).strip()
+        author = label.split('/')[0] if '/' in label else ""
+        return author, url
 
-    # Try to deduce author from hint
-    if '/' in author_hint:
-        author = author_hint.split('/')[0]
-    else:
-        author = author_hint
+    # Cas 2 : Format brut GitHub "user/repo"
+    github_slug_match = re.match(r'^([a-zA-Z0-9_-]+)/([a-zA-Z0-9._-]+)$', cell_text)
+    if github_slug_match:
+        author = github_slug_match.group(1)
+        url = f"https://github.com/{cell_text}"
+        return author, url
 
-    return author, url
+    # Cas 3 : URL HTTP(S) brute
+    if cell_text.startswith("http://") or cell_text.startswith("https://"):
+        return "", cell_text
+
+    return "", cell_text
 
 def determine_url_source(url):
-    """Detects whether the URL points to a GitHub Release, GBAtemp thread, or direct archive."""
+    """Détecte la nature de la ressource."""
     if 'github.com' in url:
-        if '/releases' in url or '/releases/tag' in url or '/releases/download' in url:
+        if any(x in url for x in ['/releases', '/releases/tag', '/releases/download']):
             return 'github_release'
         return 'github_repo'
-    elif 'gbatemp.net/threads' in url:
+    elif 'gbatemp.net' in url:
         return 'gbatemp_thread'
-    elif url.endswith('.zip') or url.endswith('.rar') or url.endswith('.7z') or url.endswith('.nro'):
+    elif any(url.endswith(ext) for ext in ['.zip', '.rar', '.7z', '.nro']):
         return 'direct_archive'
-    else:
-        return 'other'
+    return 'other'
 
 def check_asset_requirements(title, url):
-    """Heuristic to detect asset requirements and asset type"""
+    """Heuristique sur la nécessité de fournir des fichiers de jeu propriétaires."""
     title_lower = title.lower()
 
-    asset_type = 'unknown'
+    asset_type = 'zip'
     if url.endswith('.nro'):
         asset_type = 'nro'
-    elif 'release' in url.lower() or url.endswith('.zip') or url.endswith('.7z') or url.endswith('.rar'):
-        asset_type = 'zip'
-    elif 'github.com' in url:
-        # Often github links point to repos, their releases are zips
-        asset_type = 'zip'
 
-    requires_assets = False
-    for known in ASSET_GAMES:
-        if known in title_lower:
-            requires_assets = True
-            break
-
-    asset_hint = f"Please provide the original game data/assets for {title}." if requires_assets else None
+    requires_assets = any(known in title_lower for known in ASSET_GAMES)
+    asset_hint = (
+        f"Ce port nécessite les données originales du jeu ({title}). Déposez les assets requis dans le dossier de staging."
+        if requires_assets else None
+    )
 
     return asset_type, requires_assets, asset_hint
 
 def main():
-    logging.info(f"Fetching README from {URL}")
+    logging.info(f"Téléchargement du README depuis {URL}...")
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
-        req = urllib.request.urlopen(URL)
-        content = req.read().decode('utf-8')
+        req = urllib.request.Request(URL, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            content = resp.read().decode('utf-8')
     except Exception as e:
-        logging.error(f"Failed to fetch README: {e}")
+        logging.error(f"Échec de récupération du README : {e}")
         sys.exit(1)
 
     catalog = []
-    current_platform = None
+    current_platform = "Unknown"
     in_table = False
+    col_map = {}
 
     lines = content.split('\n')
-    logging.info(f"Read {len(lines)} lines")
+    logging.info(f"Analyse de {len(lines)} lignes...")
 
-    for idx, line in enumerate(lines):
-        line = line.strip()
+    for idx, raw_line in enumerate(lines):
+        line = raw_line.strip()
 
-        # Track current platform
-        if line.startswith('### '):
-            current_platform = line[4:].strip()
+        # 1. Détection de la plateforme (Titres Markdown ##, ###, ####)
+        header_match = re.match(r'^#{2,4}\s+(.*)', line)
+        if header_match:
+            title_text = header_match.group(1).strip()
+            # On ignore les sections d'en-tête du README
+            if not any(skip in title_text.lower() for skip in ['notice', 'table of contents', 'disclaimer', 'recent changes']):
+                current_platform = title_text
             continue
 
-        # Detect table start
-        if line.startswith('| Game | Version |') or line.startswith('|Game|Version|') or line.startswith('| Game |Version |'):
+        # 2. Détection de l'en-tête d'un tableau
+        if line.startswith('|') and ('game' in line.lower() or 'title' in line.lower()):
+            headers = [c.strip().lower() for c in line.split('|')[1:-1]]
+            col_map = {name: i for i, name in enumerate(headers)}
             in_table = True
             continue
 
-        # Skip separator rows
-        if in_table and (line.startswith('|---') or line.startswith('| ---')):
+        # 3. Ligne de séparation (|---|---|...)
+        if in_table and re.match(r'^\|[\s-:]+\|', line):
             continue
 
+        # 4. Parsing des lignes de données
         if in_table and line.startswith('|'):
-            # Parse table row
             columns = [col.strip() for col in line.split('|')[1:-1]]
+            
+            # Recherche flexible des colonnes selon l'en-tête
+            game_idx = col_map.get('game', col_map.get('title', 0))
+            version_idx = col_map.get('version', 1)
+            link_idx = col_map.get('link', col_map.get('repository', 3))
+            gbatemp_idx = col_map.get('gbatemp thread?', col_map.get('gbatemp', 4))
 
-            # Allow flexible number of columns, but typically 6
-            if len(columns) >= 4:
-                game = columns[0].replace('🟢 ', '').replace('🔴 ', '').replace('🟡 ', '').strip()
+            if len(columns) > max(game_idx, link_idx):
+                raw_game = columns[game_idx]
+                game = re.sub(r'^[🟢🔴🟡🟠\s]+', '', raw_game).strip()
 
+                # Héritage si le nom du jeu est vide (lignes multi-builds)
                 if not game and len(catalog) > 0:
                     game = catalog[-1]['title']
                 elif not game:
-                    logging.warning(f"Row {idx}: Empty game title and no previous row to inherit from. Skipping.")
                     continue
 
-                version = columns[1] if len(columns) > 1 else ""
+                version = columns[version_idx] if len(columns) > version_idx else ""
+                
+                link_raw = columns[link_idx] if len(columns) > link_idx else ""
+                gbatemp_raw = columns[gbatemp_idx] if len(columns) > gbatemp_idx else ""
 
-                # Extract link and gbatemp link
-                link_md = columns[3] if len(columns) > 3 else ""
-                gbatemp_md = columns[4] if len(columns) > 4 else ""
+                author, url = parse_link(link_raw)
+                _, gbatemp_url = parse_link(gbatemp_raw)
 
-                author, url = parse_link(link_md)
-
-                _, gbatemp_url = parse_link(gbatemp_md)
-
+                # Si le lien principal est manquant, repli sur le thread GBAtemp
                 if not url and gbatemp_url:
                     url = gbatemp_url
 
                 source_type = determine_url_source(url)
-
-                platform_to_use = current_platform or "Unknown"
-                slug = slugify(f"{game} {platform_to_use}")
-
+                slug = slugify(f"{game}-{current_platform}")
                 asset_type, req_assets, asset_hint = check_asset_requirements(game, url)
 
                 catalog.append({
@@ -150,7 +161,7 @@ def main():
                     "title": game,
                     "author": author,
                     "version": version,
-                    "original_platform": platform_to_use,
+                    "original_platform": current_platform,
                     "url": url,
                     "source_type": source_type,
                     "asset_type": asset_type,
@@ -159,20 +170,18 @@ def main():
                     "steamgriddb_id": None,
                     "grid_image_url": None
                 })
-            else:
-                logging.warning(f"Row {idx}: Malformed row, insufficient columns: {line}")
-        elif in_table and not line:
-            # End of table is usually marked by an empty line in this markdown
+        elif in_table and (not line or not line.startswith('|')):
             in_table = False
+            col_map = {}
 
-    logging.info(f"Successfully parsed {len(catalog)} entries")
+    logging.info(f"{len(catalog)} entrées extraites avec succès.")
 
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            json.dump(catalog, f, indent=2)
-        logging.info(f"Saved catalog to {OUTPUT_FILE}")
+            json.dump(catalog, f, indent=2, ensure_ascii=False)
+        logging.info(f"Fichier {OUTPUT_FILE} généré.")
     except Exception as e:
-        logging.error(f"Failed to save catalog: {e}")
+        logging.error(f"Erreur d'écriture : {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
