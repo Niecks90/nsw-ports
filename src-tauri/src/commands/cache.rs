@@ -32,3 +32,22 @@ pub fn cache_cover_image(game_id: String, image_url: String) -> Result<String, S
         Err(format!("Failed to fetch cover image: {}", response.status()))
     }
 }
+
+#[tauri::command]
+pub fn clear_image_cache(app: tauri::AppHandle) -> Result<(), String> {
+    use tauri::Manager;
+    if let Ok(app_cache) = app.path().app_cache_dir() {
+        let cache_dir = app_cache.join("covers");
+        if cache_dir.exists() {
+            fs::remove_dir_all(&cache_dir).map_err(|e| e.to_string())?;
+            fs::create_dir_all(&cache_dir).map_err(|e| e.to_string())?;
+        }
+    } else {
+        let cache_dir = Path::new("./cache/covers/");
+        if cache_dir.exists() {
+            fs::remove_dir_all(cache_dir).map_err(|e| e.to_string())?;
+            fs::create_dir_all(cache_dir).map_err(|e| e.to_string())?;
+        }
+    }
+    Ok(())
+}

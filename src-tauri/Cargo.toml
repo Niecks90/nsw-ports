@@ -13,6 +13,10 @@ suppaftp = { version = "5.3" }
 zip = "2.1"
 walkdir = "2.5"
 futures-util = "0.3"
+tauri-plugin-store = "2.5.0"
+tauri-plugin-dialog = "2.8.4"
+tauri-plugin-fs = "2.7.1"
+tauri-plugin-shell = "2.6.0"
 
 [build-dependencies]
 tauri-build = "2.0.0"

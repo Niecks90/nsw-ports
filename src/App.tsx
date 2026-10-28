@@ -21,6 +21,13 @@ function App() {
     });
   }, []);
 
+  const handleRefreshCatalog = async (url: string) => {
+    setLoading(true);
+    const data = await fetchCatalog(url);
+    setGames(data);
+    setLoading(false);
+  };
+
   const filteredGames = useMemo(() => { let result = games; if (activeFilter === 'Native') { result = result.filter(g => g.original_platform?.toLowerCase() !== 'emulators'); } else if (activeFilter === 'Emulators') { result = result.filter(g => g.original_platform?.toLowerCase() === 'emulators'); } else if (activeFilter === 'Requires Files') { result = result.filter(g => g.requires_original_assets); } if (searchQuery) { const fuse = new Fuse(result, { keys: ['title', 'author'], threshold: 0.3 }); result = fuse.search(searchQuery).map(res => res.item); } return result; }, [games, searchQuery, activeFilter]);
 
   return (
@@ -29,6 +36,7 @@ function App() {
         onSearchChange={setSearchQuery}
         onFilterChange={setActiveFilter}
         activeFilter={activeFilter}
+        onRefreshCatalog={handleRefreshCatalog}
       />
 
       <main className="flex-1 overflow-x-hidden relative">
