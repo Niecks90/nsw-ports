@@ -1,0 +1,42 @@
+name: Update Ports Catalog
+
+on:
+  # Permet de lancer le script manuellement depuis l'onglet Actions
+  workflow_dispatch:
+  # Exécution automatique (ici tous les jours à 4h00 UTC)
+  schedule:
+    - cron: '0 4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Exécuter le script de mise à jour
+        run: |
+          python update_catalog.py
+
+      - name: Sauvegarder catalog.json si modifié
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          
+          # Ne commit que si le fichier a réellement changé
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(catalog): auto-update catalog.json [skip ci]"
+            git push
+          else
+            echo "Aucune modification détectée dans catalog.json."
+          fi
