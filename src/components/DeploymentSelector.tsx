@@ -3,6 +3,7 @@ import { PortData } from '../types';
 import { HardDrive, Server, Download, CheckCircle, AlertCircle } from 'lucide-react';
 import { invoke } from '@tauri-apps/api/core';
 import { listen } from '@tauri-apps/api/event';
+import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
 
 interface DeploymentSelectorProps {
@@ -14,14 +15,26 @@ type DeployMode = 'local' | 'ftp';
 
 export function DeploymentSelector({ game, assetsReady }: DeploymentSelectorProps) {
     const [mode, setMode] = useState<DeployMode>('local');
-    const [ftpIp, setFtpIp] = useState(localStorage.getItem('ftp_ip') || '');
-    const [ftpPort, setFtpPort] = useState(localStorage.getItem('ftp_port') || '5000');
+    const [ftpIp, setFtpIp] = useState('');
+    const [ftpPort, setFtpPort] = useState('5000');
+    const [localPath, setLocalPath] = useState('./switch/');
 
     const [status, setStatus] = useState<'idle' | 'downloading' | 'extracting' | 'deploying' | 'success' | 'error'>('idle');
     const [progress, setProgress] = useState(0);
     const [message, setMessage] = useState('');
 
     useEffect(() => {
+        const initSettings = async () => {
+            const store = await load('settings.json');
+            const ip = await store.get<string>('switch_ip');
+            if (ip) setFtpIp(ip);
+            const port = await store.get<number>('switch_ftp_port');
+            if (port) setFtpPort(port.toString());
+            const path = await store.get<string>('local_export_path');
+            if (path) setLocalPath(path);
+        };
+        initSettings();
+
         const unlistenProgress = listen<{ progress: number, message: string }>('deploy_progress', (event) => {
             setProgress(event.payload.progress);
             setMessage(event.payload.message);
@@ -45,16 +58,19 @@ export function DeploymentSelector({ game, assetsReady }: DeploymentSelectorProp
             setStatus('deploying');
             if (mode === 'local') {
                 setMessage('Deploying to local folder...');
-                await invoke('deploy_local', { gameId: game.id, archivePath });
+                await invoke('deploy_local', { stagingPath: archivePath, outputDir: localPath });
             } else {
                 setMessage('Deploying via FTP...');
-                localStorage.setItem('ftp_ip', ftpIp);
-                localStorage.setItem('ftp_port', ftpPort);
+                const store = await load('settings.json');
+                await store.set('switch_ip', ftpIp);
+                await store.set('switch_ftp_port', parseInt(ftpPort, 10) || 5000);
+                await store.save();
+
                 await invoke('deploy_ftp', {
-                    gameId: game.id,
-                    archivePath,
-                    ip: ftpIp,
-                    port: parseInt(ftpPort, 10) || 5000
+                    host: ftpIp,
+                    port: parseInt(ftpPort, 10) || 5000,
+                    stagingPath: archivePath,
+                    remoteDest: '/switch'
                 });
             }
 
