@@ -24,7 +24,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5307984",
     "grid_image_url": null
   },
   {
@@ -38,8 +38,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5266194",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/51cf6e65f8242f989f354bf9dfe5a019.png"
   },
   {
     "id": "freej2me-emulators",
@@ -66,8 +66,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5269826",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/23481018d5749e948e913cb2b1e868fa.png"
   },
   {
     "id": "model2-emulators",
@@ -80,7 +80,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5261277",
     "grid_image_url": null
   },
   {
@@ -94,8 +94,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248851",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/26250a9e2eb926d82618149efbd9c71d.png"
   },
   {
     "id": "multi-emulators",
@@ -108,8 +108,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "24155",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d195b358a09ffb18397f8b61a7908076.png"
   },
   {
     "id": "nds-emulators",
@@ -150,8 +150,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5266805",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/948bcdb0dcc8e5d1e82fd7d38b8d4f15.jpg"
   },
   {
     "id": "ps2-emulators",
@@ -164,8 +164,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5274570",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/246e476a8d7d7f33864d7df4a07aa3c5.png"
   },
   {
     "id": "ps2-emulators",
@@ -178,8 +178,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5274570",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/246e476a8d7d7f33864d7df4a07aa3c5.png"
   },
   {
     "id": "psp-emulators",
@@ -192,8 +192,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5283570",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f4f74a79deac6e49676302de75b22801.jpg"
   },
   {
     "id": "s22-emulators",
@@ -206,8 +206,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "10217",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/30e4e1bafc2af8295e2c7e4556acdb36.png"
   },
   {
     "id": "saturn-emulators",
@@ -220,8 +220,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5439721",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d75968496ecc48a75d03969d67b15432.jpg"
   },
   {
     "id": "vita-emulators",
@@ -234,8 +234,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5287563",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/452885a27940647f7e3c1f1e834d6897.jpg"
   },
   {
     "id": "vsmile-emulators",
@@ -248,8 +248,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "12141",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/bba14759ddc7050c9c10c800ee3d00ca.png"
   },
   {
     "id": "wiiu-emulators",
@@ -262,8 +262,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5256052",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6f4dd584d208d094f7207bd4274c4adb.png"
   },
   {
     "id": "amazing-spider-man-2-android-32bit",
@@ -276,8 +276,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Amazing Spider-Man 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "3546",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e5354303618889cc0419ecdc40732b25.png"
   },
   {
     "id": "angry-birds-forever-android-32bit",
@@ -290,8 +290,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Forever). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5256824",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a654ee305bc41e098906b48bf7596a1c.png"
   },
   {
     "id": "angry-birds-space-hd-android-32bit",
@@ -304,8 +304,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Space HD). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2007",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/224c601e17d149b673465c4853d76f7c.png"
   },
   {
     "id": "angry-birds-star-wars-2-android-32bit",
@@ -318,8 +318,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds: Star Wars 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5258600",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/db9b1ced1636d2d8612c3f5e9b7cb939.png"
   },
   {
     "id": "asphalt-8-airborne-retry-android-32bit",
@@ -332,8 +332,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5250235",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1872e4656907fd944d624bc033901842.png"
   },
   {
     "id": "assassins-creed-altairs-chronicles-hd-android-32bit",
@@ -346,8 +346,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5252480",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/92960c710501ae1bcba8b01a92cb7aa2.png"
   },
   {
     "id": "call-of-duty-black-ops-zombies-android-32bit",
@@ -360,8 +360,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5263881",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/95ba032910fab49aff8a3582f8a171b8.png"
   },
   {
     "id": "costume-quest-android-32bit",
@@ -374,8 +374,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1322",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/73efd3207a3b1dd2ff35511bde2553c3.png"
   },
   {
     "id": "dan-the-man-android-32bit",
@@ -388,8 +388,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5453894",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b4a6b7a9df3b1676a7106b6d30983ae7.jpg"
   },
   {
     "id": "dark-knight-rises-android-32bit",
@@ -402,8 +402,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dark Knight Rises). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5263184",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3091b94728f06c4ccf5d896ea128b4f5.png"
   },
   {
     "id": "dead-space-sabotage-android-32bit",
@@ -416,8 +416,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dead Space: Sabotage). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1559",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/26203c6ab63ff66fef12bbc3b8dad1c0.png"
   },
   {
     "id": "ducktales-remastered-android-32bit",
@@ -430,8 +430,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34438",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/68ef436ae9a785541beefdeacb8433b2.png"
   },
   {
     "id": "disney-crossy-road-android-32bit",
@@ -444,8 +444,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5493614",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc98f35e347cc22950c978570d44a7d5.png"
   },
   {
     "id": "flappy-birds-family-android-32bit",
@@ -458,7 +458,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "39001",
     "grid_image_url": null
   },
   {
@@ -472,8 +472,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1868",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e96fb9f9c97bcc38136043fb0627ef91.png"
   },
   {
     "id": "labyrinth-2-android-32bit",
@@ -486,7 +486,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5264225",
     "grid_image_url": null
   },
   {
@@ -500,8 +500,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Modern Combat 3: Fallen Nation). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5277083",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/96b971a7a541df78c0cd9439760fafdd.png"
   },
   {
     "id": "modern-combat-4-zero-hour-android-32bit",
@@ -514,8 +514,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Modern Combat 4: Zero Hour). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5277082",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d8a87d439f1e547f2910563aa59bbad7.png"
   },
   {
     "id": "need-for-speed-most-wanted-android-32bit",
@@ -528,8 +528,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Most Wanted). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38250",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png"
   },
   {
     "id": "nova-3-near-orbit-vanguard-alliance-android-32bit",
@@ -542,8 +542,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5440012",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/be95edb69d202388a7817b54e0194f7b.png"
   },
   {
     "id": "plants-vs-zombies-touch-android-32bit",
@@ -556,8 +556,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies Touch). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5331605",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3203535afc65b43bb6a05ffd462e58ff.png"
   },
   {
     "id": "rayman-jungle-run-android-32bit",
@@ -570,8 +570,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Rayman: Jungle Run). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5320896",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0e507b74b491b8359b35a7ce3e14fe32.jpg"
   },
   {
     "id": "rayman-fiesta-run-android-32bit",
@@ -584,8 +584,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Rayman: Fiesta Run). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5325672",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f93adcab9b976a18d721b395205333de.jpg"
   },
   {
     "id": "smash-hit-android-32bit",
@@ -598,8 +598,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5369029",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c17559ad92afac439177b55267e188ba.jpg"
   },
   {
     "id": "space-hulk-android-32bit",
@@ -612,8 +612,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2788",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c00c6e37c78747ce9de6c29c0d4febba.png"
   },
   {
     "id": "sonic-sega-all-stars-racing-android-32bit",
@@ -626,8 +626,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic & Sega All Stars Racing). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "6313",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b07e8a3bc5b233da34916d294ce7a707.png"
   },
   {
     "id": "ultimate-spider-man-total-mayhem-android-32bit",
@@ -640,8 +640,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Ultimate Spider-man: Total Mayhem). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37214",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/16813e7554a111c9f9108be005b54442.png"
   },
   {
     "id": "adventures-of-mana-android-64bit",
@@ -654,8 +654,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5254844",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b60baa7482949cc34c20fb9772e034ac.jpg"
   },
   {
     "id": "after-burner-climax-android-64bit",
@@ -668,8 +668,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34023",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/66c0a5a57952264af78836110425be69.png"
   },
   {
     "id": "angry-birds-classic-android-64bit",
@@ -682,8 +682,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Classic). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5256824",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a654ee305bc41e098906b48bf7596a1c.png"
   },
   {
     "id": "angry-birds-2-android-64bit",
@@ -696,8 +696,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5258599",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/413e78344e37df9ea75968f234024608.png"
   },
   {
     "id": "angry-birds-epic-all-stars-android-64bit",
@@ -710,8 +710,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Epic: All Stars). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5277565",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ac59323d5db1e846b88232a194286b26.jpg"
   },
   {
     "id": "angry-birds-journey-android-64bit",
@@ -724,8 +724,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Journey). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5323755",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/aa57e605641a6707346baa7737577d2d.png"
   },
   {
     "id": "angry-birds-reloaded-android-64bit",
@@ -738,8 +738,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Reloaded). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5292025",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6a49d5ae4a9b3094c83ef93dbca6bac.png"
   },
   {
     "id": "animal-crossing-pocket-camp-android-64bit",
@@ -752,8 +752,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5255704",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/dbe840e1e6cd1fa38a486d524135b392.png"
   },
   {
     "id": "bad-piggies-android-64bit",
@@ -766,8 +766,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5265668",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4687a3fcf9bd18c0e2cc3e83ea58a410.png"
   },
   {
     "id": "baldis-basic-classic-android-64bit",
@@ -780,8 +780,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5306050",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/92464dcf0889d4b6f1c8ef6fc5fa8b1e.png"
   },
   {
     "id": "banana-kong-android-64bit",
@@ -794,8 +794,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5483961",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png"
   },
   {
     "id": "bloons-adventure-time-td-android-64bit",
@@ -808,8 +808,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "32822",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/33de48a1c6e5d62b1c241ddac6d88535.png"
   },
   {
     "id": "bloons-pop-android-64bit",
@@ -822,8 +822,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5282796",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f39a5f04a73054b678426d39335c9632.png"
   },
   {
     "id": "bloons-supermonkey-2-android-64bit",
@@ -836,8 +836,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5450168",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8a4b01bea5c353b749f7780ecafff8c3.png"
   },
   {
     "id": "bloons-td-5-mobile-android-64bit",
@@ -850,8 +850,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "4847",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4ac01ffdf0ae169300e3aaa2b945deb0.png"
   },
   {
     "id": "bombsquad-android-64bit",
@@ -864,8 +864,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5322886",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/60cabc1b49194c77953525a20c79ce37.png"
   },
   {
     "id": "bombsquad-explodinary-android-64bit",
@@ -878,8 +878,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5322886",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/60cabc1b49194c77953525a20c79ce37.png"
   },
   {
     "id": "bombsquad-joyride-android-64bit",
@@ -892,8 +892,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5322886",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/60cabc1b49194c77953525a20c79ce37.png"
   },
   {
     "id": "bouncemasters-android-64bit",
@@ -906,8 +906,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5490335",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/17fe57fbc5aeb503410b3f450e4424da.jpg"
   },
   {
     "id": "bully-anniversary-edition-android-64bit",
@@ -920,8 +920,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Bully Anniversary Edition). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5269094",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1343e74bb1a29b626528e4dcbb7e1c1c.png"
   },
   {
     "id": "burger-shop-2-android-64bit",
@@ -934,8 +934,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "22597",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/30be41d0d9def9452ab0ed1a9722fda7.jpg"
   },
   {
     "id": "burger-shop-android-64bit",
@@ -948,8 +948,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "22596",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fffd44ebd6d03b54bf30c61cb66c8d4f.png"
   },
   {
     "id": "call-of-duty-black-ops-zombies-android-64bit",
@@ -962,8 +962,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5263881",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/95ba032910fab49aff8a3582f8a171b8.png"
   },
   {
     "id": "castle-of-illusion-android-64bit",
@@ -976,8 +976,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2449",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c52f0d9f8fb84ea294975f6b595d5308.png"
   },
   {
     "id": "castlevania-symphony-of-the-night-android-64bit",
@@ -990,8 +990,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37654",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png"
   },
   {
     "id": "chaos-rings-iii-android-64bit",
@@ -1004,8 +1004,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5460097",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/70435090db99349833da384067a809a7.png"
   },
   {
     "id": "chrono-trigger-android-64bit",
@@ -1018,8 +1018,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Chrono Trigger). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "17593",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/abc617f05e41620356626cf7761d5143.png"
   },
   {
     "id": "clay-jam-classic-android-64bit",
@@ -1032,7 +1032,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5262545",
     "grid_image_url": null
   },
   {
@@ -1046,7 +1046,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5459587",
     "grid_image_url": null
   },
   {
@@ -1060,8 +1060,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2733",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/68addc821b387ab5cc91c846b627a586.png"
   },
   {
     "id": "crazy-taxi-android-64bit",
@@ -1074,8 +1074,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "21778",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6003822a5989689befd308ce1be4ac75.jpg"
   },
   {
     "id": "cut-the-rope-android-64bit",
@@ -1088,8 +1088,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2330",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0384e59d348a9248f08a2627cdf43741.png"
   },
   {
     "id": "cut-the-rope-2-android-64bit",
@@ -1102,8 +1102,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5289145",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f57c62e6ea2a165b80cc759e6e935cf5.png"
   },
   {
     "id": "cut-the-rope-experiments-android-64bit",
@@ -1116,8 +1116,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5443859",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/50e1c88797514d2faa34bb3e00d36ba5.png"
   },
   {
     "id": "cut-the-rope-magic-android-64bit",
@@ -1130,8 +1130,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5350950",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ec80039119c3a22f038860d3e66b023f.png"
   },
   {
     "id": "cut-the-rope-time-travel-android-64bit",
@@ -1144,8 +1144,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5443860",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d80a9034a1806d3e60db09577e21cf25.jpg"
   },
   {
     "id": "data-defense-android-64bit",
@@ -1158,7 +1158,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "4878723",
     "grid_image_url": null
   },
   {
@@ -1172,7 +1172,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5327166",
     "grid_image_url": null
   },
   {
@@ -1186,8 +1186,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5253269",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/cf07d21f392a0493777d3de6d9826f5d.png"
   },
   {
     "id": "dr-mario-mania-android-64bit",
@@ -1200,8 +1200,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dr. Mario Mania). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5496743",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/67750b562b0baac5c4b445627fc37f90.png"
   },
   {
     "id": "earn-2-die-android-64bit",
@@ -1214,8 +1214,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "10232",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3eeed714f0f764501093d079a347218b.png"
   },
   {
     "id": "the-elder-scrolls-ii-daggerfall-unity-android-64bit",
@@ -1228,8 +1228,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38717",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c33d40a3ecfa16a5956d9bf81eef24bb.png"
   },
   {
     "id": "the-executive-android-64bit",
@@ -1242,8 +1242,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5452178",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/53cc2dd52134ce4d5ca1c3e49310e849.png"
   },
   {
     "id": "far-cry-android-64bit",
@@ -1256,8 +1256,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1432",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/37a05c2bc9e34c4228911a726d0da702.png"
   },
   {
     "id": "final-fantasy-dimensions-android-64bit",
@@ -1270,8 +1270,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "33565",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png"
   },
   {
     "id": "final-fantasy-dimension-ii-android-64bit",
@@ -1284,8 +1284,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "33565",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png"
   },
   {
     "id": "final-fantasy-iii-3d-remake-android-64bit",
@@ -1298,8 +1298,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2715",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/177884afc4a6c3501d658adda5ed5c96.png"
   },
   {
     "id": "final-fantasy-iv-3d-remake-android-64bit",
@@ -1312,8 +1312,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5054",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8d7eb7879dca0954771f50f440b591.png"
   },
   {
     "id": "final-fantasy-iv-the-after-years-android-64bit",
@@ -1326,8 +1326,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "6559",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/cd6544b0ab90949c415ed0d775c25384.png"
   },
   {
     "id": "flappy-bird-android-64bit",
@@ -1340,8 +1340,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5344733",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/301597ca9b9c8bd0bac29d8864a35105.jpg"
   },
   {
     "id": "fruit-ninja-classic-android-64bit",
@@ -1354,8 +1354,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5311537",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/882760d95d14d3ca2fb9c73adcc209e1.png"
   },
   {
     "id": "galaxy-on-fire-android-64bit",
@@ -1368,8 +1368,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2052",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2963f719387bad92c085606ac18042bc.png"
   },
   {
     "id": "geometry-dash-android-64bit",
@@ -1382,8 +1382,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5427",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/818d9d1eaede1c656acf1db6a10d9866.png"
   },
   {
     "id": "gizmoduck-android-64bit",
@@ -1410,8 +1410,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto 3). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1350",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7856a3a5b530f10a69bec1c57d90330e.png"
   },
   {
     "id": "grand-theft-auto-chinatown-wars-android-64bit",
@@ -1424,8 +1424,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto Chinatown Wars). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "62",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/edcbb16417f7a00253240c23ef93dfb6.png"
   },
   {
     "id": "grand-theft-auto-liberty-city-stories-android-64bit",
@@ -1438,8 +1438,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto Liberty City Stories). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "33713",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6ba32142b6b23ecd32a4c0aff11c2c41.png"
   },
   {
     "id": "grand-theft-auto-san-andreas-android-64bit",
@@ -1452,8 +1452,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto San Andreas). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1352",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c4e954b93dc03b0f846db4051a1e6d25.png"
   },
   {
     "id": "granny-android-64bit",
@@ -1466,8 +1466,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "32232",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/31ac2e7a7ffdb7b171f9de6fc556fad7.jpg"
   },
   {
     "id": "half-life-2-android-64bit",
@@ -1480,8 +1480,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2254",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1d386e4b61ac43b166394517562a0b17.png"
   },
   {
     "id": "happy-wheels-android-64bit",
@@ -1494,8 +1494,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5252527",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ea9a635395384d316bef4e9044f06f1f.png"
   },
   {
     "id": "hill-climb-racing-android-64bit",
@@ -1508,8 +1508,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5341072",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/713165cf24005301fa02b3cc1bc258e0.png"
   },
   {
     "id": "hitman-go-android-64bit",
@@ -1522,8 +1522,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "10065",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/abe6554dc394ac148a5e3643d984f2a8.png"
   },
   {
     "id": "how-many-dudes-android-64bit",
@@ -1536,8 +1536,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5498061",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f637b0c33ed82d18cac4b1cef8fbab1e.png"
   },
   {
     "id": "infinity-blade-android-64bit",
@@ -1550,8 +1550,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5319953",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0e5d8047bae2b9304eeb87e9c5dbfbe7.png"
   },
   {
     "id": "jackie-chan-stuntmaster-android-64bit",
@@ -1564,8 +1564,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5262934",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4370a09825ce603a74e42ef6eca56ef9.png"
   },
   {
     "id": "jetpack-joyride-android-64bit",
@@ -1578,8 +1578,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5270695",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fd5693a5277fc5a1dbd31dbb4af9a1d8.png"
   },
   {
     "id": "killer-bean-unleashed-android-64bit",
@@ -1592,8 +1592,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5293871",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a1b83ffbd7c2f0409283319bf0335fd4.png"
   },
   {
     "id": "kingdom-hearts-union-dark-road-android-64bit",
@@ -1606,8 +1606,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5430172",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/15e729f1b7a1fd5c579939ae2d39fd3f.png"
   },
   {
     "id": "lara-croft-go-android-64bit",
@@ -1620,8 +1620,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "14594",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/74b83cc39b3b4a8b3b257eabef47dc4c.png"
   },
   {
     "id": "layton-brothers-mystery-room-android-64bit",
@@ -1634,8 +1634,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5278190",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c0b0ad48e559c16d10e7c47244a4025.png"
   },
   {
     "id": "lego-batman-beyond-gotham-android-64bit",
@@ -1648,8 +1648,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5094",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/22a7338a58e71ec0243bd42bf4fc36c2.png"
   },
   {
     "id": "lego-batman-dc-super-heroes-android-64bit",
@@ -1662,8 +1662,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2083",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/054aa0c776ea3619ab5edbc4f7b819da.png"
   },
   {
     "id": "lego-ninjago-shadow-of-ronin-android-64bit",
@@ -1676,8 +1676,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5267390",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/56d34bdba0c55cf372c37ee9a1260055.png"
   },
   {
     "id": "lego-star-wars-the-complete-saga-android-64bit",
@@ -1690,8 +1690,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5517",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e14dc01aadd6ee3cee4ef338fd966b35.png"
   },
   {
     "id": "lego-star-wars-the-force-awakens-android-64bit",
@@ -1704,8 +1704,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "10560",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/311c6954b09b0dc7ca7ccc4b3ca03949.png"
   },
   {
     "id": "max-payne-android-64bit",
@@ -1718,8 +1718,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Max Payne). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1354",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/623e5a1136651b875b7124e55ce30f59.png"
   },
   {
     "id": "mega-man-x-regenesis-android-64bit",
@@ -1732,8 +1732,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35466",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e24927b595bdddebb71671d11f76f067.png"
   },
   {
     "id": "mulmashtabbagalgal-android-64bit",
@@ -1760,8 +1760,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38915",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36e5cac18a08285cf39432aaed2724ac.png"
   },
   {
     "id": "osmos-android-64bit",
@@ -1774,8 +1774,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "4258",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4461853cc6a73bc75d45fe1ea6e8ee6c.png"
   },
   {
     "id": "papa-pear-saga-android-64bit",
@@ -1788,7 +1788,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5533310",
     "grid_image_url": null
   },
   {
@@ -1802,8 +1802,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5265210",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ccfd91d7a4b389394c92f952841e30ee.png"
   },
   {
     "id": "papas-cluckeria-to-go-android-64bit",
@@ -1816,7 +1816,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "19741",
     "grid_image_url": null
   },
   {
@@ -1830,7 +1830,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "19741",
     "grid_image_url": null
   },
   {
@@ -1844,8 +1844,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5283847",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/48037bbc1b1370d0996bb51689d06da0.png"
   },
   {
     "id": "papers-please-android-64bit",
@@ -1858,8 +1858,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2712",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/657521cffefffb720284d2176c9164c2.png"
   },
   {
     "id": "pizza-vs-skeletons-android-64bit",
@@ -1872,7 +1872,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5464349",
     "grid_image_url": null
   },
   {
@@ -1886,8 +1886,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5468886",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/742f1475ca8b56d6387f554df880dc95.png"
   },
   {
     "id": "phigros-cn-android-64bit",
@@ -1900,8 +1900,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5468886",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/742f1475ca8b56d6387f554df880dc95.png"
   },
   {
     "id": "plants-vs-zombies-fusion-android-64bit",
@@ -1914,8 +1914,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies: Fusion). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5476779",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc305ca0d061b6f38198f0b0aa897a26.png"
   },
   {
     "id": "plants-vs-zombies-2-android-64bit",
@@ -1928,8 +1928,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5278252",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7047aa6c111e3fb2b2a6d5ece2d394c4.png"
   },
   {
     "id": "plants-vs-zombies-2-reflourished-android-64bit",
@@ -1942,8 +1942,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies 2: Reflourished). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5358950",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5c84e634947c15436d2f51feac25e6de.png"
   },
   {
     "id": "pocket-crystal-league-android-64bit",
@@ -1956,8 +1956,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5329675",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/db6fd690639c9f37d73d21d009e9d816.png"
   },
   {
     "id": "poinpy-android-64bit",
@@ -1970,8 +1970,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5490209",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/90370e78b1dad602fa3674c02926d7c5.png"
   },
   {
     "id": "pou-android-64bit",
@@ -1984,8 +1984,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5320639",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36f1057d748e8e77ca14143dbf6610cc.png"
   },
   {
     "id": "professor-layton-curious-village-hd-android-64bit",
@@ -1998,8 +1998,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38827",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7402281d0ac9a8b55a599a5f69179d4a.png"
   },
   {
     "id": "professor-layton-lost-hope-hd-android-64bit",
@@ -2012,8 +2012,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38016",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png"
   },
   {
     "id": "professor-layton-pandoras-box-hd-android-64bit",
@@ -2026,8 +2026,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38016",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png"
   },
   {
     "id": "real-drift-car-racing-android-64bit",
@@ -2040,7 +2040,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5456543",
     "grid_image_url": null
   },
   {
@@ -2068,8 +2068,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5448946",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3b8a2395c9d71ba8fd80df1c4e02d4d4.png"
   },
   {
     "id": "slitherio-android-64bit",
@@ -2082,8 +2082,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5288580",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c6d48356fbbab8b9ee80f048e4b120d9.png"
   },
   {
     "id": "sonic-4-episode-2-android-64bit",
@@ -2096,8 +2096,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic 4 Episode 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1793",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8cc5ef53fc584eb0a0597b052507fe6d.png"
   },
   {
     "id": "sonic-dash-android-64bit",
@@ -2110,8 +2110,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Dash). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34110",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/740ed90c31f6711a1253b196cab3eaa9.png"
   },
   {
     "id": "sonic-dash-2-sonic-boom-android-64bit",
@@ -2124,8 +2124,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Dash 2: Sonic Boom). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5265253",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/684ff8365775af4220339fb9ee8773e9.png"
   },
   {
     "id": "sonic-jump-android-64bit",
@@ -2138,8 +2138,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Jump). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5265788",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/274f72ee8c47087a8a35ed1ad67d6360.png"
   },
   {
     "id": "sonic-jump-fever-android-64bit",
@@ -2152,8 +2152,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Jump Fever). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5265788",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/274f72ee8c47087a8a35ed1ad67d6360.png"
   },
   {
     "id": "sonic-runners-adventure-android-64bit",
@@ -2166,8 +2166,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Runners Adventure). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5265247",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/da220e02aff6e0ebc7adcac0895f40e5.png"
   },
   {
     "id": "sonic-triple-trouble-16-bit-android-64bit",
@@ -2180,8 +2180,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Triple Trouble 16-bit). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5274910",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fdc2f086849a4bfc788364d9226a1e1e.png"
   },
   {
     "id": "stick-with-it-android-64bit",
@@ -2194,8 +2194,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5264671",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c21cf5e9103365de9f6d4584276ef9ac.png"
   },
   {
     "id": "stone-story-rpg-android-64bit",
@@ -2208,8 +2208,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "17202",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/35fbc5cabe949451c985439831617924.png"
   },
   {
     "id": "streets-of-rage-x-android-64bit",
@@ -2222,8 +2222,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5487354",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d4ba1c315ac668b2f0b6e37099e5a78a.jpg"
   },
   {
     "id": "subway-surfers-android-64bit",
@@ -2236,8 +2236,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5283916",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fffbaa156b026dfc0e11dbd799bf7344.png"
   },
   {
     "id": "super-mario-63-redux-android-64bit",
@@ -2250,8 +2250,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario 63 Redux). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5430732",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/68a1c991e89d28da7974c60b1930ee46.png"
   },
   {
     "id": "super-mario-127-android-64bit",
@@ -2264,8 +2264,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario 127). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5294032",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b28e0c1feaa06a4a80b78e91eecc87c4.png"
   },
   {
     "id": "super-mario-bros-remastered-android-64bit",
@@ -2278,8 +2278,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario Bros. Remastered). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37382",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/75f29e87a3923053bde594667a5e33d3.png"
   },
   {
     "id": "super-mario-world-remastered-plus-android-64bit",
@@ -2292,8 +2292,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario World Remastered Plus). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5505315",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3acb2b7d67d0135af62a116e2505d6b5.png"
   },
   {
     "id": "swordigo-android-64bit",
@@ -2306,8 +2306,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5507475",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8605117258838b6d2f16feb3fde86267.png"
   },
   {
     "id": "team-fortress-2-reclassic-android-64bit",
@@ -2320,8 +2320,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "10602",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f64230dace882ba8b2d14ebfd24dc0a3.png"
   },
   {
     "id": "ticket-to-earth-android-64bit",
@@ -2334,8 +2334,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "18369",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4d0a3fab4e219c02869a4a8355ed4ae8.jpg"
   },
   {
     "id": "valkyrie-profile-lenneth-android-64bit",
@@ -2348,8 +2348,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36151",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/73b204804cbbf9b43fd86c44957fb65f.png"
   },
   {
     "id": "very-little-nightmares-android-64bit",
@@ -2362,8 +2362,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5296922",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c0a473f4729ab4fad88284481aca2955.png"
   },
   {
     "id": "vvvvvv-android-64bit",
@@ -2376,8 +2376,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "21335",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/108c7bfcc061d2f1342fc1167f8fd600.png"
   },
   {
     "id": "wheres-my-water-android-64bit",
@@ -2390,8 +2390,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5350946",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/713ca5c6f657ae51cc15f4508c18fd4a.png"
   },
   {
     "id": "wheres-my-water-2-android-64bit",
@@ -2404,8 +2404,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5350947",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/01d4b34b7c45a205a2f57abfb448cec0.png"
   },
   {
     "id": "ys-chronicles-1-android-64bit",
@@ -2418,8 +2418,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5511527",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2a6848e1cb92e0985dabc65cbcd1b52f.png"
   },
   {
     "id": "zombotron-re-boot-android-64bit",
@@ -2432,7 +2432,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5435608",
     "grid_image_url": null
   },
   {
@@ -2446,7 +2446,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "1623532",
     "grid_image_url": null
   },
   {
@@ -2460,8 +2460,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36015",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/39df28398f42561e13ee9d913fdcf467.png"
   },
   {
     "id": "daytona-usa-arcade",
@@ -2474,8 +2474,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36357",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a2062d9b9b1a226a52980c26c7083840.png"
   },
   {
     "id": "killer-instinct-arcade",
@@ -2488,8 +2488,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "16187",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8617e5b11a7b27234df8332132f72268.png"
   },
   {
     "id": "killer-instinct-2-arcade",
@@ -2502,8 +2502,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35666",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0104917cd7cae41b3147404cc27a8826.png"
   },
   {
     "id": "outrun-arcade",
@@ -2516,8 +2516,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35252",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d01309496ec309c4d609a2d6fdefb834.png"
   },
   {
     "id": "sega-rally-arcade",
@@ -2530,8 +2530,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1195",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/662882c6d7c735bf235e128b66549d5c.png"
   },
   {
     "id": "sonic-the-fighters-arcade",
@@ -2544,8 +2544,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic the Fighters). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "29859",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6492dc4c8cce0953e992c39500b220a.png"
   },
   {
     "id": "virtua-fighter-2-arcade",
@@ -2558,8 +2558,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36148",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e2bd79902aa2c126084f080211564dc8.png"
   },
   {
     "id": "pokemon-gen-1-nintendo-gameboy",
@@ -2572,8 +2572,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5356567",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/483cc104c452a081a5ad8b21a8ea4247.png"
   },
   {
     "id": "pokemon-gen-2-nintendo-gameboy",
@@ -2586,8 +2586,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5356567",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/483cc104c452a081a5ad8b21a8ea4247.png"
   },
   {
     "id": "the-legend-of-zelda-links-awakening-dx-nintendo-gameboy-color",
@@ -2600,8 +2600,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Link's Awakening DX). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34978",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d7647a0748aafad4a67c21075b180767.png"
   },
   {
     "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-nintendo-gameboy-color",
@@ -2642,8 +2642,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: The Minish Cap). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34539",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png"
   },
   {
     "id": "metroid-zero-mission-nintendo-gameboy-advance",
@@ -2656,8 +2656,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "85",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/73e7fb4872d41443c1b08c4199329b9d.png"
   },
   {
     "id": "sonic-advance-2-nintendo-gameboy-advance",
@@ -2670,8 +2670,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Advance 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35290",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/98178e2c5d08c023bf55d71236cd07f2.png"
   },
   {
     "id": "animal-crossing-nintendo-gamecube",
@@ -2684,8 +2684,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34931",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d9e16849e6c8440f27574666b9e9735a.png"
   },
   {
     "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube",
@@ -2698,8 +2698,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Twilight Princess). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34645",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png"
   },
   {
     "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube",
@@ -2712,8 +2712,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Twilight Princess). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34645",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png"
   },
   {
     "id": "the-legend-of-zelda-wind-waker-nintendo-gamecube",
@@ -2726,8 +2726,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Wind Waker). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35048",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png"
   },
   {
     "id": "mario-kart-double-dash-nintendo-gamecube",
@@ -2740,8 +2740,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mario Kart: Double Dash!). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36068",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png"
   },
   {
     "id": "sonic-riders-nintendo-gamecube",
@@ -2754,8 +2754,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Riders). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "12904",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1bd4f0f15ab6e834e41a13955a1ec451.png"
   },
   {
     "id": "super-mario-strikers-nintendo-gamecube",
@@ -2768,8 +2768,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario Strikers). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37586",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a85d58f89d4a5e8f8f9a6336b3dd18f7.jpg"
   },
   {
     "id": "super-smash-bros-melee-nintendo-gamecube",
@@ -2782,8 +2782,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37285",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bc12f11f086c6c9dd8d09f936775fce.png"
   },
   {
     "id": "virtua-racing-deluxe-32x-sega-genesis",
@@ -2796,8 +2796,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38865",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e7be8d8e2b9e28afea9bd38a675cd65b.png"
   },
   {
     "id": "banjo-kazooie-nintendo-64",
@@ -2810,8 +2810,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35564",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png"
   },
   {
     "id": "bomberman-64-nintendo-64",
@@ -2824,8 +2824,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1680",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c5b781ce025e8217c23f95f9569a0b96.png"
   },
   {
     "id": "castlevania-legacy-of-darkness-nintendo-64",
@@ -2838,8 +2838,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "12888",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/363ed890155b2eeda0aa492cc52e3d34.png"
   },
   {
     "id": "conkers-bad-fur-day-nintendo-64",
@@ -2852,8 +2852,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36366",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e7ba692151c4e6c1c41c4770cdd15e8b.png"
   },
   {
     "id": "diddy-kong-racing-nintendo-64",
@@ -2866,8 +2866,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36929",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c38b84197c2e1a8444814d95c2487a8.png"
   },
   {
     "id": "donkey-kong-64-nintendo-64",
@@ -2880,8 +2880,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37695",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/86f7d456aa5848c284f7940bdecdef5d.png"
   },
   {
     "id": "f-zero-x-nintendo-64",
@@ -2894,8 +2894,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38893",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/652e2fd3b2fa943f2b4ff310e419d7f2.png"
   },
   {
     "id": "the-legend-of-zelda-majoras-mask-nintendo-64",
@@ -2908,8 +2908,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Majora's Mask). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34302",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png"
   },
   {
     "id": "the-legened-of-zelda-ocarina-of-time-nintendo-64",
@@ -2922,8 +2922,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legened of Zelda: Ocarina of Time). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "21202",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png"
   },
   {
     "id": "mario-kart-64-nintendo-64",
@@ -2936,8 +2936,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mario Kart 64). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "21164",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8908077ce7fd405516d81c2c929de429.png"
   },
   {
     "id": "mega-man-64-nintendo-64",
@@ -2950,8 +2950,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37399",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/174cbbef75ac1b1b15847299d50f77bf.jpg"
   },
   {
     "id": "paper-mario-nintendo-64",
@@ -2964,8 +2964,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Paper Mario). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36997",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f98e8082f2b3924b8a137d1cfc12e08b.png"
   },
   {
     "id": "perfect-dark-nintendo-64",
@@ -2978,8 +2978,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37787",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f2eaa301f9c53bb10fb8e5b9d3d0ea9c.png"
   },
   {
     "id": "starcraft64-nintendo-64",
@@ -2992,8 +2992,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36754",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ef160f5acc8dff9d8799bc504b32ae68.png"
   },
   {
     "id": "star-wars-rogue-squadron-nintendo-64",
@@ -3006,8 +3006,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38815",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fab9a7dcd9d52b19cd472721c5a7e231.png"
   },
   {
     "id": "super-mario-64-nintendo-64",
@@ -3020,8 +3020,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario 64). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37177",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png"
   },
   {
     "id": "super-smash-bros-nintendo-64",
@@ -3034,8 +3034,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "33624",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/aedfc9ce6f9548cae0642eb628fa23c7.png"
   },
   {
     "id": "wave-race-64-nintendo-64",
@@ -3048,8 +3048,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "39034",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/16c64029140dab60eec81592c532597b.png"
   },
   {
     "id": "dune-ii-pc",
@@ -3062,8 +3062,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38416",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4774165006b1b56612265a02b527a12d.png"
   },
   {
     "id": "elder-scrolls-iii-morrowind-pc",
@@ -3076,8 +3076,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2328",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1ac14644c9b40ddeb100f417af0e608b.png"
   },
   {
     "id": "fallout-pc",
@@ -3090,8 +3090,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Fallout). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2322",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/838b5a042f1761ef0b5981585a0a7f38.png"
   },
   {
     "id": "fallout-2-pc",
@@ -3104,8 +3104,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Fallout 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "8287",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5609571bd6572cdb562cea3562df8b83.png"
   },
   {
     "id": "fallout-new-vegas-pc",
@@ -3118,8 +3118,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Fallout: New Vegas). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2352",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0088f68f9e771f24b774dce80886fc25.png"
   },
   {
     "id": "freespace-2-pc",
@@ -3132,8 +3132,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "3719",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab0de82241e387d3de66d8227f3f7f08.png"
   },
   {
     "id": "half-life-pc",
@@ -3146,8 +3146,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "21207",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/10f16ffcd88e1cf00e43178442437763.png"
   },
   {
     "id": "heroes-of-might-magic-ii-pc",
@@ -3160,8 +3160,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "33800",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d08a016d59a164c17df9573ae39388a2.png"
   },
   {
     "id": "heroes-of-might-magic-iii-pc",
@@ -3174,8 +3174,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "4446",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/50944271f670c03e921a91a8bb616d29.jpg"
   },
   {
     "id": "insaniquarium-pc",
@@ -3188,8 +3188,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5811",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d010dd8cf3b86aa5eb031ac7fb5afbd1.jpg"
   },
   {
     "id": "jazz-jackrabbit-2-pc",
@@ -3202,8 +3202,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5247058",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c81632061ae1a7602021f5669357cc34.png"
   },
   {
     "id": "the-legend-of-zelda-oni-link-begins-pc",
@@ -3216,8 +3216,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Oni Link Begins). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38050",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png"
   },
   {
     "id": "the-legend-of-zelda-return-of-the-hylian-pc",
@@ -3230,8 +3230,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Return of the Hylian). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38050",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png"
   },
   {
     "id": "the-legend-of-zelda-time-to-triumph-pc",
@@ -3244,8 +3244,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Time To Triumph). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5464086",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc973d39e975f1ecbdc6e44aca879583.png"
   },
   {
     "id": "luanti-pc",
@@ -3258,8 +3258,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5470317",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/79f24da462475ec680660cff4d144190.jpg"
   },
   {
     "id": "marble-blast-collection-pc",
@@ -3272,8 +3272,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "21115",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f810cd5fce2258332616ad1d501f1029.png"
   },
   {
     "id": "mari0-pc",
@@ -3286,8 +3286,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35028",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6593689b6b094eb421bce9b32d914201.png"
   },
   {
     "id": "mari0-alesan99s-entities-pc",
@@ -3300,8 +3300,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35028",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6593689b6b094eb421bce9b32d914201.png"
   },
   {
     "id": "mcosu-pc",
@@ -3314,8 +3314,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "17353",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f838d1d132a5028c86ea7b6466d27245.png"
   },
   {
     "id": "medal-of-honor-allied-assault-pc",
@@ -3328,8 +3328,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35422",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f9ac72d331adc4ee35df9dc97761c61e.jpg"
   },
   {
     "id": "nazi-zombies-portable-pc",
@@ -3342,7 +3342,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5504975",
     "grid_image_url": null
   },
   {
@@ -3356,8 +3356,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248835",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/726c858fb9844f1d203177e1bebdff2d.png"
   },
   {
     "id": "one-must-fall-2097-pc",
@@ -3370,8 +3370,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5254675",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/758b178cead50675e1e8d51ed7bbc15b.png"
   },
   {
     "id": "outrun-2006-coast-2-coast-pc",
@@ -3384,8 +3384,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "11968",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2529e75067411f888861c11ee7346979.png"
   },
   {
     "id": "plants-vs-zombies-pc",
@@ -3398,8 +3398,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5331605",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3203535afc65b43bb6a05ffd462e58ff.png"
   },
   {
     "id": "pokemmo-pc",
@@ -3412,8 +3412,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5249074",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2c02aa81d598f7969faaee4e1e7d9919.png"
   },
   {
     "id": "prey-pc",
@@ -3426,8 +3426,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "8887",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d166d6ef19f213edeece16fd1f0db8be.png"
   },
   {
     "id": "project-zomboid-pc",
@@ -3440,8 +3440,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1255",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/cdfea0d249d7cf72ca4109e24d49ac82.png"
   },
   {
     "id": "quake-pc",
@@ -3454,8 +3454,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Quake). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2514",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/906fec3cca7ccc130fa2b1844aa10126.jpg"
   },
   {
     "id": "quake-2-pc",
@@ -3468,8 +3468,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Quake 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5413707",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/994d008e0dcfff7b6ce327f6c43b5d6c.png"
   },
   {
     "id": "rollercoaster-tycoon-2-pc",
@@ -3482,8 +3482,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "4035",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0a0def49c785aafcbb9d5013384afc41.png"
   },
   {
     "id": "sheep-dog-n-wolf-rewooled-pc",
@@ -3496,8 +3496,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5327628",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1c05ae40fc997985049acc38c5539ee1.png"
   },
   {
     "id": "silent-hill-pc",
@@ -3510,8 +3510,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37313",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1aed88b7fdc56b77d7971de724e7c6d0.png"
   },
   {
     "id": "silent-hill-2-pc",
@@ -3524,8 +3524,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36708",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bd57061dc4f754f0cbad5fb6efe3733.png"
   },
   {
     "id": "silent-hill-3-pc",
@@ -3538,8 +3538,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35889",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a228a3fd54f3096e2fdac092e7127afc.png"
   },
   {
     "id": "silent-hill-4-the-room-pc",
@@ -3552,8 +3552,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36342",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a00ffcaff1ed3a0803a8d48d7b4bde91.png"
   },
   {
     "id": "silent-hill-4-the-room-pc",
@@ -3566,8 +3566,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36342",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a00ffcaff1ed3a0803a8d48d7b4bde91.png"
   },
   {
     "id": "the-simpsons-hit-and-run-pc",
@@ -3580,8 +3580,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34479",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3ab7434b949fbf9a19c3fcc830c1bdf1.png"
   },
   {
     "id": "sly-cooper-and-the-thievius-raccoonus-pc",
@@ -3594,8 +3594,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248314",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6f550c53b3d9f67c09a5c6feda1e46a.png"
   },
   {
     "id": "sonic-r-pc",
@@ -3608,8 +3608,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic R). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37385",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/99cfac1de7eb731e619a1abcd690eada.png"
   },
   {
     "id": "space-cadet-pc",
@@ -3622,8 +3622,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "17822",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/098b8b9f44bbbc0db5aff108ef93a0e2.png"
   },
   {
     "id": "starbound-pc",
@@ -3636,8 +3636,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2048",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/04eccd0076a2ba4c0ab95a548cb90543.png"
   },
   {
     "id": "super-mario-war-pc",
@@ -3650,8 +3650,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario War). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5279648",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9513e7a721539fc573477867b253b10d.png"
   },
   {
     "id": "terraria-mod-loader-pc",
@@ -3664,8 +3664,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1226",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9ef7f9b81c2532880cfe5cf53f0c906d.png"
   },
   {
     "id": "touhou-6-embodiment-of-the-scarlet-devil-pc",
@@ -3678,8 +3678,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "104",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png"
   },
   {
     "id": "touhou-75-immaterial-and-missing-power-pc",
@@ -3692,8 +3692,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36894",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/155882bd2be6bbd7f2e84ef47700b81a.png"
   },
   {
     "id": "touhou-7-perfect-cherry-blossom-pc",
@@ -3706,8 +3706,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38787",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/513622713be8b84fd8d5b783f6fc82b5.png"
   },
   {
     "id": "touhou-8-imperishable-night-pc",
@@ -3720,8 +3720,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248274",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d23941275ef524a546d5921aa8c5af2d.png"
   },
   {
     "id": "touhou-9-phantasmagoria-of-flower-view-pc",
@@ -3734,8 +3734,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248275",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/923b8529f52ae407a0a5240adc96cb45.png"
   },
   {
     "id": "touhou-wonderful-waking-world-pc",
@@ -3748,8 +3748,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "104",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png"
   },
   {
     "id": "touhou-10-mountain-of-faith-pc",
@@ -3762,8 +3762,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248276",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5e1ff67e139a8864f865e8291d7dd9ba.png"
   },
   {
     "id": "touhou-11-subterranean-animism-pc",
@@ -3776,8 +3776,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248277",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/bf2fa650e518881d280944c7ab86bf6e.png"
   },
   {
     "id": "touhou-12-undefined-fantastic-object-pc",
@@ -3790,8 +3790,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248287",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/58bac1cfcc90fade6fe95c82b52328ef.png"
   },
   {
     "id": "touhou-15-legacy-of-lunatic-kingdom-pc",
@@ -3804,8 +3804,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1150408",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/315f2bdad8f5387c73c7d22ef3441bc9.png"
   },
   {
     "id": "undertale-yellow-pc",
@@ -3818,8 +3818,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5260619",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/513f718593a988efe43fc5f63fda26eb.png"
   },
   {
     "id": "velikolepny-vovochka-pc",
@@ -3846,8 +3846,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35373",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ae934d990bb6f14c6df3c2c2ab9f5448.png"
   },
   {
     "id": "warcraft-ii-pc",
@@ -3860,8 +3860,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36975",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/29dc04ca530ed7b9171828dc3a88ecad.png"
   },
   {
     "id": "wolfenstein-3d-pc",
@@ -3874,8 +3874,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2428",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/31017a5aacb8de6b5c793ff5dc1b99eb.jpg"
   },
   {
     "id": "zuma-deluxe-pc",
@@ -3888,8 +3888,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5857",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/eaf9391c41712aa87f5178aee396e448.png"
   },
   {
     "id": "lain-sony-playstation",
@@ -3902,7 +3902,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "5540205",
     "grid_image_url": null
   },
   {
@@ -3916,8 +3916,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34136",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/54ab12ec2cfe283d49b76e82008595dd.png"
   },
   {
     "id": "wipeout-sony-playstation",
@@ -3930,7 +3930,7 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
+    "steamgriddb_id": "15166",
     "grid_image_url": null
   },
   {
@@ -3944,8 +3944,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34876",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a85032c0a15f3c7048a8077595f2ee66.png"
   },
   {
     "id": "dragonball-z-tenkaichi-budokai-3-sony-playstation-2",
@@ -3958,8 +3958,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "33972",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2fcd824d9156e24ad1f7344c8723ab5f.png"
   },
   {
     "id": "jak-and-daxter-trilogy-sony-playstation-2",
@@ -3972,8 +3972,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35892",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/dfaf693ee0b7e6c836875161bade2eaa.jpg"
   },
   {
     "id": "rampage-total-destruction-sony-playstation-2",
@@ -3986,8 +3986,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36476",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab63243d415513c2307a6ff350832d10.png"
   },
   {
     "id": "donkey-kong-country-super-nintendo-entertainment-system",
@@ -4000,8 +4000,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36958",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/befa1d1faf9bc95c1a29d30ea9a751a2.png"
   },
   {
     "id": "donkey-kong-country-2-super-nintendo-entertainment-system",
@@ -4014,8 +4014,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36688",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5815383dbef0d664c7420eecc4303ae9.png"
   },
   {
     "id": "donkey-kong-country-3-super-nintendo-entertainment-system",
@@ -4028,8 +4028,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "22131",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3acf3ca403eefd71d9820f4a3910284f.png"
   },
   {
     "id": "f-zero-super-nintendo-entertainment-system",
@@ -4042,8 +4042,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36803",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7f15033d73520667f4539ac0eaf8dc2c.jpg"
   },
   {
     "id": "illusion-of-gaia-super-nintendo-entertainment-system",
@@ -4056,8 +4056,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36661",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/22abffc0501401bb45afe3b886d5df0f.png"
   },
   {
     "id": "mega-man-x-super-nintendo-entertainment-system",
@@ -4070,8 +4070,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35466",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e24927b595bdddebb71671d11f76f067.png"
   },
   {
     "id": "starfox-super-nintendo-entertainment-system",
@@ -4084,8 +4084,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5364240",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/bb56dbf374ac167e4b2730f3e8aea077.png"
   },
   {
     "id": "black-microsoft-xbox",
@@ -4098,8 +4098,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35919",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e83bab0eff11d84c5e7d4199d9fa45a4.png"
   },
   {
     "id": "burnout-3-takedown-microsoft-xbox",
@@ -4112,8 +4112,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Burnout 3: Takedown). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37348",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/54cdd2db0fcfaa0134f43f363996161e.png"
   },
   {
     "id": "cold-fear-microsoft-xbox",
@@ -4126,8 +4126,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1467",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/53092d4becc58b3039fcfe86fdfb8923.jpg"
   },
   {
     "id": "conker-live-reloaded-microsoft-xbox",
@@ -4140,8 +4140,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5256835",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/92ffe39c405eb26368e5376f396d6ade.png"
   },
   {
     "id": "dead-or-alive-3-microsoft-xbox",
@@ -4154,8 +4154,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5252193",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e1e811bf16eb16068378b5051f7cb845.png"
   },
   {
     "id": "def-jam-fight-for-ny-microsoft-xbox",
@@ -4168,8 +4168,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38885",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/01d00d39c52785a9c0fe7736db8779b4.png"
   },
   {
     "id": "fifa-street-microsoft-xbox",
@@ -4182,8 +4182,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5257940",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2fb32ee97983c0b45a77ed7ff618bd94.png"
   },
   {
     "id": "flatout-2-microsoft-xbox",
@@ -4196,8 +4196,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "4512",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/13214f4a050bdb0da70401b84b5321e5.png"
   },
   {
     "id": "halo-combat-evolved-microsoft-xbox",
@@ -4210,8 +4210,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Halo: Combat Evolved). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38383",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png"
   },
   {
     "id": "midnight-club-3-dub-edition-microsoft-xbox",
@@ -4224,8 +4224,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5269652",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/216a83bac61a8113a963ecdc4df41bca.png"
   },
   {
     "id": "mortal-kombat-shaolin-monks-microsoft-xbox",
@@ -4238,8 +4238,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mortal Kombat: Shaolin Monks). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37375",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/338c5458fadf5e13bddfcb4819942d15.jpg"
   },
   {
     "id": "need-for-speed-carbon-microsoft-xbox",
@@ -4252,8 +4252,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Carbon). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34648",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png"
   },
   {
     "id": "need-for-speed-underground-microsoft-xbox",
@@ -4266,8 +4266,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Underground). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34529",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0959494b92b81147796ce901ea4f9927.png"
   },
   {
     "id": "need-for-speed-underground-2-microsoft-xbox",
@@ -4280,8 +4280,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Underground 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "29882",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8e4374a54f3a61fa403d8d70c99bca08.png"
   },
   {
     "id": "nights-into-dreams-microsoft-xbox",
@@ -4294,8 +4294,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2252",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/23770696e86230ab2f6d000142be218a.jpg"
   },
   {
     "id": "ssx-tricky-microsoft-xbox",
@@ -4308,8 +4308,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1638",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/31437638722bf235fe549ba612469705.png"
   },
   {
     "id": "tom-and-jerry-war-of-the-whiskers-microsoft-xbox",
@@ -4322,8 +4322,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5252751",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/faaefd89ee208626ec0d134a8353f5dd.png"
   },
   {
     "id": "bakugan-battle-brawlers-microsoft-xbox-360",
@@ -4336,8 +4336,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5248454",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c843481f52d8eeb5c03a8cbbf48355d7.png"
   },
   {
     "id": "battleblock-theater-microsoft-xbox-360",
@@ -4350,8 +4350,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2700",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0e66221beb8e0a06d4648ae151a52201.png"
   },
   {
     "id": "bejeweled-3-microsoft-xbox-360",
@@ -4364,8 +4364,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "24677",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7765222865aba54a2e22deac2ef42606.png"
   },
   {
     "id": "blue-dragon-microsoft-xbox-360",
@@ -4378,8 +4378,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5254283",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/28e3bed162f123fc16f3084bbe61d98c.png"
   },
   {
     "id": "castlevania-lords-of-shadow-microsoft-xbox-360",
@@ -4392,8 +4392,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5275518",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5dee73c802322885b89c4a79244b7f81.png"
   },
   {
     "id": "dantes-inferno-microsoft-xbox-360",
@@ -4406,8 +4406,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "29894",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4b16f49bdb6b891e01276afbaed1d675.png"
   },
   {
     "id": "dead-space-2-microsoft-xbox-360",
@@ -4420,8 +4420,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dead Space 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "12088",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f5d589ab486178e83c95283826899b5f.png"
   },
   {
     "id": "feeding-frenzy-microsoft-xbox-360",
@@ -4434,8 +4434,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5263822",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0f695f02897e440a5375a242d810988b.png"
   },
   {
     "id": "feeding-frenzy-2-shipwreck-showdown-microsoft-xbox-360",
@@ -4448,8 +4448,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "6137",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/250e5ad7a20b4e7552e91e25ba169075.jpg"
   },
   {
     "id": "gears-of-war-2-microsoft-xbox-360",
@@ -4462,8 +4462,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37163",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/537be42935b21c04fac5d9913777f7ee.png"
   },
   {
     "id": "guwange-microsoft-xbox-360",
@@ -4476,8 +4476,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5263327",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/72f561bc96cbe76ecff42c48b0a542a1.png"
   },
   {
     "id": "ketsui-kizuna-jigoku-tachi-extra-microsoft-xbox-360",
@@ -4490,8 +4490,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5252881",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/37cf3228c6fd4f3ce58250677441fb17.png"
   },
   {
     "id": "lost-odyssey-microsoft-xbox-360",
@@ -4504,8 +4504,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "36456",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c935ae5eb3f0ae34220b8ea163a59d43.png"
   },
   {
     "id": "mass-effect-microsoft-xbox-360",
@@ -4518,8 +4518,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1558",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/425b39bda3156cf22e7ddd3d33e9a496.png"
   },
   {
     "id": "max-payne-3-microsoft-xbox-360",
@@ -4532,8 +4532,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Max Payne 3). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "1807",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c91d989c82b339a78ce0c05964eb2aaf.png"
   },
   {
     "id": "metal-gear-rising-revengeance-microsoft-xbox-360",
@@ -4546,8 +4546,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2628",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/12f4db557d4f9ab0c8f23bc53f0a58a2.png"
   },
   {
     "id": "monster-high-new-ghoul-in-school-microsoft-xbox-360",
@@ -4560,8 +4560,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "8854",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/baf9ca5ea5868768a44af4235a1d5941.png"
   },
   {
     "id": "mortal-kombat-komplete-edition-microsoft-xbox-360",
@@ -4574,8 +4574,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mortal Kombat Komplete Edition). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2668",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c9c9f8e41433ff4ad15aa577a465e599.png"
   },
   {
     "id": "mushihimesama-futari-microsoft-xbox-360",
@@ -4588,8 +4588,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5252879",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/45a1d3689367622a794c989734bc71d9.png"
   },
   {
     "id": "need-for-speed-carbon-microsoft-xbox-360",
@@ -4602,8 +4602,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Carbon). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34648",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png"
   },
   {
     "id": "need-for-speed-most-wanted-microsoft-xbox-360",
@@ -4616,8 +4616,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Most Wanted). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "38250",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png"
   },
   {
     "id": "peggle-microsoft-xbox-360",
@@ -4630,8 +4630,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "37312",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d5f8725b2234d16866aefae30ade5597.png"
   },
   {
     "id": "peggle-2-microsoft-xbox-360",
@@ -4644,8 +4644,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5341069",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/cf5f3e7c36ff6bfb88002440cddeddd2.jpg"
   },
   {
     "id": "skate-3-microsoft-xbox-360",
@@ -4658,8 +4658,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5249006",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/cb5afcadcac972f1c6d743c96936ebe3.png"
   },
   {
     "id": "sonic-adventure-2-microsoft-xbox-360",
@@ -4672,8 +4672,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Adventure 2). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "2086",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c50b40b057149f613124fe9c535b003a.png"
   },
   {
     "id": "sonic-the-hedgehog-2006-microsoft-xbox-360",
@@ -4686,8 +4686,8 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic The Hedgehog (2006)). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35571",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6babf6559ebc185d02860ca79b1088a5.png"
   },
   {
     "id": "space-channel-5-part-2-microsoft-xbox-360",
@@ -4700,8 +4700,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "21788",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/82f7a6e535b791faa4927d61d860b3ce.jpg"
   },
   {
     "id": "tony-hawks-project-8-microsoft-xbox-360",
@@ -4714,8 +4714,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "34809",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f4916a3556ed7cd820b7d66f984bdc9f.png"
   },
   {
     "id": "torchlight-microsoft-xbox-360",
@@ -4728,8 +4728,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "9624",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png"
   },
   {
     "id": "torchlight-microsoft-xbox-360",
@@ -4742,8 +4742,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "9624",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png"
   },
   {
     "id": "ultra-street-fighter-iv-microsoft-xbox-360",
@@ -4756,8 +4756,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "11332",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8da182a6185560f43cda94c19017eb.png"
   },
   {
     "id": "zuma-microsoft-xbox-360",
@@ -4770,8 +4770,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "5857",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/eaf9391c41712aa87f5178aee396e448.png"
   },
   {
     "id": "zumas-revenge-microsoft-xbox-360",
@@ -4784,8 +4784,8 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "7268",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5bb8fe0519310d504c92e39b45fc9acc.png"
   },
   {
     "id": "the-legend-of-zelda-wind-waker-hd-nintendo-wii-u",
@@ -4798,7 +4798,7 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Wind Waker HD). Déposez les assets requis dans le dossier de staging.",
-    "steamgriddb_id": null,
-    "grid_image_url": null
+    "steamgriddb_id": "35048",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png"
   }
 ]
