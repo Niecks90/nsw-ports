@@ -1,7 +1,8 @@
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { useState, useEffect } from "react";
 import { PortData } from '../types';
-import { X, ExternalLink, Download } from 'lucide-react';
+import { X, ExternalLink, Download, Loader2 } from 'lucide-react';
 import { AssetPicker } from './AssetPicker';
 import { DeploymentSelector } from './DeploymentSelector';
 import { fetchGameCoverUrl } from '../services/steamgriddb';
@@ -15,6 +16,8 @@ interface SidebarModalProps {
 export function SidebarModal({ game, onClose }: SidebarModalProps) {
     const [assetsReady, setAssetsReady] = useState(false);
     const [coverUrl, setCoverUrl] = useState<string | null>(null);
+    const [readmeContent, setReadmeContent] = useState<string | null>(null);
+    const [readmeLoading, setReadmeLoading] = useState(false);
 
     useEffect(() => {
         if (!game) return;
@@ -22,6 +25,44 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
         fetchGameCoverUrl(game.title, game.steamgriddb_id, game.grid_image_url).then(url => {
             if (mounted && url) setCoverUrl(url);
         });
+
+        // Reset README state
+        setReadmeContent(null);
+
+        if (game.url && game.url.includes("github.com")) {
+            setReadmeLoading(true);
+            const githubSlugMatch = game.url.match(/github\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9._-]+)/);
+            if (githubSlugMatch) {
+                const slug = githubSlugMatch[1].replace(/\/$/, "");
+                const fetchReadme = async () => {
+                    const branches = ['HEAD', 'main', 'master'];
+                    for (const branch of branches) {
+                        try {
+                            const res = await fetch(`https://raw.githubusercontent.com/${slug}/${branch}/README.md`);
+                            if (res.ok) {
+                                const text = await res.text();
+                                if (mounted) {
+                                    setReadmeContent(text);
+                                    setReadmeLoading(false);
+                                }
+                                return;
+                            }
+                        } catch (e) {
+                            console.error(e);
+                        }
+                    }
+                    if (mounted) {
+                        setReadmeLoading(false);
+                    }
+                };
+                fetchReadme();
+            } else {
+                setReadmeLoading(false);
+            }
+        } else {
+            setReadmeLoading(false);
+        }
+
         return () => { mounted = false; };
     }, [game]);
 
@@ -65,7 +106,6 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
                             <span className="bg-slate-800/80 px-2 py-1 rounded backdrop-blur-sm">v{game.version}</span>
                             <span className="bg-slate-800/80 px-2 py-1 rounded backdrop-blur-sm">By {game.author}</span>
                             <span className="bg-slate-800/80 px-2 py-1 rounded backdrop-blur-sm">{game.original_platform}</span>
-                            <span className="bg-slate-800/80 px-2 py-1 rounded backdrop-blur-sm">.{game.asset_type}</span>
                         </div>
                     </div>
                 </div>
@@ -120,16 +160,27 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
                         </>
                     )}
 
-                    {game.instructions_markdown && (
-                        <div className="space-y-3">
-                            <h3 className="text-lg font-semibold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">
-                                Info
-                            </h3>
-                            <div className="prose prose-invert prose-sm text-slate-400">
-                                <ReactMarkdown>{game.instructions_markdown}</ReactMarkdown>
-                            </div>
+                    <div className="space-y-3">
+                        <h3 className="text-lg font-semibold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">
+                            Info
+                        </h3>
+                        <div className="prose prose-invert prose-sm max-w-none break-words text-slate-300">
+                            {readmeLoading ? (
+                                <div className="flex items-center gap-2 text-slate-500 py-4">
+                                    <Loader2 className="w-5 h-5 animate-spin" />
+                                    <span>Loading README...</span>
+                                </div>
+                            ) : readmeContent ? (
+                                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                    {readmeContent}
+                                </ReactMarkdown>
+                            ) : (
+                                <div className="text-slate-500 py-4 italic">
+                                    No README available for this port — visit repository for more information.
+                                </div>
+                            )}
                         </div>
-                    )}
+                    </div>
                 </div>
             </div>
         </>

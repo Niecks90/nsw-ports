@@ -15,6 +15,12 @@ function App() {
   const [activeFilter, setActiveFilter] = useState('All');
   const [selectedGame, setSelectedGame] = useState<PortData | null>(null);
 
+  const filterOptions = useMemo(() => {
+    const platforms = Array.from(new Set(games.map(g => g.original_platform).filter(Boolean)));
+    platforms.sort();
+    return ['All', ...platforms];
+  }, [games]);
+
   const loadCatalog = async (url?: string) => {
     setLoading(true);
     setError(false);
@@ -41,14 +47,8 @@ function App() {
 
   const filteredGames = useMemo(() => {
       let result = games;
-      if (activeFilter === 'PC Ports') {
-          result = result.filter(g => g.original_platform?.toLowerCase() === 'pc');
-      } else if (activeFilter === 'Android Ports') {
-          result = result.filter(g => g.original_platform?.toLowerCase() === 'android');
-      } else if (activeFilter === 'Standalone .nro') {
-          result = result.filter(g => g.asset_type === 'nro');
-      } else if (activeFilter === 'Requires Assets') {
-          result = result.filter(g => g.requires_original_assets);
+      if (activeFilter !== 'All') {
+          result = result.filter(g => g.original_platform === activeFilter);
       }
       if (searchQuery) {
           const fuse = new Fuse(result, { keys: ['title', 'author', 'original_platform'], threshold: 0.3 });
@@ -60,6 +60,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-blue-600 selection:text-white flex flex-col">
       <Header
+        filters={filterOptions}
         onSearchChange={setSearchQuery}
         onFilterChange={setActiveFilter}
         activeFilter={activeFilter}
