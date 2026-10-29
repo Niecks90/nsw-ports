@@ -5,16 +5,15 @@ import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
 import { isTauri } from '../utils/env';
 
-const FILTERS = ['All', 'PC Ports', 'Android Ports', 'Standalone .nro', 'Requires Assets'];
-
 interface HeaderProps {
+    filters: string[];
     onSearchChange: (query: string) => void;
     onFilterChange: (filter: string) => void;
     activeFilter: string;
     onRefreshCatalog: (url?: string) => void;
 }
 
-export function Header({ onSearchChange, onFilterChange, activeFilter, onRefreshCatalog }: HeaderProps) {
+export function Header({ filters, onSearchChange, onFilterChange, activeFilter, onRefreshCatalog }: HeaderProps) {
     const [searchQuery, setSearchQuery] = useState('');
     const [showSettings, setShowSettings] = useState(false);
 
@@ -135,7 +134,7 @@ export function Header({ onSearchChange, onFilterChange, activeFilter, onRefresh
             </div>
 
             <div className="mt-4 flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
-                {FILTERS.map(filter => (
+                {filters.map(filter => (
                     <button
                         key={filter}
                         onClick={() => onFilterChange(filter)}
