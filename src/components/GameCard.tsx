@@ -1,4 +1,6 @@
+import { useState, useEffect } from "react";
 import { PortData } from '../types';
+import { fetchGameCoverUrl } from '../services/steamgriddb';
 import { Image as ImageIcon } from 'lucide-react';
 
 interface GameCardProps {
@@ -7,6 +9,18 @@ interface GameCardProps {
 }
 
 export function GameCard({ game, onClick }: GameCardProps) {
+    const [coverUrl, setCoverUrl] = useState<string | null>(null);
+
+    useEffect(() => {
+        let mounted = true;
+        fetchGameCoverUrl(game.title, game.steamgriddb_id, game.grid_image_url).then(url => {
+            if (mounted && url) {
+                setCoverUrl(url);
+            }
+        });
+        return () => { mounted = false; };
+    }, [game.title, game.steamgriddb_id, game.grid_image_url]);
+
     const isNative = game.original_platform?.toLowerCase() !== 'emulators';
     const isNro = game.asset_type === 'nro';
 
@@ -16,9 +30,9 @@ export function GameCard({ game, onClick }: GameCardProps) {
             className="group relative flex flex-col cursor-pointer overflow-hidden rounded-lg bg-slate-800 border border-slate-700 hover:border-slate-500 transition-all duration-300"
         >
             <div className="relative aspect-[2/3] w-full overflow-hidden bg-slate-900 flex items-center justify-center">
-                {game.grid_image_url ? (
+                {coverUrl ? (
                     <img
-                        src={game.grid_image_url}
+                        src={coverUrl}
                         alt={game.title}
                         className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"

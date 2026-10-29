@@ -21,6 +21,13 @@ function App() {
     });
   }, []);
 
+  const handleRefreshCatalog = async (url?: string) => {
+    setLoading(true);
+    const data = await fetchCatalog(url);
+    setGames(data);
+    setLoading(false);
+  };
+
   const filteredGames = useMemo(() => {
       let result = games;
       if (activeFilter === 'PC Ports') {
@@ -45,6 +52,7 @@ function App() {
         onSearchChange={setSearchQuery}
         onFilterChange={setActiveFilter}
         activeFilter={activeFilter}
+        onRefreshCatalog={handleRefreshCatalog}
       />
 
       <main className="flex-1 overflow-x-hidden relative">
