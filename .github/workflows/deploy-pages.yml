@@ -30,6 +30,8 @@ jobs:
         run: npm ci
       - name: Build Web Showcase
         run: npm run build
+      - name: Copy catalog.json
+        run: cp catalog.json dist/catalog.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

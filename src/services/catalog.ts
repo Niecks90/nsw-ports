@@ -7,7 +7,7 @@ export async function fetchCatalog(urlOverride?: string): Promise<PortData[]> {
     if (!isTauri) {
         // Web mode: Simply fetch the static catalog.json
         try {
-            const url = urlOverride || './catalog.json';
+            const url = urlOverride || `${import.meta.env.BASE_URL}catalog.json`;
             const response = await fetch(url);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             return await response.json() as PortData[];
