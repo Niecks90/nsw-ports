@@ -10,22 +10,33 @@ import Fuse from 'fuse.js';
 function App() {
   const [games, setGames] = useState<PortData[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('All');
   const [selectedGame, setSelectedGame] = useState<PortData | null>(null);
 
-  useEffect(() => {
-    fetchCatalog().then(data => {
+  const loadCatalog = async (url?: string) => {
+    setLoading(true);
+    setError(false);
+    try {
+      const data = await fetchCatalog(url);
       setGames(data);
-      setLoading(false);
-    });
+      if (!data || data.length === 0) {
+        setError(true);
+      }
+    } catch (e) {
+      console.error(e);
+      setError(true);
+    }
+    setLoading(false);
+  };
+
+  useEffect(() => {
+    loadCatalog();
   }, []);
 
   const handleRefreshCatalog = async (url?: string) => {
-    setLoading(true);
-    const data = await fetchCatalog(url);
-    setGames(data);
-    setLoading(false);
+    await loadCatalog(url);
   };
 
   const filteredGames = useMemo(() => {
@@ -59,6 +70,17 @@ function App() {
         {loading ? (
             <div className="flex h-[50vh] items-center justify-center">
                 <Loader2 className="w-8 h-8 animate-spin text-slate-600" />
+            </div>
+        ) : error ? (
+            <div className="flex flex-col h-[50vh] items-center justify-center text-center space-y-4">
+                <h2 className="text-xl font-semibold text-slate-200">Failed to load catalog</h2>
+                <p className="text-slate-400">We couldn't fetch the latest switch ports data.</p>
+                <button
+                  onClick={() => loadCatalog()}
+                  className="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md font-medium transition-colors"
+                >
+                    Try Again
+                </button>
             </div>
         ) : (
             <GameGrid
