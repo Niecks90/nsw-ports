@@ -36,6 +36,7 @@ export function GameCard({ game, onClick }: GameCardProps) {
                         alt={game.title}
                         className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
+                        onError={() => setCoverUrl(null)}
                     />
                 ) : (
                     <div className="flex flex-col items-center gap-4 text-slate-600 p-4 text-center">
