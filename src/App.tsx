@@ -5,7 +5,6 @@ import { SidebarModal } from './components/SidebarModal';
 import { fetchCatalog } from './services/catalog';
 import { PortData } from './types';
 import { Loader2 } from 'lucide-react';
-import Fuse from 'fuse.js';
 
 function App() {
   const [games, setGames] = useState<PortData[]>([]);
@@ -16,7 +15,7 @@ function App() {
   const [selectedGame, setSelectedGame] = useState<PortData | null>(null);
 
   const filterOptions = useMemo(() => {
-    const platforms = Array.from(new Set(games.map(g => g.original_platform).filter(Boolean)));
+    const platforms = Array.from(new Set(games.map(g => g.original_platform?.trim()).filter(Boolean)));
     platforms.sort();
     return ['All', ...platforms];
   }, [games]);
@@ -46,15 +45,18 @@ function App() {
   };
 
   const filteredGames = useMemo(() => {
-      let result = games;
-      if (activeFilter !== 'All') {
-          result = result.filter(g => g.original_platform === activeFilter);
-      }
-      if (searchQuery) {
-          const fuse = new Fuse(result, { keys: ['title', 'author', 'original_platform'], threshold: 0.3 });
-          result = fuse.search(searchQuery).map(res => res.item);
-      }
-      return result;
+      const query = searchQuery.trim().toLowerCase();
+
+      return games.filter(game => {
+          const platform = game.original_platform?.trim();
+          const matchesCategory = activeFilter === 'All' || platform === activeFilter;
+          const matchesSearch = !query ||
+              game.title.toLowerCase().includes(query) ||
+              (game.author && game.author.toLowerCase().includes(query)) ||
+              (platform && platform.toLowerCase().includes(query));
+
+          return matchesCategory && matchesSearch;
+      });
   }, [games, searchQuery, activeFilter]);
 
   return (
