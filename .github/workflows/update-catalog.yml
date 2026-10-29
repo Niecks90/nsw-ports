@@ -24,6 +24,8 @@ jobs:
           python-version: '3.11'
 
       - name: Exécuter le script de mise à jour
+        env:
+          SGDB_API_KEY: ${{ secrets.SGDB_API_KEY }}
         run: |
           python update_catalog.py
 
