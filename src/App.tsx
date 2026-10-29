@@ -21,28 +21,36 @@ function App() {
     });
   }, []);
 
-  const handleRefreshCatalog = async (url: string) => {
-    setLoading(true);
-    const data = await fetchCatalog(url);
-    setGames(data);
-    setLoading(false);
-  };
-
-  const filteredGames = useMemo(() => { let result = games; if (activeFilter === 'Native') { result = result.filter(g => g.original_platform?.toLowerCase() !== 'emulators'); } else if (activeFilter === 'Emulators') { result = result.filter(g => g.original_platform?.toLowerCase() === 'emulators'); } else if (activeFilter === 'Requires Files') { result = result.filter(g => g.requires_original_assets); } if (searchQuery) { const fuse = new Fuse(result, { keys: ['title', 'author'], threshold: 0.3 }); result = fuse.search(searchQuery).map(res => res.item); } return result; }, [games, searchQuery, activeFilter]);
+  const filteredGames = useMemo(() => {
+      let result = games;
+      if (activeFilter === 'PC Ports') {
+          result = result.filter(g => g.original_platform?.toLowerCase() === 'pc');
+      } else if (activeFilter === 'Android Ports') {
+          result = result.filter(g => g.original_platform?.toLowerCase() === 'android');
+      } else if (activeFilter === 'Standalone .nro') {
+          result = result.filter(g => g.asset_type === 'nro');
+      } else if (activeFilter === 'Requires Assets') {
+          result = result.filter(g => g.requires_original_assets);
+      }
+      if (searchQuery) {
+          const fuse = new Fuse(result, { keys: ['title', 'author', 'original_platform'], threshold: 0.3 });
+          result = fuse.search(searchQuery).map(res => res.item);
+      }
+      return result;
+  }, [games, searchQuery, activeFilter]);
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100 font-sans selection:bg-blue-600 selection:text-white flex flex-col">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-blue-600 selection:text-white flex flex-col">
       <Header
         onSearchChange={setSearchQuery}
         onFilterChange={setActiveFilter}
         activeFilter={activeFilter}
-        onRefreshCatalog={handleRefreshCatalog}
       />
 
       <main className="flex-1 overflow-x-hidden relative">
         {loading ? (
             <div className="flex h-[50vh] items-center justify-center">
-                <Loader2 className="w-8 h-8 animate-spin text-zinc-600" />
+                <Loader2 className="w-8 h-8 animate-spin text-slate-600" />
             </div>
         ) : (
             <GameGrid
