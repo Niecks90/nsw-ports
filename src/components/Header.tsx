@@ -1,9 +1,14 @@
 import { useState, useEffect } from "react";
-import { Search, Settings, X, Download } from 'lucide-react';
+import { Search, Settings, X, Download, ArrowDownUp } from 'lucide-react';
 import { invoke } from "@tauri-apps/api/core";
 import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
 import { isTauri } from '../utils/env';
+
+interface SortConfig {
+    key: 'title' | 'last_updated';
+    direction: 'asc' | 'desc';
+}
 
 interface HeaderProps {
     filters: string[];
@@ -11,9 +16,11 @@ interface HeaderProps {
     onFilterChange: (filter: string) => void;
     activeFilter: string;
     onRefreshCatalog: (url?: string) => void;
+    sortConfig: SortConfig;
+    onSortChange: (config: SortConfig) => void;
 }
 
-export function Header({ filters, onSearchChange, onFilterChange, activeFilter, onRefreshCatalog }: HeaderProps) {
+export function Header({ filters, onSearchChange, onFilterChange, activeFilter, onRefreshCatalog, sortConfig, onSortChange }: HeaderProps) {
     const [searchQuery, setSearchQuery] = useState('');
     const [showSettings, setShowSettings] = useState(false);
 
@@ -133,21 +140,41 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                 )}
             </div>
 
-            <div className="mt-4 flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
-                {filters.map(filter => (
-                    <button
-                        key={filter}
-                        onClick={() => onFilterChange(filter)}
-                        className={clsx(
-                            "px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap transition-colors border",
-                            activeFilter === filter
-                                ? "bg-slate-100 text-slate-900 border-slate-100"
-                                : "bg-slate-800 text-slate-400 border-slate-700 hover:border-slate-600 hover:text-slate-200"
-                        )}
+            <div className="mt-4 flex flex-col md:flex-row gap-4 justify-between items-start md:items-center">
+                <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide flex-1 w-full md:w-auto">
+                    {filters.map(filter => (
+                        <button
+                            key={filter}
+                            onClick={() => onFilterChange(filter)}
+                            className={clsx(
+                                "px-4 py-1.5 rounded-full text-sm font-medium whitespace-nowrap transition-colors border",
+                                activeFilter === filter
+                                    ? "bg-slate-100 text-slate-900 border-slate-100"
+                                    : "bg-slate-800 text-slate-400 border-slate-700 hover:border-slate-600 hover:text-slate-200"
+                            )}
+                        >
+                            {filter}
+                        </button>
+                    ))}
+                </div>
+
+                <div className="flex items-center gap-2">
+                    <select
+                        value={sortConfig.key}
+                        onChange={(e) => onSortChange({ ...sortConfig, key: e.target.value as SortConfig['key'] })}
+                        className="bg-slate-800 border border-slate-700 text-slate-300 text-sm rounded-md px-3 py-1.5 focus:outline-none focus:border-slate-500"
                     >
-                        {filter}
+                        <option value="title">Alphabetical</option>
+                        <option value="last_updated">Recently Updated</option>
+                    </select>
+                    <button
+                        onClick={() => onSortChange({ ...sortConfig, direction: sortConfig.direction === 'asc' ? 'desc' : 'asc' })}
+                        className="p-1.5 bg-slate-800 border border-slate-700 text-slate-300 hover:text-white rounded-md transition-colors flex items-center justify-center"
+                        title="Toggle Sort Direction"
+                    >
+                        <ArrowDownUp className="w-4 h-4" />
                     </button>
-                ))}
+                </div>
             </div>
 
             {isTauri && showSettings && (

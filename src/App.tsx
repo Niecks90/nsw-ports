@@ -14,6 +14,8 @@ function App() {
   const [activeFilter, setActiveFilter] = useState('All');
   const [selectedGame, setSelectedGame] = useState<PortData | null>(null);
 
+  const [sortConfig, setSortConfig] = useState<{ key: 'title' | 'last_updated', direction: 'asc' | 'desc' }>({ key: 'title', direction: 'asc' });
+
   const filterOptions = useMemo(() => {
     const platforms = Array.from(new Set(games.map(g => g.original_platform?.trim()).filter(Boolean)));
     platforms.sort();
@@ -47,7 +49,7 @@ function App() {
   const filteredGames = useMemo(() => {
       const query = searchQuery.trim().toLowerCase();
 
-      return games.filter(game => {
+      const filtered = games.filter(game => {
           const platform = game.original_platform?.trim();
           const matchesCategory = activeFilter === 'All' || platform === activeFilter;
           const matchesSearch = !query ||
@@ -57,7 +59,26 @@ function App() {
 
           return matchesCategory && matchesSearch;
       });
-  }, [games, searchQuery, activeFilter]);
+
+      return filtered.sort((a, b) => {
+          if (sortConfig.key === 'title') {
+              const aVal = a.title.toLowerCase();
+              const bVal = b.title.toLowerCase();
+              if (aVal < bVal) return sortConfig.direction === 'asc' ? -1 : 1;
+              if (aVal > bVal) return sortConfig.direction === 'asc' ? 1 : -1;
+              return 0;
+          } else {
+              // 'last_updated'
+              const aDate = a.last_updated ? Date.parse(a.last_updated) : 0;
+              const bDate = b.last_updated ? Date.parse(b.last_updated) : 0;
+              const aVal = isNaN(aDate) ? 0 : aDate;
+              const bVal = isNaN(bDate) ? 0 : bDate;
+              if (aVal < bVal) return sortConfig.direction === 'asc' ? -1 : 1;
+              if (aVal > bVal) return sortConfig.direction === 'asc' ? 1 : -1;
+              return 0;
+          }
+      });
+  }, [games, searchQuery, activeFilter, sortConfig]);
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-blue-600 selection:text-white flex flex-col">
@@ -67,6 +88,8 @@ function App() {
         onFilterChange={setActiveFilter}
         activeFilter={activeFilter}
         onRefreshCatalog={handleRefreshCatalog}
+        sortConfig={sortConfig}
+        onSortChange={setSortConfig}
       />
 
       <main className="flex-1 overflow-x-hidden relative">
