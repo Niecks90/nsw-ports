@@ -616,6 +616,20 @@
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c00c6e37c78747ce9de6c29c0d4febba.png"
   },
   {
+    "id": "steven-universe-attack-the-light-android-32bit",
+    "title": "Steven Universe: Attack the Light",
+    "author": "iqbalriz",
+    "version": "0.1.0",
+    "original_platform": "Android 32bit",
+    "url": "https://github.com/iqbalriz/stevenrpg_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": "5255144",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f8c6d358fa5b923efcbfd54ee95fad30.png"
+  },
+  {
     "id": "sonic-sega-all-stars-racing-android-32bit",
     "title": "Sonic & Sega All Stars Racing",
     "author": "aks796",
@@ -2733,7 +2747,7 @@
     "id": "mario-kart-double-dash-nintendo-gamecube",
     "title": "Mario Kart: Double Dash!",
     "author": "digdat0",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/digdat0/mkdd-nx",
     "source_type": "github_repo",
@@ -4144,6 +4158,20 @@
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/92ffe39c405eb26368e5376f396d6ade.png"
   },
   {
+    "id": "dead-or-alive-2-ultimate-microsoft-xbox",
+    "title": "Dead or Alive 2 Ultimate",
+    "author": "toniisound",
+    "version": "*released*",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/toniisound/doa2u-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": "5438133",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bf3e08dc93915ecefa52d08164426e7.png"
+  },
+  {
     "id": "dead-or-alive-3-microsoft-xbox",
     "title": "Dead or Alive 3",
     "author": "toniisound",
@@ -4340,6 +4368,20 @@
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c843481f52d8eeb5c03a8cbbf48355d7.png"
   },
   {
+    "id": "bangai-o-hd-missile-fury-microsoft-xbox-360",
+    "title": "Bangai-O HD: Missile Fury",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/ChanseyIsTheBest/bangaio-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": "5254282",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7edfa9e389b68fcd3deb5d5500b1c96d.png"
+  },
+  {
     "id": "battleblock-theater-microsoft-xbox-360",
     "title": "BattleBlock Theater",
     "author": "andresarevalo1",
@@ -4464,6 +4506,20 @@
     "expected_asset_hint": null,
     "steamgriddb_id": "37163",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/537be42935b21c04fac5d9913777f7ee.png"
+  },
+  {
+    "id": "guardian-heroes-microsoft-xbox-360",
+    "title": "Guardian Heroes",
+    "author": "rashevskyv",
+    "version": "0.77",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/rashevskyv/guardian-heroes-recomp-public",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": "37759",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7a3a16ffad6a50aed3f78746c5120b78.jpg"
   },
   {
     "id": "guwange-microsoft-xbox-360",
@@ -4660,6 +4716,34 @@
     "expected_asset_hint": null,
     "steamgriddb_id": "5341069",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cf5f3e7c36ff6bfb88002440cddeddd2.jpg"
+  },
+  {
+    "id": "silent-hill-3-microsoft-xbox-360",
+    "title": "Silent Hill 3",
+    "author": "gerisson1996",
+    "version": "1.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/gerisson1996/SILENT-HILL-HD-COLLECTION-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": "35889",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a228a3fd54f3096e2fdac092e7127afc.png"
+  },
+  {
+    "id": "silent-hill-homecoming-microsoft-xbox-360",
+    "title": "Silent Hill Homecoming",
+    "author": "gerisson1996",
+    "version": "1.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/gerisson1996/SHH-NX-PORT",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": "1605",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/512ba6448f63790387e2ad3d3bc630d0.png"
   },
   {
     "id": "skate-3-microsoft-xbox-360",
