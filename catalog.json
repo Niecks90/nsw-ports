@@ -4270,6 +4270,20 @@
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/338c5458fadf5e13bddfcb4819942d15.jpg"
   },
   {
+    "id": "mvp-baseball-05-microsoft-xbox",
+    "title": "MVP Baseball '05",
+    "author": "xsaja",
+    "version": "0.2.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/xsaja/mvp-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": "5342371",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36dd01d5eba9286134de6509a3d694a9.png"
+  },
+  {
     "id": "need-for-speed-carbon-microsoft-xbox",
     "title": "Need for Speed: Carbon",
     "author": "antoxa2584x",
