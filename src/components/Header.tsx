@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Search, Settings, X, Download } from 'lucide-react';
+import { Search, Settings, X, Download, ArrowUpAZ, ArrowDownAZ, CalendarDays } from 'lucide-react';
 import { invoke } from "@tauri-apps/api/core";
 import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
@@ -11,9 +11,13 @@ interface HeaderProps {
     onFilterChange: (filter: string) => void;
     activeFilter: string;
     onRefreshCatalog: (url?: string) => void;
+    sortOption: 'alpha' | 'recent';
+    onSortChange: (option: 'alpha' | 'recent') => void;
+    sortReverse: boolean;
+    onSortReverseToggle: () => void;
 }
 
-export function Header({ filters, onSearchChange, onFilterChange, activeFilter, onRefreshCatalog }: HeaderProps) {
+export function Header({ filters, onSearchChange, onFilterChange, activeFilter, onRefreshCatalog, sortOption, onSortChange, sortReverse, onSortReverseToggle }: HeaderProps) {
     const [searchQuery, setSearchQuery] = useState('');
     const [showSettings, setShowSettings] = useState(false);
 
@@ -106,6 +110,28 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                             value={searchQuery}
                             onChange={handleSearch}
                         />
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <select
+                            value={sortOption}
+                            onChange={(e) => onSortChange(e.target.value as 'alpha' | 'recent')}
+                            className="bg-slate-800 text-slate-300 border border-slate-700 rounded-md py-2 px-3 text-sm focus:outline-none focus:bg-slate-700 focus:border-slate-600 transition duration-150 ease-in-out"
+                        >
+                            <option value="alpha">Alphabetical (A - Z)</option>
+                            <option value="recent">Recently Updated</option>
+                        </select>
+                        <button
+                            onClick={onSortReverseToggle}
+                            className="p-2 text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-md transition-colors"
+                            aria-label="Toggle sort direction"
+                            title="Toggle sort direction"
+                        >
+                            {sortOption === 'alpha' ? (
+                                sortReverse ? <ArrowDownAZ className="w-5 h-5" /> : <ArrowUpAZ className="w-5 h-5" />
+                            ) : (
+                                <CalendarDays className="w-5 h-5" />
+                            )}
+                        </button>
                     </div>
                     {isTauri && (
                         <button

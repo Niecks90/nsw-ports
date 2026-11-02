@@ -74,7 +74,7 @@ def check_asset_requirements(title, url):
 
     requires_assets = any(known in title_lower for known in ASSET_GAMES)
     asset_hint = (
-        f"Ce port nécessite les données originales du jeu ({title}). Déposez les assets requis dans le dossier de staging."
+        f"This port requires the original game data ({title}). Place the required assets in the staging folder."
         if requires_assets else None
     )
 
@@ -126,19 +126,32 @@ def fetch_sgdb_cover(title, api_key):
         logging.warning(f"SGDB Grids failed for {title}: {e}")
         return game_id, None
 
+def load_overrides(filepath="overrides.json"):
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                overrides = json.load(f)
+                logging.info(f"Overrides loaded from {filepath}")
+                return overrides
+        except Exception as e:
+            logging.error(f"Failed to load overrides from {filepath}: {e}")
+    return {}
+
 def main():
     sgdb_api_key = os.environ.get("SGDB_API_KEY")
     if not sgdb_api_key:
-        logging.warning("SGDB_API_KEY non défini. Les URL des jaquettes ne seront pas récupérées.")
+        logging.warning("SGDB_API_KEY not defined. Cover URLs will not be fetched.")
 
-    logging.info(f"Téléchargement du README depuis {URL}...")
+    overrides_data = load_overrides()
+
+    logging.info(f"Downloading README from {URL}...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
         req = urllib.request.Request(URL, headers=headers)
         with urllib.request.urlopen(req) as resp:
             content = resp.read().decode('utf-8')
     except Exception as e:
-        logging.error(f"Échec de récupération du README : {e}")
+        logging.error(f"Failed to fetch README : {e}")
         sys.exit(1)
 
     catalog = []
@@ -147,7 +160,7 @@ def main():
     col_map = {}
 
     lines = content.split('\n')
-    logging.info(f"Analyse de {len(lines)} lignes...")
+    logging.info(f"Analyzing {len(lines)} lines...")
 
     for idx, raw_line in enumerate(lines):
         line = raw_line.strip()
@@ -156,9 +169,11 @@ def main():
         header_match = re.match(r'^#{2,4}\s+(.*)', line)
         if header_match:
             title_text = header_match.group(1).strip()
-            # On ignore les sections d'en-tête du README
-            if not any(skip in title_text.lower() for skip in ['notice', 'table of contents', 'disclaimer', 'recent changes']):
+            # On ignore les sections d'en-tête du README et "Emulators"
+            if not any(skip in title_text.lower() for skip in ['notice', 'table of contents', 'disclaimer', 'recent changes', 'emulators']):
                 current_platform = title_text
+            else:
+                current_platform = title_text # Set current_platform so it doesn't get misattributed, we will skip entries later
             continue
 
         # 2. Détection de l'en-tête d'un tableau
@@ -181,6 +196,10 @@ def main():
             version_idx = col_map.get('version', 1)
             link_idx = col_map.get('link', col_map.get('repository', 3))
             gbatemp_idx = col_map.get('gbatemp thread?', col_map.get('gbatemp', 4))
+            last_updated_idx = col_map.get('last updated?', col_map.get('date', -1))
+
+            if current_platform.lower() == "emulators":
+                continue
 
             if len(columns) > max(game_idx, link_idx):
                 raw_game = columns[game_idx]
@@ -200,6 +219,12 @@ def main():
                 author, url = parse_link(link_raw)
                 _, gbatemp_url = parse_link(gbatemp_raw)
 
+                last_updated = None
+                if last_updated_idx != -1 and len(columns) > last_updated_idx:
+                    last_updated = columns[last_updated_idx].strip()
+                    if not last_updated or last_updated.lower() == "unknown":
+                        last_updated = None
+
                 # Si le lien principal est manquant, repli sur le thread GBAtemp
                 if not url and gbatemp_url:
                     url = gbatemp_url
@@ -209,7 +234,13 @@ def main():
                 asset_type, req_assets, asset_hint = check_asset_requirements(game, url)
 
                 sgdb_id, grid_url = None, None
-                if sgdb_api_key:
+
+                # Apply manual overrides if available
+                if slug in overrides_data:
+                    logging.info(f"Using override for {slug}")
+                    sgdb_id = overrides_data[slug].get("steamgriddb_id")
+                    grid_url = overrides_data[slug].get("grid_image_url")
+                elif sgdb_api_key:
                     sgdb_id, grid_url = fetch_sgdb_cover(game, sgdb_api_key)
                     time.sleep(0.2) # General rate limit protection
 
@@ -225,20 +256,21 @@ def main():
                     "requires_original_assets": req_assets,
                     "expected_asset_hint": asset_hint,
                     "steamgriddb_id": str(sgdb_id) if sgdb_id else None,
-                    "grid_image_url": grid_url
+                    "grid_image_url": grid_url,
+                    "last_updated": last_updated
                 })
         elif in_table and (not line or not line.startswith('|')):
             in_table = False
             col_map = {}
 
-    logging.info(f"{len(catalog)} entrées extraites avec succès.")
+    logging.info(f"{len(catalog)} entries successfully extracted.")
 
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(catalog, f, indent=2, ensure_ascii=False)
-        logging.info(f"Fichier {OUTPUT_FILE} généré.")
+        logging.info(f"File {OUTPUT_FILE} generated.")
     except Exception as e:
-        logging.error(f"Erreur d'écriture : {e}")
+        logging.error(f"Write error : {e}")
         sys.exit(1)
 
 if __name__ == "__main__":

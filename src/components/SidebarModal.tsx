@@ -80,11 +80,11 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
     if (!game) return null;
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 lg:p-8 bg-black/75 backdrop-blur-sm">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
             {/* Backdrop click handler */}
             <div className="absolute inset-0" onClick={onClose} />
 
-            <div className="relative w-full max-w-5xl max-h-[90vh] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row z-10">
+            <div className="relative max-w-5xl w-full max-h-[90vh] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl flex flex-col md:flex-row overflow-hidden z-10">
                 {/* Close Button */}
                 <button
                     onClick={onClose}
