@@ -12,4 +12,5 @@ export interface PortData {
     steamgriddb_id: string | null;
     grid_image_url: string | null;
     instructions_markdown?: string | null;
+    last_updated?: string | null;
 }

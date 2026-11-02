@@ -21,8 +21,6 @@ export function GameCard({ game, onClick }: GameCardProps) {
         return () => { mounted = false; };
     }, [game.title, game.steamgriddb_id, game.grid_image_url]);
 
-    const isNative = game.original_platform?.toLowerCase() !== 'emulators';
-
     return (
         <div
             onClick={() => onClick(game)}
@@ -56,7 +54,7 @@ export function GameCard({ game, onClick }: GameCardProps) {
                         {game.title}
                     </h3>
                     <p className="text-slate-300 text-[10px] mt-0.5 truncate drop-shadow-md">
-                        {isNative ? 'Native' : 'Emu'} • {game.author}
+                        {game.author}
                     </p>
                 </div>
             </div>

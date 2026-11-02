@@ -12,12 +12,15 @@ function App() {
   const [error, setError] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeFilter, setActiveFilter] = useState('All');
+  const [sortOption, setSortOption] = useState<'alpha' | 'recent'>('alpha');
+  const [sortReverse, setSortReverse] = useState(false);
   const [selectedGame, setSelectedGame] = useState<PortData | null>(null);
 
   const filterOptions = useMemo(() => {
     const platforms = Array.from(new Set(games.map(g => g.original_platform?.trim()).filter(Boolean)));
-    platforms.sort();
-    return ['All', ...platforms];
+    const filteredPlatforms = platforms.filter(p => p.toLowerCase() !== 'emulators');
+    filteredPlatforms.sort();
+    return ['All', ...filteredPlatforms];
   }, [games]);
 
   const loadCatalog = async (url?: string) => {
@@ -47,8 +50,10 @@ function App() {
   const filteredGames = useMemo(() => {
       const query = searchQuery.trim().toLowerCase();
 
-      return games.filter(game => {
+      const filtered = games.filter(game => {
           const platform = game.original_platform?.trim();
+          if (platform?.toLowerCase() === 'emulators') return false;
+
           const matchesCategory = activeFilter === 'All' || platform === activeFilter;
           const matchesSearch = !query ||
               game.title.toLowerCase().includes(query) ||
@@ -57,7 +62,23 @@ function App() {
 
           return matchesCategory && matchesSearch;
       });
-  }, [games, searchQuery, activeFilter]);
+
+      filtered.sort((a, b) => {
+          if (sortOption === 'recent') {
+              const dateA = a.last_updated ? new Date(a.last_updated).getTime() : 0;
+              const dateB = b.last_updated ? new Date(b.last_updated).getTime() : 0;
+              const comparison = dateB - dateA;
+              return sortReverse ? -comparison : comparison;
+          } else {
+              const titleA = a.title.toLowerCase();
+              const titleB = b.title.toLowerCase();
+              const comparison = titleA < titleB ? -1 : titleA > titleB ? 1 : 0;
+              return sortReverse ? -comparison : comparison;
+          }
+      });
+
+      return filtered;
+  }, [games, searchQuery, activeFilter, sortOption, sortReverse]);
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-blue-600 selection:text-white flex flex-col">
@@ -67,6 +88,10 @@ function App() {
         onFilterChange={setActiveFilter}
         activeFilter={activeFilter}
         onRefreshCatalog={handleRefreshCatalog}
+        sortOption={sortOption}
+        onSortChange={setSortOption}
+        sortReverse={sortReverse}
+        onSortReverseToggle={() => setSortReverse(!sortReverse)}
       />
 
       <main className="flex-1 overflow-x-hidden relative">
