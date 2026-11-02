@@ -3,8 +3,6 @@ import re
 import json
 import logging
 import sys
-import os
-import time
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
@@ -80,66 +78,7 @@ def check_asset_requirements(title, url):
 
     return asset_type, requires_assets, asset_hint
 
-def clean_title_for_search(title):
-    # Remove contents inside brackets/parentheses and some common suffixes
-    title = re.sub(r'\(.*?\)', '', title)
-    title = re.sub(r'\[.*?\]', '', title)
-    title = re.sub(r'(?i)port|nx|switch|remastered|hd', '', title)
-    return title.strip()
-
-def fetch_sgdb_cover(title, api_key):
-    clean_title = clean_title_for_search(title)
-    if not clean_title:
-        return None, None
-
-    headers = {
-        'Authorization': f'Bearer {api_key}',
-        'User-Agent': 'PortsDL-NX Scraper'
-    }
-
-    # 1. Search for game
-    search_url = f"https://www.steamgriddb.com/api/v2/search/autocomplete/{urllib.parse.quote(clean_title)}"
-    try:
-        req = urllib.request.Request(search_url, headers=headers)
-        with urllib.request.urlopen(req) as resp:
-            data = json.loads(resp.read().decode('utf-8'))
-            if not data.get('data'):
-                return None, None
-            game_id = data['data'][0]['id']
-    except Exception as e:
-        logging.warning(f"SGDB Search failed for {title}: {e}")
-        return None, None
-
-    time.sleep(0.2) # Rate limit protection
-
-    # 2. Fetch cover
-    grids_url = f"https://www.steamgriddb.com/api/v2/grids/game/{game_id}?dimensions=600x900"
-    try:
-        req = urllib.request.Request(grids_url, headers=headers)
-        with urllib.request.urlopen(req) as resp:
-            data = json.loads(resp.read().decode('utf-8'))
-            if not data.get('data'):
-                return game_id, None
-
-            return game_id, data['data'][0]['url']
-    except Exception as e:
-        logging.warning(f"SGDB Grids failed for {title}: {e}")
-        return game_id, None
-
 def main():
-    sgdb_api_key = os.environ.get("SGDB_API_KEY")
-    if not sgdb_api_key:
-        logging.warning("SGDB_API_KEY non défini. Les URL des jaquettes ne seront pas récupérées.")
-
-    overrides_map = {}
-    if os.path.exists("title_overrides.json"):
-        try:
-            with open("title_overrides.json", 'r', encoding='utf-8') as f:
-                overrides_map = json.load(f)
-            logging.info("Chargement des overrides (title_overrides.json) réussi.")
-        except Exception as e:
-            logging.warning(f"Impossible de charger title_overrides.json : {e}")
-
     logging.info(f"Téléchargement du README depuis {URL}...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
@@ -173,11 +112,7 @@ def main():
         # 2. Détection de l'en-tête d'un tableau
         if line.startswith('|') and ('game' in line.lower() or 'title' in line.lower()):
             headers = [c.strip().lower() for c in line.split('|')[1:-1]]
-            col_map = {}
-            for i, name in enumerate(headers):
-                col_map[name] = i
-                if 'last updated' in name or 'date' in name or 'updated' in name:
-                    col_map['last_updated'] = i
+            col_map = {name: i for i, name in enumerate(headers)}
             in_table = True
             continue
 
@@ -194,12 +129,8 @@ def main():
             version_idx = col_map.get('version', 1)
             link_idx = col_map.get('link', col_map.get('repository', 3))
             gbatemp_idx = col_map.get('gbatemp thread?', col_map.get('gbatemp', 4))
-            last_updated_idx = col_map.get('last_updated', -1)
 
             if len(columns) > max(game_idx, link_idx):
-                if current_platform.lower() == 'emulators':
-                    continue
-
                 raw_game = columns[game_idx]
                 game = re.sub(r'^[🟢🔴🟡🟠\s]+', '', raw_game).strip()
 
@@ -214,12 +145,6 @@ def main():
                 link_raw = columns[link_idx] if len(columns) > link_idx else ""
                 gbatemp_raw = columns[gbatemp_idx] if len(columns) > gbatemp_idx else ""
 
-                last_updated = None
-                if last_updated_idx != -1 and len(columns) > last_updated_idx:
-                    val = columns[last_updated_idx].strip()
-                    if val:
-                        last_updated = val
-
                 author, url = parse_link(link_raw)
                 _, gbatemp_url = parse_link(gbatemp_raw)
 
@@ -230,15 +155,6 @@ def main():
                 source_type = determine_url_source(url)
                 slug = slugify(f"{game}-{current_platform}")
                 asset_type, req_assets, asset_hint = check_asset_requirements(game, url)
-
-                sgdb_id, grid_url = None, None
-
-                if slug in overrides_map:
-                    sgdb_id = overrides_map[slug].get("steamgriddb_id")
-                    grid_url = overrides_map[slug].get("grid_image_url")
-                elif sgdb_api_key:
-                    sgdb_id, grid_url = fetch_sgdb_cover(game, sgdb_api_key)
-                    time.sleep(0.2) # General rate limit protection
 
                 catalog.append({
                     "id": slug,
@@ -251,9 +167,8 @@ def main():
                     "asset_type": asset_type,
                     "requires_original_assets": req_assets,
                     "expected_asset_hint": asset_hint,
-                    "last_updated": last_updated,
-                    "steamgriddb_id": str(sgdb_id) if sgdb_id else None,
-                    "grid_image_url": grid_url
+                    "steamgriddb_id": None,
+                    "grid_image_url": None
                 })
         elif in_table and (not line or not line.startswith('|')):
             in_table = False

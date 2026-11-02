@@ -1,23 +1,8 @@
 import { invoke } from "@tauri-apps/api/core";
 import { PortData } from "../types";
 import { load } from "@tauri-apps/plugin-store";
-import { isTauri } from "../utils/env";
 
 export async function fetchCatalog(urlOverride?: string): Promise<PortData[]> {
-    if (!isTauri) {
-        // Web mode: Simply fetch the static catalog.json
-        try {
-            const url = urlOverride || `${import.meta.env.BASE_URL}catalog.json`;
-            const response = await fetch(url);
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            return await response.json() as PortData[];
-        } catch (e) {
-            console.error("Failed to fetch web catalog:", e);
-            return [];
-        }
-    }
-
-    // Tauri Desktop mode
     let url = urlOverride;
 
     if (!url) {

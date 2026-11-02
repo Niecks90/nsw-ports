@@ -1,5 +1,271 @@
 [
   {
+    "id": "dekopon-emulators",
+    "title": "Dekopon",
+    "author": "PalindromicBreadLoaf",
+    "version": "2.2.2",
+    "original_platform": "Emulators",
+    "url": "https://github.com/PalindromicBreadLoaf/dekopon",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "raika-azahar-emulators",
+    "title": "Raika Azahar",
+    "author": "Raibatsu",
+    "version": "2.5.0",
+    "original_platform": "Emulators",
+    "url": "https://github.com/Raibatsu/raikopon",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "flycast-emulators",
+    "title": "Flycast",
+    "author": "https:",
+    "version": "???",
+    "original_platform": "Emulators",
+    "url": "https://flyinghead.github.io/flycast-builds/",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "freej2me-emulators",
+    "title": "FreeJ2ME",
+    "author": "MiaouMeowMiaou",
+    "version": "Proto",
+    "original_platform": "Emulators",
+    "url": "https://github.com/MiaouMeowMiaou/j2me-for-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "kirikiri-emulators",
+    "title": "KiriKiri",
+    "author": "",
+    "version": "Kirikiroid2-NX",
+    "original_platform": "Emulators",
+    "url": "18/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "model2-emulators",
+    "title": "MODEL2",
+    "author": "",
+    "version": "Model2 NX",
+    "original_platform": "Emulators",
+    "url": "10/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "model3-emulators",
+    "title": "MODEL3",
+    "author": "",
+    "version": "Supermodel-NX",
+    "original_platform": "Emulators",
+    "url": "16/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "multi-emulators",
+    "title": "MULTI",
+    "author": "",
+    "version": "🟢 RetroArch",
+    "original_platform": "Emulators",
+    "url": "*nightly*",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "nds-emulators",
+    "title": "NDS",
+    "author": "",
+    "version": "🟢 DrasticDS",
+    "original_platform": "Emulators",
+    "url": "21/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "ngcwii-emulators",
+    "title": "NGC/WII",
+    "author": "",
+    "version": "Dolphin",
+    "original_platform": "Emulators",
+    "url": "16/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "psx-emulators",
+    "title": "PSX",
+    "author": "",
+    "version": "Duckstation",
+    "original_platform": "Emulators",
+    "url": "07/08/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "ps2-emulators",
+    "title": "PS2",
+    "author": "",
+    "version": "NetherSX2",
+    "original_platform": "Emulators",
+    "url": "15/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "ps2-emulators",
+    "title": "PS2",
+    "author": "",
+    "version": "ARMSX2",
+    "original_platform": "Emulators",
+    "url": "24/08/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "psp-emulators",
+    "title": "PSP",
+    "author": "",
+    "version": "PPSSPP",
+    "original_platform": "Emulators",
+    "url": "07/09/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "s22-emulators",
+    "title": "S.22",
+    "author": "",
+    "version": "System22-nx",
+    "original_platform": "Emulators",
+    "url": "01/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "saturn-emulators",
+    "title": "Saturn",
+    "author": "",
+    "version": "YabaSanshiro",
+    "original_platform": "Emulators",
+    "url": "01/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "vita-emulators",
+    "title": "VITA",
+    "author": "",
+    "version": "Vita3K",
+    "original_platform": "Emulators",
+    "url": "16/09/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "vsmile-emulators",
+    "title": "V.Smile",
+    "author": "",
+    "version": "🟢 D.Smile NX",
+    "original_platform": "Emulators",
+    "url": "22/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
+    "id": "wiiu-emulators",
+    "title": "WIIU",
+    "author": "",
+    "version": "🟢 Cemu",
+    "original_platform": "Emulators",
+    "url": "21/10/2026",
+    "source_type": "other",
+    "asset_type": "zip",
+    "requires_original_assets": false,
+    "expected_asset_hint": null,
+    "steamgriddb_id": null,
+    "grid_image_url": null
+  },
+  {
     "id": "amazing-spider-man-2-android-32bit",
     "title": "Amazing Spider-Man 2",
     "author": "boraeskicioglu",
@@ -10,7 +276,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Amazing Spider-Man 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -25,7 +290,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Forever). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -40,7 +304,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Space HD). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -55,7 +318,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds: Star Wars 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -70,7 +332,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -85,7 +346,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -100,7 +360,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -115,7 +374,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -130,7 +388,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -145,7 +402,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dark Knight Rises). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -160,7 +416,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dead Space: Sabotage). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -175,7 +430,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -190,7 +444,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -205,7 +458,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -220,7 +472,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -235,7 +486,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -243,14 +493,13 @@
     "id": "modern-combat-3-fallen-nation-android-32bit",
     "title": "Modern Combat 3: Fallen Nation",
     "author": "Kaays",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "original_platform": "Android 32bit",
     "url": "https://github.com/Kaays/mc3_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Modern Combat 3: Fallen Nation). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -265,7 +514,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Modern Combat 4: Zero Hour). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -280,7 +528,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Most Wanted). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -295,7 +542,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -310,7 +556,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies Touch). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -325,7 +570,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Rayman: Jungle Run). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -340,7 +584,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Rayman: Fiesta Run). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -355,7 +598,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -370,7 +612,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -385,7 +626,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic & Sega All Stars Racing). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -400,7 +640,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Ultimate Spider-man: Total Mayhem). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -415,7 +654,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -430,7 +668,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -445,7 +682,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Classic). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -460,7 +696,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -475,7 +710,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Epic: All Stars). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -490,7 +724,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Journey). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -505,7 +738,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Angry Birds Reloaded). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -520,7 +752,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -535,7 +766,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -550,7 +780,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -565,7 +794,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -580,7 +808,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -595,7 +822,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -610,7 +836,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -625,7 +850,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -640,7 +864,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -655,7 +878,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -670,7 +892,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -685,7 +906,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -700,7 +920,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Bully Anniversary Edition). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -715,7 +934,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -730,7 +948,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -745,7 +962,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -760,7 +976,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -775,7 +990,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -790,7 +1004,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -805,7 +1018,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Chrono Trigger). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -820,7 +1032,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -835,7 +1046,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -850,7 +1060,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -865,7 +1074,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -880,7 +1088,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -895,7 +1102,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -910,7 +1116,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -925,7 +1130,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -940,7 +1144,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -955,7 +1158,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -970,7 +1172,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -985,7 +1186,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1000,7 +1200,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dr. Mario Mania). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1015,7 +1214,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1030,7 +1228,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1045,7 +1242,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1060,7 +1256,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1075,7 +1270,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1090,7 +1284,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1105,7 +1298,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1120,7 +1312,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1135,7 +1326,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1150,7 +1340,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1165,7 +1354,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1180,7 +1368,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1195,7 +1382,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1210,7 +1396,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1225,7 +1410,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto 3). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1240,7 +1424,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto Chinatown Wars). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1255,7 +1438,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto Liberty City Stories). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1270,7 +1452,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Grand Theft Auto San Andreas). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1285,7 +1466,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1300,7 +1480,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1315,7 +1494,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1330,7 +1508,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1345,7 +1522,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1360,7 +1536,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1375,7 +1550,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1390,7 +1564,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1405,7 +1578,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1420,7 +1592,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1435,7 +1606,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1450,7 +1620,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1465,7 +1634,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1480,7 +1648,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1495,7 +1662,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1510,7 +1676,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1525,7 +1690,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1540,7 +1704,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1555,7 +1718,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Max Payne). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1570,7 +1732,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1585,7 +1746,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1600,7 +1760,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1615,7 +1774,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1630,7 +1788,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1645,7 +1802,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1660,7 +1816,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1675,7 +1830,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1690,7 +1844,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1705,7 +1858,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1720,7 +1872,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1735,7 +1886,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1750,7 +1900,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1765,7 +1914,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies: Fusion). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1780,7 +1928,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1795,7 +1942,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Plants vs. Zombies 2: Reflourished). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1810,7 +1956,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1825,7 +1970,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1840,7 +1984,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1855,7 +1998,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1870,7 +2012,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1885,7 +2026,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1900,7 +2040,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1915,7 +2054,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1930,7 +2068,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1945,7 +2082,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1960,7 +2096,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic 4 Episode 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1975,7 +2110,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Dash). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -1990,7 +2124,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Dash 2: Sonic Boom). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2005,7 +2138,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Jump). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2020,7 +2152,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Jump Fever). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2035,7 +2166,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Runners Adventure). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2050,7 +2180,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Triple Trouble 16-bit). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2065,7 +2194,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2080,7 +2208,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2095,7 +2222,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2110,7 +2236,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2125,7 +2250,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario 63 Redux). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2140,7 +2264,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario 127). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2155,7 +2278,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario Bros. Remastered). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2170,7 +2292,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario World Remastered Plus). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2185,7 +2306,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2200,7 +2320,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2215,7 +2334,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2230,7 +2348,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2245,7 +2362,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2260,7 +2376,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2275,7 +2390,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2290,7 +2404,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2305,7 +2418,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2320,7 +2432,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2335,7 +2446,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2350,7 +2460,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2365,7 +2474,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2380,7 +2488,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2395,7 +2502,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2410,7 +2516,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2425,7 +2530,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2440,7 +2544,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic the Fighters). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2455,7 +2558,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2470,7 +2572,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2485,7 +2586,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2500,7 +2600,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Link's Awakening DX). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2515,7 +2614,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Oracle of Seasons / Oracle of Ages). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2523,14 +2621,13 @@
     "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-nintendo-gameboy-color",
     "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages",
     "author": "toniisound",
-    "version": "1.3.0",
+    "version": "1.2.0",
     "original_platform": "Nintendo Gameboy Color",
     "url": "https://github.com/toniisound/The-Oracles-Project-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Oracle of Seasons / Oracle of Ages). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2545,7 +2642,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: The Minish Cap). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2560,7 +2656,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2575,7 +2670,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Advance 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2590,7 +2684,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2605,7 +2698,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Twilight Princess). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2620,7 +2712,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Twilight Princess). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2635,7 +2726,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Wind Waker). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2650,22 +2740,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mario Kart: Double Dash!). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "sonic-riders-nintendo-gamecube",
-    "title": "Sonic Riders",
-    "author": "teclilla18",
-    "version": "0.3.2",
-    "original_platform": "Nintendo GameCube",
-    "url": "https://github.com/teclilla18/sonic-riders-recomp",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Riders). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2680,7 +2754,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario Strikers). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2695,7 +2768,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2710,7 +2782,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2725,7 +2796,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2740,7 +2810,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2755,7 +2824,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2770,7 +2838,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2785,7 +2852,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2800,7 +2866,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2815,7 +2880,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2830,7 +2894,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Majora's Mask). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2845,7 +2908,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legened of Zelda: Ocarina of Time). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2860,7 +2922,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mario Kart 64). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2875,7 +2936,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2890,7 +2950,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Paper Mario). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2905,7 +2964,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2920,22 +2978,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "star-wars-rogue-squadron-nintendo-64",
-    "title": "Star Wars: Rogue Squadron",
-    "author": "FurryLilManChild",
-    "version": "1.0",
-    "original_platform": "Nintendo 64",
-    "url": "https://github.com/FurryLilManChild/rs64-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2950,7 +2992,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario 64). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2965,7 +3006,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2980,7 +3020,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -2995,7 +3034,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3010,7 +3048,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3025,7 +3062,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Fallout). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3040,7 +3076,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Fallout 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3055,7 +3090,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Fallout: New Vegas). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3070,7 +3104,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3085,7 +3118,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3100,7 +3132,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3115,7 +3146,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3130,7 +3160,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3145,7 +3174,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3160,7 +3188,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Oni Link Begins). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3175,7 +3202,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Return of the Hylian). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3190,7 +3216,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Time To Triumph). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3205,7 +3230,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3220,7 +3244,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3235,7 +3258,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3250,7 +3272,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3265,7 +3286,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3280,7 +3300,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3295,7 +3314,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3310,7 +3328,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3325,7 +3342,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3340,7 +3356,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3355,7 +3370,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3370,7 +3384,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3385,7 +3398,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3400,7 +3412,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3415,7 +3426,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Quake). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3430,7 +3440,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Quake 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3445,7 +3454,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3460,7 +3468,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3475,7 +3482,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3490,7 +3496,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3505,7 +3510,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3520,7 +3524,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3535,22 +3538,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "the-simpsons-hit-and-run-pc",
-    "title": "The Simpsons: Hit and Run",
-    "author": "Thorhax",
-    "version": "0.7.0",
-    "original_platform": "PC",
-    "url": "https://github.com/Thorhax/The-Simpsons-Hit-and-Run",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3565,7 +3552,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3580,7 +3566,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic R). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3595,7 +3580,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3610,7 +3594,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3625,7 +3608,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Super Mario War). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3640,7 +3622,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3655,7 +3636,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3670,7 +3650,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3685,7 +3664,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3700,7 +3678,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3715,7 +3692,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3730,7 +3706,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3738,14 +3713,13 @@
     "id": "touhou-10-mountain-of-faith-pc",
     "title": "Touhou 10: Mountain of Faith",
     "author": "saekaze",
-    "version": "1.00a-r6",
+    "version": "1.00a-r5",
     "original_platform": "PC",
     "url": "https://github.com/saekaze/th10-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3760,7 +3734,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3775,7 +3748,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3790,7 +3762,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3805,7 +3776,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3820,7 +3790,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3835,7 +3804,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3850,7 +3818,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3865,7 +3832,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3880,7 +3846,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3895,7 +3860,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3910,7 +3874,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3925,22 +3888,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "tekken-3-sony-playstation",
-    "title": "Tekken 3",
-    "author": "markaurel13",
-    "version": "1.0.1",
-    "original_platform": "Sony Playstation",
-    "url": "https://github.com/markaurel13/tekken3-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3955,7 +3902,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -3970,22 +3916,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "rampage-total-destruction-sony-playstation-2",
-    "title": "Rampage: Total Destruction",
-    "author": "jjmhalew",
-    "version": "1.2.1",
-    "original_platform": "Sony Playstation 2",
-    "url": "https://github.com/jjmhalew/RampageRE",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4000,7 +3930,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4015,7 +3944,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4030,7 +3958,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4045,7 +3972,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4060,7 +3986,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4075,7 +4000,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4090,7 +4014,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4105,7 +4028,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4120,7 +4042,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Burnout 3: Takedown). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4135,7 +4056,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4150,7 +4070,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4165,7 +4084,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4180,22 +4098,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "fifa-street-microsoft-xbox",
-    "title": "FIFA Street",
-    "author": "xsaja",
-    "version": "0.1.0",
-    "original_platform": "Microsoft Xbox",
-    "url": "https://github.com/xsaja/street-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4210,7 +4112,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4225,7 +4126,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Halo: Combat Evolved). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4240,7 +4140,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4255,7 +4154,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mortal Kombat: Shaolin Monks). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4270,7 +4168,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Carbon). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4285,7 +4182,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Underground). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4300,22 +4196,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Underground 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "nights-into-dreams-microsoft-xbox",
-    "title": "Nights into Dreams",
-    "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
-    "original_platform": "Microsoft Xbox",
-    "url": "https://github.com/ChanseyIsTheBest/nights-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4330,7 +4210,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4345,7 +4224,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4360,7 +4238,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4375,7 +4252,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4390,37 +4266,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "blue-dragon-microsoft-xbox-360",
-    "title": "Blue Dragon",
-    "author": "Ad0ky",
-    "version": "1.3.1",
-    "original_platform": "Microsoft Xbox 360",
-    "url": "https://github.com/Ad0ky/reblue",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "castlevania-lords-of-shadow-microsoft-xbox-360",
-    "title": "Castlevania: Lords of Shadow",
-    "author": "FurryLilManChild",
-    "version": "*switch-test 1*",
-    "original_platform": "Microsoft Xbox 360",
-    "url": "https://github.com/FurryLilManChild/LoS1-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4435,7 +4280,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4450,7 +4294,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Dead Space 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4465,7 +4308,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4480,7 +4322,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4495,7 +4336,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4510,22 +4350,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "ketsui-kizuna-jigoku-tachi-extra-microsoft-xbox-360",
-    "title": "Ketsui: Kizuna Jigoku Tachi Extra",
-    "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
-    "original_platform": "Microsoft Xbox 360",
-    "url": "https://github.com/ChanseyIsTheBest/ketsui-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4533,14 +4357,13 @@
     "id": "lost-odyssey-microsoft-xbox-360",
     "title": "Lost Odyssey",
     "author": "Ad0ky",
-    "version": "1.0.6d",
+    "version": "1.0.6",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Ad0ky/LostOdysseyRecomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4555,22 +4378,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "max-payne-3-microsoft-xbox-360",
-    "title": "Max Payne 3",
-    "author": "VasilkovND",
-    "version": "*released*",
-    "original_platform": "Microsoft Xbox 360",
-    "url": "https://github.com/VasilkovND/mp3-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "Ce port nécessite les données originales du jeu (Max Payne 3). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4585,7 +4392,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4600,7 +4406,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4608,14 +4413,13 @@
     "id": "mortal-kombat-komplete-edition-microsoft-xbox-360",
     "title": "Mortal Kombat Komplete Edition",
     "author": "Thorhax",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Thorhax/mk9-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Mortal Kombat Komplete Edition). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4630,7 +4434,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4645,7 +4448,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Carbon). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4660,7 +4462,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Need for Speed: Most Wanted). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4675,7 +4476,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4690,7 +4490,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4705,7 +4504,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4720,7 +4518,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic Adventure 2). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4735,7 +4532,6 @@
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (Sonic The Hedgehog (2006)). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4750,7 +4546,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4765,7 +4560,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4773,14 +4567,13 @@
     "id": "torchlight-microsoft-xbox-360",
     "title": "Torchlight",
     "author": "liartes",
-    "version": "1.0.3",
+    "version": "1.0.2",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/liartes/torchlight-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4795,7 +4588,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4810,37 +4602,6 @@
     "asset_type": "zip",
     "requires_original_assets": false,
     "expected_asset_hint": null,
-    "last_updated": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "zuma-microsoft-xbox-360",
-    "title": "Zuma",
-    "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
-    "original_platform": "Microsoft Xbox 360",
-    "url": "https://github.com/ChanseyIsTheBest/zuma-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": null,
-    "steamgriddb_id": null,
-    "grid_image_url": null
-  },
-  {
-    "id": "zumas-revenge-microsoft-xbox-360",
-    "title": "Zuma's Revenge",
-    "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
-    "original_platform": "Microsoft Xbox 360",
-    "url": "https://github.com/ChanseyIsTheBest/zumasrevenge-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
-    "last_updated": null,
     "steamgriddb_id": null,
     "grid_image_url": null
   },
@@ -4848,14 +4609,13 @@
     "id": "the-legend-of-zelda-wind-waker-hd-nintendo-wii-u",
     "title": "The Legend of Zelda: Wind Waker HD",
     "author": "centollOS",
-    "version": "1.0.0",
+    "version": "0.4.7",
     "original_platform": "Nintendo Wii U",
     "url": "https://github.com/centollOS/SwitchWakerHD",
     "source_type": "github_repo",
     "asset_type": "zip",
     "requires_original_assets": true,
     "expected_asset_hint": "Ce port nécessite les données originales du jeu (The Legend of Zelda: Wind Waker HD). Déposez les assets requis dans le dossier de staging.",
-    "last_updated": "Yes",
     "steamgriddb_id": null,
     "grid_image_url": null
   }

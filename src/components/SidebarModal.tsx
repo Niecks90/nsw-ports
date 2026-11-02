@@ -1,12 +1,10 @@
 import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import { useState, useEffect } from "react";
 import { PortData } from '../types';
-import { X, ExternalLink, Download, Loader2 } from 'lucide-react';
+import { X } from 'lucide-react';
 import { AssetPicker } from './AssetPicker';
 import { DeploymentSelector } from './DeploymentSelector';
 import { fetchGameCoverUrl } from '../services/steamgriddb';
-import { isTauri } from '../utils/env';
 
 interface SidebarModalProps {
     game: PortData | null;
@@ -16,182 +14,78 @@ interface SidebarModalProps {
 export function SidebarModal({ game, onClose }: SidebarModalProps) {
     const [assetsReady, setAssetsReady] = useState(false);
     const [coverUrl, setCoverUrl] = useState<string | null>(null);
-    const [readmeContent, setReadmeContent] = useState<string | null>(null);
-    const [readmeLoading, setReadmeLoading] = useState(false);
 
     useEffect(() => {
         if (!game) return;
         let mounted = true;
-        fetchGameCoverUrl(game.title, game.steamgriddb_id, game.grid_image_url).then(url => {
+        fetchGameCoverUrl(game.title, game.steamgriddb_id).then(url => {
             if (mounted && url) setCoverUrl(url);
         });
-
-        // Reset README state
-        setReadmeContent(null);
-
-        if (game.url && game.url.includes("github.com")) {
-            setReadmeLoading(true);
-            const githubSlugMatch = game.url.match(/github\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9._-]+)/);
-            if (githubSlugMatch) {
-                const slug = githubSlugMatch[1].replace(/\/$/, "");
-                const fetchReadme = async () => {
-                    const branches = ['HEAD', 'main', 'master'];
-                    for (const branch of branches) {
-                        try {
-                            const res = await fetch(`https://raw.githubusercontent.com/${slug}/${branch}/README.md`);
-                            if (res.ok) {
-                                const text = await res.text();
-                                if (mounted) {
-                                    setReadmeContent(text);
-                                    setReadmeLoading(false);
-                                }
-                                return;
-                            }
-                        } catch (e) {
-                            console.error(e);
-                        }
-                    }
-                    if (mounted) {
-                        setReadmeLoading(false);
-                    }
-                };
-                fetchReadme();
-            } else {
-                setReadmeLoading(false);
-            }
-        } else {
-            setReadmeLoading(false);
-        }
-
         return () => { mounted = false; };
     }, [game]);
-
-    // Handle Escape key to close
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === 'Escape') {
-                onClose();
-            }
-        };
-        window.addEventListener('keydown', handleKeyDown);
-        return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [onClose]);
 
     if (!game) return null;
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 lg:p-8 bg-black/75 backdrop-blur-sm">
-            {/* Backdrop click handler */}
-            <div className="absolute inset-0" onClick={onClose} />
+        <>
+            <div
+                className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 transition-opacity"
+                onClick={onClose}
+            />
+            <div className="fixed inset-y-0 right-0 w-full md:w-[480px] bg-zinc-950 border-l border-zinc-800 shadow-2xl z-50 flex flex-col overflow-hidden transition-transform transform translate-x-0">
 
-            <div className="relative w-full max-w-5xl max-h-[90vh] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row z-10">
-                {/* Close Button */}
-                <button
-                    onClick={onClose}
-                    className="absolute top-4 right-4 z-20 p-2 bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white rounded-full transition-colors backdrop-blur-md"
-                >
-                    <X className="w-5 h-5" />
-                </button>
+                {/* Header Actions */}
+                <div className="absolute top-4 right-4 z-10 flex gap-2">
+                    <button
+                        onClick={onClose}
+                        className="p-2 bg-black/50 hover:bg-black/80 text-white rounded-full backdrop-blur-md transition-colors"
+                    >
+                        <X className="w-5 h-5" />
+                    </button>
+                </div>
 
-                {/* Left Column: Sidebar / Metadata */}
-                <div className="w-full md:w-80 bg-slate-950/50 p-6 flex flex-col gap-6 flex-shrink-0 md:border-r border-slate-800 md:overflow-y-auto">
-                    {/* Game Poster */}
-                    <div className="w-48 md:w-full mx-auto aspect-[2/3] bg-slate-800 rounded-xl overflow-hidden shadow-md flex items-center justify-center flex-shrink-0">
-                        {coverUrl ? (
-                            <img
-                                src={coverUrl}
-                                alt={game.title}
-                                className="w-full h-full object-cover"
-                            />
-                        ) : (
-                            <span className="text-slate-600 font-medium">No cover art</span>
-                        )}
-                    </div>
-
-                    <div className="flex flex-col gap-2 text-center md:text-left">
-                        <h2 className="text-2xl font-bold text-white leading-tight">{game.title}</h2>
-
-                        <div className="flex flex-wrap gap-2 justify-center md:justify-start text-xs text-slate-300 font-medium mt-1">
-                            {game.original_platform && (
-                                <span className="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded">
-                                    {game.original_platform}
-                                </span>
-                            )}
-                            <span className="bg-slate-800 px-2 py-1 rounded">v{game.version}</span>
-                            <span className="bg-slate-800 px-2 py-1 rounded">By {game.author}</span>
+                {/* Banner / Cover */}
+                <div className="relative h-64 w-full bg-zinc-900 flex-shrink-0">
+                    {coverUrl ? (
+                        <img
+                            src={coverUrl}
+                            alt={game.title}
+                            className="w-full h-full object-cover object-top opacity-50"
+                        />
+                    ) : (
+                        <div className="w-full h-full flex items-center justify-center">
+                            <span className="text-zinc-600 font-medium">No cover art</span>
+                        </div>
+                    )}
+                    <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-transparent" />
+                    <div className="absolute bottom-0 left-0 p-6 w-full">
+                        <h2 className="text-3xl font-bold text-white mb-1 shadow-black drop-shadow-md">{game.title}</h2>
+                        <div className="flex flex-wrap gap-2 text-sm text-zinc-300 font-medium">
+                            <span className="bg-zinc-800/80 px-2 py-1 rounded backdrop-blur-sm">v{game.version}</span>
+                            <span className="bg-zinc-800/80 px-2 py-1 rounded backdrop-blur-sm">By {game.author}</span>
                         </div>
                     </div>
-
-                    <div className="space-y-4">
-                        {/* Requires Assets Warning (Web Mode only, handled by AssetPicker in Tauri) */}
-                        {!isTauri && game.requires_original_assets && (
-                            <div className="bg-amber-500/10 border border-amber-500/20 rounded-lg p-3 text-left">
-                                <h4 className="font-semibold text-amber-500 text-sm mb-1">Original Assets Required</h4>
-                                <p className="text-xs text-slate-400 leading-snug">
-                                    {game.expected_asset_hint || "You must provide your own game files to play this port."}
-                                </p>
-                            </div>
-                        )}
-
-                        {isTauri && <AssetPicker game={game} onAssetReady={setAssetsReady} />}
-                        {isTauri && <DeploymentSelector game={game} assetsReady={assetsReady} />}
-
-                        {!isTauri && (
-                            <div className="flex flex-col gap-3">
-                                <a
-                                    href={game.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center justify-center gap-2 py-2.5 bg-slate-800 hover:bg-slate-700 text-white rounded-md font-medium transition-colors border border-slate-700 text-sm shadow-sm"
-                                >
-                                    <ExternalLink className="w-4 h-4" />
-                                    Source / Download
-                                </a>
-
-                                <div className="bg-blue-600/10 border border-blue-600/20 rounded-lg p-3 text-center">
-                                    <h4 className="font-semibold text-blue-400 text-xs mb-1">Want 1-click FTP install to your Switch?</h4>
-                                    <p className="text-[10px] text-slate-400 mb-3 leading-snug">
-                                        Use the PortsDL-NX Desktop Launcher to easily download, prepare assets, and deploy directly to your console.
-                                    </p>
-                                    <a
-                                        href="https://github.com/Niecks90/PortsDL-NX/releases"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-flex items-center justify-center gap-2 w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md font-medium transition-colors shadow text-xs"
-                                    >
-                                        <Download className="w-3.5 h-3.5" />
-                                        Get Desktop App
-                                    </a>
-                                </div>
-                            </div>
-                        )}
-                    </div>
                 </div>
 
-                {/* Right Column: Main Content (README) */}
-                <div className="flex-1 overflow-y-auto p-6 md:p-8 flex flex-col bg-slate-900">
-                    <h3 className="text-xl font-bold text-white mb-6 border-b border-slate-800 pb-4">
-                        About & Installation
-                    </h3>
+                {/* Content */}
+                <div className="flex-1 overflow-y-auto p-6 space-y-8 scrollbar-hide">
 
-                    <div className="prose prose-invert max-w-none break-words text-slate-300 prose-pre:bg-slate-950 prose-pre:border prose-pre:border-slate-800 prose-a:text-blue-400 hover:prose-a:text-blue-300">
-                        {readmeLoading ? (
-                            <div className="flex items-center gap-3 text-slate-500 py-8 justify-center">
-                                <Loader2 className="w-6 h-6 animate-spin" />
-                                <span>Loading README...</span>
+                    {/* Instructions */}
+                    <AssetPicker game={game} onAssetReady={setAssetsReady} />
+                    <DeploymentSelector game={game} assetsReady={assetsReady} />
+
+                    {game.instructions_markdown && (
+                        <div className="space-y-3">
+                            <h3 className="text-lg font-semibold text-zinc-100 flex items-center gap-2 border-b border-zinc-800 pb-2">
+                                Info
+                            </h3>
+                            <div className="prose prose-invert prose-sm text-zinc-400">
+                                <ReactMarkdown>{game.instructions_markdown}</ReactMarkdown>
                             </div>
-                        ) : readmeContent ? (
-                            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                                {readmeContent}
-                            </ReactMarkdown>
-                        ) : (
-                            <div className="text-slate-500 py-8 italic text-center bg-slate-800/30 rounded-lg border border-slate-800/50">
-                                No README available for this port — visit repository for more information.
-                            </div>
-                        )}
-                    </div>
+                        </div>
+                    )}
                 </div>
             </div>
-        </div>
+        </>
     );
 }
