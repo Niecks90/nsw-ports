@@ -4,8 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig(async () => ({
+  base: '/PortsDL-NX/',
   plugins: [react(), tailwindcss()],
-  base: './', // For GitHub Pages relative paths
   clearScreen: false,
   server: {
     port: 1420,
