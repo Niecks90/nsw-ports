@@ -19,10 +19,10 @@ export function GameGrid({ games, onGameSelect }: GameGridProps) {
     }
 
     return (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-8 2xl:grid-cols-10 gap-3 p-4">
-            {games.map((game, index) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-6">
+            {games.map(game => (
                 <GameCard
-                    key={`${game.id}-${index}`}
+                    key={game.id}
                     game={game}
                     onClick={onGameSelect}
                 />
