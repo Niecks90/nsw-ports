@@ -3,6 +3,8 @@ import re
 import json
 import logging
 import sys
+import os
+import time
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
@@ -78,7 +80,57 @@ def check_asset_requirements(title, url):
 
     return asset_type, requires_assets, asset_hint
 
+def clean_title_for_search(title):
+    # Remove contents inside brackets/parentheses and some common suffixes
+    title = re.sub(r'\(.*?\)', '', title)
+    title = re.sub(r'\[.*?\]', '', title)
+    title = re.sub(r'(?i)port|nx|switch|remastered|hd', '', title)
+    return title.strip()
+
+def fetch_sgdb_cover(title, api_key):
+    clean_title = clean_title_for_search(title)
+    if not clean_title:
+        return None, None
+
+    headers = {
+        'Authorization': f'Bearer {api_key}',
+        'User-Agent': 'PortsDL-NX Scraper'
+    }
+
+    # 1. Search for game
+    search_url = f"https://www.steamgriddb.com/api/v2/search/autocomplete/{urllib.parse.quote(clean_title)}"
+    try:
+        req = urllib.request.Request(search_url, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            if not data.get('data'):
+                return None, None
+            game_id = data['data'][0]['id']
+    except Exception as e:
+        logging.warning(f"SGDB Search failed for {title}: {e}")
+        return None, None
+
+    time.sleep(0.2) # Rate limit protection
+
+    # 2. Fetch cover
+    grids_url = f"https://www.steamgriddb.com/api/v2/grids/game/{game_id}?dimensions=600x900"
+    try:
+        req = urllib.request.Request(grids_url, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            if not data.get('data'):
+                return game_id, None
+
+            return game_id, data['data'][0]['url']
+    except Exception as e:
+        logging.warning(f"SGDB Grids failed for {title}: {e}")
+        return game_id, None
+
 def main():
+    sgdb_api_key = os.environ.get("SGDB_API_KEY")
+    if not sgdb_api_key:
+        logging.warning("SGDB_API_KEY non défini. Les URL des jaquettes ne seront pas récupérées.")
+
     logging.info(f"Téléchargement du README depuis {URL}...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
@@ -156,6 +208,11 @@ def main():
                 slug = slugify(f"{game}-{current_platform}")
                 asset_type, req_assets, asset_hint = check_asset_requirements(game, url)
 
+                sgdb_id, grid_url = None, None
+                if sgdb_api_key:
+                    sgdb_id, grid_url = fetch_sgdb_cover(game, sgdb_api_key)
+                    time.sleep(0.2) # General rate limit protection
+
                 catalog.append({
                     "id": slug,
                     "title": game,
@@ -167,8 +224,8 @@ def main():
                     "asset_type": asset_type,
                     "requires_original_assets": req_assets,
                     "expected_asset_hint": asset_hint,
-                    "steamgriddb_id": None,
-                    "grid_image_url": None
+                    "steamgriddb_id": str(sgdb_id) if sgdb_id else None,
+                    "grid_image_url": grid_url
                 })
         elif in_table and (not line or not line.startswith('|')):
             in_table = False
