@@ -1,11 +1,15 @@
 name: Update Ports Catalog
 
 on:
-  # Permet de lancer le script manuellement depuis l'onglet Actions
-  workflow_dispatch:
-  # Exécution automatique (ici tous les jours à 4h00 UTC)
   schedule:
     - cron: '0 4 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'update_catalog.py'
+      - 'overrides.json'
 
 permissions:
   contents: write
@@ -15,30 +19,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Récupérer le code du dépôt
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # fetch-depth: 0 récupère l'historique complet pour éviter les rejets de commit_refs / HTTP 500
+          fetch-depth: 0
 
-      - name: Installer Python 3.11
+      - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Exécuter le script de mise à jour
+      - name: Run Catalog Scraper
         env:
           SGDB_API_KEY: ${{ secrets.SGDB_API_KEY }}
         run: |
           python update_catalog.py
 
-      - name: Sauvegarder catalog.json si modifié
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add catalog.json
           
-          # Ne commit que si le fichier a réellement changé
           if ! git diff --cached --quiet; then
             git commit -m "chore(catalog): auto-update catalog.json [skip ci]"
-            git push
+            git pull --rebase origin main
+            git push origin main
           else
-            echo "Aucune modification détectée dans catalog.json."
+            echo "No changes detected in catalog.json."
           fi
