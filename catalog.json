@@ -2158,6 +2158,19 @@
     "last_updated": "29/10/2026"
   },
   {
+    "id": "bloody-roar-extreme-microsoft-xbox",
+    "title": "Bloody Roar Extreme",
+    "author": "xsaja",
+    "version": "0.1.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/xsaja/brextreme-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34898",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b2beb10bac310271af2e3f66f8b0cc13.png",
+    "last_updated": "03/11/2026"
+  },
+  {
     "id": "burnout-3-takedown-microsoft-xbox",
     "title": "Burnout 3: Takedown",
     "author": "antoxa2584x",
@@ -2273,6 +2286,19 @@
     "steamgriddb_id": "4512",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/13214f4a050bdb0da70401b84b5321e5.png",
     "last_updated": "18/10/2026"
+  },
+  {
+    "id": "the-godfather-microsoft-xbox",
+    "title": "The Godfather",
+    "author": "CYBERPUNK20",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/CYBERPUNK20/godfather-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "2943",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4117b927c510516edc14da73bb02840a.png",
+    "last_updated": "02/11/2026"
   },
   {
     "id": "halo-combat-evolved-microsoft-xbox",
@@ -2676,6 +2702,32 @@
     "steamgriddb_id": "5263327",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/72f561bc96cbe76ecff42c48b0a542a1.png",
     "last_updated": "28/10/2026"
+  },
+  {
+    "id": "hexic-hd-microsoft-xbox-360",
+    "title": "Hexic HD",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/ChanseyIsTheBest/hexichd-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5253270",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/840f5561d63aa38097e56192884cd162.png",
+    "last_updated": "04/11/2026"
+  },
+  {
+    "id": "hexic-2-microsoft-xbox-360",
+    "title": "Hexic 2",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/ChanseyIsTheBest/hexic2-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5319958",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b64eb26f5d9f3409a694b699617b9ded.png",
+    "last_updated": "04/11/2026"
   },
   {
     "id": "ketsui-kizuna-jigoku-tachi-extra-microsoft-xbox-360",
@@ -4683,14 +4735,14 @@
     "id": "tekken-3-sony-playstation",
     "title": "Tekken 3",
     "author": "markaurel13",
-    "version": "1.0.1",
+    "version": "1.2",
     "original_platform": "Sony Playstation",
     "url": "https://github.com/markaurel13/tekken3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "34876",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a85032c0a15f3c7048a8077595f2ee66.png",
-    "last_updated": "28/10/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "dragonball-z-tenkaichi-budokai-3-sony-playstation-2",
