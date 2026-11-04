@@ -5,6 +5,7 @@ import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
 import { isTauri } from '../utils/env';
 import { Logo } from './Logo';
+import { getShortPlatformName } from '../utils/platforms';
 
 interface HeaderProps {
     filters: string[];
@@ -98,13 +99,37 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
 
     return (
         <header className="sticky top-0 z-30 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 p-4 shadow-xl">
-            <div className="flex flex-col gap-4 md:flex-row md:items-center justify-between">
-                <div className="flex items-center gap-4">
+            <div className="flex flex-col md:flex-row gap-4 justify-between">
+                <div className="flex items-center justify-between w-full md:w-auto">
                     <Logo onClick={handleLogoClick} />
+
+                    <div className="flex items-center gap-2 md:hidden">
+                        <a
+                            href="https://ko-fi.com/niecks90"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-[#72a4f2]/20 hover:bg-[#72a4f2]/30 text-[#72a4f2] border border-[#72a4f2]/40 transition-colors p-2 rounded-lg flex items-center justify-center"
+                            title="Support on Ko-fi"
+                        >
+                            <Coffee className="w-5 h-5" />
+                        </a>
+
+                        {!isTauri && (
+                            <a
+                                href="https://github.com/Niecks90/PortsDL-NX/releases"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="p-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md transition-colors shadow-lg flex items-center justify-center"
+                                title="Download Windows App"
+                            >
+                                <Download className="w-5 h-5" />
+                            </a>
+                        )}
+                    </div>
                 </div>
 
-                <div className="flex-1 max-w-xl flex items-center gap-2 relative">
-                    <div className="relative w-full">
+                <div className="w-full flex-1 max-w-xl flex flex-wrap sm:flex-nowrap items-center gap-2 relative">
+                    <div className="relative w-full flex-1">
                         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                             <Search className="h-5 w-5 text-slate-500" />
                         </div>
@@ -116,11 +141,11 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                             onChange={handleSearch}
                         />
                     </div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 w-full sm:w-auto mt-2 sm:mt-0">
                         <select
                             value={sortOption}
                             onChange={(e) => onSortChange(e.target.value as 'alpha' | 'recent')}
-                            className="bg-slate-800 text-slate-300 border border-slate-700 rounded-md py-2 px-3 text-sm focus:outline-none focus:bg-slate-700 focus:border-slate-600 transition duration-150 ease-in-out"
+                            className="bg-slate-800 flex-1 sm:flex-none text-slate-300 border border-slate-700 rounded-md py-2 px-3 text-sm focus:outline-none focus:bg-slate-700 focus:border-slate-600 transition duration-150 ease-in-out"
                         >
                             <option value="alpha">Alphabetical (A - Z)</option>
                             <option value="recent">Recently Updated</option>
@@ -137,19 +162,19 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                                 <CalendarDays className="w-5 h-5" />
                             )}
                         </button>
+                        {isTauri && (
+                            <button
+                                onClick={() => setShowSettings(true)}
+                                className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-md transition-colors"
+                                aria-label="Settings"
+                            >
+                                <Settings className="w-5 h-5" />
+                            </button>
+                        )}
                     </div>
-                    {isTauri && (
-                        <button
-                            onClick={() => setShowSettings(true)}
-                            className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-md transition-colors"
-                            aria-label="Settings"
-                        >
-                            <Settings className="w-5 h-5" />
-                        </button>
-                    )}
                 </div>
 
-                <div className="flex items-center gap-2">
+                <div className="hidden md:flex items-center gap-2">
                     <a
                         href="https://ko-fi.com/niecks90"
                         target="_blank"
@@ -157,7 +182,7 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                         className="bg-[#72a4f2]/20 hover:bg-[#72a4f2]/30 text-[#72a4f2] border border-[#72a4f2]/40 transition-colors px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-sm font-medium"
                     >
                         <Coffee className="w-4 h-4" />
-                        <span className="hidden sm:inline">Support on Ko-fi</span>
+                        <span>Support on Ko-fi</span>
                     </a>
 
                     {!isTauri && (
@@ -168,25 +193,25 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                             className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md font-medium transition-colors shadow-lg"
                         >
                             <Download className="w-4 h-4" />
-                            <span className="hidden sm:inline">Download Windows App</span>
+                            <span>Download Windows App</span>
                         </a>
                     )}
                 </div>
             </div>
 
-            <div className="mt-4 flex flex-wrap gap-2 items-center justify-start py-2">
+            <div className="mt-4 flex md:flex-wrap overflow-x-auto no-scrollbar scroll-smooth gap-2 py-2 -mx-4 px-4 [&::-webkit-scrollbar]:hidden">
                 {filters.map(filter => (
                     <button
                         key={filter}
                         onClick={() => onFilterChange(filter)}
                         className={clsx(
-                            "px-4 py-1.5 rounded-full text-sm transition-colors",
+                            "px-4 py-1.5 rounded-full text-sm transition-colors whitespace-nowrap flex-shrink-0",
                             activeFilter === filter
                                 ? "bg-blue-600 text-white font-medium shadow-sm"
                                 : "bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700/50"
                         )}
                     >
-                        {filter}
+                        {getShortPlatformName(filter)}
                     </button>
                 ))}
             </div>
