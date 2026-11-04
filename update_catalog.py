@@ -1,4 +1,5 @@
 import urllib.request
+import urllib.parse
 import re
 import json
 import logging
@@ -6,32 +7,28 @@ import sys
 import os
 import time
 
+# Configure logging format
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
+# Source README repository URL and output file path
 URL = "https://raw.githubusercontent.com/robzilla10001/SwitchPorts/main/README.md"
 OUTPUT_FILE = "catalog.json"
 
-# Jeux nécessitant généralement des assets originaux (PC, Android, etc.)
-ASSET_GAMES = {
-    'half-life', 'quake', 'doom', 'gta', 'grand theft auto', 'tomb raider',
-    'zelda', 'mario', 'sonic', 'duke nukem', 'shadow warrior', 'blood',
-    'max payne', 'bully', 'return to castle wolfenstein', 'jediknight',
-    'diablo', 'fallout', 'chrono trigger', 'need for speed', 'halo',
-    'burnout', 'mortal kombat', 'super mario', 'modern combat', 'dead space',
-    'rayman', 'plants vs. zombies', 'angry birds', 'spider-man', 'dark knight'
-}
-
 def slugify(text):
+    """Normalize text into a URL-friendly and unique slug (kebab-case)."""
     text = re.sub(r'[^a-zA-Z0-9\s-]', '', text).strip().lower()
     return re.sub(r'[\s-]+', '-', text)
 
 def parse_link(cell_text):
-    """Extrait l'auteur et normalise l'URL (gère Markdown et texte brut user/repo)."""
+    """
+    Extract author and normalize repository/download URLs.
+    Handles Markdown links, raw GitHub user/repo patterns, and plain HTTP(S) links.
+    """
     cell_text = cell_text.strip()
     if not cell_text:
         return "", ""
 
-    # Cas 1 : Lien Markdown [Texte](URL)
+    # Case 1: Markdown formatted link [Label](URL)
     match = re.search(r'\[(.*?)\]\((.*?)\)', cell_text)
     if match:
         label = match.group(1).strip()
@@ -39,21 +36,21 @@ def parse_link(cell_text):
         author = label.split('/')[0] if '/' in label else ""
         return author, url
 
-    # Cas 2 : Format brut GitHub "user/repo"
+    # Case 2: Plain GitHub "user/repo" slug
     github_slug_match = re.match(r'^([a-zA-Z0-9_-]+)/([a-zA-Z0-9._-]+)$', cell_text)
     if github_slug_match:
         author = github_slug_match.group(1)
         url = f"https://github.com/{cell_text}"
         return author, url
 
-    # Cas 3 : URL HTTP(S) brute
+    # Case 3: Raw HTTP(S) URL
     if cell_text.startswith("http://") or cell_text.startswith("https://"):
         return "", cell_text
 
     return "", cell_text
 
 def determine_url_source(url):
-    """Détecte la nature de la ressource."""
+    """Determine the source type based on target URL structure."""
     if 'github.com' in url:
         if any(x in url for x in ['/releases', '/releases/tag', '/releases/download']):
             return 'github_release'
@@ -64,30 +61,19 @@ def determine_url_source(url):
         return 'direct_archive'
     return 'other'
 
-def check_asset_requirements(title, url):
-    """Heuristique sur la nécessité de fournir des fichiers de jeu propriétaires."""
-    title_lower = title.lower()
-
-    asset_type = 'zip'
-    if url.endswith('.nro'):
-        asset_type = 'nro'
-
-    requires_assets = any(known in title_lower for known in ASSET_GAMES)
-    asset_hint = (
-        f"This port requires the original game data ({title}). Place the required assets in the staging folder."
-        if requires_assets else None
-    )
-
-    return asset_type, requires_assets, asset_hint
-
 def clean_title_for_search(title):
-    # Remove contents inside brackets/parentheses and some common suffixes
+    """
+    Clean game titles before querying SteamGridDB autocomplete.
+    Uses word boundaries (\\b) to avoid truncating game names like 'Portal' into 'al'.
+    """
     title = re.sub(r'\(.*?\)', '', title)
     title = re.sub(r'\[.*?\]', '', title)
-    title = re.sub(r'(?i)port|nx|switch|remastered|hd', '', title)
+    title = re.sub(r'(?i)\b(port|nx|switch|remastered|hd)\b', '', title)
+    title = re.sub(r'\s+', ' ', title)
     return title.strip()
 
 def fetch_sgdb_cover(title, api_key):
+    """Query SteamGridDB API to fetch vertical 600x900 poster art."""
     clean_title = clean_title_for_search(title)
     if not clean_title:
         return None, None
@@ -97,61 +83,96 @@ def fetch_sgdb_cover(title, api_key):
         'User-Agent': 'PortsDL-NX Scraper'
     }
 
-    # 1. Search for game
+    # Step 1: Search for game ID using autocomplete endpoint
     search_url = f"https://www.steamgriddb.com/api/v2/search/autocomplete/{urllib.parse.quote(clean_title)}"
     try:
         req = urllib.request.Request(search_url, headers=headers)
-        with urllib.request.urlopen(req) as resp:
+        with urllib.request.urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             if not data.get('data'):
                 return None, None
             game_id = data['data'][0]['id']
     except Exception as e:
-        logging.warning(f"SGDB Search failed for {title}: {e}")
+        logging.warning(f"SGDB search failed for '{title}': {e}")
         return None, None
 
-    time.sleep(0.2) # Rate limit protection
+    time.sleep(0.25)
 
-    # 2. Fetch cover
+    # Step 2: Fetch vertical 600x900 cover grid for the matched game
     grids_url = f"https://www.steamgriddb.com/api/v2/grids/game/{game_id}?dimensions=600x900"
     try:
         req = urllib.request.Request(grids_url, headers=headers)
-        with urllib.request.urlopen(req) as resp:
+        with urllib.request.urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             if not data.get('data'):
                 return game_id, None
 
             return game_id, data['data'][0]['url']
     except Exception as e:
-        logging.warning(f"SGDB Grids failed for {title}: {e}")
+        logging.warning(f"SGDB grids failed for '{title}': {e}")
         return game_id, None
 
 def load_overrides(filepath="overrides.json"):
+    """Load manual overrides dictionary from local file if available."""
     if os.path.exists(filepath):
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 overrides = json.load(f)
-                logging.info(f"Overrides loaded from {filepath}")
+                logging.info(f"Loaded {len(overrides)} overrides from {filepath}")
                 return overrides
         except Exception as e:
             logging.error(f"Failed to load overrides from {filepath}: {e}")
     return {}
 
+def load_existing_catalog(filepath="catalog.json"):
+    """
+    Load existing catalog to preserve existing and manually fixed cover art URLs.
+    Indexes entries by both unique slug ID and normalized title.
+    """
+    if not os.path.exists(filepath):
+        return {}
+
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            existing_catalog = json.load(f)
+
+        cache = {}
+        for item in existing_catalog:
+            if not isinstance(item, dict):
+                continue
+
+            img_url = item.get("grid_image_url")
+            sgdb_id = item.get("steamgriddb_id")
+
+            if img_url and str(img_url).strip() and str(img_url).lower() != "null":
+                entry = (str(img_url).strip(), str(sgdb_id) if sgdb_id else None)
+                if item.get("id"):
+                    cache[item["id"]] = entry
+                if item.get("title"):
+                    cache[f"title::{slugify(item['title'])}"] = entry
+
+        logging.info(f"Preserved {len(cache)} existing covers from {filepath}")
+        return cache
+    except Exception as e:
+        logging.error(f"Failed to load existing catalog from {filepath}: {e}")
+        return {}
+
 def main():
     sgdb_api_key = os.environ.get("SGDB_API_KEY")
     if not sgdb_api_key:
-        logging.warning("SGDB_API_KEY not defined. Cover URLs will not be fetched.")
+        logging.warning("SGDB_API_KEY not found. Only existing covers and overrides will be used.")
 
     overrides_data = load_overrides()
+    existing_covers = load_existing_catalog()
 
     logging.info(f"Downloading README from {URL}...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     try:
         req = urllib.request.Request(URL, headers=headers)
-        with urllib.request.urlopen(req) as resp:
+        with urllib.request.urlopen(req, timeout=15) as resp:
             content = resp.read().decode('utf-8')
     except Exception as e:
-        logging.error(f"Failed to fetch README : {e}")
+        logging.error(f"Failed to fetch README: {e}")
         sys.exit(1)
 
     catalog = []
@@ -160,59 +181,59 @@ def main():
     col_map = {}
 
     lines = content.split('\n')
-    logging.info(f"Analyzing {len(lines)} lines...")
+    logging.info(f"Parsing {len(lines)} lines...")
 
-    for idx, raw_line in enumerate(lines):
+    for raw_line in lines:
         line = raw_line.strip()
 
-        # 1. Détection de la plateforme (Titres Markdown ##, ###, ####)
+        # 1. Platform header detection (Markdown ##, ###, ####)
         header_match = re.match(r'^#{2,4}\s+(.*)', line)
         if header_match:
             title_text = header_match.group(1).strip()
-            # On ignore les sections d'en-tête du README et "Emulators"
-            if not any(skip in title_text.lower() for skip in ['notice', 'table of contents', 'disclaimer', 'recent changes', 'emulators']):
+            if not any(skip in title_text.lower() for skip in ['notice', 'table of contents', 'disclaimer', 'recent changes']):
                 current_platform = title_text
-            else:
-                current_platform = title_text # Set current_platform so it doesn't get misattributed, we will skip entries later
             continue
 
-        # 2. Détection de l'en-tête d'un tableau
-        if line.startswith('|') and ('game' in line.lower() or 'title' in line.lower()):
-            headers = [c.strip().lower() for c in line.split('|')[1:-1]]
+        # 2. Table header detection (supports both '| Game | ...' and 'Game | ...')
+        clean_header = line.strip('|').strip().lower()
+        if ('game' in clean_header or 'title' in clean_header) and '|' in line:
+            headers = [c.strip().lower() for c in line.split('|') if c.strip()]
             col_map = {name: i for i, name in enumerate(headers)}
             in_table = True
             continue
 
-        # 3. Ligne de séparation (|---|---|...)
+        # 3. Separator line (|---|---|...)
         if in_table and re.match(r'^\|[-:\s]+\|', line):
             continue
 
-        # 4. Parsing des lignes de données
+        # 4. Table data parsing
         if in_table and line.startswith('|'):
+            if "emulator" in current_platform.lower():
+                continue
+
             columns = [col.strip() for col in line.split('|')[1:-1]]
-            
-            # Recherche flexible des colonnes selon l'en-tête
+
             game_idx = col_map.get('game', col_map.get('title', 0))
             version_idx = col_map.get('version', 1)
             link_idx = col_map.get('link', col_map.get('repository', 3))
             gbatemp_idx = col_map.get('gbatemp thread?', col_map.get('gbatemp', 4))
-            last_updated_idx = col_map.get('last updated?', col_map.get('date', -1))
 
-            if current_platform.lower() == "emulators":
-                continue
+            last_updated_idx = -1
+            for key, idx in col_map.items():
+                if 'updated' in key or 'date' in key:
+                    last_updated_idx = idx
+                    break
 
             if len(columns) > max(game_idx, link_idx):
                 raw_game = columns[game_idx]
                 game = re.sub(r'^[🟢🔴🟡🟠\s]+', '', raw_game).strip()
 
-                # Héritage si le nom du jeu est vide (lignes multi-builds)
                 if not game and len(catalog) > 0:
                     game = catalog[-1]['title']
                 elif not game:
                     continue
 
                 version = columns[version_idx] if len(columns) > version_idx else ""
-                
                 link_raw = columns[link_idx] if len(columns) > link_idx else ""
                 gbatemp_raw = columns[gbatemp_idx] if len(columns) > gbatemp_idx else ""
 
@@ -221,28 +242,45 @@ def main():
 
                 last_updated = None
                 if last_updated_idx != -1 and len(columns) > last_updated_idx:
-                    last_updated = columns[last_updated_idx].strip()
-                    if not last_updated or last_updated.lower() == "unknown":
-                        last_updated = None
+                    raw_date = columns[last_updated_idx].strip()
+                    if raw_date and raw_date.lower() != "unknown":
+                        last_updated = raw_date
 
-                # Si le lien principal est manquant, repli sur le thread GBAtemp
                 if not url and gbatemp_url:
                     url = gbatemp_url
 
                 source_type = determine_url_source(url)
+
                 slug = slugify(f"{game}-{current_platform}")
-                asset_type, req_assets, asset_hint = check_asset_requirements(game, url)
+                if any(item["id"] == slug for item in catalog):
+                    slug = slugify(f"{game}-{author or 'alt'}-{current_platform}")
 
-                sgdb_id, grid_url = None, None
+                title_key = f"title::{slugify(game)}"
+                asset_type = 'nro' if url.endswith('.nro') else 'zip'
 
-                # Apply manual overrides if available
+                sgdb_id = None
+                grid_url = None
+
+                # Priority 1: Check manual overrides.json
                 if slug in overrides_data:
-                    logging.info(f"Using override for {slug}")
-                    sgdb_id = overrides_data[slug].get("steamgriddb_id")
-                    grid_url = overrides_data[slug].get("grid_image_url")
+                    val = overrides_data[slug]
+                    grid_url = val if isinstance(val, str) else val.get("grid_image_url")
+                    sgdb_id = None if isinstance(val, str) else val.get("steamgriddb_id")
+                elif slugify(game) in overrides_data:
+                    val = overrides_data[slugify(game)]
+                    grid_url = val if isinstance(val, str) else val.get("grid_image_url")
+                    sgdb_id = None if isinstance(val, str) else val.get("steamgriddb_id")
+
+                # Priority 2: Retain existing cover from catalog.json
+                elif slug in existing_covers:
+                    grid_url, sgdb_id = existing_covers[slug]
+                elif title_key in existing_covers:
+                    grid_url, sgdb_id = existing_covers[title_key]
+
+                # Priority 3: Query SteamGridDB API for new entries
                 elif sgdb_api_key:
+                    logging.info(f"Fetching cover from SteamGridDB for: {game}")
                     sgdb_id, grid_url = fetch_sgdb_cover(game, sgdb_api_key)
-                    time.sleep(0.2) # General rate limit protection
 
                 catalog.append({
                     "id": slug,
@@ -253,8 +291,6 @@ def main():
                     "url": url,
                     "source_type": source_type,
                     "asset_type": asset_type,
-                    "requires_original_assets": req_assets,
-                    "expected_asset_hint": asset_hint,
                     "steamgriddb_id": str(sgdb_id) if sgdb_id else None,
                     "grid_image_url": grid_url,
                     "last_updated": last_updated
@@ -268,9 +304,9 @@ def main():
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(catalog, f, indent=2, ensure_ascii=False)
-        logging.info(f"File {OUTPUT_FILE} generated.")
+        logging.info(f"File {OUTPUT_FILE} successfully generated.")
     except Exception as e:
-        logging.error(f"Write error : {e}")
+        logging.error(f"Write error: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
