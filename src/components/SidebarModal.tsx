@@ -123,16 +123,6 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
                     </div>
 
                     <div className="space-y-4">
-                        {/* Requires Assets Warning (Web Mode only, handled by AssetPicker in Tauri) */}
-                        {!isTauri && game.requires_original_assets && (
-                            <div className="bg-amber-500/10 border border-amber-500/20 rounded-lg p-3 text-left">
-                                <h4 className="font-semibold text-amber-500 text-sm mb-1">Original Assets Required</h4>
-                                <p className="text-xs text-slate-400 leading-snug">
-                                    {game.expected_asset_hint || "You must provide your own game files to play this port."}
-                                </p>
-                            </div>
-                        )}
-
                         {isTauri && <AssetPicker game={game} onAssetReady={setAssetsReady} />}
                         {isTauri && <DeploymentSelector game={game} assetsReady={assetsReady} />}
 

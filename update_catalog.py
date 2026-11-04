@@ -11,16 +11,6 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 URL = "https://raw.githubusercontent.com/robzilla10001/SwitchPorts/main/README.md"
 OUTPUT_FILE = "catalog.json"
 
-# Jeux nécessitant généralement des assets originaux (PC, Android, etc.)
-ASSET_GAMES = {
-    'half-life', 'quake', 'doom', 'gta', 'grand theft auto', 'tomb raider',
-    'zelda', 'mario', 'sonic', 'duke nukem', 'shadow warrior', 'blood',
-    'max payne', 'bully', 'return to castle wolfenstein', 'jediknight',
-    'diablo', 'fallout', 'chrono trigger', 'need for speed', 'halo',
-    'burnout', 'mortal kombat', 'super mario', 'modern combat', 'dead space',
-    'rayman', 'plants vs. zombies', 'angry birds', 'spider-man', 'dark knight'
-}
-
 def slugify(text):
     text = re.sub(r'[^a-zA-Z0-9\s-]', '', text).strip().lower()
     return re.sub(r'[\s-]+', '-', text)
@@ -63,22 +53,6 @@ def determine_url_source(url):
     elif any(url.endswith(ext) for ext in ['.zip', '.rar', '.7z', '.nro']):
         return 'direct_archive'
     return 'other'
-
-def check_asset_requirements(title, url):
-    """Heuristique sur la nécessité de fournir des fichiers de jeu propriétaires."""
-    title_lower = title.lower()
-
-    asset_type = 'zip'
-    if url.endswith('.nro'):
-        asset_type = 'nro'
-
-    requires_assets = any(known in title_lower for known in ASSET_GAMES)
-    asset_hint = (
-        f"This port requires the original game data ({title}). Place the required assets in the staging folder."
-        if requires_assets else None
-    )
-
-    return asset_type, requires_assets, asset_hint
 
 def clean_title_for_search(title):
     # Remove contents inside brackets/parentheses and some common suffixes
@@ -137,12 +111,24 @@ def load_overrides(filepath="overrides.json"):
             logging.error(f"Failed to load overrides from {filepath}: {e}")
     return {}
 
+def load_existing_catalog(filepath="catalog.json"):
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                existing_catalog = json.load(f)
+                logging.info(f"Existing catalog loaded from {filepath}")
+                return {item["id"]: (item.get("grid_image_url"), item.get("steamgriddb_id")) for item in existing_catalog if item.get("grid_image_url")}
+        except Exception as e:
+            logging.error(f"Failed to load existing catalog from {filepath}: {e}")
+    return {}
+
 def main():
     sgdb_api_key = os.environ.get("SGDB_API_KEY")
     if not sgdb_api_key:
         logging.warning("SGDB_API_KEY not defined. Cover URLs will not be fetched.")
 
     overrides_data = load_overrides()
+    existing_covers = load_existing_catalog()
 
     logging.info(f"Downloading README from {URL}...")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
@@ -231,7 +217,8 @@ def main():
 
                 source_type = determine_url_source(url)
                 slug = slugify(f"{game}-{current_platform}")
-                asset_type, req_assets, asset_hint = check_asset_requirements(game, url)
+
+                asset_type = 'nro' if url.endswith('.nro') else 'zip'
 
                 sgdb_id, grid_url = None, None
 
@@ -240,6 +227,9 @@ def main():
                     logging.info(f"Using override for {slug}")
                     sgdb_id = overrides_data[slug].get("steamgriddb_id")
                     grid_url = overrides_data[slug].get("grid_image_url")
+                elif slug in existing_covers:
+                    logging.info(f"Using existing cover for {slug}")
+                    grid_url, sgdb_id = existing_covers[slug]
                 elif sgdb_api_key:
                     sgdb_id, grid_url = fetch_sgdb_cover(game, sgdb_api_key)
                     time.sleep(0.2) # General rate limit protection
@@ -253,8 +243,6 @@ def main():
                     "url": url,
                     "source_type": source_type,
                     "asset_type": asset_type,
-                    "requires_original_assets": req_assets,
-                    "expected_asset_hint": asset_hint,
                     "steamgriddb_id": str(sgdb_id) if sgdb_id else None,
                     "grid_image_url": grid_url,
                     "last_updated": last_updated

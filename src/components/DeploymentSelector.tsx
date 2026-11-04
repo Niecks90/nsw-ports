@@ -84,7 +84,7 @@ export function DeploymentSelector({ game, assetsReady }: DeploymentSelectorProp
         }
     };
 
-    const isDeployable = !game.requires_original_assets || assetsReady;
+    const isDeployable = assetsReady;
 
     return (
         <div className="space-y-4">
