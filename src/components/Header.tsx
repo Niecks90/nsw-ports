@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Search, Settings, X, Download, ArrowUpAZ, ArrowDownAZ, CalendarDays } from 'lucide-react';
+import { Search, Settings, X, Download, ArrowUpAZ, ArrowDownAZ, CalendarDays, Coffee } from 'lucide-react';
 import { invoke } from "@tauri-apps/api/core";
 import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
@@ -149,8 +149,18 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                     )}
                 </div>
 
-                {!isTauri && (
-                    <div>
+                <div className="flex items-center gap-2">
+                    <a
+                        href="https://ko-fi.com/niecks90"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-[#72a4f2]/20 hover:bg-[#72a4f2]/30 text-[#72a4f2] border border-[#72a4f2]/40 transition-colors px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-sm font-medium"
+                    >
+                        <Coffee className="w-4 h-4" />
+                        <span className="hidden sm:inline">Support on Ko-fi</span>
+                    </a>
+
+                    {!isTauri && (
                         <a
                             href="https://github.com/Niecks90/PortsDL-NX/releases"
                             target="_blank"
@@ -158,10 +168,10 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                             className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md font-medium transition-colors shadow-lg"
                         >
                             <Download className="w-4 h-4" />
-                            Download Windows App
+                            <span className="hidden sm:inline">Download Windows App</span>
                         </a>
-                    </div>
-                )}
+                    )}
+                </div>
             </div>
 
             <div className="mt-4 flex flex-wrap gap-2 items-center justify-start py-2">
