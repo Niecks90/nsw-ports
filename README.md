@@ -25,7 +25,7 @@
 ### Key Highlights
 - 🔄 **Fully Automated Scraper**: Runs on a daily schedule via GitHub Actions to sync additions directly from RobZilla10001's upstream list.
 - 🎨 **Rich Box Art Integration**: Automatic high-resolution cover lookup powered by the **SteamGridDB** API, backed by a persistent cache and override dictionary.
-- 🏷️ **Console Badging**: Color-coded, authentic platform tags (Dreamcast, Xbox, GameCube, N64, Megadrive, PC, Android, etc.) with responsive two-row filtering.
+- 🏷️ **Console Badging**: Color-coded, authentic platform tags (Dreamcast, Xbox, GameCube, Nintendo64, Megadrive, PC, Android, etc.) with responsive filtering.
 - 📱 **Mobile & Desktop Optimized**: Clean swipeable filter chips on mobile devices and zero horizontal layout shifting.
 - 🖥️ **Windows Companion App (WIP)**: A native desktop client powered by Tauri v2 and Rust designed for 1-click downloads, staging, and direct sequential FTP push to the Switch (`sys-ftpd` on port 5000).
 
@@ -41,3 +41,105 @@
 ---
 
 ## ⚙️ Architecture & Pipeline
+
+```
+[robzilla10001/SwitchPorts] (Upstream README.md)
+            │
+            ▼  (Scheduled GitHub Actions Workflow / update_catalog.py)
+   [Catalog Scraper] ───► Query SteamGridDB API (Missing covers only)
+            │
+            ├── Load overrides.json (Fixed art & IDs have priority)
+            ├── Load existing catalog.json (Cache preservation)
+            │
+            ▼
+    [catalog.json] (Normalized dataset)
+            │
+            ├───────────────┬────────────────┐
+            ▼               ▼                ▼
+     [GitHub Pages]   [Tauri Frontend]  [Tauri Rust Core]
+    (Static Web UI)    (Desktop GUI)     (FTP / SD Staging)
+```
+
+### Automated Catalog Sync
+1. `update_catalog.py` reads the upstream Markdown tables, parses titles, authors, releases, and firmware updates.
+2. The script checks `overrides.json` for manually corrected box art URLs or SteamGridDB IDs.
+3. If not overridden, it preserves previously discovered valid URLs from `catalog.json` to prevent unnecessary API consumption.
+4. Changes are automatically committed by `github-actions[bot]` with `--rebase` and `fetch-depth: 0` to preserve repository integrity.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Showcase**: React 18, TypeScript, Tailwind CSS, Vite, Lucide Icons.
+- **Scraper & CI/CD**: Python 3.11, GitHub Actions (automated cron & dispatch).
+- **Artwork Provider**: SteamGridDB REST API.
+- **Desktop Companion**: Tauri v2, Rust (Tokio, Reqwest, SuppaFTP).
+
+---
+
+## 💻 Local Development
+
+### Prerequisites
+- Node.js (v20 or newer)
+- Python 3.11+
+- Git
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/Niecks90/nsw-ports.git
+cd nsw-ports
+
+# Install web dependencies
+npm install
+
+# Start local web development server
+npm run dev
+```
+
+### Running the Scraper Locally
+```bash
+# Optional: export your SteamGridDB API key
+export SGDB_API_KEY="your_api_key_here"
+
+# Execute the scraper
+python update_catalog.py
+```
+
+---
+
+## 🤝 Community Credits & Acknowledgments
+
+This project would not exist without the dedication of homebrew developers and curators:
+
+- **[RobZilla10001](https://github.com/robzilla10001)**: Creator and maintainer of the indispensable [SwitchPorts repository](https://github.com/robzilla10001/SwitchPorts) and the official [GBAtemp Ports Thread](https://gbatemp.net/threads/ultimate-switch-port-thread.683071/).
+- **Homebrew Authors**: Huge respect to all developers porting classic PC games and console engines natively to Horizon OS (NaGaa95, ChanseyIsTheBest, Thorhax, delsonazevedo, Gerisson, and many more).
+- **[SteamGridDB](https://www.steamgriddb.com/)**: For hosting and providing access to community box art and vertical grid artwork.
+
+---
+
+## ☕ Support the Project
+
+If you find NSW Ports useful or want to support ongoing work on the web showcase and the upcoming Windows companion app:
+
+<p align="center">
+  <a href="https://ko-fi.com/niecks90">
+    <img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" height="42" alt="Buy Me a Coffee at ko-fi.com" />
+  </a>
+</p>
+
+---
+
+## ⚖️ Legal Disclaimer
+
+**NSW Ports is an independent community hobby project and is not affiliated with, endorsed, sponsored, or approved by Nintendo Co., Ltd., Nintendo of America Inc., or any game publisher.**
+
+- *Nintendo Switch* is a registered trademark of Nintendo.
+- NSW Ports does not host, distribute, or pirate proprietary game files, ROMs, or copyrighted game assets.
+- All downloads and source links redirect to community-maintained open-source repositories, publicly hosted standalone homebrew executables (`.nro`), or official development threads. Users must provide their own legally acquired game assets when required.
+
+---
+
+<p align="center">
+  Made with ❤️ and AI by <a href="https://github.com/Niecks90"><b>Niecks90</b></a>
+</p>
