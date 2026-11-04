@@ -66,11 +66,8 @@ def clean_title_for_search(title):
     Clean game titles before querying SteamGridDB autocomplete.
     Uses word boundaries (\\b) to avoid truncating game names like 'Portal' into 'al'.
     """
-    # Strip brackets and parenthetical notes
     title = re.sub(r'\(.*?\)', '', title)
     title = re.sub(r'\[.*?\]', '', title)
-    
-    # Remove common port and version keywords as standalone words
     title = re.sub(r'(?i)\b(port|nx|switch|remastered|hd)\b', '', title)
     title = re.sub(r'\s+', ' ', title)
     return title.strip()
@@ -99,7 +96,7 @@ def fetch_sgdb_cover(title, api_key):
         logging.warning(f"SGDB search failed for '{title}': {e}")
         return None, None
 
-    time.sleep(0.25)  # Rate limit protection between requests
+    time.sleep(0.25)
 
     # Step 2: Fetch vertical 600x900 cover grid for the matched game
     grids_url = f"https://www.steamgriddb.com/api/v2/grids/game/{game_id}?dimensions=600x900"
@@ -143,19 +140,14 @@ def load_existing_catalog(filepath="catalog.json"):
         for item in existing_catalog:
             if not isinstance(item, dict):
                 continue
-            
+
             img_url = item.get("grid_image_url")
             sgdb_id = item.get("steamgriddb_id")
-            
-            # Cache only valid image URLs
+
             if img_url and str(img_url).strip() and str(img_url).lower() != "null":
                 entry = (str(img_url).strip(), str(sgdb_id) if sgdb_id else None)
-                
-                # Index by exact entry ID
                 if item.get("id"):
                     cache[item["id"]] = entry
-                
-                # Index by normalized title to prevent loss if platform name changes
                 if item.get("title"):
                     cache[f"title::{slugify(item['title'])}"] = entry
 
@@ -198,12 +190,11 @@ def main():
         header_match = re.match(r'^#{2,4}\s+(.*)', line)
         if header_match:
             title_text = header_match.group(1).strip()
-            # Ignore standard introductory and disclaimer headings
             if not any(skip in title_text.lower() for skip in ['notice', 'table of contents', 'disclaimer', 'recent changes']):
                 current_platform = title_text
             continue
 
-        # 2. Table header detection (supports both '| Game | ...' and 'Game | ...' without leading pipe)
+        # 2. Table header detection (supports both '| Game | ...' and 'Game | ...')
         clean_header = line.strip('|').strip().lower()
         if ('game' in clean_header or 'title' in clean_header) and '|' in line:
             headers = [c.strip().lower() for c in line.split('|') if c.strip()]
@@ -217,7 +208,6 @@ def main():
 
         # 4. Table data parsing
         if in_table and line.startswith('|'):
-            # Strictly ignore any section associated with emulators
             if "emulator" in current_platform.lower():
                 continue
 
@@ -228,7 +218,6 @@ def main():
             link_idx = col_map.get('link', col_map.get('repository', 3))
             gbatemp_idx = col_map.get('gbatemp thread?', col_map.get('gbatemp', 4))
 
-            # Dynamically locate the update date column
             last_updated_idx = -1
             for key, idx in col_map.items():
                 if 'updated' in key or 'date' in key:
@@ -239,7 +228,6 @@ def main():
                 raw_game = columns[game_idx]
                 game = re.sub(r'^[🟢🔴🟡🟠\s]+', '', raw_game).strip()
 
-                # Title inheritance for alternative release rows (| |)
                 if not game and len(catalog) > 0:
                     game = catalog[-1]['title']
                 elif not game:
@@ -252,20 +240,17 @@ def main():
                 author, url = parse_link(link_raw)
                 _, gbatemp_url = parse_link(gbatemp_raw)
 
-                # Parse update date if present
                 last_updated = None
                 if last_updated_idx != -1 and len(columns) > last_updated_idx:
                     raw_date = columns[last_updated_idx].strip()
                     if raw_date and raw_date.lower() != "unknown":
                         last_updated = raw_date
 
-                # Fallback to GBAtemp thread URL if repository link is absent
                 if not url and gbatemp_url:
                     url = gbatemp_url
 
                 source_type = determine_url_source(url)
 
-                # Generate unique slug (differentiate multiple builds for the same game)
                 slug = slugify(f"{game}-{current_platform}")
                 if any(item["id"] == slug for item in catalog):
                     slug = slugify(f"{game}-{author or 'alt'}-{current_platform}")

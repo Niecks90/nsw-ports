@@ -55,6 +55,10 @@ export function AssetPicker({ game, onAssetReady }: AssetPickerProps) {
         }
     };
 
+    if (!game.requires_original_assets) {
+        return null; // Not needed
+    }
+
     return (
         <div className="space-y-3 bg-amber-500/10 border border-amber-500/20 rounded-lg p-4">
             <div className="flex gap-3">
@@ -62,7 +66,7 @@ export function AssetPicker({ game, onAssetReady }: AssetPickerProps) {
                 <div>
                     <h4 className="font-semibold text-amber-500">Commercial Assets Required</h4>
                     <p className="text-sm text-zinc-300 mt-1">
-                        You must provide your own game files to play this port.
+                        {game.expected_asset_hint || "You must provide your own game files to play this port."}
                     </p>
                 </div>
             </div>

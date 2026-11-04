@@ -4,6 +4,7 @@ import { invoke } from "@tauri-apps/api/core";
 import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
 import { isTauri } from '../utils/env';
+import { Logo } from './Logo';
 
 interface HeaderProps {
     filters: string[];
@@ -89,13 +90,17 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
         onSearchChange(e.target.value);
     };
 
+    const handleLogoClick = () => {
+        setSearchQuery('');
+        onSearchChange('');
+        onFilterChange('All');
+    };
+
     return (
         <header className="sticky top-0 z-30 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 p-4 shadow-xl">
             <div className="flex flex-col gap-4 md:flex-row md:items-center justify-between">
                 <div className="flex items-center gap-4">
-                    <h1 className="text-xl font-bold tracking-tight text-white flex items-center gap-2">
-                         {isTauri ? "PortsDL-NX Launcher" : "PortsDL-NX Showcase"}
-                    </h1>
+                    <Logo onClick={handleLogoClick} />
                 </div>
 
                 <div className="flex-1 max-w-xl flex items-center gap-2 relative">
