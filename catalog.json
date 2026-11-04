@@ -8,8 +8,6 @@
     "url": "https://github.com/boraeskicioglu/tasm2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Amazing Spider-Man 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "3546",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e5354303618889cc0419ecdc40732b25.png",
     "last_updated": "06/10/2026"
@@ -23,8 +21,6 @@
     "url": "https://github.com/aks796/abforever_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds Forever). Place the required assets in the staging folder.",
     "steamgriddb_id": "5256824",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a654ee305bc41e098906b48bf7596a1c.png",
     "last_updated": "06/10/2026"
@@ -38,8 +34,6 @@
     "url": "https://github.com/aks796/abspace_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds Space HD). Place the required assets in the staging folder.",
     "steamgriddb_id": "2007",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/224c601e17d149b673465c4853d76f7c.png",
     "last_updated": "01/10/2026"
@@ -53,8 +47,6 @@
     "url": "https://github.com/markaurel13/abstarwars2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds: Star Wars 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "5258600",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/db9b1ced1636d2d8612c3f5e9b7cb939.png",
     "last_updated": "07/10/2026"
@@ -68,8 +60,6 @@
     "url": "https://github.com/aks796/a8retry_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5250235",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1872e4656907fd944d624bc033901842.png",
     "last_updated": "01/10/2026"
@@ -83,8 +73,6 @@
     "url": "https://github.com/iqbalriz/assassinscreed_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5252480",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/92960c710501ae1bcba8b01a92cb7aa2.png",
     "last_updated": "18/10/2026"
@@ -98,8 +86,6 @@
     "url": "https://github.com/r4lix/codboz-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5263881",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/95ba032910fab49aff8a3582f8a171b8.png",
     "last_updated": "28/09/2026"
@@ -113,8 +99,6 @@
     "url": "https://github.com/iqbalriz/costumequest_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1322",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/73efd3207a3b1dd2ff35511bde2553c3.png",
     "last_updated": "10/10/2026"
@@ -128,8 +112,6 @@
     "url": "https://github.com/hazevauks/dantheman_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5453894",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b4a6b7a9df3b1676a7106b6d30983ae7.jpg",
     "last_updated": "09/10/2026"
@@ -143,8 +125,6 @@
     "url": "https://github.com/lemasterxar5/tdkr_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Dark Knight Rises). Place the required assets in the staging folder.",
     "steamgriddb_id": "5263184",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3091b94728f06c4ccf5d896ea128b4f5.png",
     "last_updated": "08/10/2026"
@@ -158,8 +138,6 @@
     "url": "https://github.com/hazevauks/deadspace_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Dead Space: Sabotage). Place the required assets in the staging folder.",
     "steamgriddb_id": "1559",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/26203c6ab63ff66fef12bbc3b8dad1c0.png",
     "last_updated": "06/10/2026"
@@ -173,8 +151,6 @@
     "url": "https://github.com/Thorhax/Ducktales-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "34438",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/68ef436ae9a785541beefdeacb8433b2.png",
     "last_updated": "03/10/2026"
@@ -188,8 +164,6 @@
     "url": "https://github.com/aks796/dcr_sea_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5493614",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc98f35e347cc22950c978570d44a7d5.png",
     "last_updated": "01/10/2026"
@@ -203,8 +177,6 @@
     "url": "https://github.com/aks796/flappybirdsfamily_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "39001",
     "grid_image_url": null,
     "last_updated": "01/10/2026"
@@ -218,8 +190,6 @@
     "url": "https://github.com/lemasterxar5/jet-set-radio-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1868",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e96fb9f9c97bcc38136043fb0627ef91.png",
     "last_updated": "21/10/2026"
@@ -233,8 +203,6 @@
     "url": "https://github.com/aks796/labyrinth2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5264225",
     "grid_image_url": null,
     "last_updated": "01/10/2026"
@@ -248,8 +216,6 @@
     "url": "https://github.com/Kaays/mc3_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Modern Combat 3: Fallen Nation). Place the required assets in the staging folder.",
     "steamgriddb_id": "5277083",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/96b971a7a541df78c0cd9439760fafdd.png",
     "last_updated": "28/10/2026"
@@ -263,8 +229,6 @@
     "url": "https://github.com/Kaays/mc4_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Modern Combat 4: Zero Hour). Place the required assets in the staging folder.",
     "steamgriddb_id": "5277082",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d8a87d439f1e547f2910563aa59bbad7.png",
     "last_updated": "27/10/2026"
@@ -278,8 +242,6 @@
     "url": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Need for Speed: Most Wanted). Place the required assets in the staging folder.",
     "steamgriddb_id": "38250",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
     "last_updated": "19/10/2026"
@@ -293,8 +255,6 @@
     "url": "https://github.com/markaurel13/nova3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5440012",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/be95edb69d202388a7817b54e0194f7b.png",
     "last_updated": "11/10/2026"
@@ -308,8 +268,6 @@
     "url": "https://github.com/aks796/pvz_touch_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Plants vs. Zombies Touch). Place the required assets in the staging folder.",
     "steamgriddb_id": "5331605",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3203535afc65b43bb6a05ffd462e58ff.png",
     "last_updated": "01/10/2026"
@@ -323,8 +281,6 @@
     "url": "https://github.com/iqbalriz/rayman_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Rayman: Jungle Run). Place the required assets in the staging folder.",
     "steamgriddb_id": "5320896",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0e507b74b491b8359b35a7ce3e14fe32.jpg",
     "last_updated": "07/10/2026"
@@ -338,8 +294,6 @@
     "url": "https://github.com/iqbalriz/fiestarun_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Rayman: Fiesta Run). Place the required assets in the staging folder.",
     "steamgriddb_id": "5325672",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f93adcab9b976a18d721b395205333de.jpg",
     "last_updated": "07/10/2026"
@@ -353,8 +307,6 @@
     "url": "https://github.com/hazevauks/smashhit_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5369029",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c17559ad92afac439177b55267e188ba.jpg",
     "last_updated": "19/10/2026"
@@ -368,8 +320,6 @@
     "url": "https://github.com/liartes/spacehulk-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c00c6e37c78747ce9de6c29c0d4febba.png",
     "last_updated": "20/10/2026"
@@ -383,8 +333,6 @@
     "url": "https://github.com/iqbalriz/stevenrpg_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5255144",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f8c6d358fa5b923efcbfd54ee95fad30.png",
     "last_updated": "30/10/2026"
@@ -398,8 +346,6 @@
     "url": "https://github.com/aks796/sonic_allstars_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic & Sega All Stars Racing). Place the required assets in the staging folder.",
     "steamgriddb_id": "6313",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b07e8a3bc5b233da34916d294ce7a707.png",
     "last_updated": "01/10/2026"
@@ -413,8 +359,6 @@
     "url": "https://github.com/iqbalriz/teenytitans_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5253769",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c70f6b25d708ccc79f5a0a0adbd6ad6e.png",
     "last_updated": "31/10/2026"
@@ -428,8 +372,6 @@
     "url": "https://github.com/iqbalriz/teenyfigure_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38312",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c73fc3dea6689aacbf97773ad1038288.png",
     "last_updated": "31/10/2026"
@@ -443,8 +385,6 @@
     "url": "https://github.com/boraeskicioglu/spiderman_total_mayhem_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Ultimate Spider-man: Total Mayhem). Place the required assets in the staging folder.",
     "steamgriddb_id": "37214",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/16813e7554a111c9f9108be005b54442.png",
     "last_updated": "04/10/2026"
@@ -458,8 +398,6 @@
     "url": "https://github.com/NaGaa95/aom_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5254844",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b60baa7482949cc34c20fb9772e034ac.jpg",
     "last_updated": "14/07/2026"
@@ -473,8 +411,6 @@
     "url": "https://github.com/NaGaa95/abc_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "34023",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/66c0a5a57952264af78836110425be69.png",
     "last_updated": "24/09/2026"
@@ -488,8 +424,6 @@
     "url": "https://github.com/ChanseyIsTheBest/angrybirdsclassic_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds Classic). Place the required assets in the staging folder.",
     "steamgriddb_id": "5256824",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a654ee305bc41e098906b48bf7596a1c.png",
     "last_updated": "24/09/2026"
@@ -503,8 +437,6 @@
     "url": "https://github.com/NaGaa95/angrybirds2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "5258599",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/413e78344e37df9ea75968f234024608.png",
     "last_updated": "06/08/2026"
@@ -518,8 +450,6 @@
     "url": "https://github.com/xflipperkast/angrybirdsas_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds Epic: All Stars). Place the required assets in the staging folder.",
     "steamgriddb_id": "5277565",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ac59323d5db1e846b88232a194286b26.jpg",
     "last_updated": "30/08/2026"
@@ -533,8 +463,6 @@
     "url": "https://github.com/NaGaa95/angrybirdsjourney_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds Journey). Place the required assets in the staging folder.",
     "steamgriddb_id": "5323755",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/aa57e605641a6707346baa7737577d2d.png",
     "last_updated": "06/08/2026"
@@ -548,8 +476,6 @@
     "url": "https://github.com/aks796/abreloaded_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Angry Birds Reloaded). Place the required assets in the staging folder.",
     "steamgriddb_id": "5292025",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6a49d5ae4a9b3094c83ef93dbca6bac.png",
     "last_updated": "31/08/2026"
@@ -563,8 +489,6 @@
     "url": "https://github.com/NaGaa95/acpc_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5255704",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/dbe840e1e6cd1fa38a486d524135b392.png",
     "last_updated": "09/08/2026"
@@ -578,8 +502,6 @@
     "url": "https://github.com/ChanseyIsTheBest/badpiggies_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5265668",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4687a3fcf9bd18c0e2cc3e83ea58a410.png",
     "last_updated": "22/09/2026"
@@ -593,8 +515,6 @@
     "url": "https://github.com/ChanseyIsTheBest/baldi_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5306050",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/92464dcf0889d4b6f1c8ef6fc5fa8b1e.png",
     "last_updated": "15/08/2026"
@@ -608,8 +528,6 @@
     "url": "https://github.com/ChanseyIsTheBest/bananakong_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5483961",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png",
     "last_updated": "17/09/2026"
@@ -623,8 +541,6 @@
     "url": "https://github.com/ChanseyIsTheBest/battd_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "32822",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/33de48a1c6e5d62b1c241ddac6d88535.png",
     "last_updated": "23/09/2026"
@@ -638,8 +554,6 @@
     "url": "https://github.com/ChanseyIsTheBest/bloons_pop_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5282796",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f39a5f04a73054b678426d39335c9632.png",
     "last_updated": "11/09/2026"
@@ -653,8 +567,6 @@
     "url": "https://github.com/ChanseyIsTheBest/smk2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5450168",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8a4b01bea5c353b749f7780ecafff8c3.png",
     "last_updated": "10/09/2026"
@@ -668,8 +580,6 @@
     "url": "https://github.com/ChanseyIsTheBest/btd5_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "4847",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4ac01ffdf0ae169300e3aaa2b945deb0.png",
     "last_updated": "23/09/2026"
@@ -683,8 +593,6 @@
     "url": "https://github.com/aks796/bombsquad_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5322886",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/60cabc1b49194c77953525a20c79ce37.png",
     "last_updated": "07/09/2026"
@@ -698,8 +606,6 @@
     "url": "https://github.com/aks796/bse_rebombed_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5322886",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/60cabc1b49194c77953525a20c79ce37.png",
     "last_updated": "07/09/2026"
@@ -713,8 +619,6 @@
     "url": "https://github.com/aks796/bs_joyride_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5322886",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/60cabc1b49194c77953525a20c79ce37.png",
     "last_updated": "14/09/2026"
@@ -728,8 +632,6 @@
     "url": "https://github.com/ChanseyIsTheBest/bouncemasters_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5490335",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17fe57fbc5aeb503410b3f450e4424da.jpg",
     "last_updated": "03/09/2026"
@@ -743,8 +645,6 @@
     "url": "https://github.com/ChanseyIsTheBest/burgershop2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "22597",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/30be41d0d9def9452ab0ed1a9722fda7.jpg",
     "last_updated": "15/07/2026"
@@ -758,8 +658,6 @@
     "url": "https://github.com/ChanseyIsTheBest/burgershop_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "22596",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fffd44ebd6d03b54bf30c61cb66c8d4f.png",
     "last_updated": "15/07/2026"
@@ -773,8 +671,6 @@
     "url": "https://github.com/seamusduncmcgrath/cod-boz-arm64-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5263881",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/95ba032910fab49aff8a3582f8a171b8.png",
     "last_updated": "08/10/2026"
@@ -788,8 +684,6 @@
     "url": "https://github.com/NaGaa95/coi_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2449",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c52f0d9f8fb84ea294975f6b595d5308.png",
     "last_updated": "14/07/2026"
@@ -803,8 +697,6 @@
     "url": "https://github.com/NaGaa95/sotn_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37654",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png",
     "last_updated": "05/07/2026"
@@ -818,8 +710,6 @@
     "url": "https://github.com/NaGaa95/cr3_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5460097",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/70435090db99349833da384067a809a7.png",
     "last_updated": "28/06/2026"
@@ -833,8 +723,6 @@
     "url": "https://github.com/NaGaa95/ct_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Chrono Trigger). Place the required assets in the staging folder.",
     "steamgriddb_id": "17593",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/abc617f05e41620356626cf7761d5143.png",
     "last_updated": "13/07/2026"
@@ -848,8 +736,6 @@
     "url": "https://github.com/ChanseyIsTheBest/clayjamclassic_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5262545",
     "grid_image_url": null,
     "last_updated": "27/07/2026"
@@ -863,8 +749,6 @@
     "url": "https://github.com/ChanseyIsTheBest/colorsheep_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5459587",
     "grid_image_url": null,
     "last_updated": "18/07/2026"
@@ -878,8 +762,6 @@
     "url": "https://github.com/NaGaa95/css_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2733",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/68addc821b387ab5cc91c846b627a586.png",
     "last_updated": "06/07/2026"
@@ -893,8 +775,6 @@
     "url": "https://github.com/delsonazevedo/crazytaxy_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "21778",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6003822a5989689befd308ce1be4ac75.jpg",
     "last_updated": "01/07/2026"
@@ -908,8 +788,6 @@
     "url": "https://github.com/NaGaa95/ctr_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2330",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0384e59d348a9248f08a2627cdf43741.png",
     "last_updated": "06/08/2026"
@@ -923,8 +801,6 @@
     "url": "https://github.com/NaGaa95/ctr2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5289145",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f57c62e6ea2a165b80cc759e6e935cf5.png",
     "last_updated": "06/08/2026"
@@ -938,8 +814,6 @@
     "url": "https://github.com/1timewire1/ctr_experiments_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5443859",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/50e1c88797514d2faa34bb3e00d36ba5.png",
     "last_updated": "19/08/2026"
@@ -953,8 +827,6 @@
     "url": "https://github.com/1timewire1/ctr_magic_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5350950",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ec80039119c3a22f038860d3e66b023f.png",
     "last_updated": "21/08/2026"
@@ -968,8 +840,6 @@
     "url": "https://github.com/1timewire1/ctr_timetravel_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5443860",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d80a9034a1806d3e60db09577e21cf25.jpg",
     "last_updated": "26/08/2026"
@@ -983,8 +853,6 @@
     "url": "https://github.com/ChanseyIsTheBest/datadefense_nx/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "4878723",
     "grid_image_url": null,
     "last_updated": "02/09/2026"
@@ -998,8 +866,6 @@
     "url": "https://github.com/artslay/abyssal_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5327166",
     "grid_image_url": null,
     "last_updated": "03/10/2026"
@@ -1013,8 +879,6 @@
     "url": "https://github.com/ChanseyIsTheBest/deusexgo_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5253269",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cf07d21f392a0493777d3de6d9826f5d.png",
     "last_updated": "22/09/2026"
@@ -1028,8 +892,6 @@
     "url": "https://github.com/delsonazevedo/drmariomania_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Dr. Mario Mania). Place the required assets in the staging folder.",
     "steamgriddb_id": "5496743",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/67750b562b0baac5c4b445627fc37f90.png",
     "last_updated": "03/08/2026"
@@ -1043,8 +905,6 @@
     "url": "https://github.com/xflipperkast/earntodie2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "10232",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3eeed714f0f764501093d079a347218b.png",
     "last_updated": null
@@ -1058,8 +918,6 @@
     "url": "https://github.com/ChanseyIsTheBest/daggerfall_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38717",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c33d40a3ecfa16a5956d9bf81eef24bb.png",
     "last_updated": null
@@ -1073,8 +931,6 @@
     "url": "https://github.com/ChanseyIsTheBest/the_executive_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5452178",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/53cc2dd52134ce4d5ca1c3e49310e849.png",
     "last_updated": null
@@ -1088,8 +944,6 @@
     "url": "https://github.com/artslay/NearChuckle_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1432",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/37a05c2bc9e34c4228911a726d0da702.png",
     "last_updated": null
@@ -1103,8 +957,6 @@
     "url": "https://github.com/NaGaa95/ffd_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "33565",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
     "last_updated": null
@@ -1118,8 +970,6 @@
     "url": "https://github.com/NaGaa95/ffd2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "33565",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
     "last_updated": null
@@ -1133,8 +983,6 @@
     "url": "https://github.com/NaGaa95/ff3_3d_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2715",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/177884afc4a6c3501d658adda5ed5c96.png",
     "last_updated": null
@@ -1148,8 +996,6 @@
     "url": "https://github.com/NaGaa95/ff4_3d_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5054",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8d7eb7879dca0954771f50f440b591.png",
     "last_updated": null
@@ -1163,8 +1009,6 @@
     "url": "https://github.com/NaGaa95/ff4tay_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "6559",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cd6544b0ab90949c415ed0d775c25384.png",
     "last_updated": null
@@ -1178,8 +1022,6 @@
     "url": "https://github.com/aks796/flappy_bird_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5344733",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/301597ca9b9c8bd0bac29d8864a35105.jpg",
     "last_updated": null
@@ -1193,8 +1035,6 @@
     "url": "https://github.com/ChanseyIsTheBest/fruitninjaclassic_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5311537",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/882760d95d14d3ca2fb9c73adcc209e1.png",
     "last_updated": null
@@ -1208,8 +1048,6 @@
     "url": "https://github.com/artslay/galaxian_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2052",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2963f719387bad92c085606ac18042bc.png",
     "last_updated": null
@@ -1223,8 +1061,6 @@
     "url": "https://github.com/NaGaa95/gdash_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5427",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/818d9d1eaede1c656acf1db6a10d9866.png",
     "last_updated": null
@@ -1238,8 +1074,6 @@
     "url": "https://github.com/Thorhax/Gizmoduck-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": null,
     "grid_image_url": null,
     "last_updated": null
@@ -1253,8 +1087,6 @@
     "url": "https://github.com/mariob0y/gta3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Grand Theft Auto 3). Place the required assets in the staging folder.",
     "steamgriddb_id": "1350",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7856a3a5b530f10a69bec1c57d90330e.png",
     "last_updated": null
@@ -1268,8 +1100,6 @@
     "url": "https://github.com/NaGaa95/gtactw_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Grand Theft Auto Chinatown Wars). Place the required assets in the staging folder.",
     "steamgriddb_id": "62",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/edcbb16417f7a00253240c23ef93dfb6.png",
     "last_updated": null
@@ -1283,8 +1113,6 @@
     "url": "https://github.com/NaGaa95/gtalcs_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Grand Theft Auto Liberty City Stories). Place the required assets in the staging folder.",
     "steamgriddb_id": "33713",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6ba32142b6b23ecd32a4c0aff11c2c41.png",
     "last_updated": null
@@ -1298,8 +1126,6 @@
     "url": "https://github.com/NaGaa95/gtasa_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Grand Theft Auto San Andreas). Place the required assets in the staging folder.",
     "steamgriddb_id": "1352",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c4e954b93dc03b0f846db4051a1e6d25.png",
     "last_updated": null
@@ -1313,8 +1139,6 @@
     "url": "https://github.com/xflipperkast/granny_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "32232",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/31ac2e7a7ffdb7b171f9de6fc556fad7.jpg",
     "last_updated": null
@@ -1328,8 +1152,6 @@
     "url": "https://github.com/NaGaa95/hl2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2254",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1d386e4b61ac43b166394517562a0b17.png",
     "last_updated": null
@@ -1343,8 +1165,6 @@
     "url": "https://github.com/ChanseyIsTheBest/happywheels_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5252527",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ea9a635395384d316bef4e9044f06f1f.png",
     "last_updated": null
@@ -1358,8 +1178,6 @@
     "url": "https://github.com/xflipperkast/HCR_NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5341072",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/713165cf24005301fa02b3cc1bc258e0.png",
     "last_updated": null
@@ -1373,8 +1191,6 @@
     "url": "https://github.com/ChanseyIsTheBest/hitmango_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "10065",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/abe6554dc394ac148a5e3643d984f2a8.png",
     "last_updated": null
@@ -1388,8 +1204,6 @@
     "url": "https://github.com/boraeskicioglu/hmd_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5498061",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f637b0c33ed82d18cac4b1cef8fbab1e.png",
     "last_updated": null
@@ -1403,8 +1217,6 @@
     "url": "https://github.com/aks796/infinityblade_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5319953",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0e5d8047bae2b9304eeb87e9c5dbfbe7.png",
     "last_updated": null
@@ -1418,8 +1230,6 @@
     "url": "https://github.com/CostelaCNX/ReChan-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5262934",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4370a09825ce603a74e42ef6eca56ef9.png",
     "last_updated": null
@@ -1433,8 +1243,6 @@
     "url": "https://github.com/NaGaa95/jetpackjoyride_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5270695",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fd5693a5277fc5a1dbd31dbb4af9a1d8.png",
     "last_updated": null
@@ -1448,8 +1256,6 @@
     "url": "https://github.com/ChanseyIsTheBest/killerbean_nx/tree/main",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5293871",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a1b83ffbd7c2f0409283319bf0335fd4.png",
     "last_updated": null
@@ -1463,8 +1269,6 @@
     "url": "https://github.com/NaGaa95/KHUx_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5430172",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/15e729f1b7a1fd5c579939ae2d39fd3f.png",
     "last_updated": null
@@ -1478,8 +1282,6 @@
     "url": "https://github.com/ChanseyIsTheBest/laracroftgo_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "14594",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/74b83cc39b3b4a8b3b257eabef47dc4c.png",
     "last_updated": null
@@ -1493,8 +1295,6 @@
     "url": "https://github.com/NaGaa95/laytonbmr_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5278190",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c0b0ad48e559c16d10e7c47244a4025.png",
     "last_updated": null
@@ -1508,8 +1308,6 @@
     "url": "https://github.com/NaGaa95/lbbg_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5094",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/22a7338a58e71ec0243bd42bf4fc36c2.png",
     "last_updated": null
@@ -1523,8 +1321,6 @@
     "url": "https://github.com/NaGaa95/lnsor_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5267390",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/56d34bdba0c55cf372c37ee9a1260055.png",
     "last_updated": null
@@ -1538,8 +1334,6 @@
     "url": "https://github.com/NaGaa95/lswtcs_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5517",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e14dc01aadd6ee3cee4ef338fd966b35.png",
     "last_updated": null
@@ -1553,8 +1347,6 @@
     "url": "https://github.com/NaGaa95/lswtfa_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "10560",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/311c6954b09b0dc7ca7ccc4b3ca03949.png",
     "last_updated": null
@@ -1568,8 +1360,6 @@
     "url": "https://github.com/NaGaa95/max_nx_v2.1.131",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Max Payne). Place the required assets in the staging folder.",
     "steamgriddb_id": "1354",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/623e5a1136651b875b7124e55ce30f59.png",
     "last_updated": null
@@ -1583,8 +1373,6 @@
     "url": "https://github.com/StevensND/mmxregenesis_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35466",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e24927b595bdddebb71671d11f76f067.png",
     "last_updated": null
@@ -1598,8 +1386,6 @@
     "url": "https://github.com/ChanseyIsTheBest/mulmash_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": null,
     "grid_image_url": null,
     "last_updated": null
@@ -1613,8 +1399,6 @@
     "url": "https://github.com/delsonazevedo/nbajam_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38915",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/36e5cac18a08285cf39432aaed2724ac.png",
     "last_updated": null
@@ -1628,8 +1412,6 @@
     "url": "https://github.com/ChanseyIsTheBest/osmos_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "4258",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4461853cc6a73bc75d45fe1ea6e8ee6c.png",
     "last_updated": null
@@ -1643,8 +1425,6 @@
     "url": "https://github.com/ChanseyIsTheBest/papapear_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5533310",
     "grid_image_url": null,
     "last_updated": null
@@ -1658,8 +1438,6 @@
     "url": "https://github.com/xflipperkast/papasburgeria_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5265210",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ccfd91d7a4b389394c92f952841e30ee.png",
     "last_updated": null
@@ -1673,8 +1451,6 @@
     "url": "https://github.com/xflipperkast/papascluckeria_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "19741",
     "grid_image_url": null,
     "last_updated": null
@@ -1688,8 +1464,6 @@
     "url": "https://github.com/xflipperkast/papaspaleteria_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "19741",
     "grid_image_url": null,
     "last_updated": null
@@ -1703,8 +1477,6 @@
     "url": "https://github.com/xflipperkast/papapizzatg_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5283847",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/48037bbc1b1370d0996bb51689d06da0.png",
     "last_updated": null
@@ -1718,8 +1490,6 @@
     "url": "https://github.com/ChanseyIsTheBest/papersplease_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2712",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/657521cffefffb720284d2176c9164c2.png",
     "last_updated": null
@@ -1733,8 +1503,6 @@
     "url": "https://github.com/ChanseyIsTheBest/pvs_nx/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5464349",
     "grid_image_url": null,
     "last_updated": null
@@ -1748,8 +1516,6 @@
     "url": "https://github.com/ChanseyIsTheBest/phigros_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5468886",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/742f1475ca8b56d6387f554df880dc95.png",
     "last_updated": null
@@ -1763,8 +1529,6 @@
     "url": "https://github.com/6eone6/phigros_nx_cn",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5468886",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/742f1475ca8b56d6387f554df880dc95.png",
     "last_updated": null
@@ -1778,8 +1542,6 @@
     "url": "https://github.com/ChanseyIsTheBest/pvz_fusion_en_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Plants vs. Zombies: Fusion). Place the required assets in the staging folder.",
     "steamgriddb_id": "5476779",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc305ca0d061b6f38198f0b0aa897a26.png",
     "last_updated": null
@@ -1793,8 +1555,6 @@
     "url": "https://github.com/xflipperkast/PVZ2_NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Plants vs. Zombies 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "5278252",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7047aa6c111e3fb2b2a6d5ece2d394c4.png",
     "last_updated": null
@@ -1808,8 +1568,6 @@
     "url": "https://github.com/xflipperkast/PVZ2RF_NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Plants vs. Zombies 2: Reflourished). Place the required assets in the staging folder.",
     "steamgriddb_id": "5358950",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5c84e634947c15436d2f51feac25e6de.png",
     "last_updated": null
@@ -1823,8 +1581,6 @@
     "url": "https://github.com/ChanseyIsTheBest/pcl_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5329675",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/db6fd690639c9f37d73d21d009e9d816.png",
     "last_updated": null
@@ -1838,8 +1594,6 @@
     "url": "https://github.com/ChanseyIsTheBest/poinpy_nx/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5490209",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/90370e78b1dad602fa3674c02926d7c5.png",
     "last_updated": null
@@ -1853,8 +1607,6 @@
     "url": "https://github.com/xflipperkast/pou_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5320639",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/36f1057d748e8e77ca14143dbf6610cc.png",
     "last_updated": null
@@ -1868,8 +1620,6 @@
     "url": "https://github.com/NaGaa95/layton_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38827",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7402281d0ac9a8b55a599a5f69179d4a.png",
     "last_updated": null
@@ -1883,8 +1633,6 @@
     "url": "https://github.com/NaGaa95/layton3_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38016",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png",
     "last_updated": null
@@ -1898,8 +1646,6 @@
     "url": "https://github.com/NaGaa95/layton2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38016",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png",
     "last_updated": null
@@ -1913,8 +1659,6 @@
     "url": "https://github.com/dpadninja/realdrift_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5456543",
     "grid_image_url": null,
     "last_updated": null
@@ -1928,8 +1672,6 @@
     "url": "https://github.com/ChanseyIsTheBest/revolt_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": null,
     "grid_image_url": null,
     "last_updated": null
@@ -1943,8 +1685,6 @@
     "url": "https://github.com/ChanseyIsTheBest/sts2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5448946",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3b8a2395c9d71ba8fd80df1c4e02d4d4.png",
     "last_updated": null
@@ -1958,8 +1698,6 @@
     "url": "https://github.com/xflipperkast/slither_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5288580",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c6d48356fbbab8b9ee80f048e4b120d9.png",
     "last_updated": null
@@ -1973,8 +1711,6 @@
     "url": "https://github.com/boraeskicioglu/s4ep2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic 4 Episode 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "1793",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8cc5ef53fc584eb0a0597b052507fe6d.png",
     "last_updated": null
@@ -1988,8 +1724,6 @@
     "url": "https://github.com/ChanseyIsTheBest/sonicdash_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Dash). Place the required assets in the staging folder.",
     "steamgriddb_id": "34110",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/740ed90c31f6711a1253b196cab3eaa9.png",
     "last_updated": null
@@ -2003,8 +1737,6 @@
     "url": "https://github.com/ChanseyIsTheBest/sonicboomdash_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Dash 2: Sonic Boom). Place the required assets in the staging folder.",
     "steamgriddb_id": "5265253",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/684ff8365775af4220339fb9ee8773e9.png",
     "last_updated": null
@@ -2018,8 +1750,6 @@
     "url": "https://github.com/ChanseyIsTheBest/sonicjump_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Jump). Place the required assets in the staging folder.",
     "steamgriddb_id": "5265788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/274f72ee8c47087a8a35ed1ad67d6360.png",
     "last_updated": null
@@ -2033,8 +1763,6 @@
     "url": "https://github.com/ChanseyIsTheBest/sonicjumpfever_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Jump Fever). Place the required assets in the staging folder.",
     "steamgriddb_id": "5265788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/274f72ee8c47087a8a35ed1ad67d6360.png",
     "last_updated": null
@@ -2048,8 +1776,6 @@
     "url": "https://github.com/boraeskicioglu/sonic_runners_adventure_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Runners Adventure). Place the required assets in the staging folder.",
     "steamgriddb_id": "5265247",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/da220e02aff6e0ebc7adcac0895f40e5.png",
     "last_updated": null
@@ -2063,8 +1789,6 @@
     "url": "https://github.com/boraeskicioglu/stt16bit_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Triple Trouble 16-bit). Place the required assets in the staging folder.",
     "steamgriddb_id": "5274910",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fdc2f086849a4bfc788364d9226a1e1e.png",
     "last_updated": null
@@ -2078,8 +1802,6 @@
     "url": "https://github.com/souldbminerr/swi-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5264671",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c21cf5e9103365de9f6d4584276ef9ac.png",
     "last_updated": null
@@ -2093,8 +1815,6 @@
     "url": "https://github.com/xflipperkast/stonestory_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "17202",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/35fbc5cabe949451c985439831617924.png",
     "last_updated": null
@@ -2108,8 +1828,6 @@
     "url": "https://github.com/delsonazevedo/sorx_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5487354",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d4ba1c315ac668b2f0b6e37099e5a78a.jpg",
     "last_updated": null
@@ -2123,8 +1841,6 @@
     "url": "https://github.com/NaGaa95/subwaysurfers_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5283916",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fffbaa156b026dfc0e11dbd799bf7344.png",
     "last_updated": null
@@ -2138,8 +1854,6 @@
     "url": "https://github.com/aks796/sm63redux_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Super Mario 63 Redux). Place the required assets in the staging folder.",
     "steamgriddb_id": "5430732",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/68a1c991e89d28da7974c60b1930ee46.png",
     "last_updated": null
@@ -2153,8 +1867,6 @@
     "url": "https://github.com/aks796/sm127_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Super Mario 127). Place the required assets in the staging folder.",
     "steamgriddb_id": "5294032",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b28e0c1feaa06a4a80b78e91eecc87c4.png",
     "last_updated": null
@@ -2168,8 +1880,6 @@
     "url": "https://github.com/delsonazevedo/Super-Mario-Bros.-Remastered-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Super Mario Bros. Remastered). Place the required assets in the staging folder.",
     "steamgriddb_id": "37382",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/75f29e87a3923053bde594667a5e33d3.png",
     "last_updated": null
@@ -2183,8 +1893,6 @@
     "url": "https://github.com/delsonazevedo/Super-Mario-World-Remastered-Plus-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Super Mario World Remastered Plus). Place the required assets in the staging folder.",
     "steamgriddb_id": "5505315",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3acb2b7d67d0135af62a116e2505d6b5.png",
     "last_updated": null
@@ -2198,8 +1906,6 @@
     "url": "https://github.com/NaGaa95/swordigo_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5507475",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8605117258838b6d2f16feb3fde86267.png",
     "last_updated": null
@@ -2213,8 +1919,6 @@
     "url": "https://github.com/NaGaa95/tf2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "10602",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f64230dace882ba8b2d14ebfd24dc0a3.png",
     "last_updated": null
@@ -2228,8 +1932,6 @@
     "url": "https://github.com/ChanseyIsTheBest/tte_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "18369",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4d0a3fab4e219c02869a4a8355ed4ae8.jpg",
     "last_updated": null
@@ -2243,8 +1945,6 @@
     "url": "https://github.com/delsonazevedo/vpl_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36151",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/73b204804cbbf9b43fd86c44957fb65f.png",
     "last_updated": null
@@ -2258,8 +1958,6 @@
     "url": "https://github.com/NaGaa95/vln_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5296922",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c0a473f4729ab4fad88284481aca2955.png",
     "last_updated": null
@@ -2273,8 +1971,6 @@
     "url": "https://github.com/auggeythecat/NX-VVVVVV--recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "21335",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/108c7bfcc061d2f1342fc1167f8fd600.png",
     "last_updated": null
@@ -2288,8 +1984,6 @@
     "url": "https://github.com/ChanseyIsTheBest/wmw_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5350946",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/713ca5c6f657ae51cc15f4508c18fd4a.png",
     "last_updated": null
@@ -2303,8 +1997,6 @@
     "url": "https://github.com/ChanseyIsTheBest/wmw2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5350947",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/01d4b34b7c45a205a2f57abfb448cec0.png",
     "last_updated": null
@@ -2318,8 +2010,6 @@
     "url": "https://github.com/DI4VOLO-dev/ys1x_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5511527",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2a6848e1cb92e0985dabc65cbcd1b52f.png",
     "last_updated": null
@@ -2333,8 +2023,6 @@
     "url": "https://github.com/StevensND/zombotron_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5435608",
     "grid_image_url": null,
     "last_updated": null
@@ -2348,8 +2036,6 @@
     "url": "https://github.com/ChanseyIsTheBest/zookeeperdx_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1623532",
     "grid_image_url": null,
     "last_updated": null
@@ -2363,8 +2049,6 @@
     "url": "https://github.com/Thorhax/Virtual-On-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36015",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/39df28398f42561e13ee9d913fdcf467.png",
     "last_updated": "10/10/2026"
@@ -2378,8 +2062,6 @@
     "url": "https://github.com/Thorhax/Daytona-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36357",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a2062d9b9b1a226a52980c26c7083840.png",
     "last_updated": "10/10/2026"
@@ -2393,8 +2075,6 @@
     "url": "https://github.com/Thorhax/Killer-Instinct-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "16187",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8617e5b11a7b27234df8332132f72268.png",
     "last_updated": "29/09/2026"
@@ -2408,8 +2088,6 @@
     "url": "https://github.com/Thorhax/Killer-Instinct-2-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35666",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0104917cd7cae41b3147404cc27a8826.png",
     "last_updated": "29/09/2026"
@@ -2423,8 +2101,6 @@
     "url": "https://github.com/Thorhax/Cannonball-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35252",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d01309496ec309c4d609a2d6fdefb834.png",
     "last_updated": "01/09/2026"
@@ -2438,8 +2114,6 @@
     "url": "https://github.com/jacquesdupontd/port0r",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1195",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/662882c6d7c735bf235e128b66549d5c.png",
     "last_updated": "08/10/2026"
@@ -2453,8 +2127,6 @@
     "url": "https://github.com/boraeskicioglu/sonic_the_fighters_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic the Fighters). Place the required assets in the staging folder.",
     "steamgriddb_id": "29859",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6492dc4c8cce0953e992c39500b220a.png",
     "last_updated": "09/10/2026"
@@ -2468,8 +2140,6 @@
     "url": "https://github.com/Thorhax/VF2-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36148",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e2bd79902aa2c126084f080211564dc8.png",
     "last_updated": "10/10/2026"
@@ -2483,8 +2153,6 @@
     "url": "https://github.com/gerisson1996/BLACK-NX-PORT/blob/main/README.en.md",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35919",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e83bab0eff11d84c5e7d4199d9fa45a4.png",
     "last_updated": "29/10/2026"
@@ -2498,8 +2166,6 @@
     "url": "https://github.com/antoxa2584x/burnout3-sw",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Burnout 3: Takedown). Place the required assets in the staging folder.",
     "steamgriddb_id": "37348",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/54cdd2db0fcfaa0134f43f363996161e.png",
     "last_updated": "21/10/2026"
@@ -2513,8 +2179,6 @@
     "url": "https://github.com/gerisson1996/COLD-FEAR-NX-PORT",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1467",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/53092d4becc58b3039fcfe86fdfb8923.jpg",
     "last_updated": "22/10/2026"
@@ -2528,8 +2192,6 @@
     "url": "https://github.com/rashevskyv/conker-lr-recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5256835",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/92ffe39c405eb26368e5376f396d6ade.png",
     "last_updated": "01/11/2026"
@@ -2543,8 +2205,6 @@
     "url": "https://github.com/toniisound/doa2u-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5438133",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bf3e08dc93915ecefa52d08164426e7.png",
     "last_updated": "30/10/2026"
@@ -2558,8 +2218,6 @@
     "url": "https://github.com/toniisound/doa3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5252193",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e1e811bf16eb16068378b5051f7cb845.png",
     "last_updated": "01/11/2026"
@@ -2573,8 +2231,6 @@
     "url": "https://github.com/R-drg/defjam-sw",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38885",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/01d00d39c52785a9c0fe7736db8779b4.png",
     "last_updated": "09/10/2026"
@@ -2588,8 +2244,6 @@
     "url": "https://github.com/xsaja/street-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5257940",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2fb32ee97983c0b45a77ed7ff618bd94.png",
     "last_updated": "28/10/2026"
@@ -2603,8 +2257,6 @@
     "url": "https://github.com/laureladastra/fifastreet2-nx/releases",
     "source_type": "github_release",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "19632",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6de1d0d843a50db3de1d663810cbd410.png",
     "last_updated": "02/11/2026"
@@ -2618,8 +2270,6 @@
     "url": "https://github.com/antoxa2584x/flatout2-sw",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "4512",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/13214f4a050bdb0da70401b84b5321e5.png",
     "last_updated": "18/10/2026"
@@ -2633,8 +2283,6 @@
     "url": "https://github.com/thelinkin3000/halo-ce-universal",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Halo: Combat Evolved). Place the required assets in the staging folder.",
     "steamgriddb_id": "38383",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png",
     "last_updated": "02/11/2026"
@@ -2648,8 +2296,6 @@
     "url": "https://github.com/laureladastra/mcdub3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5269652",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/216a83bac61a8113a963ecdc4df41bca.png",
     "last_updated": "30/10/2026"
@@ -2663,8 +2309,6 @@
     "url": "https://github.com/Thorhax/ShaolinMonks-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Mortal Kombat: Shaolin Monks). Place the required assets in the staging folder.",
     "steamgriddb_id": "37375",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/338c5458fadf5e13bddfcb4819942d15.jpg",
     "last_updated": "27/10/2026"
@@ -2678,8 +2322,6 @@
     "url": "https://github.com/xsaja/mvp-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5342371",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/36dd01d5eba9286134de6509a3d694a9.png",
     "last_updated": "27/10/2026"
@@ -2693,8 +2335,6 @@
     "url": "https://github.com/antoxa2584x/nfsuc-sw",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Need for Speed: Carbon). Place the required assets in the staging folder.",
     "steamgriddb_id": "34648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png",
     "last_updated": "18/10/2026"
@@ -2708,8 +2348,6 @@
     "url": "https://github.com/antoxa2584x/nfsu1-sw",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Need for Speed: Underground). Place the required assets in the staging folder.",
     "steamgriddb_id": "34529",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0959494b92b81147796ce901ea4f9927.png",
     "last_updated": "15/10/2026"
@@ -2723,8 +2361,6 @@
     "url": "https://github.com/antoxa2584x/nfsu2-sw",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Need for Speed: Underground 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "29882",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8e4374a54f3a61fa403d8d70c99bca08.png",
     "last_updated": "18/10/2026"
@@ -2738,8 +2374,6 @@
     "url": "https://github.com/DevCrashDay/OpenTrickyNX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1638",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/31437638722bf235fe549ba612469705.png",
     "last_updated": "22/10/2026"
@@ -2753,8 +2387,6 @@
     "url": "https://github.com/JohnJames29/WOTW-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5252751",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/faaefd89ee208626ec0d134a8353f5dd.png",
     "last_updated": "02/11/2026"
@@ -2768,8 +2400,6 @@
     "url": "https://gitlab.com/wiredlainn/Bakugan-NX",
     "source_type": "other",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248454",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c843481f52d8eeb5c03a8cbbf48355d7.png",
     "last_updated": "02/11/2026"
@@ -2783,8 +2413,6 @@
     "url": "https://github.com/ChanseyIsTheBest/bangaio-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5254282",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7edfa9e389b68fcd3deb5d5500b1c96d.png",
     "last_updated": "29/10/2026"
@@ -2798,8 +2426,6 @@
     "url": "https://github.com/ChanseyIsTheBest/renut-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37213",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17faa600670ae46a32ff83f76e83806a.png",
     "last_updated": "01/11/2026"
@@ -2813,8 +2439,6 @@
     "url": "https://github.com/andresarevalo1/BattleBlockRecomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2700",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0e66221beb8e0a06d4648ae151a52201.png",
     "last_updated": "22/10/2026"
@@ -2828,8 +2452,6 @@
     "url": "https://github.com/ChanseyIsTheBest/katamari-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5273491",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e9618cc0c82345ee0f8e985221d44ecf.png",
     "last_updated": "01/11/2026"
@@ -2843,8 +2465,6 @@
     "url": "https://github.com/ChanseyIsTheBest/bejeweled3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "24677",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7765222865aba54a2e22deac2ef42606.png",
     "last_updated": "25/10/2026"
@@ -2858,8 +2478,6 @@
     "url": "https://github.com/Ad0ky/reblue",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5254283",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/28e3bed162f123fc16f3084bbe61d98c.png",
     "last_updated": "28/10/2026"
@@ -2873,8 +2491,6 @@
     "url": "https://github.com/AlvaroEPena/bo2-360-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1782",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/853695e4fd475d6b482d94895c6b595d.jpg",
     "last_updated": "31/10/2026"
@@ -2888,8 +2504,6 @@
     "url": "https://github.com/FurryLilManChild/LoS1-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5275518",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5dee73c802322885b89c4a79244b7f81.png",
     "last_updated": "29/10/2026"
@@ -2903,8 +2517,6 @@
     "url": "https://github.com/ipungsx/condemnedCOx360-Port-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "11958",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2c213ea2f60d4916fa841b66b4859770.png",
     "last_updated": "02/11/2026"
@@ -2918,8 +2530,6 @@
     "url": "https://github.com/VasilkovND/dantes-inferno-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "29894",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4b16f49bdb6b891e01276afbaed1d675.png",
     "last_updated": "23/10/2026"
@@ -2933,8 +2543,6 @@
     "url": "https://github.com/VasilkovND/ds1-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Dead Space 1). Place the required assets in the staging folder.",
     "steamgriddb_id": "5261866",
     "grid_image_url": null,
     "last_updated": "29/10/2026"
@@ -2948,8 +2556,6 @@
     "url": "https://github.com/VasilkovND/ds2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Dead Space 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "12088",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f5d589ab486178e83c95283826899b5f.png",
     "last_updated": "27/10/2026"
@@ -2963,8 +2569,6 @@
     "url": "https://github.com/VasilkovND/ds3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Dead Space 3). Place the required assets in the staging folder.",
     "steamgriddb_id": "38046",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/932d27a31541a871b167f05e3f411366.png",
     "last_updated": "27/10/2026"
@@ -2978,8 +2582,6 @@
     "url": "https://github.com/ChanseyIsTheBest/feedingfrenzy-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5263822",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0f695f02897e440a5375a242d810988b.png",
     "last_updated": "26/10/2026"
@@ -2993,8 +2595,6 @@
     "url": "https://github.com/ChanseyIsTheBest/feedingfrenzy2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "6137",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/250e5ad7a20b4e7552e91e25ba169075.jpg",
     "last_updated": "26/10/2026"
@@ -3008,8 +2608,6 @@
     "url": "https://github.com/VasilkovND/gears2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37163",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/537be42935b21c04fac5d9913777f7ee.png",
     "last_updated": "23/10/2026"
@@ -3023,8 +2621,6 @@
     "url": "https://github.com/kabba536/Grand-Theft-Auto-IV-Native-Port-Nintendo-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Grand Theft Auto IV). Place the required assets in the staging folder.",
     "steamgriddb_id": "1361",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a32bc8141e168ff20fdfe3f0fbc72155.png",
     "last_updated": "23/10/2026"
@@ -3038,8 +2634,6 @@
     "url": "https://github.com/rashevskyv/guardian-heroes-recomp-public",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37759",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7a3a16ffad6a50aed3f78746c5120b78.jpg",
     "last_updated": "29/10/2026"
@@ -3053,8 +2647,6 @@
     "url": "https://github.com/ChanseyIsTheBest/guwange-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5263327",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/72f561bc96cbe76ecff42c48b0a542a1.png",
     "last_updated": "28/10/2026"
@@ -3068,8 +2660,6 @@
     "url": "https://github.com/ChanseyIsTheBest/ketsui-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5252881",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/37cf3228c6fd4f3ce58250677441fb17.png",
     "last_updated": "28/10/2026"
@@ -3083,8 +2673,6 @@
     "url": "https://github.com/ChanseyIsTheBest/keflings-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5257108",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/af15c7e3ec0e5b97b20e9daacf0193a9.png",
     "last_updated": "30/10/2026"
@@ -3098,8 +2686,6 @@
     "url": "https://github.com/Ad0ky/LostOdysseyRecomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36456",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c935ae5eb3f0ae34220b8ea163a59d43.png",
     "last_updated": "28/10/2026"
@@ -3113,8 +2699,6 @@
     "url": "https://github.com/nebadasSwifty/masseffect-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1558",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/425b39bda3156cf22e7ddd3d33e9a496.png",
     "last_updated": "09/10/2026"
@@ -3128,8 +2712,6 @@
     "url": "https://github.com/VasilkovND/mp3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Max Payne 3). Place the required assets in the staging folder.",
     "steamgriddb_id": "1807",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c91d989c82b339a78ce0c05964eb2aaf.png",
     "last_updated": "29/10/2026"
@@ -3143,8 +2725,6 @@
     "url": "https://github.com/tuancapoo/mgr-nx-deko",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2628",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/12f4db557d4f9ab0c8f23bc53f0a58a2.png",
     "last_updated": "23/10/2026"
@@ -3158,8 +2738,6 @@
     "url": "https://github.com/adumah/mhnwis-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "8854",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/baf9ca5ea5868768a44af4235a1d5941.png",
     "last_updated": "21/10/2026"
@@ -3173,8 +2751,6 @@
     "url": "https://github.com/Thorhax/mk9-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Mortal Kombat Komplete Edition). Place the required assets in the staging folder.",
     "steamgriddb_id": "2668",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c9c9f8e41433ff4ad15aa577a465e599.png",
     "last_updated": "29/10/2026"
@@ -3188,8 +2764,6 @@
     "url": "https://github.com/ChanseyIsTheBest/futari-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5252879",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/45a1d3689367622a794c989734bc71d9.png",
     "last_updated": "28/10/2026"
@@ -3203,8 +2777,6 @@
     "url": "https://github.com/Kaays/nfscarbon-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Need for Speed: Carbon). Place the required assets in the staging folder.",
     "steamgriddb_id": "34648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png",
     "last_updated": "23/10/2026"
@@ -3218,8 +2790,6 @@
     "url": "https://github.com/zofo007/NFS-Carbon-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Need for Speed: Carbon). Place the required assets in the staging folder.",
     "steamgriddb_id": "34648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png",
     "last_updated": "29/10/2026"
@@ -3233,8 +2803,6 @@
     "url": "https://github.com/StevensND/nfsmw-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Need for Speed: Most Wanted). Place the required assets in the staging folder.",
     "steamgriddb_id": "38250",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
     "last_updated": "27/09/2026"
@@ -3248,8 +2816,6 @@
     "url": "https://github.com/ChanseyIsTheBest/nights-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2252",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/23770696e86230ab2f6d000142be218a.jpg",
     "last_updated": "29/10/2026"
@@ -3263,8 +2829,6 @@
     "url": "https://github.com/ChanseyIsTheBest/peggle1-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37312",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d5f8725b2234d16866aefae30ade5597.png",
     "last_updated": "22/10/2026"
@@ -3278,8 +2842,6 @@
     "url": "https://github.com/ChanseyIsTheBest/peggle2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5341069",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cf5f3e7c36ff6bfb88002440cddeddd2.jpg",
     "last_updated": "22/10/2026"
@@ -3293,8 +2855,6 @@
     "url": "https://github.com/zhtipu/shank1-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "17510",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/df1cd9015c1cd8dd15d874bade18d868.png",
     "last_updated": "31/10/2026"
@@ -3308,8 +2868,6 @@
     "url": "https://github.com/zhtipu/shank2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "987",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b4b6a4686b2ca011ee0f72d0bc1e7b50.png",
     "last_updated": "31/10/2026"
@@ -3323,8 +2881,6 @@
     "url": "https://github.com/gerisson1996/SILENT-HILL-HD-COLLECTION-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35889",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a228a3fd54f3096e2fdac092e7127afc.png",
     "last_updated": null
@@ -3338,8 +2894,6 @@
     "url": "https://github.com/gerisson1996/SHH-NX-PORT",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1605",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/512ba6448f63790387e2ad3d3bc630d0.png",
     "last_updated": null
@@ -3353,8 +2907,6 @@
     "url": "https://github.com/JohnUzoka/skate-3-rust-engine",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5249006",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cb5afcadcac972f1c6d743c96936ebe3.png",
     "last_updated": null
@@ -3368,8 +2920,6 @@
     "url": "https://github.com/ChanseyIsTheBest/sa2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Adventure 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "2086",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c50b40b057149f613124fe9c535b003a.png",
     "last_updated": null
@@ -3383,8 +2933,6 @@
     "url": "https://github.com/ChanseyIsTheBest/MarathonRecomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic The Hedgehog (2006)). Place the required assets in the staging folder.",
     "steamgriddb_id": "35571",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6babf6559ebc185d02860ca79b1088a5.png",
     "last_updated": null
@@ -3398,8 +2946,6 @@
     "url": "https://github.com/ChanseyIsTheBest/UnleashedRecomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Unleashed). Place the required assets in the staging folder.",
     "steamgriddb_id": "34584",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b80c0932cb6f7be27c8d37b4c847a8bd.png",
     "last_updated": null
@@ -3413,8 +2959,6 @@
     "url": "https://github.com/BiroGrafx/sc5p2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "21788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/82f7a6e535b791faa4927d61d860b3ce.jpg",
     "last_updated": null
@@ -3428,8 +2972,6 @@
     "url": "https://github.com/R-drg/project8-sw",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "34809",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f4916a3556ed7cd820b7d66f984bdc9f.png",
     "last_updated": null
@@ -3443,8 +2985,6 @@
     "url": "https://github.com/liartes/torchlight-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "9624",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png",
     "last_updated": null
@@ -3458,8 +2998,6 @@
     "url": "https://github.com/GreenSwampDweller/torchlight-rekindled",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "9624",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png",
     "last_updated": null
@@ -3473,8 +3011,6 @@
     "url": "https://github.com/Thorhax/usf4-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "11332",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8da182a6185560f43cda94c19017eb.png",
     "last_updated": null
@@ -3488,8 +3024,6 @@
     "url": "https://github.com/ChanseyIsTheBest/zuma-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5857",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/eaf9391c41712aa87f5178aee396e448.png",
     "last_updated": null
@@ -3503,8 +3037,6 @@
     "url": "https://github.com/ChanseyIsTheBest/zumasrevenge-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "7268",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5bb8fe0519310d504c92e39b45fc9acc.png",
     "last_updated": null
@@ -3518,8 +3050,6 @@
     "url": "https://github.com/PalindromicBreadLoaf/Docklight",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35564",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a154a70f923c579313aa9c47ed7c34e2.png",
     "last_updated": "18/08/2026"
@@ -3533,8 +3063,6 @@
     "url": "https://github.com/paulodiasred/BM64Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1680",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c5b781ce025e8217c23f95f9569a0b96.png",
     "last_updated": "16/10/2026"
@@ -3548,8 +3076,6 @@
     "url": "https://github.com/PalindromicBreadLoaf/LegacyOfDockness",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "12888",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/363ed890155b2eeda0aa492cc52e3d34.png",
     "last_updated": "24/09/2026"
@@ -3563,8 +3089,6 @@
     "url": "https://github.com/DomazinUS/CBFD-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36366",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e7ba692151c4e6c1c41c4770cdd15e8b.png",
     "last_updated": "18/10/2026"
@@ -3578,8 +3102,6 @@
     "url": "https://github.com/boraeskicioglu/goldenballoon_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36929",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c38b84197c2e1a8444814d95c2487a8.png",
     "last_updated": "12/08/2026"
@@ -3593,8 +3115,6 @@
     "url": "https://github.com/Trinalord777/DK64Recomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37695",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/86f7d456aa5848c284f7940bdecdef5d.png",
     "last_updated": "11/10/2026"
@@ -3608,8 +3128,6 @@
     "url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38893",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/652e2fd3b2fa943f2b4ff310e419d7f2.png",
     "last_updated": "14/08/2026"
@@ -3623,8 +3141,6 @@
     "url": "https://github.com/YoshiCrystal9/2ship2harkinian-Switch/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Majora's Mask). Place the required assets in the staging folder.",
     "steamgriddb_id": "34302",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
     "last_updated": "30/01/2026"
@@ -3638,8 +3154,6 @@
     "url": "https://github.com/timschneeb/Shipwright-Switch/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legened of Zelda: Ocarina of Time). Place the required assets in the staging folder.",
     "steamgriddb_id": "21202",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
     "last_updated": "28/10/2026"
@@ -3653,8 +3167,6 @@
     "url": "https://github.com/HarbourMasters/SpaghettiKart/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Mario Kart 64). Place the required assets in the staging folder.",
     "steamgriddb_id": "21164",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8908077ce7fd405516d81c2c929de429.png",
     "last_updated": "24/02/2026"
@@ -3668,8 +3180,6 @@
     "url": "https://github.com/adumah/MegaMan64Recomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37399",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/174cbbef75ac1b1b15847299d50f77bf.jpg",
     "last_updated": "22/10/2026"
@@ -3683,8 +3193,6 @@
     "url": "https://github.com/Thorhax/PaperBoat-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Paper Mario). Place the required assets in the staging folder.",
     "steamgriddb_id": "36997",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f98e8082f2b3924b8a137d1cfc12e08b.png",
     "last_updated": "01/10/2026"
@@ -3698,8 +3206,6 @@
     "url": "https://github.com/perfect-dark-pc-port/perfect_dark/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37787",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f2eaa301f9c53bb10fb8e5b9d3d0ea9c.png",
     "last_updated": "13/08/2026"
@@ -3713,8 +3219,6 @@
     "url": "https://github.com/gabryboy12-ai/StarCraft64-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36754",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ef160f5acc8dff9d8799bc504b32ae68.png",
     "last_updated": "18/10/2026"
@@ -3728,8 +3232,6 @@
     "url": "https://github.com/FurryLilManChild/rs64-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38815",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fab9a7dcd9d52b19cd472721c5a7e231.png",
     "last_updated": "28/10/2026"
@@ -3743,8 +3245,6 @@
     "url": "https://github.com/HarbourMasters/Ghostship",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Super Mario 64). Place the required assets in the staging folder.",
     "steamgriddb_id": "37177",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png",
     "last_updated": "07/09/2026"
@@ -3758,8 +3258,6 @@
     "url": "https://github.com/KawaiiBunga/BattleShipNX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "33624",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/aedfc9ce6f9548cae0642eb628fa23c7.png",
     "last_updated": "23/09/2026"
@@ -3773,8 +3271,6 @@
     "url": "https://github.com/1weell/RaceWave46-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "39034",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/16c64029140dab60eec81592c532597b.png",
     "last_updated": "21/09/2026"
@@ -3788,8 +3284,6 @@
     "url": "https://github.com/bryanthaboi/gen1recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5356567",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/483cc104c452a081a5ad8b21a8ea4247.png",
     "last_updated": "31/10/2026"
@@ -3803,8 +3297,6 @@
     "url": "https://github.com/UNDERdecoded/Gen2Recomped",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5356567",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/483cc104c452a081a5ad8b21a8ea4247.png",
     "last_updated": "26/10/2026"
@@ -3818,8 +3310,6 @@
     "url": "https://github.com/HayatoG/tmc",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: The Minish Cap). Place the required assets in the staging folder.",
     "steamgriddb_id": "34539",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png",
     "last_updated": "04/06/2026"
@@ -3833,8 +3323,6 @@
     "url": "https://github.com/JJTapiaXX/Metroid-Zero-Mission-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "85",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/73e7fb4872d41443c1b08c4199329b9d.png",
     "last_updated": "28/10/2026"
@@ -3848,8 +3336,6 @@
     "url": "",
     "source_type": "other",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Advance 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "35290",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/98178e2c5d08c023bf55d71236cd07f2.png",
     "last_updated": null
@@ -3863,8 +3349,6 @@
     "url": "https://github.com/delsonazevedo/Zelda-LA-DX-HD-Updated",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Link's Awakening DX). Place the required assets in the staging folder.",
     "steamgriddb_id": "34978",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d7647a0748aafad4a67c21075b180767.png",
     "last_updated": "25/04/2026"
@@ -3878,8 +3362,6 @@
     "url": "https://github.com/toniisound/oracles-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Oracle of Seasons / Oracle of Ages). Place the required assets in the staging folder.",
     "steamgriddb_id": null,
     "grid_image_url": null,
     "last_updated": "10/10/2026"
@@ -3893,8 +3375,6 @@
     "url": "https://github.com/toniisound/The-Oracles-Project-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Oracle of Seasons / Oracle of Ages). Place the required assets in the staging folder.",
     "steamgriddb_id": null,
     "grid_image_url": null,
     "last_updated": "29/10/2026"
@@ -3908,8 +3388,6 @@
     "url": "https://github.com/digdat0/ACGC-Switch-Port",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "34931",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d9e16849e6c8440f27574666b9e9735a.png",
     "last_updated": "29/10/2026"
@@ -3923,8 +3401,6 @@
     "url": "https://github.com/HayatoG/dusklight/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Twilight Princess). Place the required assets in the staging folder.",
     "steamgriddb_id": "34645",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
     "last_updated": "02/07/2026"
@@ -3938,8 +3414,6 @@
     "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Twilight Princess). Place the required assets in the staging folder.",
     "steamgriddb_id": "34645",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
     "last_updated": "29/10/2026"
@@ -3953,8 +3427,6 @@
     "url": "https://github.com/centollOS/SwitchWaker",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Wind Waker). Place the required assets in the staging folder.",
     "steamgriddb_id": "35048",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png",
     "last_updated": "27/10/2026"
@@ -3968,8 +3440,6 @@
     "url": "https://github.com/digdat0/mkdd-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Mario Kart: Double Dash!). Place the required assets in the staging folder.",
     "steamgriddb_id": "36068",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
     "last_updated": null
@@ -3983,8 +3453,6 @@
     "url": "https://github.com/teclilla18/sonic-riders-recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Riders). Place the required assets in the staging folder.",
     "steamgriddb_id": "12904",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1bd4f0f15ab6e834e41a13955a1ec451.png",
     "last_updated": null
@@ -3998,8 +3466,6 @@
     "url": "https://github.com/new-coke/strikers",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Super Mario Strikers). Place the required assets in the staging folder.",
     "steamgriddb_id": "37586",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a85d58f89d4a5e8f8f9a6336b3dd18f7.jpg",
     "last_updated": null
@@ -4013,8 +3479,6 @@
     "url": "https://github.com/KawaiiBunga/Melee-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37285",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bc12f11f086c6c9dd8d09f936775fce.png",
     "last_updated": null
@@ -4028,8 +3492,6 @@
     "url": "https://github.com/souldbminerr/DKC1Recomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36958",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/befa1d1faf9bc95c1a29d30ea9a751a2.png",
     "last_updated": "09/09/2026"
@@ -4043,8 +3505,6 @@
     "url": "https://github.com/souldbminerr/DKC2Recomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36688",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5815383dbef0d664c7420eecc4303ae9.png",
     "last_updated": "09/09/2026"
@@ -4058,8 +3518,6 @@
     "url": "https://github.com/souldbminerr/DKC3Recomp-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "22131",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3acf3ca403eefd71d9820f4a3910284f.png",
     "last_updated": "30/09/2026"
@@ -4073,8 +3531,6 @@
     "url": "https://github.com/Thorhax/F-Zero-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36803",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7f15033d73520667f4539ac0eaf8dc2c.jpg",
     "last_updated": "19/09/2026"
@@ -4088,8 +3544,6 @@
     "url": "https://github.com/mrOt4/babel-recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36661",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/22abffc0501401bb45afe3b886d5df0f.png",
     "last_updated": "16/10/2026"
@@ -4103,8 +3557,6 @@
     "url": "https://github.com/Thorhax/MegaManX-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35466",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e24927b595bdddebb71671d11f76f067.png",
     "last_updated": "23/10/2026"
@@ -4118,8 +3570,6 @@
     "url": "https://github.com/kandowontu2/starfox-enhanced",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5364240",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/bb56dbf374ac167e4b2730f3e8aea077.png",
     "last_updated": "01/11/2026"
@@ -4133,8 +3583,6 @@
     "url": "https://github.com/KawaiiBunga/KartPadNX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Mario Kart Wii). Place the required assets in the staging folder.",
     "steamgriddb_id": "36054",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3fb22546e0a13fb8b5d7345218eef2a5.png",
     "last_updated": "29/10/2026"
@@ -4148,8 +3596,6 @@
     "url": "https://github.com/centollOS/SwitchWakerHD",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Wind Waker HD). Place the required assets in the staging folder.",
     "steamgriddb_id": "35048",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png",
     "last_updated": "28/10/2026"
@@ -4163,8 +3609,6 @@
     "url": "https://github.com/FurryLilManChild/SA-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic Adventure). Place the required assets in the staging folder.",
     "steamgriddb_id": "34154",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ecab0875389ce64a83f13a947994500c.png",
     "last_updated": "02/11/2026"
@@ -4178,8 +3622,6 @@
     "url": "https://github.com/Thorhax/sega-vr-disasm",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38865",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e7be8d8e2b9e28afea9bd38a675cd65b.png",
     "last_updated": "02/10/2026"
@@ -4193,8 +3635,6 @@
     "url": "https://github.com/carstene1ns/dunelegacy/tree/switch-port",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": null,
     "grid_image_url": null,
     "last_updated": null
@@ -4208,8 +3648,6 @@
     "url": "https://github.com/fgsfdsfgs/openmw/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2328",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1ac14644c9b40ddeb100f417af0e608b.png",
     "last_updated": null
@@ -4223,8 +3661,6 @@
     "url": "https://github.com/ryandeering/fallout-ce-switch/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Fallout). Place the required assets in the staging folder.",
     "steamgriddb_id": "2322",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/838b5a042f1761ef0b5981585a0a7f38.png",
     "last_updated": null
@@ -4238,8 +3674,6 @@
     "url": "https://github.com/ryandeering/fallout2-ce-switch/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Fallout 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "8287",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5609571bd6572cdb562cea3562df8b83.png",
     "last_updated": null
@@ -4253,8 +3687,6 @@
     "url": "https://github.com/DerilDX/nv-rs-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Fallout: New Vegas). Place the required assets in the staging folder.",
     "steamgriddb_id": "2352",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0088f68f9e771f24b774dce80886fc25.png",
     "last_updated": null
@@ -4268,8 +3700,6 @@
     "url": "https://github.com/NaGaa95/freespace2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "3719",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab0de82241e387d3de66d8227f3f7f08.png",
     "last_updated": null
@@ -4283,8 +3713,6 @@
     "url": "https://github.com/FWGS/xash3d-fwgs/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "21207",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/10f16ffcd88e1cf00e43178442437763.png",
     "last_updated": null
@@ -4298,8 +3726,6 @@
     "url": "https://github.com/ihhub/fheroes2/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "33800",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d08a016d59a164c17df9573ae39388a2.png",
     "last_updated": null
@@ -4313,8 +3739,6 @@
     "url": "https://github.com/NaGaa95/vcmi_nx/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "4446",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/50944271f670c03e921a91a8bb616d29.jpg",
     "last_updated": null
@@ -4328,8 +3752,6 @@
     "url": "https://github.com/ChanseyIsTheBest/insaniquarium_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5811",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d010dd8cf3b86aa5eb031ac7fb5afbd1.jpg",
     "last_updated": null
@@ -4343,8 +3765,6 @@
     "url": "https://github.com/deathkiller/jazz2",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5247058",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c81632061ae1a7602021f5669357cc34.png",
     "last_updated": null
@@ -4358,8 +3778,6 @@
     "url": "https://github.com/worthis/ZeldaOLB-new-engine",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Oni Link Begins). Place the required assets in the staging folder.",
     "steamgriddb_id": "38050",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
     "last_updated": null
@@ -4373,8 +3791,6 @@
     "url": "https://github.com/worthis/ZeldaROTH-new-engine",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Return of the Hylian). Place the required assets in the staging folder.",
     "steamgriddb_id": "38050",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
     "last_updated": null
@@ -4388,8 +3804,6 @@
     "url": "https://github.com/worthis/Zelda3T",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (The Legend of Zelda: Time To Triumph). Place the required assets in the staging folder.",
     "steamgriddb_id": "5464086",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc973d39e975f1ecbdc6e44aca879583.png",
     "last_updated": null
@@ -4403,8 +3817,6 @@
     "url": "https://github.com/adumah/Luanti-NX/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5470317",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/79f24da462475ec680660cff4d144190.jpg",
     "last_updated": null
@@ -4418,8 +3830,6 @@
     "url": "https://github.com/ChanseyIsTheBest/MBHaxe-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "21115",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f810cd5fce2258332616ad1d501f1029.png",
     "last_updated": null
@@ -4433,8 +3843,6 @@
     "url": "https://github.com/delsonazevedo/mari0-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35028",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6593689b6b094eb421bce9b32d914201.png",
     "last_updated": null
@@ -4448,8 +3856,6 @@
     "url": "https://github.com/aks796/mari0_ae_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35028",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6593689b6b094eb421bce9b32d914201.png",
     "last_updated": null
@@ -4463,8 +3869,6 @@
     "url": "https://github.com/McKay42/McOsu-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "17353",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f838d1d132a5028c86ea7b6466d27245.png",
     "last_updated": null
@@ -4478,8 +3882,6 @@
     "url": "https://github.com/NaGaa95/openmohaa_nx/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35422",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f9ac72d331adc4ee35df9dc97761c61e.jpg",
     "last_updated": null
@@ -4493,8 +3895,6 @@
     "url": "https://github.com/nzp-team/nzportable/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5504975",
     "grid_image_url": null,
     "last_updated": null
@@ -4508,8 +3908,6 @@
     "url": "https://github.com/etonedemid/minecraft-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248835",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/726c858fb9844f1d203177e1bebdff2d.png",
     "last_updated": null
@@ -4523,8 +3921,6 @@
     "url": "https://github.com/Thorhax/OpenOMF-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5254675",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/758b178cead50675e1e8d51ed7bbc15b.png",
     "last_updated": null
@@ -4538,8 +3934,6 @@
     "url": "https://github.com/r4dius/outrun2-decomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "11968",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2529e75067411f888861c11ee7346979.png",
     "last_updated": null
@@ -4553,8 +3947,6 @@
     "url": "https://github.com/HayatoG/PvZ-Portable/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5331605",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3203535afc65b43bb6a05ffd462e58ff.png",
     "last_updated": null
@@ -4568,8 +3960,6 @@
     "url": "https://github.com/Petit-Prince-dev/PokeMMO-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5249074",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2c02aa81d598f7969faaee4e1e7d9919.png",
     "last_updated": null
@@ -4583,8 +3973,6 @@
     "url": "https://github.com/hazevauks/openPREYswitch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "8887",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d166d6ef19f213edeece16fd1f0db8be.png",
     "last_updated": null
@@ -4598,8 +3986,6 @@
     "url": "https://github.com/etonedemid/zomboid-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1255",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cdfea0d249d7cf72ca4109e24d49ac82.png",
     "last_updated": null
@@ -4613,8 +3999,6 @@
     "url": "https://github.com/Thorhax/Quakespasm-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Quake). Place the required assets in the staging folder.",
     "steamgriddb_id": "2514",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/906fec3cca7ccc130fa2b1844aa10126.jpg",
     "last_updated": null
@@ -4628,8 +4012,6 @@
     "url": "https://github.com/Thorhax/Quake2-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Quake 2). Place the required assets in the staging folder.",
     "steamgriddb_id": "5413707",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/994d008e0dcfff7b6ce327f6c43b5d6c.png",
     "last_updated": null
@@ -4643,8 +4025,6 @@
     "url": "https://github.com/Wander-Eule/OpenRCT2-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "4035",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0a0def49c785aafcbb9d5013384afc41.png",
     "last_updated": null
@@ -4658,8 +4038,6 @@
     "url": "https://github.com/adumah/SheepDogWolf-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5327628",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1c05ae40fc997985049acc38c5539ee1.png",
     "last_updated": null
@@ -4673,8 +4051,6 @@
     "url": "https://github.com/DerilDX/silent-hill-decomp-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "37313",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1aed88b7fdc56b77d7971de724e7c6d0.png",
     "last_updated": null
@@ -4688,8 +4064,6 @@
     "url": "https://github.com/cutarev/sh2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36708",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bd57061dc4f754f0cbad5fb6efe3733.png",
     "last_updated": null
@@ -4703,8 +4077,6 @@
     "url": "https://github.com/cutarev/sh3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35889",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a228a3fd54f3096e2fdac092e7127afc.png",
     "last_updated": null
@@ -4718,8 +4090,6 @@
     "url": "https://github.com/72ak/sh4-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36342",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a00ffcaff1ed3a0803a8d48d7b4bde91.png",
     "last_updated": null
@@ -4733,8 +4103,6 @@
     "url": "https://github.com/Thorhax/The-Simpsons-Hit-and-Run",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "34479",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3ab7434b949fbf9a19c3fcc830c1bdf1.png",
     "last_updated": null
@@ -4748,8 +4116,6 @@
     "url": "https://github.com/NaGaa95/ProjectCane",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248314",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6f550c53b3d9f67c09a5c6feda1e46a.png",
     "last_updated": null
@@ -4763,8 +4129,6 @@
     "url": "https://github.com/boraeskicioglu/sonic_r_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Sonic R). Place the required assets in the staging folder.",
     "steamgriddb_id": "37385",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/99cfac1de7eb731e619a1abcd690eada.png",
     "last_updated": null
@@ -4778,8 +4142,6 @@
     "url": "https://github.com/averne/SpaceCadetPinball-NX/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "17822",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/098b8b9f44bbbc0db5aff108ef93a0e2.png",
     "last_updated": null
@@ -4793,8 +4155,6 @@
     "url": "https://github.com/RohanBhattacharyya/oSBM",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2048",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/04eccd0076a2ba4c0ab95a548cb90543.png",
     "last_updated": null
@@ -4808,8 +4168,6 @@
     "url": "https://github.com/brendongl/supermariowar-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": true,
-    "expected_asset_hint": "This port requires the original game data (Super Mario War). Place the required assets in the staging folder.",
     "steamgriddb_id": "5279648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9513e7a721539fc573477867b253b10d.png",
     "last_updated": null
@@ -4823,8 +4181,6 @@
     "url": "https://github.com/JohnUzoka/terrabuilder-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1226",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9ef7f9b81c2532880cfe5cf53f0c906d.png",
     "last_updated": null
@@ -4838,8 +4194,6 @@
     "url": "https://github.com/saekaze/th06-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "104",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png",
     "last_updated": null
@@ -4853,8 +4207,6 @@
     "url": "https://github.com/saekaze/th075-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36894",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/155882bd2be6bbd7f2e84ef47700b81a.png",
     "last_updated": null
@@ -4868,8 +4220,6 @@
     "url": "https://github.com/saekaze/th07-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "38787",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/513622713be8b84fd8d5b783f6fc82b5.png",
     "last_updated": null
@@ -4883,8 +4233,6 @@
     "url": "https://github.com/saekaze/th08-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248274",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d23941275ef524a546d5921aa8c5af2d.png",
     "last_updated": null
@@ -4898,8 +4246,6 @@
     "url": "https://github.com/saekaze/th09-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248275",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/923b8529f52ae407a0a5240adc96cb45.png",
     "last_updated": null
@@ -4913,8 +4259,6 @@
     "url": "https://github.com/saekaze/thWWW-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "104",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png",
     "last_updated": null
@@ -4928,8 +4272,6 @@
     "url": "https://github.com/saekaze/th10-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248276",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5e1ff67e139a8864f865e8291d7dd9ba.png",
     "last_updated": null
@@ -4943,8 +4285,6 @@
     "url": "https://github.com/saekaze/th11-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248277",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/bf2fa650e518881d280944c7ab86bf6e.png",
     "last_updated": null
@@ -4958,8 +4298,6 @@
     "url": "https://github.com/saekaze/th12-switch/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5248287",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/58bac1cfcc90fade6fe95c82b52328ef.png",
     "last_updated": null
@@ -4973,8 +4311,6 @@
     "url": "https://github.com/saekaze/th15-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "1150408",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/315f2bdad8f5387c73c7d22ef3441bc9.png",
     "last_updated": null
@@ -4988,8 +4324,6 @@
     "url": "https://github.com/NalienDev/Undertale-Yellow-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5260619",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/513f718593a988efe43fc5f63fda26eb.png",
     "last_updated": null
@@ -5003,8 +4337,6 @@
     "url": "https://github.com/worthis/Vovochka",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": null,
     "grid_image_url": null,
     "last_updated": null
@@ -5018,8 +4350,6 @@
     "url": "https://github.com/Thorhax/War1gus-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35373",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ae934d990bb6f14c6df3c2c2ab9f5448.png",
     "last_updated": null
@@ -5033,8 +4363,6 @@
     "url": "https://github.com/Thorhax/Wargus-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36975",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/29dc04ca530ed7b9171828dc3a88ecad.png",
     "last_updated": null
@@ -5048,8 +4376,6 @@
     "url": "https://github.com/Thorhax/Wolf4SDL-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "2428",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/31017a5aacb8de6b5c793ff5dc1b99eb.jpg",
     "last_updated": null
@@ -5063,8 +4389,6 @@
     "url": "https://github.com/1timewire1/CircleShootApp/tree/switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5857",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/eaf9391c41712aa87f5178aee396e448.png",
     "last_updated": null
@@ -5078,8 +4402,6 @@
     "url": "https://github.com/amydevs/lainNX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5540205",
     "grid_image_url": null,
     "last_updated": "20/08/2026"
@@ -5093,8 +4415,6 @@
     "url": "https://github.com/adumah/MsPacManMazeMadnessRecomp",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "34136",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/54ab12ec2cfe283d49b76e82008595dd.png",
     "last_updated": "19/10/2026"
@@ -5108,8 +4428,6 @@
     "url": "https://github.com/emuman100/wipeout-rewrite-nintendo-switch-homebrew",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "15166",
     "grid_image_url": null,
     "last_updated": "12/07/2026"
@@ -5123,8 +4441,6 @@
     "url": "https://github.com/markaurel13/tekken3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "34876",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a85032c0a15f3c7048a8077595f2ee66.png",
     "last_updated": "28/10/2026"
@@ -5138,8 +4454,6 @@
     "url": "https://gitlab.com/alexyt2021es/DBT-NX",
     "source_type": "other",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "33972",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2fcd824d9156e24ad1f7344c8723ab5f.png",
     "last_updated": "01/11/2026"
@@ -5153,8 +4467,6 @@
     "url": "https://github.com/fildicio/jak-project-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "35892",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/dfaf693ee0b7e6c836875161bade2eaa.jpg",
     "last_updated": "30/10/2026"
@@ -5168,8 +4480,6 @@
     "url": "https://github.com/jjmhalew/RampageRE",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "36476",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab63243d415513c2307a6ff350832d10.png",
     "last_updated": "28/10/2026"
@@ -5183,8 +4493,6 @@
     "url": "https://github.com/r4lix/pt-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "requires_original_assets": false,
-    "expected_asset_hint": null,
     "steamgriddb_id": "5250177",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/377533335b14e2767f4cd93a75573062.png",
     "last_updated": "02/11/2026"
