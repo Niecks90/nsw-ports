@@ -7,6 +7,8 @@ import { AssetPicker } from './AssetPicker';
 import { DeploymentSelector } from './DeploymentSelector';
 import { fetchGameCoverUrl } from '../services/steamgriddb';
 import { isTauri } from '../utils/env';
+import { getShortPlatformName, getPlatformBadgeClasses } from '../utils/platforms';
+import clsx from 'clsx';
 
 interface SidebarModalProps {
     game: PortData | null;
@@ -113,8 +115,8 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
 
                         <div className="flex flex-wrap gap-2 justify-center md:justify-start text-xs text-slate-300 font-medium mt-1">
                             {game.original_platform && (
-                                <span className="bg-emerald-500/20 text-emerald-400 px-2 py-1 rounded">
-                                    {game.original_platform}
+                                <span className={clsx("px-2 py-1 rounded font-semibold", getPlatformBadgeClasses(game.original_platform))}>
+                                    {getShortPlatformName(game.original_platform)}
                                 </span>
                             )}
                             <span className="bg-slate-800 px-2 py-1 rounded">v{game.version}</span>

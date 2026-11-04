@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { PortData } from '../types';
 import { fetchGameCoverUrl } from '../services/steamgriddb';
 import { Image as ImageIcon } from 'lucide-react';
+import { getShortPlatformName, getPlatformBadgeClasses } from '../utils/platforms';
+import clsx from 'clsx';
 
 interface GameCardProps {
     game: PortData;
@@ -44,8 +46,8 @@ export function GameCard({ game, onClick }: GameCardProps) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/0 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
 
                 <div className="absolute top-1.5 left-1.5 flex flex-col gap-1 z-20">
-                    <span className="px-1.5 py-0.5 text-[10px] font-semibold bg-emerald-500/90 text-white rounded shadow-sm backdrop-blur-sm truncate max-w-[100px]">
-                        {game.original_platform}
+                    <span className={clsx("whitespace-nowrap text-[11px] font-semibold px-2 py-0.5 rounded shadow-md", getPlatformBadgeClasses(game.original_platform))}>
+                        {getShortPlatformName(game.original_platform)}
                     </span>
                 </div>
 
