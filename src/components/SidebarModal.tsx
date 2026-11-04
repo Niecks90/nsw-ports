@@ -86,7 +86,7 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
             {/* Backdrop click handler */}
             <div className="absolute inset-0" onClick={onClose} />
 
-            <div className="relative max-w-5xl w-full max-h-[90vh] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl flex flex-col md:flex-row overflow-hidden z-10">
+            <div className="relative max-w-5xl w-full max-h-[90vh] md:max-h-[85vh] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl flex flex-col md:flex-row overflow-hidden z-10">
                 {/* Close Button */}
                 <button
                     onClick={onClose}
@@ -96,14 +96,14 @@ export function SidebarModal({ game, onClose }: SidebarModalProps) {
                 </button>
 
                 {/* Left Column: Sidebar / Metadata */}
-                <div className="w-full md:w-80 bg-slate-950/50 p-6 flex flex-col gap-6 flex-shrink-0 md:border-r border-slate-800 md:overflow-y-auto">
+                <div className="w-full md:w-80 bg-slate-950/50 p-4 sm:p-6 flex flex-col gap-4 sm:gap-6 flex-shrink-0 md:border-r border-slate-800 overflow-y-auto md:overflow-y-auto">
                     {/* Game Poster */}
-                    <div className="w-48 md:w-full mx-auto aspect-[2/3] bg-slate-800 rounded-xl overflow-hidden shadow-md flex items-center justify-center flex-shrink-0">
+                    <div className="w-full max-h-48 sm:max-h-64 mx-auto bg-slate-800 rounded-xl overflow-hidden shadow-md flex items-center justify-center flex-shrink-0">
                         {coverUrl ? (
                             <img
                                 src={coverUrl}
                                 alt={game.title}
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-contain md:object-cover"
                             />
                         ) : (
                             <span className="text-slate-600 font-medium">No cover art</span>
