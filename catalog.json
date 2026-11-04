@@ -2596,7 +2596,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5261866",
-    "grid_image_url": null,
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/26203c6ab63ff66fef12bbc3b8dad1c0.png",
     "last_updated": "29/10/2026"
   },
   {
@@ -3376,7 +3376,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5356567",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/483cc104c452a081a5ad8b21a8ea4247.png",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/deaf47d9953d7c0216d9c3aa944fe5ba.png",
     "last_updated": "31/10/2026"
   },
   {
@@ -3389,7 +3389,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5356567",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/483cc104c452a081a5ad8b21a8ea4247.png",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5696070ba6c2871cd129206316e2574f.png",
     "last_updated": "26/10/2026"
   },
   {
@@ -3453,8 +3453,8 @@
     "url": "https://github.com/toniisound/oracles-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "35190",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5ebf0b6220a49dc848050cc95f3d0442.png",
     "last_updated": "10/10/2026"
   },
   {
@@ -3466,8 +3466,8 @@
     "url": "https://github.com/toniisound/The-Oracles-Project-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "35190",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5ebf0b6220a49dc848050cc95f3d0442.png",
     "last_updated": "29/10/2026"
   },
   {
@@ -3830,8 +3830,8 @@
     "url": "https://github.com/cznn999/cod-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "3451",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d400678aeca0f6316996ecbf8d258691.png",
     "last_updated": "01/11/2026"
   },
   {
@@ -4701,8 +4701,8 @@
     "url": "https://github.com/amydevs/lainNX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "5540205",
-    "grid_image_url": null,
+    "steamgriddb_id": "5258936",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ff1bd6e5016e5aca10356877b8726d13.png",
     "last_updated": "20/08/2026"
   },
   {
@@ -4727,8 +4727,8 @@
     "url": "https://github.com/emuman100/wipeout-rewrite-nintendo-switch-homebrew",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "15166",
-    "grid_image_url": null,
+    "steamgriddb_id": "5296247",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/dd34ba7dd11b2b939681fbb68f36c868.jpg",
     "last_updated": "12/07/2026"
   },
   {
