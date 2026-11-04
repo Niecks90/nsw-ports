@@ -2496,6 +2496,19 @@
     "last_updated": "31/10/2026"
   },
   {
+    "id": "castlevania-harmony-of-despair-microsoft-xbox-360",
+    "title": "Castlevania: Harmony of Despair",
+    "author": "rashevskyv",
+    "version": "0.292",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/rashevskyv/cvhd-recomp",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5250364",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4843753069533b0452053f05142dc8ca.png",
+    "last_updated": "03/11/2026"
+  },
+  {
     "id": "castlevania-lords-of-shadow-microsoft-xbox-360",
     "title": "Castlevania: Lords of Shadow",
     "author": "FurryLilManChild",
@@ -2533,6 +2546,19 @@
     "steamgriddb_id": "29894",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4b16f49bdb6b891e01276afbaed1d675.png",
     "last_updated": "23/10/2026"
+  },
+  {
+    "id": "dark-souls-ii-scholar-of-the-first-sin-microsoft-xbox-360",
+    "title": "Dark Souls II: Scholar of the First Sin",
+    "author": "XDASCATX",
+    "version": "v104",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/XDASCATX/DS2_switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5961",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/221fec1d54a07a65c1ff500bcf1bc062.png",
+    "last_updated": "31/10/2026"
   },
   {
     "id": "dead-space-1-microsoft-xbox-360",
@@ -2782,7 +2808,7 @@
     "last_updated": "23/10/2026"
   },
   {
-    "id": "need-for-speed-carbon-microsoft-xbox-360",
+    "id": "need-for-speed-carbon-zofo007-microsoft-xbox-360",
     "title": "Need for Speed: Carbon",
     "author": "zofo007",
     "version": "1.1.0",
@@ -2819,6 +2845,19 @@
     "steamgriddb_id": "2252",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/23770696e86230ab2f6d000142be218a.jpg",
     "last_updated": "29/10/2026"
+  },
+  {
+    "id": "pac-man-championship-edition-dx-microsoft-xbox-360",
+    "title": "PAC-MAN Championship Edition DX",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/ChanseyIsTheBest/pacman-nx/",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "2653",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3dd2a7d47ba8a3b4e127137bdd061828.png",
+    "last_updated": "02/11/2026"
   },
   {
     "id": "peggle-microsoft-xbox-360",
@@ -2990,7 +3029,7 @@
     "last_updated": null
   },
   {
-    "id": "torchlight-microsoft-xbox-360",
+    "id": "torchlight-greenswampdweller-microsoft-xbox-360",
     "title": "Torchlight",
     "author": "GreenSwampDweller",
     "version": "1.1.0",
@@ -3367,7 +3406,7 @@
     "last_updated": "10/10/2026"
   },
   {
-    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-nintendo-gameboy-color",
+    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-toniisound-nintendo-gameboy-color",
     "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages",
     "author": "toniisound",
     "version": "1.3.0",
@@ -3406,7 +3445,7 @@
     "last_updated": "02/07/2026"
   },
   {
-    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube",
+    "id": "the-legend-of-zelda-twilight-princess-alexgg1014-nintendo-gamecube",
     "title": "The Legend of Zelda: Twilight Princess",
     "author": "Alexgg1014",
     "version": "1.0.3",
@@ -3575,6 +3614,19 @@
     "last_updated": "01/11/2026"
   },
   {
+    "id": "super-mario-world-super-nintendo-entertainment-system",
+    "title": "Super Mario World",
+    "author": "wiredlainn",
+    "version": "1.0.1",
+    "original_platform": "Super Nintendo Entertainment System",
+    "url": "https://gitlab.com/wiredlainn/wide-snes-NX",
+    "source_type": "other",
+    "asset_type": "zip",
+    "steamgriddb_id": "36886",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
+    "last_updated": "02/11/2026"
+  },
+  {
     "id": "mario-kart-wii-nintendo-wii",
     "title": "Mario Kart Wii",
     "author": "KawaiiBunga",
@@ -3625,6 +3677,201 @@
     "steamgriddb_id": "38865",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e7be8d8e2b9e28afea9bd38a675cd65b.png",
     "last_updated": "02/10/2026"
+  },
+  {
+    "id": "0-ad-pc",
+    "title": "0 A.D.",
+    "author": "souldbminerr",
+    "version": "R28-NX1",
+    "original_platform": "PC",
+    "url": "https://github.com/souldbminerr/0ad-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5248416",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4f315989358cc0f3f7869f569887743d.png",
+    "last_updated": "30/06/2026"
+  },
+  {
+    "id": "age-of-empires-ii-the-age-of-kings-pc",
+    "title": "Age of Empires II: The Age of Kings",
+    "author": "Zaydme",
+    "version": "0.6.5 *prerelease*",
+    "original_platform": "PC",
+    "url": "https://github.com/Zaydme/openaok",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36303",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a19e49f070ffa5602842b056bd2964d9.png",
+    "last_updated": "02/11/2026"
+  },
+  {
+    "id": "alien-vs-predator-gold-pc",
+    "title": "Alien vs. Predator: Gold",
+    "author": "Thorhax",
+    "version": "v2026-nx",
+    "original_platform": "PC",
+    "url": "https://github.com/Thorhax/AvP-Gold-NX-Modern",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36110",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2e71028a1a88a30edaa147d9758d4e99.png",
+    "last_updated": "13/09/2026"
+  },
+  {
+    "id": "atomic-bomberman-pc",
+    "title": "Atomic Bomberman",
+    "author": "rashevskyv",
+    "version": "1.0.8",
+    "original_platform": "PC",
+    "url": "https://github.com/rashevskyv/atomic-bomberman",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "37889",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b9969b3b7c454ea689673d8d2be78814.png",
+    "last_updated": "31/10/2026"
+  },
+  {
+    "id": "the-binding-of-isaac-repentance-pc",
+    "title": "The Binding of Isaac: Repentance+",
+    "author": "antoniotorres02",
+    "version": "*unreleased*",
+    "original_platform": "PC",
+    "url": "https://github.com/antoniotorres02/isaac-switch-native",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5280394",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d22605e2bddb461a4034acb67334c1f7.png",
+    "last_updated": "01/11/2026"
+  },
+  {
+    "id": "black-white-pc",
+    "title": "Black & White",
+    "author": "gitgarage",
+    "version": "0.4.0",
+    "original_platform": "PC",
+    "url": "https://github.com/gitgarage/openblack",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "37411",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e7e04cfae8c198b3a50727d2717db734.png",
+    "last_updated": "27/10/2026"
+  },
+  {
+    "id": "call-of-duty-black-ops-ii-pc",
+    "title": "Call of Duty - Black Ops II",
+    "author": "HDErick",
+    "version": "*beta 2.5*",
+    "original_platform": "PC",
+    "url": "https://github.com/HDErick/BO2-Requiem-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1782",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/853695e4fd475d6b482d94895c6b595d.jpg",
+    "last_updated": "30/10/2026"
+  },
+  {
+    "id": "call-of-duty-united-offensive-pc",
+    "title": "Call of Duty / United Offensive",
+    "author": "cznn999",
+    "version": "0.4.0 / 0.3.0",
+    "original_platform": "PC",
+    "url": "https://github.com/cznn999/cod-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
+    "last_updated": "01/11/2026"
+  },
+  {
+    "id": "castlevania-revamped-pc",
+    "title": "Castlevania ReVamped",
+    "author": "bshurikan",
+    "version": "1.1.3",
+    "original_platform": "PC",
+    "url": "https://github.com/bshurikan/cvrevamped_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5447702",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f5db6adaa505a1af0558b89cde6e49df.png",
+    "last_updated": "15/10/2026"
+  },
+  {
+    "id": "commander-keen-pc",
+    "title": "🚫 Commander Keen",
+    "author": "",
+    "version": "3.6.0",
+    "original_platform": "PC",
+    "url": "https://eliasoenal.com/2020/07/12/commander-keen-for-nintendo-switch/",
+    "source_type": "other",
+    "asset_type": "zip",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
+    "last_updated": "10/02/2026"
+  },
+  {
+    "id": "cosmology-of-kyoto-pc",
+    "title": "Cosmology of Kyoto",
+    "author": "seamusduncmcgrath",
+    "version": "1.0.0",
+    "original_platform": "PC",
+    "url": "https://github.com/seamusduncmcgrath/CosmologyOfKyoto-Recompiled",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5275541",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/31a99b0ae77e2d60374a103d9ae2c18c.jpg",
+    "last_updated": "30/10/2026"
+  },
+  {
+    "id": "descent-pc",
+    "title": "Descent",
+    "author": "Thorhax",
+    "version": "0.58.6",
+    "original_platform": "PC",
+    "url": "https://github.com/Thorhax/Descent1-NX-Modern",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "3715",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/60c7efb7622e3c9358694d5a643fe3b7.png",
+    "last_updated": "09/09/2026"
+  },
+  {
+    "id": "descent-2-pc",
+    "title": "Descent 2",
+    "author": "Thorhax",
+    "version": "0.58.6",
+    "original_platform": "PC",
+    "url": "https://github.com/Thorhax/Descent2-NX-Modern",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "3716",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/85032fb4c9db1b6d3b4face72dd148d4.png",
+    "last_updated": "09/09/2026"
+  },
+  {
+    "id": "diablo-pc",
+    "title": "Diablo",
+    "author": "Thorhax",
+    "version": "1.6.1",
+    "original_platform": "PC",
+    "url": "http://github.com/Thorhax/DevilutionX-NX-Modern",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34237",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/cced2922f69c1c789ba9d1c9c4210b1c.png",
+    "last_updated": "04/09/2026"
+  },
+  {
+    "id": "doom-pc",
+    "title": "Doom",
+    "author": "Thorhax",
+    "version": "4.10.0",
+    "original_platform": "PC",
+    "url": "https://github.com/Thorhax/GZDoom-NX-2026",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "2460",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ef58f7ffe086514aa0164c7fc4f6cea8.png",
+    "last_updated": "29/08/2026"
   },
   {
     "id": "dune-ii-pc",
