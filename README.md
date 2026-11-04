@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,50:1e293b,100:0f172a&height=180&section=header&text=NSW%20Ports&fontSize=65&fontAlignY=42&desc=The%20Ultimate%20Nintendo%20Switch%20Ports%20Catalog%20%26%20Companion&descFontSize=19&descAlignY=66&fontColor=ffffff&stroke=00C3E3&strokeWidth=2">
-    <img alt="NSW Ports Banner" src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,50:1e293b,100:0f172a&height=180&section=header&text=NSW%20Ports&fontSize=65&fontAlignY=42&desc=The%20Ultimate%20Nintendo%20Switch%20Ports%20Catalog%20%26%20Companion&descFontSize=19&descAlignY=66&fontColor=ffffff">
-  </picture>
+  <img src="logo.svg" alt="NSW Ports" width="400">
 </p>
 
 <p align="center">
