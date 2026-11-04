@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import { Header } from './components/Header';
 import { GameGrid } from './components/GameGrid';
 import { SidebarModal } from './components/SidebarModal';
+import { Footer } from './components/Footer';
 import { fetchCatalog } from './services/catalog';
 import { PortData } from './types';
 import { Loader2 } from 'lucide-react';
@@ -124,6 +125,8 @@ function App() {
               onClose={() => setSelectedGame(null)}
           />
       )}
+
+      <Footer />
     </div>
   );
 }
