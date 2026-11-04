@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig(async () => ({
-  base: '/PortsDL-NX/',
+  base: './',
   plugins: [react(), tailwindcss()],
   clearScreen: false,
   server: {
