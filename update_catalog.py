@@ -153,6 +153,9 @@ def main():
         logging.error(f"Échec de récupération du README: {e}")
         sys.exit(1)
 
+    # 🧹 Purge impérative des commentaires HTML complets (single & multi-lignes)
+    content = re.sub(r'<!--.*?-->', '', content, flags=re.DOTALL)
+
     catalog = []
     current_platform = "Unknown"
     in_table = False
@@ -208,7 +211,8 @@ def main():
                     raw_cols.pop()
                 columns = [c.strip() for c in raw_cols]
 
-                if not columns:
+                # Sécurité : ignorer si vide ou si toutes les colonnes ne sont que des tirets/séparateurs
+                if not columns or all(re.match(r'^[-:\s]*$', c) for c in columns):
                     continue
 
                 game_idx = col_map.get('game', col_map.get('title', 0))
@@ -224,6 +228,10 @@ def main():
 
                 raw_game = columns[game_idx] if len(columns) > game_idx else ""
                 game = re.sub(r'^[🟢🔴🟡🟠🟧✳️🚫♻️\s]+', '', raw_game).strip()
+
+                # Nettoyage si le nom du jeu n'est composé que de tirets ou caractères de contrôle
+                if re.match(r'^[-—:\s]+$', game):
+                    game = ""
 
                 version = columns[version_idx] if len(columns) > version_idx else ""
                 link_raw = columns[link_idx] if len(columns) > link_idx else ""
@@ -241,10 +249,16 @@ def main():
                         if url and "zelda" in url.lower() and "zelda" not in catalog[-1]['title'].lower():
                             repo_name = url.rstrip('/').split('/')[-1]
                             game = repo_name.replace('-', ' ').replace('_', ' ').title()
-                        else:
+                        elif url or gbatemp_url:
                             game = catalog[-1]['title']
+                        else:
+                            continue
                     else:
                         continue
+
+                # Rejet catégorique si après fallback on n'a toujours aucun titre valable
+                if not game or re.match(r'^[-—:\s]+$', game):
+                    continue
 
                 last_updated = None
                 if last_updated_idx != -1 and len(columns) > last_updated_idx:
