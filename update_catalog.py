@@ -27,7 +27,8 @@ def parse_link(cell_text):
     cell_text = cell_text.strip()
     if not cell_text:
         return "", ""
-
+    cell_text = re.sub(r'<\s*br\s*/?>', '', cell_text, flags=re.IGNORECASE).strip()
+    
     # Case 1: Markdown formatted link [Label](URL)
     match = re.search(r'\[(.*?)\]\((.*?)\)', cell_text)
     if match:
@@ -226,7 +227,7 @@ def main():
 
             if len(columns) > max(game_idx, link_idx):
                 raw_game = columns[game_idx]
-                game = re.sub(r'^[🟢🔴🟡🟠\s]+', '', raw_game).strip()
+                game = re.sub(r'^[🟢🔴🟡🟠🚫♻️\s]+', '', raw_game).strip()
 
                 if not game and len(catalog) > 0:
                     game = catalog[-1]['title']
