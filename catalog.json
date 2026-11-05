@@ -3927,15 +3927,15 @@
   },
   {
     "id": "commander-keen-pc",
-    "title": "🚫 Commander Keen",
+    "title": "Commander Keen",
     "author": "",
     "version": "3.6.0",
     "original_platform": "PC",
     "url": "https://eliasoenal.com/2020/07/12/commander-keen-for-nintendo-switch/",
     "source_type": "other",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "36137",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/03d522e7531ac46050a229d886bf7877.png",
     "last_updated": "10/02/2026"
   },
   {
@@ -4005,15 +4005,15 @@
   },
   {
     "id": "dune-ii-pc",
-    "title": "♻️ Dune II",
+    "title": "Dune II",
     "author": "carstene1ns",
     "version": "0.98.4",
     "original_platform": "PC",
     "url": "https://github.com/carstene1ns/dunelegacy/tree/switch-port",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "38416",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4774165006b1b56612265a02b527a12d.png",
     "last_updated": null
   },
   {
