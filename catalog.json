@@ -2184,6 +2184,19 @@
     "last_updated": "21/10/2026"
   },
   {
+    "id": "castlevania-curse-of-darkness-microsoft-xbox",
+    "title": "Castlevania: Curse of Darkness",
+    "author": "FurryLilManChild",
+    "version": "0.5.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/FurryLilManChild/cod-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38090",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f7840372da5ad42b5a4b2ce7cc30e3de.png",
+    "last_updated": "29/10/2026"
+  },
+  {
     "id": "cold-fear-microsoft-xbox",
     "title": "Cold Fear",
     "author": "gerisson1996",
@@ -2390,6 +2403,19 @@
     "steamgriddb_id": "29882",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8e4374a54f3a61fa403d8d70c99bca08.png",
     "last_updated": "18/10/2026"
+  },
+  {
+    "id": "splinter-cell-double-agent-microsoft-xbox",
+    "title": "Splinter Cell: Double Agent",
+    "author": "itouchdennis",
+    "version": "0.4.9",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/itouchdennis/scda-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1437",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0a2344aa9cd83016f0066d8f316709f7.jpg",
+    "last_updated": "04/11/2026"
   },
   {
     "id": "ssx-tricky-microsoft-xbox",
@@ -2727,6 +2753,19 @@
     "asset_type": "zip",
     "steamgriddb_id": "5319958",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b64eb26f5d9f3409a694b699617b9ded.png",
+    "last_updated": "04/11/2026"
+  },
+  {
+    "id": "kameo-elements-of-power-microsoft-xbox-360",
+    "title": "Kameo: Elements of Power",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/ChanseyIsTheBest/kameo-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5265763",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/94461b919021d58fa910449500cf8845.png",
     "last_updated": "04/11/2026"
   },
   {
@@ -3131,6 +3170,19 @@
     "steamgriddb_id": "7268",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5bb8fe0519310d504c92e39b45fc9acc.png",
     "last_updated": null
+  },
+  {
+    "id": "castlevania-rondo-of-blood-nec-pc-engine-turbografx-16",
+    "title": "Castlevania: Rondo of Blood",
+    "author": "FurryLilManChild",
+    "version": "1.0",
+    "original_platform": "NEC PC Engine (TurboGrafx-16)",
+    "url": "https://github.com/FurryLilManChild/rondo-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "37451",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2dd919d20fb9d85da9f5bf96531efa3f.jpg",
+    "last_updated": "03/11/2026"
   },
   {
     "id": "banjo-kazooie-nintendo-64",
