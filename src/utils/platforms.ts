@@ -19,6 +19,7 @@ export function getShortPlatformName(platform: string): string {
         case "Android 32bit": return "Android 32";
         case "Android 64bit": return "Android 64";
         case "Arcade": return "Arcade";
+        case "NEC PC Engine (TurboGrafx-16)": return "PC-Engine";
         case "PC": return "PC";
         default: return p;
     }
@@ -45,6 +46,7 @@ export function getPlatformBadgeClasses(platform: string): string {
         case "Android 32":
         case "Android 64": return "bg-green-600 text-white";
         case "Arcade": return "bg-amber-600 text-white";
+        case "NEC PC Engine (TurboGrafx-16)":
         case "PC": return "bg-cyan-800 text-cyan-100";
         default: return "bg-slate-700 text-slate-200";
     }
