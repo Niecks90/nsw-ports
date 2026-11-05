@@ -5200,19 +5200,6 @@
     "last_updated": "05/11/2026"
   },
   {
-    "id": "-sega-genesis",
-    "title": "---",
-    "author": "",
-    "version": "---",
-    "original_platform": "Sega Genesis",
-    "url": "---",
-    "source_type": "other",
-    "asset_type": "zip",
-    "steamgriddb_id": "1",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/bafd5785e9335ccde7bcde6051b5dcf6.png",
-    "last_updated": "---"
-  },
-  {
     "id": "lain-sony-playstation",
     "title": "Lain",
     "author": "amydevs",
