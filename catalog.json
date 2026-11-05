@@ -897,6 +897,19 @@
     "last_updated": "03/08/2026"
   },
   {
+    "id": "duke-dashington-remastered-android-64bit",
+    "title": "Duke Dashington Remastered",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/ChanseyIsTheBest/dukedashington_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "29598",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5f2395427ea53a7b41d2cbec7b73f557.jpg",
+    "last_updated": "19/09/2026"
+  },
+  {
     "id": "earn-2-die-android-64bit",
     "title": "Earn 2 Die",
     "author": "xflipperkast",
@@ -907,7 +920,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "10232",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3eeed714f0f764501093d079a347218b.png",
-    "last_updated": null
+    "last_updated": "15/10/2026"
   },
   {
     "id": "the-elder-scrolls-ii-daggerfall-unity-android-64bit",
@@ -920,7 +933,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38717",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c33d40a3ecfa16a5956d9bf81eef24bb.png",
-    "last_updated": null
+    "last_updated": "08/09/2026"
   },
   {
     "id": "the-executive-android-64bit",
@@ -933,7 +946,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5452178",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/53cc2dd52134ce4d5ca1c3e49310e849.png",
-    "last_updated": null
+    "last_updated": "03/09/2026"
   },
   {
     "id": "far-cry-android-64bit",
@@ -946,7 +959,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1432",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/37a05c2bc9e34c4228911a726d0da702.png",
-    "last_updated": null
+    "last_updated": "27/09/2026"
   },
   {
     "id": "final-fantasy-dimensions-android-64bit",
@@ -959,7 +972,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "33565",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
-    "last_updated": null
+    "last_updated": "28/06/2026"
   },
   {
     "id": "final-fantasy-dimension-ii-android-64bit",
@@ -972,7 +985,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "33565",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
-    "last_updated": null
+    "last_updated": "15/07/2026"
   },
   {
     "id": "final-fantasy-iii-3d-remake-android-64bit",
@@ -985,7 +998,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2715",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/177884afc4a6c3501d658adda5ed5c96.png",
-    "last_updated": null
+    "last_updated": "23/06/2026"
   },
   {
     "id": "final-fantasy-iv-3d-remake-android-64bit",
@@ -998,7 +1011,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "5054",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8d7eb7879dca0954771f50f440b591.png",
-    "last_updated": null
+    "last_updated": "29/06/2026"
+  },
+  {
+    "id": "final-fantasy-iv-3d-remake-android-64bit-glitcheddeveloper",
+    "title": "Final Fantasy IV 3D Remake",
+    "author": "GlitchedDeveloper",
+    "version": "1.0.4",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/GlitchedDeveloper/ff4_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5054",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8d7eb7879dca0954771f50f440b591.png",
+    "last_updated": "24/07/2026"
   },
   {
     "id": "final-fantasy-iv-the-after-years-android-64bit",
@@ -1011,7 +1037,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "6559",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cd6544b0ab90949c415ed0d775c25384.png",
-    "last_updated": null
+    "last_updated": "18/06/2026"
   },
   {
     "id": "flappy-bird-android-64bit",
@@ -1024,7 +1050,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5344733",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/301597ca9b9c8bd0bac29d8864a35105.jpg",
-    "last_updated": null
+    "last_updated": "28/08/2026"
   },
   {
     "id": "fruit-ninja-classic-android-64bit",
@@ -1037,7 +1063,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5311537",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/882760d95d14d3ca2fb9c73adcc209e1.png",
-    "last_updated": null
+    "last_updated": "18/08/2026"
   },
   {
     "id": "galaxy-on-fire-android-64bit",
@@ -1050,7 +1076,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2052",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2963f719387bad92c085606ac18042bc.png",
-    "last_updated": null
+    "last_updated": "03/10/2026"
   },
   {
     "id": "geometry-dash-android-64bit",
@@ -1063,7 +1089,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5427",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/818d9d1eaede1c656acf1db6a10d9866.png",
-    "last_updated": null
+    "last_updated": "07/08/2026"
   },
   {
     "id": "gizmoduck-android-64bit",
@@ -1076,7 +1102,7 @@
     "asset_type": "zip",
     "steamgriddb_id": null,
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "15/09/2026"
   },
   {
     "id": "grand-theft-auto-3-android-64bit",
@@ -1089,7 +1115,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1350",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7856a3a5b530f10a69bec1c57d90330e.png",
-    "last_updated": null
+    "last_updated": "16/10/2026"
   },
   {
     "id": "grand-theft-auto-chinatown-wars-android-64bit",
@@ -1102,7 +1128,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "62",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/edcbb16417f7a00253240c23ef93dfb6.png",
-    "last_updated": null
+    "last_updated": "29/06/2026"
   },
   {
     "id": "grand-theft-auto-liberty-city-stories-android-64bit",
@@ -1115,7 +1141,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "33713",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6ba32142b6b23ecd32a4c0aff11c2c41.png",
-    "last_updated": null
+    "last_updated": "30/06/2026"
   },
   {
     "id": "grand-theft-auto-san-andreas-android-64bit",
@@ -1128,7 +1154,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1352",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c4e954b93dc03b0f846db4051a1e6d25.png",
-    "last_updated": null
+    "last_updated": "15/08/2026"
   },
   {
     "id": "granny-android-64bit",
@@ -1141,7 +1167,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "32232",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/31ac2e7a7ffdb7b171f9de6fc556fad7.jpg",
-    "last_updated": null
+    "last_updated": "23/10/2026"
   },
   {
     "id": "half-life-2-android-64bit",
@@ -1154,7 +1180,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2254",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1d386e4b61ac43b166394517562a0b17.png",
-    "last_updated": null
+    "last_updated": "03/08/2026"
   },
   {
     "id": "happy-wheels-android-64bit",
@@ -1167,7 +1193,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "5252527",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ea9a635395384d316bef4e9044f06f1f.png",
-    "last_updated": null
+    "last_updated": "11/08/2026"
+  },
+  {
+    "id": "heart-star-android-64bit",
+    "title": "Heart Star",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/ChanseyIsTheBest/heartstar_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5255728",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/65fa420973181a614f71cd00bcfac034.png",
+    "last_updated": "19/09/2026"
   },
   {
     "id": "hill-climb-racing-android-64bit",
@@ -1180,7 +1219,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5341072",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/713165cf24005301fa02b3cc1bc258e0.png",
-    "last_updated": null
+    "last_updated": "24/08/2026"
   },
   {
     "id": "hitman-go-android-64bit",
@@ -1193,7 +1232,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "10065",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/abe6554dc394ac148a5e3643d984f2a8.png",
-    "last_updated": null
+    "last_updated": "22/09/2026"
   },
   {
     "id": "how-many-dudes-android-64bit",
@@ -1206,7 +1245,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5498061",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f637b0c33ed82d18cac4b1cef8fbab1e.png",
-    "last_updated": null
+    "last_updated": "04/08/2026"
   },
   {
     "id": "infinity-blade-android-64bit",
@@ -1219,7 +1258,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5319953",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0e5d8047bae2b9304eeb87e9c5dbfbe7.png",
-    "last_updated": null
+    "last_updated": "31/08/2026"
   },
   {
     "id": "jackie-chan-stuntmaster-android-64bit",
@@ -1232,7 +1271,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5262934",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4370a09825ce603a74e42ef6eca56ef9.png",
-    "last_updated": null
+    "last_updated": "31/08/2026"
   },
   {
     "id": "jetpack-joyride-android-64bit",
@@ -1245,7 +1284,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5270695",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fd5693a5277fc5a1dbd31dbb4af9a1d8.png",
-    "last_updated": null
+    "last_updated": "06/08/2026"
   },
   {
     "id": "killer-bean-unleashed-android-64bit",
@@ -1258,7 +1297,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5293871",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a1b83ffbd7c2f0409283319bf0335fd4.png",
-    "last_updated": null
+    "last_updated": "18/08/2026"
   },
   {
     "id": "kingdom-hearts-union-dark-road-android-64bit",
@@ -1271,7 +1310,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5430172",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/15e729f1b7a1fd5c579939ae2d39fd3f.png",
-    "last_updated": null
+    "last_updated": "03/08/2026"
   },
   {
     "id": "lara-croft-go-android-64bit",
@@ -1284,7 +1323,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "14594",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/74b83cc39b3b4a8b3b257eabef47dc4c.png",
-    "last_updated": null
+    "last_updated": "22/09/2026"
   },
   {
     "id": "layton-brothers-mystery-room-android-64bit",
@@ -1297,7 +1336,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5278190",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c0b0ad48e559c16d10e7c47244a4025.png",
-    "last_updated": null
+    "last_updated": "15/07/2026"
   },
   {
     "id": "lego-batman-beyond-gotham-android-64bit",
@@ -1310,7 +1349,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5094",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/22a7338a58e71ec0243bd42bf4fc36c2.png",
-    "last_updated": null
+    "last_updated": "01/07/2026"
   },
   {
     "id": "lego-ninjago-shadow-of-ronin-android-64bit",
@@ -1323,7 +1362,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5267390",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/56d34bdba0c55cf372c37ee9a1260055.png",
-    "last_updated": null
+    "last_updated": "15/07/2026"
   },
   {
     "id": "lego-star-wars-the-complete-saga-android-64bit",
@@ -1336,7 +1375,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5517",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e14dc01aadd6ee3cee4ef338fd966b35.png",
-    "last_updated": null
+    "last_updated": "09/08/2026"
   },
   {
     "id": "lego-star-wars-the-force-awakens-android-64bit",
@@ -1349,7 +1388,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "10560",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/311c6954b09b0dc7ca7ccc4b3ca03949.png",
-    "last_updated": null
+    "last_updated": "30/06/2026"
+  },
+  {
+    "id": "level-up-marios-minigames-mayhem-android-64bit",
+    "title": "Level UP: Mario's Minigames Mayhem",
+    "author": "aks796",
+    "version": "1.0.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/aks796/lummm_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5481055",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3703501e70c97318ec4b61d60eb70074.png",
+    "last_updated": "14/09/2026"
   },
   {
     "id": "max-payne-android-64bit",
@@ -1362,7 +1414,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1354",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/623e5a1136651b875b7124e55ce30f59.png",
-    "last_updated": null
+    "last_updated": "10/06/2026"
   },
   {
     "id": "mega-man-x-regenesis-android-64bit",
@@ -1375,7 +1427,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "35466",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e24927b595bdddebb71671d11f76f067.png",
-    "last_updated": null
+    "last_updated": "03/11/2026"
+  },
+  {
+    "id": "metroid-prime-origins-android-64bit",
+    "title": "Metroid Prime Origins",
+    "author": "bshurikan",
+    "version": "1.1.2d",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/bshurikan/mpo_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5541387",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1a12135f601b4194c367d293cd539033.png",
+    "last_updated": "05/10/2026"
   },
   {
     "id": "mulmashtabbagalgal-android-64bit",
@@ -1388,7 +1453,7 @@
     "asset_type": "zip",
     "steamgriddb_id": null,
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "03/09/2026"
   },
   {
     "id": "nba-jam-android-64bit",
@@ -1401,7 +1466,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38915",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/36e5cac18a08285cf39432aaed2724ac.png",
-    "last_updated": null
+    "last_updated": "15/07/2026"
   },
   {
     "id": "osmos-android-64bit",
@@ -1414,7 +1479,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "4258",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4461853cc6a73bc75d45fe1ea6e8ee6c.png",
-    "last_updated": null
+    "last_updated": "01/09/2026"
   },
   {
     "id": "papa-pear-saga-android-64bit",
@@ -1427,7 +1492,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5533310",
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "09/09/2026"
   },
   {
     "id": "papas-burgeria-to-go-android-64bit",
@@ -1440,7 +1505,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5265210",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ccfd91d7a4b389394c92f952841e30ee.png",
-    "last_updated": null
+    "last_updated": "19/10/2026"
   },
   {
     "id": "papas-cluckeria-to-go-android-64bit",
@@ -1453,7 +1518,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "19741",
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "18/10/2026"
   },
   {
     "id": "papas-paleteria-to-go-android-64bit",
@@ -1466,7 +1531,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "19741",
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "18/10/2026"
   },
   {
     "id": "papas-pizzeria-to-go-android-64bit",
@@ -1479,7 +1544,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5283847",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/48037bbc1b1370d0996bb51689d06da0.png",
-    "last_updated": null
+    "last_updated": "20/08/2026"
   },
   {
     "id": "papers-please-android-64bit",
@@ -1492,7 +1557,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2712",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/657521cffefffb720284d2176c9164c2.png",
-    "last_updated": null
+    "last_updated": "28/07/2026"
   },
   {
     "id": "pizza-vs-skeletons-android-64bit",
@@ -1505,7 +1570,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5464349",
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "02/09/2026"
   },
   {
     "id": "phigros-android-64bit",
@@ -1518,7 +1583,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5468886",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/742f1475ca8b56d6387f554df880dc95.png",
-    "last_updated": null
+    "last_updated": "20/08/2026"
   },
   {
     "id": "phigros-cn-android-64bit",
@@ -1531,7 +1596,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5468886",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/742f1475ca8b56d6387f554df880dc95.png",
-    "last_updated": null
+    "last_updated": "30/09/2026"
   },
   {
     "id": "plants-vs-zombies-fusion-android-64bit",
@@ -1544,7 +1609,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5476779",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc305ca0d061b6f38198f0b0aa897a26.png",
-    "last_updated": null
+    "last_updated": "22/08/2026"
   },
   {
     "id": "plants-vs-zombies-2-android-64bit",
@@ -1557,7 +1622,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5278252",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7047aa6c111e3fb2b2a6d5ece2d394c4.png",
-    "last_updated": null
+    "last_updated": "26/08/2026"
   },
   {
     "id": "plants-vs-zombies-2-reflourished-android-64bit",
@@ -1570,7 +1635,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5358950",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5c84e634947c15436d2f51feac25e6de.png",
-    "last_updated": null
+    "last_updated": "27/08/2026"
   },
   {
     "id": "pocket-crystal-league-android-64bit",
@@ -1583,7 +1648,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5329675",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/db6fd690639c9f37d73d21d009e9d816.png",
-    "last_updated": null
+    "last_updated": "24/09/2026"
   },
   {
     "id": "poinpy-android-64bit",
@@ -1596,7 +1661,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "5490209",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/90370e78b1dad602fa3674c02926d7c5.png",
-    "last_updated": null
+    "last_updated": "06/08/2026"
+  },
+  {
+    "id": "poor-bunny-android-64bit",
+    "title": "Poor Bunny!",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/ChanseyIsTheBest/poorbunny_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "548",
+    "grid_image_url": null,
+    "last_updated": "20/09/2026"
   },
   {
     "id": "pou-android-64bit",
@@ -1609,7 +1687,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5320639",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/36f1057d748e8e77ca14143dbf6610cc.png",
-    "last_updated": null
+    "last_updated": "24/08/2026"
   },
   {
     "id": "professor-layton-curious-village-hd-android-64bit",
@@ -1622,7 +1700,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38827",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7402281d0ac9a8b55a599a5f69179d4a.png",
-    "last_updated": null
+    "last_updated": "29/06/2026"
   },
   {
     "id": "professor-layton-lost-hope-hd-android-64bit",
@@ -1635,7 +1713,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38016",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png",
-    "last_updated": null
+    "last_updated": "29/06/2026"
   },
   {
     "id": "professor-layton-pandoras-box-hd-android-64bit",
@@ -1648,7 +1726,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38016",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png",
-    "last_updated": null
+    "last_updated": "29/06/2026"
   },
   {
     "id": "real-drift-car-racing-android-64bit",
@@ -1661,7 +1739,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5456543",
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "31/10/2026"
   },
   {
     "id": "rvgl-android-64bit",
@@ -1674,7 +1752,20 @@
     "asset_type": "zip",
     "steamgriddb_id": null,
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "20/09/2026"
+  },
+  {
+    "id": "rvgl-android-64bit-birdsentinel",
+    "title": "RVGL",
+    "author": "BirdSentinel",
+    "version": "23.1030a1",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/BirdSentinel/rvgl-for-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
+    "last_updated": "21/02/2026"
   },
   {
     "id": "slay-the-spire-2-android-64bit",
@@ -1687,7 +1778,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5448946",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3b8a2395c9d71ba8fd80df1c4e02d4d4.png",
-    "last_updated": null
+    "last_updated": "26/08/2026"
   },
   {
     "id": "slitherio-android-64bit",
@@ -1700,7 +1791,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5288580",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c6d48356fbbab8b9ee80f048e4b120d9.png",
-    "last_updated": null
+    "last_updated": "30/08/2026"
   },
   {
     "id": "soda-dungeon-2-android-64bit",
@@ -1713,7 +1804,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5247861",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f45d92a8e2d023a82aca7f2a89a01336.jpg",
-    "last_updated": null
+    "last_updated": "04/11/2026"
   },
   {
     "id": "sonic-4-episode-2-android-64bit",
@@ -1726,7 +1817,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1793",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8cc5ef53fc584eb0a0597b052507fe6d.png",
-    "last_updated": null
+    "last_updated": "11/08/2026"
   },
   {
     "id": "sonic-dash-android-64bit",
@@ -1739,7 +1830,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "34110",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/740ed90c31f6711a1253b196cab3eaa9.png",
-    "last_updated": null
+    "last_updated": "22/09/2026"
   },
   {
     "id": "sonic-dash-2-sonic-boom-android-64bit",
@@ -1752,7 +1843,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5265253",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/684ff8365775af4220339fb9ee8773e9.png",
-    "last_updated": null
+    "last_updated": "21/09/2026"
   },
   {
     "id": "sonic-jump-android-64bit",
@@ -1765,7 +1856,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5265788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/274f72ee8c47087a8a35ed1ad67d6360.png",
-    "last_updated": null
+    "last_updated": "18/08/2026"
   },
   {
     "id": "sonic-jump-fever-android-64bit",
@@ -1778,7 +1869,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5265788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/274f72ee8c47087a8a35ed1ad67d6360.png",
-    "last_updated": null
+    "last_updated": "08/10/2026"
   },
   {
     "id": "sonic-runners-adventure-android-64bit",
@@ -1791,7 +1882,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5265247",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/da220e02aff6e0ebc7adcac0895f40e5.png",
-    "last_updated": null
+    "last_updated": "18/08/2026"
   },
   {
     "id": "sonic-triple-trouble-16-bit-android-64bit",
@@ -1804,7 +1895,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5274910",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fdc2f086849a4bfc788364d9226a1e1e.png",
-    "last_updated": null
+    "last_updated": "29/06/2026"
   },
   {
     "id": "stick-with-it-android-64bit",
@@ -1817,7 +1908,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5264671",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c21cf5e9103365de9f6d4584276ef9ac.png",
-    "last_updated": null
+    "last_updated": "08/07/2026"
   },
   {
     "id": "stone-story-rpg-android-64bit",
@@ -1830,7 +1921,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "17202",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/35fbc5cabe949451c985439831617924.png",
-    "last_updated": null
+    "last_updated": "17/10/2026"
   },
   {
     "id": "streets-of-rage-x-android-64bit",
@@ -1843,7 +1934,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5487354",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d4ba1c315ac668b2f0b6e37099e5a78a.jpg",
-    "last_updated": null
+    "last_updated": "14/08/2026"
   },
   {
     "id": "subway-surfers-android-64bit",
@@ -1856,7 +1947,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5283916",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fffbaa156b026dfc0e11dbd799bf7344.png",
-    "last_updated": null
+    "last_updated": "03/08/2026"
   },
   {
     "id": "super-mario-63-redux-android-64bit",
@@ -1869,7 +1960,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5430732",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/68a1c991e89d28da7974c60b1930ee46.png",
-    "last_updated": null
+    "last_updated": "15/09/2026"
   },
   {
     "id": "super-mario-127-android-64bit",
@@ -1882,7 +1973,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5294032",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b28e0c1feaa06a4a80b78e91eecc87c4.png",
-    "last_updated": null
+    "last_updated": "14/09/2026"
   },
   {
     "id": "super-mario-bros-remastered-android-64bit",
@@ -1895,7 +1986,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "37382",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/75f29e87a3923053bde594667a5e33d3.png",
-    "last_updated": null
+    "last_updated": "28/07/2026"
   },
   {
     "id": "super-mario-world-remastered-plus-android-64bit",
@@ -1908,7 +1999,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5505315",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3acb2b7d67d0135af62a116e2505d6b5.png",
-    "last_updated": null
+    "last_updated": "14/08/2026"
   },
   {
     "id": "swordigo-android-64bit",
@@ -1921,7 +2012,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5507475",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8605117258838b6d2f16feb3fde86267.png",
-    "last_updated": null
+    "last_updated": "14/07/2026"
   },
   {
     "id": "team-fortress-2-reclassic-android-64bit",
@@ -1934,7 +2025,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "10602",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f64230dace882ba8b2d14ebfd24dc0a3.png",
-    "last_updated": null
+    "last_updated": "08/08/2026"
   },
   {
     "id": "ticket-to-earth-android-64bit",
@@ -1947,7 +2038,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "18369",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4d0a3fab4e219c02869a4a8355ed4ae8.jpg",
-    "last_updated": null
+    "last_updated": "05/08/2026"
+  },
+  {
+    "id": "total-party-kill-android-64bit",
+    "title": "Total Party Kill",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/ChanseyIsTheBest/totalpartykill_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5102869",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/caa9b86d86ad1b3d72fbd7e423456477.png",
+    "last_updated": "18/09/2026"
   },
   {
     "id": "valkyrie-profile-lenneth-android-64bit",
@@ -1960,7 +2064,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "36151",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/73b204804cbbf9b43fd86c44957fb65f.png",
-    "last_updated": null
+    "last_updated": "25/07/2026"
   },
   {
     "id": "very-little-nightmares-android-64bit",
@@ -1973,7 +2077,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5296922",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c0a473f4729ab4fad88284481aca2955.png",
-    "last_updated": null
+    "last_updated": "15/07/2026"
   },
   {
     "id": "vvvvvv-android-64bit",
@@ -1986,7 +2090,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "21335",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/108c7bfcc061d2f1342fc1167f8fd600.png",
-    "last_updated": null
+    "last_updated": "04/05/2026"
   },
   {
     "id": "wheres-my-water-android-64bit",
@@ -1999,7 +2103,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5350946",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/713ca5c6f657ae51cc15f4508c18fd4a.png",
-    "last_updated": null
+    "last_updated": "24/09/2026"
   },
   {
     "id": "wheres-my-water-2-android-64bit",
@@ -2012,7 +2116,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5350947",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/01d4b34b7c45a205a2f57abfb448cec0.png",
-    "last_updated": null
+    "last_updated": "24/09/2026"
   },
   {
     "id": "ys-chronicles-1-android-64bit",
@@ -2025,7 +2129,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5511527",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2a6848e1cb92e0985dabc65cbcd1b52f.png",
-    "last_updated": null
+    "last_updated": "29/07/2026"
   },
   {
     "id": "zombotron-re-boot-android-64bit",
@@ -2038,7 +2142,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5435608",
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "16/08/2026"
   },
   {
     "id": "zookeeper-dx-android-64bit",
@@ -2051,7 +2155,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1623532",
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "22/09/2026"
   },
   {
     "id": "cyber-troopers-virtual-on-arcade",
@@ -2325,6 +2429,19 @@
     "steamgriddb_id": "38383",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png",
     "last_updated": "02/11/2026"
+  },
+  {
+    "id": "halo-combat-evolved-microsoft-xbox-seamusduncmcgrath",
+    "title": "Halo: Combat Evolved",
+    "author": "seamusduncmcgrath",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/seamusduncmcgrath/OpenCE-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38383",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png",
+    "last_updated": "10/10/2026"
   },
   {
     "id": "midnight-club-3-dub-edition-microsoft-xbox",
@@ -2938,7 +3055,7 @@
     "last_updated": "23/10/2026"
   },
   {
-    "id": "need-for-speed-carbon-zofo007-microsoft-xbox-360",
+    "id": "need-for-speed-carbon-microsoft-xbox-360-zofo007",
     "title": "Need for Speed: Carbon",
     "author": "zofo007",
     "version": "1.1.0",
@@ -3042,6 +3159,19 @@
     "last_updated": "31/10/2026"
   },
   {
+    "id": "the-simpsons-game-microsoft-xbox-360",
+    "title": "The Simpson's Game",
+    "author": "R-drg",
+    "version": "1.0.1",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/R-drg/the-simpsons-game-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35540",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/df5ffddf7952e45a242c550a389dfb0b.png",
+    "last_updated": "06/10/2026"
+  },
+  {
     "id": "silent-hill-3-microsoft-xbox-360",
     "title": "Silent Hill 3",
     "author": "gerisson1996",
@@ -3052,7 +3182,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "35889",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a228a3fd54f3096e2fdac092e7127afc.png",
-    "last_updated": null
+    "last_updated": "30/10/2026"
   },
   {
     "id": "silent-hill-homecoming-microsoft-xbox-360",
@@ -3065,7 +3195,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1605",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/512ba6448f63790387e2ad3d3bc630d0.png",
-    "last_updated": null
+    "last_updated": "30/10/2026"
   },
   {
     "id": "skate-3-microsoft-xbox-360",
@@ -3078,7 +3208,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5249006",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cb5afcadcac972f1c6d743c96936ebe3.png",
-    "last_updated": null
+    "last_updated": "30/10/2026"
   },
   {
     "id": "sonic-adventure-2-microsoft-xbox-360",
@@ -3091,7 +3221,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2086",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c50b40b057149f613124fe9c535b003a.png",
-    "last_updated": null
+    "last_updated": "28/10/2026"
   },
   {
     "id": "sonic-the-hedgehog-2006-microsoft-xbox-360",
@@ -3104,7 +3234,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5249681",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2036af86769a62d2270da426bf3c1e38.png",
-    "last_updated": null
+    "last_updated": "02/10/2026"
   },
   {
     "id": "sonic-unleashed-microsoft-xbox-360",
@@ -3117,7 +3247,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "34584",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b80c0932cb6f7be27c8d37b4c847a8bd.png",
-    "last_updated": null
+    "last_updated": "02/10/2026"
   },
   {
     "id": "space-channel-5-part-2-microsoft-xbox-360",
@@ -3130,7 +3260,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "21788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/82f7a6e535b791faa4927d61d860b3ce.jpg",
-    "last_updated": null
+    "last_updated": "18/10/2026"
   },
   {
     "id": "tony-hawks-project-8-microsoft-xbox-360",
@@ -3143,7 +3273,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "34809",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f4916a3556ed7cd820b7d66f984bdc9f.png",
-    "last_updated": null
+    "last_updated": "01/10/2026"
   },
   {
     "id": "torchlight-microsoft-xbox-360",
@@ -3156,10 +3286,10 @@
     "asset_type": "zip",
     "steamgriddb_id": "9624",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png",
-    "last_updated": null
+    "last_updated": "01/11/2026"
   },
   {
-    "id": "torchlight-greenswampdweller-microsoft-xbox-360",
+    "id": "torchlight-microsoft-xbox-360-greenswampdweller",
     "title": "Torchlight",
     "author": "GreenSwampDweller",
     "version": "1.1.0",
@@ -3169,7 +3299,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "9624",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png",
-    "last_updated": null
+    "last_updated": "29/10/2026"
   },
   {
     "id": "ultra-street-fighter-iv-microsoft-xbox-360",
@@ -3182,7 +3312,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "11332",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8da182a6185560f43cda94c19017eb.png",
-    "last_updated": null
+    "last_updated": "25/10/2026"
   },
   {
     "id": "zuma-microsoft-xbox-360",
@@ -3195,7 +3325,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5857",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/eaf9391c41712aa87f5178aee396e448.png",
-    "last_updated": null
+    "last_updated": "28/10/2026"
   },
   {
     "id": "zumas-revenge-microsoft-xbox-360",
@@ -3208,7 +3338,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "7268",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5bb8fe0519310d504c92e39b45fc9acc.png",
-    "last_updated": null
+    "last_updated": "28/10/2026"
   },
   {
     "id": "castlevania-rondo-of-blood-nec-pc-engine-turbografx-16",
@@ -3328,6 +3458,19 @@
     "last_updated": "30/01/2026"
   },
   {
+    "id": "the-legend-of-zelda-majoras-mask-nintendo-64-reflex909",
+    "title": "The Legend of Zelda: Majora's Mask",
+    "author": "reflex909",
+    "version": "5.0.1 v3",
+    "original_platform": "Nintendo 64",
+    "url": "https://github.com/reflex909/2ship2harkinian-Switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34302",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
+    "last_updated": "03/09/2026"
+  },
+  {
     "id": "the-legened-of-zelda-ocarina-of-time-nintendo-64",
     "title": "The Legened of Zelda: Ocarina of Time",
     "author": "timschneeb",
@@ -3380,6 +3523,19 @@
     "last_updated": "01/10/2026"
   },
   {
+    "id": "paper-mario-nintendo-64-cyphernoodle",
+    "title": "Paper Mario",
+    "author": "CypherNoodle",
+    "version": "1.0.2",
+    "original_platform": "Nintendo 64",
+    "url": "https://github.com/CypherNoodle/PaperBoat-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36997",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f98e8082f2b3924b8a137d1cfc12e08b.png",
+    "last_updated": "28/09/2026"
+  },
+  {
     "id": "perfect-dark-nintendo-64",
     "title": "Perfect Dark",
     "author": "perfect-dark-pc-port",
@@ -3406,7 +3562,7 @@
     "last_updated": "18/10/2026"
   },
   {
-    "id": "starcraft64-thorhax-nintendo-64",
+    "id": "starcraft64-nintendo-64-thorhax",
     "title": "StarCraft64",
     "author": "Thorhax",
     "version": "1.5.0",
@@ -3458,6 +3614,19 @@
     "last_updated": "23/09/2026"
   },
   {
+    "id": "super-smash-bros-nintendo-64-delsonazevedo",
+    "title": "Super Smash Bros.",
+    "author": "delsonazevedo",
+    "version": "1.3.0",
+    "original_platform": "Nintendo 64",
+    "url": "https://github.com/delsonazevedo/BattleShip-Switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "33624",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/aedfc9ce6f9548cae0642eb628fa23c7.png",
+    "last_updated": "12/06/2026"
+  },
+  {
     "id": "wave-race-64-nintendo-64",
     "title": "Wave Race 64",
     "author": "1weell",
@@ -3469,6 +3638,19 @@
     "steamgriddb_id": "39034",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/16c64029140dab60eec81592c532597b.png",
     "last_updated": "21/09/2026"
+  },
+  {
+    "id": "wave-race-64-nintendo-64-domazinus",
+    "title": "Wave Race 64",
+    "author": "DomazinUS",
+    "version": "RC7",
+    "original_platform": "Nintendo 64",
+    "url": "https://github.com/DomazinUS/RaceWave46-Switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "39034",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/16c64029140dab60eec81592c532597b.png",
+    "last_updated": "17/10/2026"
   },
   {
     "id": "pokemon-gen-1-nintendo-gameboy",
@@ -3510,6 +3692,19 @@
     "last_updated": "04/06/2026"
   },
   {
+    "id": "the-legend-of-zelda-the-minish-cap-nintendo-gameboy-advance-alexgg1014",
+    "title": "The Legend of Zelda: The Minish Cap",
+    "author": "Alexgg1014",
+    "version": "2.0.1",
+    "original_platform": "Nintendo Gameboy Advance",
+    "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34539",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png",
+    "last_updated": "17/10/2026"
+  },
+  {
     "id": "metroid-zero-mission-nintendo-gameboy-advance",
     "title": "Metroid: Zero Mission",
     "author": "JJTapiaXX",
@@ -3523,17 +3718,30 @@
     "last_updated": "28/10/2026"
   },
   {
+    "id": "pokemon-fulldex-nintendo-gameboy-advance",
+    "title": "Pokemon: FullDex",
+    "author": "mamesj",
+    "version": "v2",
+    "original_platform": "Nintendo Gameboy Advance",
+    "url": "https://github.com/mamesj/pokemon-fulldex/releases/tag/all-games-v2",
+    "source_type": "github_release",
+    "asset_type": "zip",
+    "steamgriddb_id": "25634",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/64295252d80f840bf25dee79eb141ee7.png",
+    "last_updated": "30/10/2026"
+  },
+  {
     "id": "sonic-advance-2-nintendo-gameboy-advance",
     "title": "Sonic Advance 2",
-    "author": "",
+    "author": "boraeskicioglu",
     "version": "0.3",
     "original_platform": "Nintendo Gameboy Advance",
-    "url": "",
-    "source_type": "other",
+    "url": "https://github.com/boraeskicioglu/sonic_advance2_nx",
+    "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35290",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/98178e2c5d08c023bf55d71236cd07f2.png",
-    "last_updated": null
+    "last_updated": "16/09/2026"
   },
   {
     "id": "the-legend-of-zelda-links-awakening-dx-nintendo-gameboy-color",
@@ -3549,6 +3757,19 @@
     "last_updated": "25/04/2026"
   },
   {
+    "id": "the-legend-of-zelda-links-awakening-dx-nintendo-gameboy-color-alexgg1014",
+    "title": "The Legend of Zelda: Link's Awakening DX",
+    "author": "Alexgg1014",
+    "version": "1.2.0",
+    "original_platform": "Nintendo Gameboy Color",
+    "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34978",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d7647a0748aafad4a67c21075b180767.png",
+    "last_updated": "16/10/2026"
+  },
+  {
     "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-nintendo-gameboy-color",
     "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages",
     "author": "toniisound",
@@ -3562,7 +3783,7 @@
     "last_updated": "10/10/2026"
   },
   {
-    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-toniisound-nintendo-gameboy-color",
+    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-nintendo-gameboy-color-toniisound",
     "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages",
     "author": "toniisound",
     "version": "1.3.0",
@@ -3601,7 +3822,20 @@
     "last_updated": "02/07/2026"
   },
   {
-    "id": "the-legend-of-zelda-twilight-princess-alexgg1014-nintendo-gamecube",
+    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube-souldbminerr",
+    "title": "The Legend of Zelda: Twilight Princess",
+    "author": "souldbminerr",
+    "version": "2.0.0.25",
+    "original_platform": "Nintendo GameCube",
+    "url": "https://github.com/souldbminerr/dusklight-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34645",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
+    "last_updated": "19/06/2026"
+  },
+  {
+    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube-alexgg1014",
     "title": "The Legend of Zelda: Twilight Princess",
     "author": "Alexgg1014",
     "version": "1.1.0",
@@ -3627,6 +3861,19 @@
     "last_updated": "27/10/2026"
   },
   {
+    "id": "luigis-mansion-nintendo-gamecube",
+    "title": "Luigi's Mansion",
+    "author": "StevensND",
+    "version": "1.0.1",
+    "original_platform": "Nintendo GameCube",
+    "url": "https://github.com/StevensND/lm-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38627",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ac7c433007ac68a863d12dd75b2d13eb.png",
+    "last_updated": "01/11/2026"
+  },
+  {
     "id": "mario-kart-double-dash-nintendo-gamecube",
     "title": "Mario Kart: Double Dash!",
     "author": "digdat0",
@@ -3637,7 +3884,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "36068",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
-    "last_updated": null
+    "last_updated": "04/11/2026"
   },
   {
     "id": "sonic-riders-nintendo-gamecube",
@@ -3650,7 +3897,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "12904",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1bd4f0f15ab6e834e41a13955a1ec451.png",
-    "last_updated": null
+    "last_updated": "29/10/2026"
   },
   {
     "id": "super-mario-strikers-nintendo-gamecube",
@@ -3663,7 +3910,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "37586",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a85d58f89d4a5e8f8f9a6336b3dd18f7.jpg",
-    "last_updated": null
+    "last_updated": "29/10/2026"
   },
   {
     "id": "super-smash-bros-melee-nintendo-gamecube",
@@ -3676,7 +3923,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "37285",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bc12f11f086c6c9dd8d09f936775fce.png",
-    "last_updated": null
+    "last_updated": "06/10/2026"
   },
   {
     "id": "donkey-kong-country-super-nintendo-entertainment-system",
@@ -3690,6 +3937,19 @@
     "steamgriddb_id": "36958",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/befa1d1faf9bc95c1a29d30ea9a751a2.png",
     "last_updated": "09/09/2026"
+  },
+  {
+    "id": "donkey-kong-country-super-nintendo-entertainment-system-mrot4",
+    "title": "Donkey Kong Country",
+    "author": "mrOt4",
+    "version": "1.0.3",
+    "original_platform": "Super Nintendo Entertainment System",
+    "url": "https://github.com/mrOt4/DKC1Recomp-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36958",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/befa1d1faf9bc95c1a29d30ea9a751a2.png",
+    "last_updated": "09/10/2026"
   },
   {
     "id": "donkey-kong-country-2-super-nintendo-entertainment-system",
@@ -3718,6 +3978,19 @@
     "last_updated": "30/09/2026"
   },
   {
+    "id": "donkey-kong-country-3-super-nintendo-entertainment-system-1weell",
+    "title": "Donkey Kong Country 3",
+    "author": "1weell",
+    "version": "1.1",
+    "original_platform": "Super Nintendo Entertainment System",
+    "url": "https://github.com/1weell/DKC2Recomp-Switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "22131",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3acf3ca403eefd71d9820f4a3910284f.png",
+    "last_updated": "22/09/2026"
+  },
+  {
     "id": "f-zero-super-nintendo-entertainment-system",
     "title": "F-Zero",
     "author": "Thorhax",
@@ -3729,6 +4002,19 @@
     "steamgriddb_id": "36803",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7f15033d73520667f4539ac0eaf8dc2c.jpg",
     "last_updated": "19/09/2026"
+  },
+  {
+    "id": "the-legend-of-zelda-a-link-to-the-past-alek-s-ultimate-nx-edition-super-nintendo-entertainment-system",
+    "title": "The Legend Of Zelda A Link To The Past Alek S Ultimate Nx Edition",
+    "author": "Alexgg1014",
+    "version": "1.3.0",
+    "original_platform": "Super Nintendo Entertainment System",
+    "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38124",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
+    "last_updated": "17/10/2026"
   },
   {
     "id": "illusion-of-gaia-super-nintendo-entertainment-system",
@@ -4004,6 +4290,32 @@
     "last_updated": "29/08/2026"
   },
   {
+    "id": "doom-pc-thorhax",
+    "title": "Doom",
+    "author": "Thorhax",
+    "version": "Update 2",
+    "original_platform": "PC",
+    "url": "https://github.com/Thorhax/GZDoom-NX-Modern",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "2460",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ef58f7ffe086514aa0164c7fc4f6cea8.png",
+    "last_updated": "11/09/2026"
+  },
+  {
+    "id": "driver-2-pc",
+    "title": "Driver 2",
+    "author": "jamyaro",
+    "version": "0.1.0",
+    "original_platform": "PC",
+    "url": "https://github.com/jamyaro/REDRIVER2-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36700",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/eb101d7eef150524b3cd895d08e4f673.png",
+    "last_updated": "07/06/2026"
+  },
+  {
     "id": "dune-ii-pc",
     "title": "Dune II",
     "author": "carstene1ns",
@@ -4014,7 +4326,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38416",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4774165006b1b56612265a02b527a12d.png",
-    "last_updated": null
+    "last_updated": "09/11/2025"
   },
   {
     "id": "elder-scrolls-iii-morrowind-pc",
@@ -4027,7 +4339,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "2328",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1ac14644c9b40ddeb100f417af0e608b.png",
-    "last_updated": null
+    "last_updated": "16/08/2026"
+  },
+  {
+    "id": "elder-scrolls-iii-morrowind-pc-seamusduncmcgrath",
+    "title": "Elder Scrolls III Morrowind",
+    "author": "seamusduncmcgrath",
+    "version": "1.0.0",
+    "original_platform": "PC",
+    "url": "https://github.com/seamusduncmcgrath/openmw-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "2328",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1ac14644c9b40ddeb100f417af0e608b.png",
+    "last_updated": "15/10/2026"
   },
   {
     "id": "fallout-pc",
@@ -4040,7 +4365,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2322",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/838b5a042f1761ef0b5981585a0a7f38.png",
-    "last_updated": null
+    "last_updated": "21/05/2026"
   },
   {
     "id": "fallout-2-pc",
@@ -4053,7 +4378,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "8287",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5609571bd6572cdb562cea3562df8b83.png",
-    "last_updated": null
+    "last_updated": "21/05/2026"
   },
   {
     "id": "fallout-new-vegas-pc",
@@ -4066,7 +4391,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2352",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0088f68f9e771f24b774dce80886fc25.png",
-    "last_updated": null
+    "last_updated": "28/10/2026"
   },
   {
     "id": "freespace-2-pc",
@@ -4079,7 +4404,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "3719",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab0de82241e387d3de66d8227f3f7f08.png",
-    "last_updated": null
+    "last_updated": "28/06/2026"
   },
   {
     "id": "half-life-pc",
@@ -4092,7 +4417,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "21207",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/10f16ffcd88e1cf00e43178442437763.png",
-    "last_updated": null
+    "last_updated": "30/10/2026"
   },
   {
     "id": "heroes-of-might-magic-ii-pc",
@@ -4105,7 +4430,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "33800",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d08a016d59a164c17df9573ae39388a2.png",
-    "last_updated": null
+    "last_updated": "30/06/2026"
   },
   {
     "id": "heroes-of-might-magic-iii-pc",
@@ -4118,7 +4443,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "4446",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/50944271f670c03e921a91a8bb616d29.jpg",
-    "last_updated": null
+    "last_updated": "06/07/2026"
   },
   {
     "id": "insaniquarium-pc",
@@ -4131,7 +4456,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5811",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d010dd8cf3b86aa5eb031ac7fb5afbd1.jpg",
-    "last_updated": null
+    "last_updated": "06/09/2026"
   },
   {
     "id": "jazz-jackrabbit-2-pc",
@@ -4144,7 +4469,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5247058",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c81632061ae1a7602021f5669357cc34.png",
-    "last_updated": null
+    "last_updated": "17/10/2026"
   },
   {
     "id": "the-legend-of-zelda-oni-link-begins-pc",
@@ -4157,7 +4482,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38050",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
-    "last_updated": null
+    "last_updated": "25/08/2026"
   },
   {
     "id": "the-legend-of-zelda-return-of-the-hylian-pc",
@@ -4170,7 +4495,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38050",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
-    "last_updated": null
+    "last_updated": "25/08/2026"
   },
   {
     "id": "the-legend-of-zelda-time-to-triumph-pc",
@@ -4183,7 +4508,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5464086",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fc973d39e975f1ecbdc6e44aca879583.png",
-    "last_updated": null
+    "last_updated": "27/07/2026"
   },
   {
     "id": "luanti-pc",
@@ -4196,7 +4521,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5470317",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/79f24da462475ec680660cff4d144190.jpg",
-    "last_updated": null
+    "last_updated": "15/10/2026"
   },
   {
     "id": "marble-blast-collection-pc",
@@ -4209,7 +4534,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "21115",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f810cd5fce2258332616ad1d501f1029.png",
-    "last_updated": null
+    "last_updated": "30/08/2026"
   },
   {
     "id": "mari0-pc",
@@ -4222,7 +4547,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "35028",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6593689b6b094eb421bce9b32d914201.png",
-    "last_updated": null
+    "last_updated": "13/08/2026"
   },
   {
     "id": "mari0-alesan99s-entities-pc",
@@ -4235,7 +4560,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "35028",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6593689b6b094eb421bce9b32d914201.png",
-    "last_updated": null
+    "last_updated": "12/09/2026"
   },
   {
     "id": "mcosu-pc",
@@ -4248,7 +4573,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "17353",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f838d1d132a5028c86ea7b6466d27245.png",
-    "last_updated": null
+    "last_updated": "08/08/2026"
   },
   {
     "id": "medal-of-honor-allied-assault-pc",
@@ -4261,7 +4586,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "35422",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f9ac72d331adc4ee35df9dc97761c61e.jpg",
-    "last_updated": null
+    "last_updated": "29/06/2026"
+  },
+  {
+    "id": "mega-man-w-pc",
+    "title": "Mega Man W",
+    "author": "Vroccolli",
+    "version": "0.1.0",
+    "original_platform": "PC",
+    "url": "https://github.com/Vroccolli/mega-man-w-switch-homebrew",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35037",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3c15ed824470b5b7ec72fc4c39ee3075.png",
+    "last_updated": "27/10/2026"
   },
   {
     "id": "nazi-zombies-portable-pc",
@@ -4274,7 +4612,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5439843",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/67276a7a1931f63c1609eec7c2d8f9b5.png",
-    "last_updated": null
+    "last_updated": "31/10/2026"
   },
   {
     "id": "minecraft-java-1122-pc",
@@ -4287,7 +4625,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5248835",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/726c858fb9844f1d203177e1bebdff2d.png",
-    "last_updated": null
+    "last_updated": "21/10/2026"
   },
   {
     "id": "minecraft-rust-pc",
@@ -4300,7 +4638,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38365",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a73027901f88055aaa0fd1a9e25d36c7.png",
-    "last_updated": null
+    "last_updated": "04/11/2026"
   },
   {
     "id": "one-must-fall-2097-pc",
@@ -4313,7 +4651,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5254675",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/758b178cead50675e1e8d51ed7bbc15b.png",
-    "last_updated": null
+    "last_updated": "10/09/2026"
   },
   {
     "id": "outrun-2006-coast-2-coast-pc",
@@ -4326,7 +4664,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "11968",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2529e75067411f888861c11ee7346979.png",
-    "last_updated": null
+    "last_updated": "07/10/2026"
   },
   {
     "id": "plants-vs-zombies-pc",
@@ -4339,7 +4677,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5331605",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3203535afc65b43bb6a05ffd462e58ff.png",
-    "last_updated": null
+    "last_updated": "02/07/2026"
   },
   {
     "id": "pokemmo-pc",
@@ -4352,7 +4690,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5249074",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2c02aa81d598f7969faaee4e1e7d9919.png",
-    "last_updated": null
+    "last_updated": "01/11/2026"
   },
   {
     "id": "prey-pc",
@@ -4365,7 +4703,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "8887",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d166d6ef19f213edeece16fd1f0db8be.png",
-    "last_updated": null
+    "last_updated": "30/09/2026"
   },
   {
     "id": "project-zomboid-pc",
@@ -4378,7 +4716,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1255",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cdfea0d249d7cf72ca4109e24d49ac82.png",
-    "last_updated": null
+    "last_updated": "29/10/2026"
   },
   {
     "id": "quake-pc",
@@ -4391,7 +4729,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2514",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/906fec3cca7ccc130fa2b1844aa10126.jpg",
-    "last_updated": null
+    "last_updated": "04/09/2026"
   },
   {
     "id": "quake-2-pc",
@@ -4404,7 +4742,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5413707",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/994d008e0dcfff7b6ce327f6c43b5d6c.png",
-    "last_updated": null
+    "last_updated": "01/09/2026"
   },
   {
     "id": "rollercoaster-tycoon-2-pc",
@@ -4417,7 +4755,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "4035",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0a0def49c785aafcbb9d5013384afc41.png",
-    "last_updated": null
+    "last_updated": "10/09/2026"
   },
   {
     "id": "sheep-dog-n-wolf-rewooled-pc",
@@ -4430,7 +4768,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5327628",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1c05ae40fc997985049acc38c5539ee1.png",
-    "last_updated": null
+    "last_updated": "22/10/2026"
   },
   {
     "id": "silent-hill-pc",
@@ -4443,7 +4781,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "37313",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1aed88b7fdc56b77d7971de724e7c6d0.png",
-    "last_updated": null
+    "last_updated": "24/10/2026"
   },
   {
     "id": "silent-hill-2-pc",
@@ -4456,7 +4794,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "36708",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bd57061dc4f754f0cbad5fb6efe3733.png",
-    "last_updated": null
+    "last_updated": "21/10/2026"
   },
   {
     "id": "silent-hill-3-pc",
@@ -4469,7 +4807,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "35889",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a228a3fd54f3096e2fdac092e7127afc.png",
-    "last_updated": null
+    "last_updated": "22/10/2026"
   },
   {
     "id": "silent-hill-4-the-room-pc",
@@ -4482,7 +4820,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "36342",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a00ffcaff1ed3a0803a8d48d7b4bde91.png",
-    "last_updated": null
+    "last_updated": "11/10/2026"
+  },
+  {
+    "id": "silent-hill-4-the-room-pc-cutarev",
+    "title": "Silent Hill 4: The Room",
+    "author": "cutarev",
+    "version": "0.0.1",
+    "original_platform": "PC",
+    "url": "https://github.com/cutarev/sh4-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36342",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a00ffcaff1ed3a0803a8d48d7b4bde91.png",
+    "last_updated": "22/10/2026"
   },
   {
     "id": "the-simpsons-hit-and-run-pc",
@@ -4495,7 +4846,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "34479",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3ab7434b949fbf9a19c3fcc830c1bdf1.png",
-    "last_updated": null
+    "last_updated": "28/10/2026"
   },
   {
     "id": "sly-cooper-and-the-thievius-raccoonus-pc",
@@ -4508,7 +4859,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5248314",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6f550c53b3d9f67c09a5c6feda1e46a.png",
-    "last_updated": null
+    "last_updated": "21/10/2026"
   },
   {
     "id": "sonic-r-pc",
@@ -4521,7 +4872,20 @@
     "asset_type": "zip",
     "steamgriddb_id": "37385",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/99cfac1de7eb731e619a1abcd690eada.png",
-    "last_updated": null
+    "last_updated": "15/09/2026"
+  },
+  {
+    "id": "sonic-r-pc-thorhax",
+    "title": "Sonic R",
+    "author": "Thorhax",
+    "version": "1.0.1",
+    "original_platform": "PC",
+    "url": "https://github.com/Thorhax/Sonic-R-NX-Modern",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "37385",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/99cfac1de7eb731e619a1abcd690eada.png",
+    "last_updated": "16/09/2026"
   },
   {
     "id": "space-cadet-pc",
@@ -4534,7 +4898,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "17822",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/098b8b9f44bbbc0db5aff108ef93a0e2.png",
-    "last_updated": null
+    "last_updated": "03/10/2026"
   },
   {
     "id": "starbound-pc",
@@ -4547,7 +4911,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2048",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/04eccd0076a2ba4c0ab95a548cb90543.png",
-    "last_updated": null
+    "last_updated": "23/07/2026"
   },
   {
     "id": "super-mario-war-pc",
@@ -4560,7 +4924,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5279648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9513e7a721539fc573477867b253b10d.png",
-    "last_updated": null
+    "last_updated": "22/10/2026"
   },
   {
     "id": "terraria-mod-loader-pc",
@@ -4573,7 +4937,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1226",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9ef7f9b81c2532880cfe5cf53f0c906d.png",
-    "last_updated": null
+    "last_updated": "01/11/2026"
   },
   {
     "id": "touhou-6-embodiment-of-the-scarlet-devil-pc",
@@ -4586,7 +4950,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "104",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png",
-    "last_updated": null
+    "last_updated": "30/09/2026"
   },
   {
     "id": "touhou-75-immaterial-and-missing-power-pc",
@@ -4599,7 +4963,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "36894",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/155882bd2be6bbd7f2e84ef47700b81a.png",
-    "last_updated": null
+    "last_updated": "17/10/2026"
   },
   {
     "id": "touhou-7-perfect-cherry-blossom-pc",
@@ -4612,7 +4976,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "38787",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/513622713be8b84fd8d5b783f6fc82b5.png",
-    "last_updated": null
+    "last_updated": "30/09/2026"
   },
   {
     "id": "touhou-8-imperishable-night-pc",
@@ -4625,7 +4989,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5248274",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d23941275ef524a546d5921aa8c5af2d.png",
-    "last_updated": null
+    "last_updated": "30/09/2026"
   },
   {
     "id": "touhou-9-phantasmagoria-of-flower-view-pc",
@@ -4638,7 +5002,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5248275",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/923b8529f52ae407a0a5240adc96cb45.png",
-    "last_updated": null
+    "last_updated": "30/09/2026"
   },
   {
     "id": "touhou-wonderful-waking-world-pc",
@@ -4651,7 +5015,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "104",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png",
-    "last_updated": null
+    "last_updated": "07/10/2026"
   },
   {
     "id": "touhou-10-mountain-of-faith-pc",
@@ -4664,7 +5028,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5248276",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5e1ff67e139a8864f865e8291d7dd9ba.png",
-    "last_updated": null
+    "last_updated": "27/10/2026"
   },
   {
     "id": "touhou-11-subterranean-animism-pc",
@@ -4677,7 +5041,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5248277",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/bf2fa650e518881d280944c7ab86bf6e.png",
-    "last_updated": null
+    "last_updated": "30/09/2026"
   },
   {
     "id": "touhou-12-undefined-fantastic-object-pc",
@@ -4690,7 +5054,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5248287",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/58bac1cfcc90fade6fe95c82b52328ef.png",
-    "last_updated": null
+    "last_updated": "25/10/2026"
   },
   {
     "id": "touhou-15-legacy-of-lunatic-kingdom-pc",
@@ -4703,7 +5067,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1150408",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/315f2bdad8f5387c73c7d22ef3441bc9.png",
-    "last_updated": null
+    "last_updated": "13/10/2026"
   },
   {
     "id": "undertale-yellow-pc",
@@ -4716,7 +5080,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5260619",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/513f718593a988efe43fc5f63fda26eb.png",
-    "last_updated": null
+    "last_updated": "30/08/2026"
   },
   {
     "id": "velikolepny-vovochka-pc",
@@ -4729,7 +5093,7 @@
     "asset_type": "zip",
     "steamgriddb_id": null,
     "grid_image_url": null,
-    "last_updated": null
+    "last_updated": "16/09/2026"
   },
   {
     "id": "warcraft-pc",
@@ -4742,7 +5106,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "35373",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ae934d990bb6f14c6df3c2c2ab9f5448.png",
-    "last_updated": null
+    "last_updated": "14/09/2026"
   },
   {
     "id": "warcraft-ii-pc",
@@ -4755,7 +5119,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "36975",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/29dc04ca530ed7b9171828dc3a88ecad.png",
-    "last_updated": null
+    "last_updated": "09/09/2026"
   },
   {
     "id": "wolfenstein-3d-pc",
@@ -4768,7 +5132,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2428",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/31017a5aacb8de6b5c793ff5dc1b99eb.jpg",
-    "last_updated": null
+    "last_updated": "08/09/2026"
   },
   {
     "id": "zuma-deluxe-pc",
@@ -4781,7 +5145,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5857",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/eaf9391c41712aa87f5178aee396e448.png",
-    "last_updated": null
+    "last_updated": "23/07/2026"
   },
   {
     "id": "sonic-adventure-sega-dreamcast",
@@ -4834,6 +5198,19 @@
     "steamgriddb_id": "5430055",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b267adbe80f6ccd2b7e900f8cce7c935.png",
     "last_updated": "05/11/2026"
+  },
+  {
+    "id": "-sega-genesis",
+    "title": "---",
+    "author": "",
+    "version": "---",
+    "original_platform": "Sega Genesis",
+    "url": "---",
+    "source_type": "other",
+    "asset_type": "zip",
+    "steamgriddb_id": "1",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/bafd5785e9335ccde7bcde6051b5dcf6.png",
+    "last_updated": "---"
   },
   {
     "id": "lain-sony-playstation",
