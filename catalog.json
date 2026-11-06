@@ -178,7 +178,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "39001",
-    "grid_image_url": null,
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/301597ca9b9c8bd0bac29d8864a35105.jpg",
     "last_updated": "01/10/2026"
   },
   {
@@ -737,7 +737,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5262545",
-    "grid_image_url": null,
+    "grid_image_url": "https://m.media-amazon.com/images/M/MV5BNmFiMjMyNzEtNjNkMC00MGRhLTk5NDUtNTViOTQ1YzM4ZDA2XkEyXkFqcGc@._V1_.jpg",
     "last_updated": "27/07/2026"
   },
   {
@@ -1750,8 +1750,8 @@
     "url": "https://github.com/ChanseyIsTheBest/revolt_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "38285",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d2acb449be3bc858a00d4146c54bf3f.png",
     "last_updated": "20/09/2026"
   },
   {
@@ -1763,8 +1763,8 @@
     "url": "https://github.com/BirdSentinel/rvgl-for-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "38285",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d2acb449be3bc858a00d4146c54bf3f.png",
     "last_updated": "21/02/2026"
   },
   {
@@ -5195,8 +5195,8 @@
     "url": "https://github.com/simplePsyduck/MickeyAndDonaldCollection-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "5430055",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b267adbe80f6ccd2b7e900f8cce7c935.png",
+    "steamgriddb_id": "4598",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9cf18de50ca98ddcd1ba09034ae1a2c5.png",
     "last_updated": "05/11/2026"
   },
   {
