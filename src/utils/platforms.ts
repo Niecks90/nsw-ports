@@ -15,7 +15,7 @@ export function getShortPlatformName(platform: string): string {
         case "Sony Playstation": return "Playstation";
         case "Sony Playstation 2": return "Playstation 2";
         case "Sony Playstation 4": return "Playstation 4";
-        case "Sony Playstation 4": return "Playstation Portable";
+        case "Sony Playstation Portable": return "Playstation Portable";
         case "Sega Dreamcast": return "Dreamcast";
         case "Sega Genesis": return "Megadrive";
         case "Android 32bit": return "Android 32";
