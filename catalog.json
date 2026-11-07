@@ -1292,7 +1292,7 @@
     "author": "ChanseyIsTheBest",
     "version": "1.0.1",
     "original_platform": "Android 64bit",
-    "url": "https://github.com/ChanseyIsTheBest/killerbean_nx/tree/main",
+    "url": "https://github.com/ChanseyIsTheBest/killerbean_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5293871",
@@ -2141,7 +2141,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5435608",
-    "grid_image_url": null,
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ac2620d24cb06e5cc889035a5bb79e96.jpg",
     "last_updated": "16/08/2026"
   },
   {
@@ -2559,6 +2559,19 @@
     "steamgriddb_id": "5252751",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/faaefd89ee208626ec0d134a8353f5dd.png",
     "last_updated": "02/11/2026"
+  },
+  {
+    "id": "alice-madness-returns-microsoft-xbox-360",
+    "title": "Alice: Madness Returns",
+    "author": "adumah",
+    "version": "0.2-beta",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/adumah/alice-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1615",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/39e42960b233b6999d195eae85d7290b.png",
+    "last_updated": "05/11/2026"
   },
   {
     "id": "bakugan-battle-brawlers-microsoft-xbox-360",
