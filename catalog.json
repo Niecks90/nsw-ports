@@ -91,6 +91,19 @@
     "last_updated": "28/09/2026"
   },
   {
+    "id": "call-of-duty-strike-team-android-32bit",
+    "title": "Call of Duty: Strike Team",
+    "author": "[Zumoly",
+    "version": "0.1.0",
+    "original_platform": "Android 32bit",
+    "url": "https://github.com/Zumoly/cod-strike-team-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "3374",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d50024a382b0bbae0ba02d1ef479b927.jpg",
+    "last_updated": "07/11/2026"
+  },
+  {
     "id": "costume-quest-android-32bit",
     "title": "Costume Quest",
     "author": "iqbalriz",
@@ -185,14 +198,14 @@
     "id": "jet-set-radio-android-32bit",
     "title": "Jet Set Radio",
     "author": "lemasterxar5",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "original_platform": "Android 32bit",
     "url": "https://github.com/lemasterxar5/jet-set-radio-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1868",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e96fb9f9c97bcc38136043fb0627ef91.png",
-    "last_updated": "21/10/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "labyrinth-2-android-32bit",
@@ -314,15 +327,15 @@
   {
     "id": "space-hulk-android-32bit",
     "title": "Space Hulk",
-    "author": "liartes",
-    "version": "0.1.4",
+    "author": "",
+    "version": "0.1.5",
     "original_platform": "Android 32bit",
-    "url": "https://github.com/liartes/spacehulk-nx",
+    "url": "https://github.com//spacehulk-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2788",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c00c6e37c78747ce9de6c29c0d4febba.png",
-    "last_updated": "20/10/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "steven-universe-attack-the-light-android-32bit",
@@ -2941,14 +2954,14 @@
     "id": "lost-odyssey-microsoft-xbox-360",
     "title": "Lost Odyssey",
     "author": "Ad0ky",
-    "version": "1.0.6e",
+    "version": "1.1.0",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Ad0ky/LostOdysseyRecomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36456",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c935ae5eb3f0ae34220b8ea163a59d43.png",
-    "last_updated": "03/11/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "mass-effect-microsoft-xbox-360",
@@ -3032,14 +3045,14 @@
     "id": "mortal-kombat-komplete-edition-microsoft-xbox-360",
     "title": "Mortal Kombat Komplete Edition",
     "author": "Thorhax",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Thorhax/mk9-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2668",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c9c9f8e41433ff4ad15aa577a465e599.png",
-    "last_updated": "02/11/2026"
+    "last_updated": "05/11/2026"
   },
   {
     "id": "mushihimesama-futari-microsoft-xbox-360",
@@ -3292,14 +3305,14 @@
     "id": "torchlight-microsoft-xbox-360",
     "title": "Torchlight",
     "author": "liartes",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/liartes/torchlight-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "9624",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png",
-    "last_updated": "01/11/2026"
+    "last_updated": "05/11/2026"
   },
   {
     "id": "torchlight-microsoft-xbox-360-greenswampdweller",
@@ -3365,6 +3378,19 @@
     "steamgriddb_id": "37451",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2dd919d20fb9d85da9f5bf96531efa3f.jpg",
     "last_updated": "04/11/2026"
+  },
+  {
+    "id": "the-legend-of-zelda-ocarina-of-time-3d-nintendo-3ds",
+    "title": "The Legend of Zelda: Ocarina of Time 3D",
+    "author": "JohnUzoka",
+    "version": "0.1.0",
+    "original_platform": "Nintendo 3DS",
+    "url": "https://github.com/JohnUzoka/TriAevum-Switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36271",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab6fe89d793b5a3c4153692779cb0680.png",
+    "last_updated": "05/11/2026"
   },
   {
     "id": "banjo-kazooie-nintendo-64",
@@ -3890,14 +3916,14 @@
     "id": "mario-kart-double-dash-nintendo-gamecube",
     "title": "Mario Kart: Double Dash!",
     "author": "digdat0",
-    "version": "1.8.4",
+    "version": "1.9.0",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/digdat0/mkdd-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36068",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
-    "last_updated": "04/11/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "sonic-riders-nintendo-gamecube",
@@ -4277,6 +4303,19 @@
     "last_updated": "09/09/2026"
   },
   {
+    "id": "deus-ex-pc",
+    "title": "Deus EX",
+    "author": "JohnUzoka",
+    "version": "0.1.0",
+    "original_platform": "PC",
+    "url": "https://github.com/JohnUzoka/dx-rust-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36605",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ca20e1d8e1d19a92fbfc28f0b467dd5b.png",
+    "last_updated": "05/11/2026"
+  },
+  {
     "id": "diablo-pc",
     "title": "Diablo",
     "author": "Thorhax",
@@ -4615,19 +4654,6 @@
     "last_updated": "27/10/2026"
   },
   {
-    "id": "nazi-zombies-portable-pc",
-    "title": "Nazi Zombies: Portable",
-    "author": "NZP-Team",
-    "version": "2.0.0",
-    "original_platform": "PC",
-    "url": "https://github.com/nzp-team/nzportable/",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "5439843",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/67276a7a1931f63c1609eec7c2d8f9b5.png",
-    "last_updated": "31/10/2026"
-  },
-  {
     "id": "minecraft-java-1122-pc",
     "title": "Minecraft Java 1.12.2",
     "author": "etonedemid",
@@ -4652,6 +4678,32 @@
     "steamgriddb_id": "38365",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a73027901f88055aaa0fd1a9e25d36c7.png",
     "last_updated": "04/11/2026"
+  },
+  {
+    "id": "nazi-zombies-portable-pc",
+    "title": "Nazi Zombies: Portable",
+    "author": "NZP-Team",
+    "version": "2.0.0",
+    "original_platform": "PC",
+    "url": "https://github.com/nzp-team/nzportable/",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5439843",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/67276a7a1931f63c1609eec7c2d8f9b5.png",
+    "last_updated": "31/10/2026"
+  },
+  {
+    "id": "need-for-speed-ii-iii-pc",
+    "title": "Need for Speed II / III",
+    "author": "PalindromicBreadLoaf",
+    "version": "1.0.1 *pre-release*",
+    "original_platform": "PC",
+    "url": "https://github.com/PalindromicBreadLoaf/HotPursuitNX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
+    "last_updated": "17/09/2026"
   },
   {
     "id": "one-must-fall-2097-pc",
@@ -5315,5 +5367,18 @@
     "steamgriddb_id": "5250177",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/377533335b14e2767f4cd93a75573062.png",
     "last_updated": "02/11/2026"
+  },
+  {
+    "id": "ben-10-protector-of-earth-sony-playstation-portable",
+    "title": "Ben 10: Protector of Earth",
+    "author": "LaLemniscata",
+    "version": "1.1.4",
+    "original_platform": "Sony Playstation Portable",
+    "url": "https://github.com/LaLemniscata/ben10-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35024",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4bec99ec5bd39630575692948d9e8169.png",
+    "last_updated": "05/11/2026"
   }
 ]
