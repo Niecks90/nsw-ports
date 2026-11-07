@@ -4,6 +4,7 @@ export function getShortPlatformName(platform: string): string {
         case "Microsoft Xbox": return "Xbox";
         case "Microsoft Xbox 360": return "Xbox 360";
         case "Nintendo GameCube": return "GameCube";
+        case "Nintendo 3DS": return "Nintendo 3DS";    
         case "Nintendo 64": return "Nintendo64";
         case "Nintendo Gameboy": return "Gameboy";
         case "Nintendo Gameboy Advance": return "Gameboy Advance";
@@ -14,6 +15,7 @@ export function getShortPlatformName(platform: string): string {
         case "Sony Playstation": return "Playstation";
         case "Sony Playstation 2": return "Playstation 2";
         case "Sony Playstation 4": return "Playstation 4";
+        case "Sony Playstation 4": return "Playstation Portable";
         case "Sega Dreamcast": return "Dreamcast";
         case "Sega Genesis": return "Megadrive";
         case "Android 32bit": return "Android 32";
@@ -31,6 +33,7 @@ export function getPlatformBadgeClasses(platform: string): string {
         case "Xbox": return "bg-emerald-600 text-white";
         case "Xbox 360": return "bg-lime-600 text-white";
         case "GameCube": return "bg-purple-700 text-purple-100";
+        case "Nintendo 3DS": return "bg-red-600 text-white";
         case "Nintendo64": return "bg-red-600 text-white";
         case "Super Nintendo": return "bg-violet-600 text-white";
         case "Gameboy": return "bg-slate-600 text-slate-100";
@@ -40,6 +43,7 @@ export function getPlatformBadgeClasses(platform: string): string {
         case "Wii U": return "bg-sky-600 text-white";
         case "Playstation":
         case "Playstation 2":
+        case "Playstation Portable":   
         case "Playstation 4": return "bg-blue-600 text-white";
         case "Dreamcast": return "bg-orange-600 text-white";
         case "Megadrive": return "bg-blue-900 text-blue-100";
