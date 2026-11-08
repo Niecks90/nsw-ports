@@ -93,7 +93,7 @@
   {
     "id": "call-of-duty-strike-team-android-32bit",
     "title": "Call of Duty: Strike Team",
-    "author": "[Zumoly",
+    "author": "Zumoly",
     "version": "0.1.0",
     "original_platform": "Android 32bit",
     "url": "https://github.com/Zumoly/cod-strike-team-nx",
@@ -2730,6 +2730,19 @@
     "last_updated": "02/11/2026"
   },
   {
+    "id": "condemned-2-microsoft-xbox-360",
+    "title": "Condemned 2",
+    "author": "ipungsx",
+    "version": "0.2.1",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/ipungsx/condemned2BSx360-Port-Switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5265030",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/93a77d951ae320600dc9619f3ddeee72.png",
+    "last_updated": "07/11/2026"
+  },
+  {
     "id": "dantes-inferno-microsoft-xbox-360",
     "title": "Dante's Inferno",
     "author": "VasilkovND",
@@ -2949,6 +2962,19 @@
     "steamgriddb_id": "5257108",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/af15c7e3ec0e5b97b20e9daacf0193a9.png",
     "last_updated": "30/10/2026"
+  },
+  {
+    "id": "the-king-of-fighters-2002-unlimited-match-microsoft-xbox-360",
+    "title": "The King of Fighters 2002 Unlimited Match",
+    "author": "tbittech",
+    "version": "0.1.1",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/tbittech/kof2002um-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "2309",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b9e8886808531456cd2f4bb4e718e22b.png",
+    "last_updated": "07/11/2026"
   },
   {
     "id": "lost-odyssey-microsoft-xbox-360",
@@ -5263,6 +5289,19 @@
     "steamgriddb_id": "4598",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9cf18de50ca98ddcd1ba09034ae1a2c5.png",
     "last_updated": "05/11/2026"
+  },
+  {
+    "id": "digimon-world-3-sony-playstation",
+    "title": "Digimon World 3",
+    "author": "Larbaco",
+    "version": "0.9.0-*preview 2*",
+    "original_platform": "Sony Playstation",
+    "url": "https://github.com/Larbaco/dw3-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35434",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/41f739730d019057c617cd8b03c18d60.jpg",
+    "last_updated": "02/11/2026"
   },
   {
     "id": "lain-sony-playstation",
