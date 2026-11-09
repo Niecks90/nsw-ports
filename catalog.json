@@ -2236,6 +2236,19 @@
     "last_updated": "01/09/2026"
   },
   {
+    "id": "outrunners-arcade",
+    "title": "Outrunners",
+    "author": "cheviman",
+    "version": "1.2.1",
+    "original_platform": "Arcade",
+    "url": "https://github.com/cheviman/outrunners-port",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5246243",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ce2e5fba47bf03aa639a79cb2819ae95.png",
+    "last_updated": "07/11/2026"
+  },
+  {
     "id": "sega-rally-arcade",
     "title": "Sega Rally",
     "author": "jacquesdupontd",
@@ -2260,6 +2273,19 @@
     "steamgriddb_id": "29859",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6492dc4c8cce0953e992c39500b220a.png",
     "last_updated": "09/10/2026"
+  },
+  {
+    "id": "teenage-mutant-ninja-turtles-arcade",
+    "title": "Teenage Mutant Ninja Turtles",
+    "author": "cheviman",
+    "version": "1.0.5",
+    "original_platform": "Arcade",
+    "url": "https://github.com/cheviman/tmnt-port",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5256611",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ed8ed7dd7e0836bc79f7543fca7de56f.png",
+    "last_updated": "07/11/2026"
   },
   {
     "id": "virtua-fighter-2-arcade",
@@ -3097,14 +3123,14 @@
     "id": "need-for-speed-carbon-microsoft-xbox-360",
     "title": "Need for Speed: Carbon",
     "author": "Kaays",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Kaays/nfscarbon-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "34648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png",
-    "last_updated": "23/10/2026"
+    "last_updated": "08/11/2026"
   },
   {
     "id": "need-for-speed-carbon-microsoft-xbox-360-zofo007",
@@ -3614,6 +3640,19 @@
     "last_updated": "13/08/2026"
   },
   {
+    "id": "snowboard-kids-2-nintendo-64",
+    "title": "Snowboard Kids 2",
+    "author": "cdlewis",
+    "version": "2.0.2",
+    "original_platform": "Nintendo 64",
+    "url": "https://github.com/cdlewis/snowboardkids2-recomp",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1667",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b1a491999695f9df23123c2290041da8.jpg",
+    "last_updated": "17/10/2026"
+  },
+  {
     "id": "starcraft64-nintendo-64",
     "title": "StarCraft64",
     "author": "gabryboy12-ai",
@@ -4121,6 +4160,19 @@
     "last_updated": "01/11/2026"
   },
   {
+    "id": "super-mario-all-stars-super-nintendo-entertainment-system",
+    "title": "Super Mario All-Stars",
+    "author": "simplePsyduck",
+    "version": "*pre-release 2*",
+    "original_platform": "Super Nintendo Entertainment System",
+    "url": "https://github.com/simplePsyduck/SuperMarioAllStars-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35547",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f3020a5e3bef2326ce6038bf848cd570.png",
+    "last_updated": "08/11/2026"
+  },
+  {
     "id": "super-mario-world-super-nintendo-entertainment-system",
     "title": "Super Mario World",
     "author": "wiredlainn",
@@ -4262,6 +4314,19 @@
     "steamgriddb_id": "3451",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d400678aeca0f6316996ecbf8d258691.png",
     "last_updated": "01/11/2026"
+  },
+  {
+    "id": "carmageddon-pc",
+    "title": "Carmageddon",
+    "author": "jackazz86",
+    "version": "1.2-nx",
+    "original_platform": "PC",
+    "url": "https://github.com/jackazz86/dethrace-switch-fw21",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36973",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0b10574b8240b424056808b793bef04f.png",
+    "last_updated": "28/10/2026"
   },
   {
     "id": "castlevania-revamped-pc",
@@ -5307,14 +5372,14 @@
     "id": "lain-sony-playstation",
     "title": "Lain",
     "author": "amydevs",
-    "version": "0.4.4-nx.6",
+    "version": "0.4.4-nx.7",
     "original_platform": "Sony Playstation",
     "url": "https://github.com/amydevs/lainNX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5258936",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ff1bd6e5016e5aca10356877b8726d13.png",
-    "last_updated": "20/08/2026"
+    "last_updated": "07/11/2026"
   },
   {
     "id": "ms-pacman-maze-madness-sony-playstation",
