@@ -250,14 +250,14 @@
     "id": "need-for-speed-most-wanted-android-32bit",
     "title": "Need for Speed: Most Wanted",
     "author": "SantiBros",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "original_platform": "Android 32bit",
     "url": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "38250",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/bcee397c146136f405865adcf1655207.png",
-    "last_updated": "19/10/2026"
+    "last_updated": "09/11/2026"
   },
   {
     "id": "nova-3-near-orbit-vanguard-alliance-android-32bit",
@@ -406,27 +406,27 @@
     "id": "adventures-of-mana-android-64bit",
     "title": "Adventures of Mana",
     "author": "NaGaa95",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/aom_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5254844",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b60baa7482949cc34c20fb9772e034ac.jpg",
-    "last_updated": "14/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "after-burner-climax-android-64bit",
     "title": "After Burner Climax",
     "author": "NaGaa95",
-    "version": "1.0.2",
+    "version": "1.0.1",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/abc_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "34023",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/66c0a5a57952264af78836110425be69.png",
-    "last_updated": "24/09/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "angry-birds-classic-android-64bit",
@@ -445,14 +445,14 @@
     "id": "angry-birds-2-android-64bit",
     "title": "Angry Birds 2",
     "author": "NaGaa95",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/angrybirds2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5258599",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/413e78344e37df9ea75968f234024608.png",
-    "last_updated": "06/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "angry-birds-epic-all-stars-android-64bit",
@@ -471,14 +471,14 @@
     "id": "angry-birds-journey-android-64bit",
     "title": "Angry Birds Journey",
     "author": "NaGaa95",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/angrybirdsjourney_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5323755",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/aa57e605641a6707346baa7737577d2d.png",
-    "last_updated": "06/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "angry-birds-reloaded-android-64bit",
@@ -497,14 +497,14 @@
     "id": "animal-crossing-pocket-camp-android-64bit",
     "title": "Animal Crossing: Pocket Camp",
     "author": "Nagaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/acpc_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5255704",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/dbe840e1e6cd1fa38a486d524135b392.png",
-    "last_updated": "09/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "bad-piggies-android-64bit",
@@ -692,53 +692,53 @@
     "id": "castle-of-illusion-android-64bit",
     "title": "Castle of Illusion",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/coi_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2449",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c52f0d9f8fb84ea294975f6b595d5308.png",
-    "last_updated": "14/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "castlevania-symphony-of-the-night-android-64bit",
     "title": "Castlevania Symphony of the Night",
     "author": "NaGaa95",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/sotn_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37654",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png",
-    "last_updated": "05/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "chaos-rings-iii-android-64bit",
     "title": "Chaos Rings III",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/cr3_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5460097",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/70435090db99349833da384067a809a7.png",
-    "last_updated": "28/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "chrono-trigger-android-64bit",
     "title": "Chrono Trigger",
     "author": "NaGaa95",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ct_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "17593",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/abc617f05e41620356626cf7761d5143.png",
-    "last_updated": "13/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "clay-jam-classic-android-64bit",
@@ -770,14 +770,14 @@
     "id": "counter-strike-source-android-64bit",
     "title": "Counter Strike Source",
     "author": "NaGaa95",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/css_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2733",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/68addc821b387ab5cc91c846b627a586.png",
-    "last_updated": "06/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "crazy-taxi-android-64bit",
@@ -796,27 +796,27 @@
     "id": "cut-the-rope-android-64bit",
     "title": "Cut the Rope",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ctr_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2330",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/0384e59d348a9248f08a2627cdf43741.png",
-    "last_updated": "06/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "cut-the-rope-2-android-64bit",
     "title": "Cut the Rope 2",
     "author": "NaGaa95",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ctr2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5289145",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f57c62e6ea2a165b80cc759e6e935cf5.png",
-    "last_updated": "06/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "cut-the-rope-experiments-android-64bit",
@@ -978,53 +978,53 @@
     "id": "final-fantasy-dimensions-android-64bit",
     "title": "Final Fantasy Dimensions",
     "author": "NaGaa95",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ffd_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "33565",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
-    "last_updated": "28/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "final-fantasy-dimension-ii-android-64bit",
     "title": "Final Fantasy Dimension II",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ffd2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "33565",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c112afc9b1ebde9d311cca23e8eb2b8.png",
-    "last_updated": "15/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "final-fantasy-iii-3d-remake-android-64bit",
     "title": "Final Fantasy III 3D Remake",
     "author": "NaGaa95",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ff3_3d_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2715",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/177884afc4a6c3501d658adda5ed5c96.png",
-    "last_updated": "23/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "final-fantasy-iv-3d-remake-android-64bit",
     "title": "Final Fantasy IV 3D Remake",
     "author": "NaGaa95",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ff4_3d_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5054",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9a8d7eb7879dca0954771f50f440b591.png",
-    "last_updated": "29/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "final-fantasy-iv-3d-remake-android-64bit-glitcheddeveloper",
@@ -1043,14 +1043,14 @@
     "id": "final-fantasy-iv-the-after-years-android-64bit",
     "title": "Final Fantasy IV The After Years",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/ff4tay_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "6559",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cd6544b0ab90949c415ed0d775c25384.png",
-    "last_updated": "18/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "flappy-bird-android-64bit",
@@ -1095,14 +1095,14 @@
     "id": "geometry-dash-android-64bit",
     "title": "Geometry Dash",
     "author": "NaGaa95",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/gdash_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5427",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/818d9d1eaede1c656acf1db6a10d9866.png",
-    "last_updated": "07/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "gizmoduck-android-64bit",
@@ -1134,40 +1134,40 @@
     "id": "grand-theft-auto-chinatown-wars-android-64bit",
     "title": "Grand Theft Auto Chinatown Wars",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/gtactw_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "62",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/edcbb16417f7a00253240c23ef93dfb6.png",
-    "last_updated": "29/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "grand-theft-auto-liberty-city-stories-android-64bit",
     "title": "Grand Theft Auto Liberty City Stories",
     "author": "NaGaa95",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/gtalcs_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "33713",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6ba32142b6b23ecd32a4c0aff11c2c41.png",
-    "last_updated": "30/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "grand-theft-auto-san-andreas-android-64bit",
     "title": "Grand Theft Auto San Andreas",
     "author": "NaGaa95",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/gtasa_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1352",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c4e954b93dc03b0f846db4051a1e6d25.png",
-    "last_updated": "15/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "granny-android-64bit",
@@ -1186,14 +1186,14 @@
     "id": "half-life-2-android-64bit",
     "title": "Half Life 2",
     "author": "NaGaa95",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/hl2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2254",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1d386e4b61ac43b166394517562a0b17.png",
-    "last_updated": "03/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "happy-wheels-android-64bit",
@@ -1290,14 +1290,14 @@
     "id": "jetpack-joyride-android-64bit",
     "title": "Jetpack Joyride",
     "author": "NaGaa95",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/jetpackjoyride_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5270695",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fd5693a5277fc5a1dbd31dbb4af9a1d8.png",
-    "last_updated": "06/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "killer-bean-unleashed-android-64bit",
@@ -1316,14 +1316,14 @@
     "id": "kingdom-hearts-union-dark-road-android-64bit",
     "title": "Kingdom Hearts Union χ Dark Road",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/KHUx_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5430172",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/15e729f1b7a1fd5c579939ae2d39fd3f.png",
-    "last_updated": "03/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "lara-croft-go-android-64bit",
@@ -1342,66 +1342,66 @@
     "id": "layton-brothers-mystery-room-android-64bit",
     "title": "Layton Brothers Mystery Room",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/laytonbmr_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5278190",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4c0b0ad48e559c16d10e7c47244a4025.png",
-    "last_updated": "15/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "lego-batman-beyond-gotham-android-64bit",
     "title": "LEGO Batman Beyond Gotham",
     "author": "NaGaa95",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/lbbg_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5094",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/22a7338a58e71ec0243bd42bf4fc36c2.png",
-    "last_updated": "01/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "lego-ninjago-shadow-of-ronin-android-64bit",
     "title": "LEGO Ninjago Shadow of Ronin",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/lnsor_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5267390",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/56d34bdba0c55cf372c37ee9a1260055.png",
-    "last_updated": "15/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "lego-star-wars-the-complete-saga-android-64bit",
     "title": "LEGO Star Wars The Complete Saga",
     "author": "NaGaa95",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/lswtcs_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5517",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e14dc01aadd6ee3cee4ef338fd966b35.png",
-    "last_updated": "09/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "lego-star-wars-the-force-awakens-android-64bit",
     "title": "LEGO Star Wars The Force Awakens",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/lswtfa_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "10560",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/311c6954b09b0dc7ca7ccc4b3ca03949.png",
-    "last_updated": "30/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "level-up-marios-minigames-mayhem-android-64bit",
@@ -1420,14 +1420,14 @@
     "id": "max-payne-android-64bit",
     "title": "Max Payne",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/max_nx_v2.1.131",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1354",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/623e5a1136651b875b7124e55ce30f59.png",
-    "last_updated": "10/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "mega-man-x-regenesis-android-64bit",
@@ -1706,46 +1706,46 @@
     "id": "professor-layton-curious-village-hd-android-64bit",
     "title": "Professor Layton Curious Village HD",
     "author": "NaGaa95",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/layton_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "38827",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7402281d0ac9a8b55a599a5f69179d4a.png",
-    "last_updated": "29/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "professor-layton-lost-hope-hd-android-64bit",
     "title": "Professor Layton Lost Hope HD",
     "author": "NaGaa95",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/layton3_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "38016",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png",
-    "last_updated": "29/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "professor-layton-pandoras-box-hd-android-64bit",
     "title": "Professor Layton Pandora's Box HD",
     "author": "NaGaa95",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/layton2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "38016",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17a163f6ab3de102b49599f5577866fc.png",
-    "last_updated": "29/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "real-drift-car-racing-android-64bit",
     "title": "Real Drift Car Racing",
     "author": "dpadninja",
-    "version": "1.5.1",
+    "version": "1.5.3",
     "original_platform": "Android 64bit",
     "url": "https://github.com/dpadninja/realdrift_nx",
     "source_type": "github_repo",
@@ -1953,14 +1953,14 @@
     "id": "subway-surfers-android-64bit",
     "title": "Subway Surfers",
     "author": "NaGaa95",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/subwaysurfers_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5283916",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fffbaa156b026dfc0e11dbd799bf7344.png",
-    "last_updated": "03/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "super-mario-63-redux-android-64bit",
@@ -2018,27 +2018,27 @@
     "id": "swordigo-android-64bit",
     "title": "Swordigo",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/swordigo_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5507475",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8605117258838b6d2f16feb3fde86267.png",
-    "last_updated": "14/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "team-fortress-2-reclassic-android-64bit",
     "title": "Team Fortress 2 ReClassic",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/tf2_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "10602",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f64230dace882ba8b2d14ebfd24dc0a3.png",
-    "last_updated": "08/08/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "ticket-to-earth-android-64bit",
@@ -2083,14 +2083,14 @@
     "id": "very-little-nightmares-android-64bit",
     "title": "Very Little Nightmares",
     "author": "NaGaa95",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "original_platform": "Android 64bit",
     "url": "https://github.com/NaGaa95/vln_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5296922",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c0a473f4729ab4fad88284481aca2955.png",
-    "last_updated": "15/07/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "vvvvvv-android-64bit",
@@ -2143,19 +2143,6 @@
     "steamgriddb_id": "5511527",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2a6848e1cb92e0985dabc65cbcd1b52f.png",
     "last_updated": "29/07/2026"
-  },
-  {
-    "id": "zombotron-re-boot-android-64bit",
-    "title": "Zombotron Re-Boot",
-    "author": "StevensND",
-    "version": "1.0.2",
-    "original_platform": "Android 64bit",
-    "url": "https://github.com/StevensND/zombotron_nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "5435608",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ac2620d24cb06e5cc889035a5bb79e96.jpg",
-    "last_updated": "16/08/2026"
   },
   {
     "id": "zookeeper-dx-android-64bit",
@@ -2239,14 +2226,14 @@
     "id": "outrunners-arcade",
     "title": "Outrunners",
     "author": "cheviman",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "original_platform": "Arcade",
     "url": "https://github.com/cheviman/outrunners-port",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5246243",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ce2e5fba47bf03aa639a79cb2819ae95.png",
-    "last_updated": "07/11/2026"
+    "last_updated": "09/11/2026"
   },
   {
     "id": "sega-rally-arcade",
@@ -2278,14 +2265,14 @@
     "id": "teenage-mutant-ninja-turtles-arcade",
     "title": "Teenage Mutant Ninja Turtles",
     "author": "cheviman",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "original_platform": "Arcade",
     "url": "https://github.com/cheviman/tmnt-port",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5256611",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ed8ed7dd7e0836bc79f7543fca7de56f.png",
-    "last_updated": "07/11/2026"
+    "last_updated": "09/11/2026"
   },
   {
     "id": "virtua-fighter-2-arcade",
@@ -2369,14 +2356,14 @@
     "id": "conker-live-reloaded-microsoft-xbox",
     "title": "Conker: Live & Reloaded",
     "author": "rashevskyv",
-    "version": "0.55.0",
+    "version": "0.57.0",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/rashevskyv/conker-lr-recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5256835",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/92ffe39c405eb26368e5376f396d6ade.png",
-    "last_updated": "01/11/2026"
+    "last_updated": "07/11/2026"
   },
   {
     "id": "dead-or-alive-2-ultimate-microsoft-xbox",
@@ -2389,7 +2376,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5438133",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bf3e08dc93915ecefa52d08164426e7.png",
-    "last_updated": "30/10/2026"
+    "last_updated": "05/11/2026"
   },
   {
     "id": "dead-or-alive-3-microsoft-xbox",
@@ -2460,27 +2447,27 @@
     "id": "the-godfather-microsoft-xbox",
     "title": "The Godfather",
     "author": "CYBERPUNK20",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/CYBERPUNK20/godfather-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2943",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4117b927c510516edc14da73bb02840a.png",
-    "last_updated": "02/11/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "halo-combat-evolved-microsoft-xbox",
     "title": "Halo: Combat Evolved",
     "author": "thelinkin3000",
-    "version": "Build 132",
+    "version": "Build 141",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/thelinkin3000/halo-ce-universal",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "38383",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png",
-    "last_updated": "02/11/2026"
+    "last_updated": "09/11/2026"
   },
   {
     "id": "halo-combat-evolved-microsoft-xbox-seamusduncmcgrath",
@@ -2499,27 +2486,27 @@
     "id": "midnight-club-3-dub-edition-microsoft-xbox",
     "title": "Midnight Club 3: Dub Edition",
     "author": "laureladastra",
-    "version": "0.5.0",
+    "version": "1.1.0",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/laureladastra/mcdub3-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5269652",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/216a83bac61a8113a963ecdc4df41bca.png",
-    "last_updated": "30/10/2026"
+    "last_updated": "05/11/2026"
   },
   {
     "id": "mortal-kombat-shaolin-monks-microsoft-xbox",
     "title": "Mortal Kombat: Shaolin Monks",
     "author": "Thorhax",
-    "version": "0.3.1",
+    "version": "0.4.1",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/Thorhax/ShaolinMonks-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37375",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/338c5458fadf5e13bddfcb4819942d15.jpg",
-    "last_updated": "27/10/2026"
+    "last_updated": "10/11/2026"
   },
   {
     "id": "mvp-baseball-05-microsoft-xbox",
@@ -2642,27 +2629,27 @@
     "id": "bangai-o-hd-missile-fury-microsoft-xbox-360",
     "title": "Bangai-O HD: Missile Fury",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/bangaio-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5254282",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7edfa9e389b68fcd3deb5d5500b1c96d.png",
-    "last_updated": "29/10/2026"
+    "last_updated": "04/11/2026"
   },
   {
     "id": "banjo-kazooie-nuts-bolts-microsoft-xbox-360",
     "title": "Banjo-Kazooie: Nuts & Bolts",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/renut-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37213",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/17faa600670ae46a32ff83f76e83806a.png",
-    "last_updated": "01/11/2026"
+    "last_updated": "04/11/2026"
   },
   {
     "id": "battleblock-theater-microsoft-xbox-360",
@@ -2681,14 +2668,14 @@
     "id": "beautiful-katamari-microsoft-xbox-360",
     "title": "Beautiful Katamari",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/katamari-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5273491",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e9618cc0c82345ee0f8e985221d44ecf.png",
-    "last_updated": "01/11/2026"
+    "last_updated": "04/11/2026"
   },
   {
     "id": "bejeweled-3-microsoft-xbox-360",
@@ -2720,27 +2707,27 @@
     "id": "call-of-duty-black-ops-ii-microsoft-xbox-360",
     "title": "Call of Duty: Black Ops II",
     "author": "AlvaroEPena",
-    "version": "*Release 1*",
+    "version": "1.1.0",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/AlvaroEPena/bo2-360-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1782",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/853695e4fd475d6b482d94895c6b595d.jpg",
-    "last_updated": "31/10/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "castlevania-harmony-of-despair-microsoft-xbox-360",
     "title": "Castlevania: Harmony of Despair",
     "author": "rashevskyv",
-    "version": "0.292",
+    "version": "0.311",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/rashevskyv/cvhd-recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5250364",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4843753069533b0452053f05142dc8ca.png",
-    "last_updated": "03/11/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "castlevania-lords-of-shadow-microsoft-xbox-360",
@@ -2785,27 +2772,27 @@
     "id": "dantes-inferno-microsoft-xbox-360",
     "title": "Dante's Inferno",
     "author": "VasilkovND",
-    "version": "1.1.0 (TU2)",
+    "version": "*released*",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/VasilkovND/dantes-inferno-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "29894",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4b16f49bdb6b891e01276afbaed1d675.png",
-    "last_updated": "23/10/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "dark-souls-ii-scholar-of-the-first-sin-microsoft-xbox-360",
     "title": "Dark Souls II: Scholar of the First Sin",
     "author": "XDASCATX",
-    "version": "v104",
+    "version": "v121",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/XDASCATX/DS2_switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5961",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/221fec1d54a07a65c1ff500bcf1bc062.png",
-    "last_updated": "31/10/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "dead-space-1-microsoft-xbox-360",
@@ -2876,14 +2863,14 @@
     "id": "gears-of-war-2-microsoft-xbox-360",
     "title": "Gears of War 2",
     "author": "VasilkovND",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/VasilkovND/gears2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37163",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/537be42935b21c04fac5d9913777f7ee.png",
-    "last_updated": "23/10/2026"
+    "last_updated": "07/11/2026"
   },
   {
     "id": "grand-theft-auto-iv-microsoft-xbox-360",
@@ -2902,14 +2889,14 @@
     "id": "guardian-heroes-microsoft-xbox-360",
     "title": "Guardian Heroes",
     "author": "rashevskyv",
-    "version": "0.77",
+    "version": "0.79",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/rashevskyv/guardian-heroes-recomp-public",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37759",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7a3a16ffad6a50aed3f78746c5120b78.jpg",
-    "last_updated": "29/10/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "guwange-microsoft-xbox-360",
@@ -2954,7 +2941,7 @@
     "id": "hexic-2-microsoft-xbox-360",
     "title": "Hexic 2",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/hexic2-nx",
     "source_type": "github_repo",
@@ -2967,7 +2954,7 @@
     "id": "kameo-elements-of-power-microsoft-xbox-360",
     "title": "Kameo: Elements of Power",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/kameo-nx",
     "source_type": "github_repo",
@@ -2993,14 +2980,14 @@
     "id": "a-kingdom-for-keflings-microsoft-xbox-360",
     "title": "A Kingdom for Keflings",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/keflings-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5257108",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/af15c7e3ec0e5b97b20e9daacf0193a9.png",
-    "last_updated": "30/10/2026"
+    "last_updated": "04/11/2026"
   },
   {
     "id": "the-king-of-fighters-2002-unlimited-match-microsoft-xbox-360",
@@ -3052,7 +3039,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2993",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f56766ef62b1d6867e6ace4bfc82c82e.png",
-    "last_updated": "04/11/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "max-payne-3-microsoft-xbox-360",
@@ -3065,7 +3052,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1807",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c91d989c82b339a78ce0c05964eb2aaf.png",
-    "last_updated": "29/10/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "metal-gear-rising-revengeance-microsoft-xbox-360",
@@ -3084,7 +3071,7 @@
     "id": "mini-ninjas-microsoft-xbox-360",
     "title": "Mini Ninjas",
     "author": "infriker",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/infriker/mini-ninjas-nx",
     "source_type": "github_repo",
@@ -3149,14 +3136,14 @@
     "id": "need-for-speed-carbon-microsoft-xbox-360",
     "title": "Need for Speed: Carbon",
     "author": "Kaays",
-    "version": "0.4.0",
+    "version": "0.4.7",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Kaays/nfscarbon-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "34648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png",
-    "last_updated": "08/11/2026"
+    "last_updated": "10/11/2026"
   },
   {
     "id": "need-for-speed-carbon-microsoft-xbox-360-zofo007",
@@ -3188,14 +3175,14 @@
     "id": "nights-into-dreams-microsoft-xbox-360",
     "title": "Nights into Dreams",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/nights-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2252",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/23770696e86230ab2f6d000142be218a.jpg",
-    "last_updated": "29/10/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "pac-man-championship-edition-dx-microsoft-xbox-360",
@@ -3237,17 +3224,30 @@
     "last_updated": "22/10/2026"
   },
   {
+    "id": "pure-microsoft-xbox-360",
+    "title": "Pure",
+    "author": "cznn999",
+    "version": "0.10",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/cznn999/pure-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5442",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7fdfbdb466640e43e4da51b6295e2bf2.jpg",
+    "last_updated": "10/11/2026"
+  },
+  {
     "id": "ridge-racer-6-microsoft-xbox-360",
     "title": "Ridge Racer 6",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/rr6-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5277687",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d405ba4799c3c7ef483513a23c07aa2c.jpg",
-    "last_updated": "09/11/2026"
+    "last_updated": "10/11/2026"
   },
   {
     "id": "scud-race-microsoft-xbox-360",
@@ -3266,14 +3266,14 @@
     "id": "shank-microsoft-xbox-360",
     "title": "Shank",
     "author": "zhtipu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/zhtipu/shank1-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "17510",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/df1cd9015c1cd8dd15d874bade18d868.png",
-    "last_updated": "31/10/2026"
+    "last_updated": "04/11/2026"
   },
   {
     "id": "shank-2-microsoft-xbox-360",
@@ -3328,6 +3328,19 @@
     "last_updated": "30/10/2026"
   },
   {
+    "id": "singularity-microsoft-xbox-360",
+    "title": "Singularity",
+    "author": "panalexeu",
+    "version": "*pre-release*",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/panalexeu/singularity-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "10026",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3ebe2a87a58cf391399b0bf0cb53c8ae.png",
+    "last_updated": "09/11/2026"
+  },
+  {
     "id": "skate-3-microsoft-xbox-360",
     "title": "Skate 3",
     "author": "JohnUzoka",
@@ -3344,14 +3357,14 @@
     "id": "sonic-adventure-2-microsoft-xbox-360",
     "title": "Sonic Adventure 2",
     "author": "ChanseyIsTheBest",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/ChanseyIsTheBest/sa2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2086",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c50b40b057149f613124fe9c535b003a.png",
-    "last_updated": "28/10/2026"
+    "last_updated": "04/11/2026"
   },
   {
     "id": "sonic-the-hedgehog-2006-microsoft-xbox-360",
@@ -3500,7 +3513,7 @@
     "id": "the-legend-of-zelda-ocarina-of-time-3d-nintendo-3ds",
     "title": "The Legend of Zelda: Ocarina of Time 3D",
     "author": "JohnUzoka",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "original_platform": "Nintendo 3DS",
     "url": "https://github.com/JohnUzoka/TriAevum-Switch",
     "source_type": "github_repo",
@@ -3513,14 +3526,14 @@
     "id": "metroid-samus-returns-nintendo-3ds",
     "title": "Metroid: Samus Returns",
     "author": "FurryLilManChild",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "original_platform": "Nintendo 3DS",
     "url": "https://github.com/FurryLilManChild/MSR-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5245261",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cad7492939c76269441fe77353480fe1.png",
-    "last_updated": "09/11/2026"
+    "last_updated": "10/11/2026"
   },
   {
     "id": "banjo-kazooie-nintendo-64",
@@ -3734,14 +3747,14 @@
     "id": "starcraft64-nintendo-64",
     "title": "StarCraft64",
     "author": "gabryboy12-ai",
-    "version": "1.3",
+    "version": "1.5.0",
     "original_platform": "Nintendo 64",
     "url": "https://github.com/gabryboy12-ai/StarCraft64-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36754",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ef160f5acc8dff9d8799bc504b32ae68.png",
-    "last_updated": "18/10/2026"
+    "last_updated": "04/11/2026"
   },
   {
     "id": "starcraft64-nintendo-64-thorhax",
@@ -3838,27 +3851,27 @@
     "id": "pokemon-gen-1-nintendo-gameboy",
     "title": "Pokemon Gen 1",
     "author": "bryanthaboi",
-    "version": "0.3.99",
+    "version": "0.4.2",
     "original_platform": "Nintendo Gameboy",
     "url": "https://github.com/bryanthaboi/gen1recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5356567",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/deaf47d9953d7c0216d9c3aa944fe5ba.png",
-    "last_updated": "31/10/2026"
+    "last_updated": "07/11/2026"
   },
   {
     "id": "pokemon-gen-2-nintendo-gameboy",
     "title": "Pokemon Gen 2",
     "author": "UNDERdecoded",
-    "version": "0.8.47",
+    "version": "0.8.57",
     "original_platform": "Nintendo Gameboy",
     "url": "https://github.com/UNDERdecoded/Gen2Recomped",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5356567",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5696070ba6c2871cd129206316e2574f.png",
-    "last_updated": "26/10/2026"
+    "last_updated": "08/11/2026"
   },
   {
     "id": "the-legend-of-zelda-the-minish-cap-nintendo-gameboy-advance",
@@ -3910,7 +3923,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "25634",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/64295252d80f840bf25dee79eb141ee7.png",
-    "last_updated": "30/10/2026"
+    "last_updated": "08/11/2026"
   },
   {
     "id": "sonic-advance-2-nintendo-gameboy-advance",
@@ -4020,7 +4033,7 @@
     "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube-alexgg1014",
     "title": "The Legend of Zelda: Twilight Princess",
     "author": "Alexgg1014",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition",
     "source_type": "github_repo",
@@ -4059,14 +4072,14 @@
     "id": "mario-kart-double-dash-nintendo-gamecube",
     "title": "Mario Kart: Double Dash!",
     "author": "digdat0",
-    "version": "1.9.0",
+    "version": "1.9.1",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/digdat0/mkdd-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36068",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
-    "last_updated": "06/11/2026"
+    "last_updated": "07/11/2026"
   },
   {
     "id": "metroid-prime-2-echoes-nintendo-gamecube",
@@ -4085,27 +4098,27 @@
     "id": "sonic-riders-nintendo-gamecube",
     "title": "Sonic Riders",
     "author": "teclilla18",
-    "version": "0.3.4",
+    "version": "0.7.4",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/teclilla18/sonic-riders-recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "12904",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1bd4f0f15ab6e834e41a13955a1ec451.png",
-    "last_updated": "29/10/2026"
+    "last_updated": "10/11/2026"
   },
   {
     "id": "super-mario-strikers-nintendo-gamecube",
     "title": "Super Mario Strikers",
     "author": "new-coke",
-    "version": "1.9.8 *test build*",
+    "version": "2.0.0",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/new-coke/strikers",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37586",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a85d58f89d4a5e8f8f9a6336b3dd18f7.jpg",
-    "last_updated": "29/10/2026"
+    "last_updated": "09/11/2026"
   },
   {
     "id": "super-smash-bros-melee-nintendo-gamecube",
@@ -4280,27 +4293,27 @@
     "id": "mario-kart-wii-nintendo-wii",
     "title": "Mario Kart Wii",
     "author": "KawaiiBunga",
-    "version": "0.1.0-beta",
+    "version": "0.4.0-beta",
     "original_platform": "Nintendo Wii",
     "url": "https://github.com/KawaiiBunga/KartPadNX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36054",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3fb22546e0a13fb8b5d7345218eef2a5.png",
-    "last_updated": "29/10/2026"
+    "last_updated": "08/11/2026"
   },
   {
     "id": "the-legend-of-zelda-wind-waker-hd-nintendo-wii-u",
     "title": "The Legend of Zelda: Wind Waker HD",
     "author": "centollOS",
-    "version": "1.0.0",
+    "version": "1.2.2",
     "original_platform": "Nintendo Wii U",
     "url": "https://github.com/centollOS/SwitchWakerHD",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35048",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png",
-    "last_updated": "28/10/2026"
+    "last_updated": "07/11/2026"
   },
   {
     "id": "0-ad-pc",
@@ -4319,14 +4332,14 @@
     "id": "age-of-empires-ii-the-age-of-kings-pc",
     "title": "Age of Empires II: The Age of Kings",
     "author": "Zaydme",
-    "version": "0.6.5 *prerelease*",
+    "version": "0.7.0 *prerelease*",
     "original_platform": "PC",
     "url": "https://github.com/Zaydme/openaok",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36303",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a19e49f070ffa5602842b056bd2964d9.png",
-    "last_updated": "02/11/2026"
+    "last_updated": "07/11/2026"
   },
   {
     "id": "alien-vs-predator-gold-pc",
@@ -4391,7 +4404,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1782",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/853695e4fd475d6b482d94895c6b595d.jpg",
-    "last_updated": "09/11/2026"
+    "last_updated": "08/11/2026"
   },
   {
     "id": "call-of-duty-united-offensive-pc",
@@ -4550,19 +4563,6 @@
     "last_updated": "07/06/2026"
   },
   {
-    "id": "dune-ii-pc",
-    "title": "Dune II",
-    "author": "carstene1ns",
-    "version": "0.98.4",
-    "original_platform": "PC",
-    "url": "https://github.com/carstene1ns/dunelegacy/tree/switch-port",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "38416",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4774165006b1b56612265a02b527a12d.png",
-    "last_updated": "09/11/2025"
-  },
-  {
     "id": "elder-scrolls-iii-morrowind-pc",
     "title": "Elder Scrolls III Morrowind",
     "author": "fgsfdsfgs",
@@ -4644,27 +4644,27 @@
     "id": "half-life-pc",
     "title": "Half Life",
     "author": "FWGS",
-    "version": "4230",
+    "version": "4237",
     "original_platform": "PC",
     "url": "https://github.com/FWGS/xash3d-fwgs/",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "21207",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/10f16ffcd88e1cf00e43178442437763.png",
-    "last_updated": "30/10/2026"
+    "last_updated": "05/11/2026"
   },
   {
     "id": "heroes-of-might-magic-ii-pc",
     "title": "Heroes of Might & Magic II",
     "author": "ihhub",
-    "version": "1.1.17",
+    "version": "1.1.18",
     "original_platform": "PC",
     "url": "https://github.com/ihhub/fheroes2/",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "33800",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/d08a016d59a164c17df9573ae39388a2.png",
-    "last_updated": "30/06/2026"
+    "last_updated": "08/11/2026"
   },
   {
     "id": "heroes-of-might-magic-iii-pc",
@@ -4813,14 +4813,14 @@
     "id": "medal-of-honor-allied-assault-pc",
     "title": "Medal of Honor: Allied Assault",
     "author": "NaGaa95",
-    "version": "0.83 R3",
+    "version": "0.83.0.4",
     "original_platform": "PC",
     "url": "https://github.com/NaGaa95/openmohaa_nx/",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35422",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f9ac72d331adc4ee35df9dc97761c61e.jpg",
-    "last_updated": "29/06/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "mega-man-w-pc",
@@ -4872,7 +4872,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5439843",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/67276a7a1931f63c1609eec7c2d8f9b5.png",
-    "last_updated": "31/10/2026"
+    "last_updated": "08/11/2026"
   },
   {
     "id": "need-for-speed-ii-iii-pc",
@@ -4930,27 +4930,14 @@
     "id": "pokemmo-pc",
     "title": "PokeMMO",
     "author": "Petit-Prince-dev",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "original_platform": "PC",
     "url": "https://github.com/Petit-Prince-dev/PokeMMO-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5249074",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2c02aa81d598f7969faaee4e1e7d9919.png",
-    "last_updated": "01/11/2026"
-  },
-  {
-    "id": "prey-pc",
-    "title": "Prey",
-    "author": "hazevauks",
-    "version": "0.1.0",
-    "original_platform": "PC",
-    "url": "https://github.com/hazevauks/openPREYswitch",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "8887",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d166d6ef19f213edeece16fd1f0db8be.png",
-    "last_updated": "30/09/2026"
+    "last_updated": "09/11/2026"
   },
   {
     "id": "project-zomboid-pc",
@@ -5034,14 +5021,14 @@
     "id": "silent-hill-2-pc",
     "title": "Silent Hill 2",
     "author": "cutarev",
-    "version": "1.02",
+    "version": "1.03",
     "original_platform": "PC",
     "url": "https://github.com/cutarev/sh2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36708",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bd57061dc4f754f0cbad5fb6efe3733.png",
-    "last_updated": "21/10/2026"
+    "last_updated": "09/11/2026"
   },
   {
     "id": "silent-hill-3-pc",
@@ -5099,14 +5086,14 @@
     "id": "sly-cooper-and-the-thievius-raccoonus-pc",
     "title": "Sly Cooper and the Thievius Raccoonus",
     "author": "NaGaa95",
-    "version": "0.5.0",
+    "version": "0.5.0-v2",
     "original_platform": "PC",
     "url": "https://github.com/NaGaa95/ProjectCane",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5248314",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6f550c53b3d9f67c09a5c6feda1e46a.png",
-    "last_updated": "21/10/2026"
+    "last_updated": "03/11/2026"
   },
   {
     "id": "sonic-r-pc",
@@ -5184,7 +5171,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "1226",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9ef7f9b81c2532880cfe5cf53f0c906d.png",
-    "last_updated": "01/11/2026"
+    "last_updated": "05/11/2026"
   },
   {
     "id": "touhou-6-embodiment-of-the-scarlet-devil-pc",
@@ -5483,7 +5470,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5258936",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ff1bd6e5016e5aca10356877b8726d13.png",
-    "last_updated": "07/11/2026"
+    "last_updated": "06/11/2026"
   },
   {
     "id": "ms-pacman-maze-madness-sony-playstation",
@@ -5554,14 +5541,27 @@
     "id": "rampage-total-destruction-sony-playstation-2",
     "title": "Rampage: Total Destruction",
     "author": "jjmhalew",
-    "version": "1.2.1",
+    "version": "1.2.6",
     "original_platform": "Sony Playstation 2",
     "url": "https://github.com/jjmhalew/RampageRE",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36476",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab63243d415513c2307a6ff350832d10.png",
-    "last_updated": "28/10/2026"
+    "last_updated": "08/11/2026"
+  },
+  {
+    "id": "sly-cooper-sony-playstation-2",
+    "title": "Sly Cooper",
+    "author": "FridiNaTor1",
+    "version": "0.1.44",
+    "original_platform": "Sony Playstation 2",
+    "url": "https://github.com/FridiNaTor1/SafeHouse",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35240",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/3750f0c2ea1c6006004b1f6416761df3.png",
+    "last_updated": "10/11/2026"
   },
   {
     "id": "pt-silent-hills-sony-playstation-4",
