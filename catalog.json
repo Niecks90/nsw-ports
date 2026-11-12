@@ -2561,6 +2561,19 @@
     "last_updated": "18/10/2026"
   },
   {
+    "id": "splinter-cell-chaos-theory-microsoft-xbox",
+    "title": "Splinter Cell: Chaos Theory",
+    "author": "itouchdennis",
+    "version": "0.3.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/itouchdennis/scct-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1436",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/923ccbcec867ebc5588386df7c370c55.png",
+    "last_updated": "11/11/2026"
+  },
+  {
     "id": "splinter-cell-double-agent-microsoft-xbox",
     "title": "Splinter Cell: Double Agent",
     "author": "itouchdennis",
@@ -2834,6 +2847,19 @@
     "last_updated": "27/10/2026"
   },
   {
+    "id": "dishonored-microsoft-xbox-360",
+    "title": "Dishonored",
+    "author": "cznn999",
+    "version": "0.20",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/cznn999/dishonored-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1839",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/48b9ef5bcb5ede1575779d29b9eeffe7.png",
+    "last_updated": "11/11/2026"
+  },
+  {
     "id": "feeding-frenzy-microsoft-xbox-360",
     "title": "Feeding Frenzy",
     "author": "ChanseyIsTheBest",
@@ -3003,6 +3029,19 @@
     "last_updated": "07/11/2026"
   },
   {
+    "id": "lego-batman-the-videogame-microsoft-xbox-360",
+    "title": "LEGO Batman: The Videogame",
+    "author": "surblazer",
+    "version": "0.1.1",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/surblazer/legobatman-recomp",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1996",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/241562e415e4bce8ab9bfdc4942e4b84.jpg",
+    "last_updated": "11/11/2026"
+  },
+  {
     "id": "lost-odyssey-microsoft-xbox-360",
     "title": "Lost Odyssey",
     "author": "Ad0ky",
@@ -3136,14 +3175,14 @@
     "id": "need-for-speed-carbon-microsoft-xbox-360",
     "title": "Need for Speed: Carbon",
     "author": "Kaays",
-    "version": "0.4.7",
+    "version": "0.5.0",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Kaays/nfscarbon-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "34648",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8eb8c14637ad7f04b17390e3c4b16ec9.png",
-    "last_updated": "10/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "need-for-speed-carbon-microsoft-xbox-360-zofo007",
