@@ -2843,7 +2843,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "38046",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/932d27a31541a871b167f05e3f411366.png",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2873dd9672cab83302943cf8a4a24aaf.png",
     "last_updated": "27/10/2026"
   },
   {
@@ -3961,7 +3961,7 @@
     "source_type": "github_release",
     "asset_type": "zip",
     "steamgriddb_id": "25634",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/64295252d80f840bf25dee79eb141ee7.png",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/052938e7b425df3acdd9dc4be44404ef.png",
     "last_updated": "08/11/2026"
   },
   {
@@ -4922,8 +4922,8 @@
     "url": "https://github.com/PalindromicBreadLoaf/HotPursuitNX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": null,
-    "grid_image_url": null,
+    "steamgriddb_id": "35936",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/14c59c51f566d68d11c003db0adabe29.png",
     "last_updated": "17/09/2026"
   },
   {
@@ -5377,8 +5377,8 @@
     "url": "https://github.com/Thorhax/War1gus-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "35373",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ae934d990bb6f14c6df3c2c2ab9f5448.png",
+    "steamgriddb_id": "129891",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/087b8b6312e6e1b432c7cb3e5b05beb5.png",
     "last_updated": "14/09/2026"
   },
   {
