@@ -1911,6 +1911,19 @@
     "last_updated": "29/06/2026"
   },
   {
+    "id": "soulcalibur-ii-android-64bit",
+    "title": "Soulcalibur II",
+    "author": "markaurel13",
+    "version": "0.4.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/markaurel13/soulcalibur2-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34146",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/73751fa59c3cfa96c7d3330adb106066.png",
+    "last_updated": "16/11/2026"
+  },
+  {
     "id": "stick-with-it-android-64bit",
     "title": "Stick With It",
     "author": "souldbminerr",
@@ -2273,6 +2286,19 @@
     "steamgriddb_id": "5256611",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ed8ed7dd7e0836bc79f7543fca7de56f.png",
     "last_updated": "09/11/2026"
+  },
+  {
+    "id": "the-simpsons-arcade",
+    "title": "The Simpsons",
+    "author": "cheviman",
+    "version": "1.0.1",
+    "original_platform": "Arcade",
+    "url": "https://github.com/cheviman/simpsons-port",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1659",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/4aff075630a02bbed130800cdbb9cf47.png",
+    "last_updated": "14/11/2026"
   },
   {
     "id": "virtua-fighter-2-arcade",
@@ -2860,6 +2886,19 @@
     "last_updated": "11/11/2026"
   },
   {
+    "id": "dishonored-microsoft-xbox-360-vibeporter",
+    "title": "Dishonored",
+    "author": "VibePorter",
+    "version": "*released*",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/VibePorter/Dunwall",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1839",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/48b9ef5bcb5ede1575779d29b9eeffe7.png",
+    "last_updated": "16/11/2026"
+  },
+  {
     "id": "farcry-4-microsoft-xbox-360",
     "title": "FarCry 4",
     "author": "Steammaker212",
@@ -2899,6 +2938,19 @@
     "last_updated": "26/10/2026"
   },
   {
+    "id": "final-fantasy-xiii-2-microsoft-xbox-360",
+    "title": "Final Fantasy XIII-2",
+    "author": "BlackDes1",
+    "version": "1.1",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/BlackDes1/FFXIII-2-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "4269",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/2fe0b49fd9d20a994acb11f1fa72ca6e.png",
+    "last_updated": "17/11/2026"
+  },
+  {
     "id": "gears-of-war-2-microsoft-xbox-360",
     "title": "Gears of War 2",
     "author": "VasilkovND",
@@ -2936,6 +2988,19 @@
     "steamgriddb_id": "37759",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7a3a16ffad6a50aed3f78746c5120b78.jpg",
     "last_updated": "03/11/2026"
+  },
+  {
+    "id": "guitar-hero-iii-legends-of-rock-microsoft-xbox-360",
+    "title": "Guitar Hero III: Legends of Rock",
+    "author": "",
+    "version": "*released*",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "",
+    "source_type": "other",
+    "asset_type": "zip",
+    "steamgriddb_id": "5247285",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/33a305f7ec25b5c6b54ef08f61e8d41d.jpg",
+    "last_updated": "13/11/2026"
   },
   {
     "id": "guwange-microsoft-xbox-360",
@@ -3367,6 +3432,19 @@
     "last_updated": "06/10/2026"
   },
   {
+    "id": "the-sims-3-microsoft-xbox-360",
+    "title": "The Sims 3",
+    "author": "Zumoly",
+    "version": "0.1.1",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/Zumoly/sims3-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "12105",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9f9a39a966782c30b1cad272678817f4.png",
+    "last_updated": "16/11/2026"
+  },
+  {
     "id": "silent-hill-3-microsoft-xbox-360",
     "title": "Silent Hill 3",
     "author": "gerisson1996",
@@ -3729,6 +3807,19 @@
     "steamgriddb_id": "38893",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/652e2fd3b2fa943f2b4ff310e419d7f2.png",
     "last_updated": "14/08/2026"
+  },
+  {
+    "id": "goldeneye-007-nintendo-64",
+    "title": "GoldenEye 007",
+    "author": "christphe",
+    "version": "0.2.0",
+    "original_platform": "Nintendo 64",
+    "url": "https://github.com/christphe/project-dam-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34306",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f0971d67a49ade9bab406f7664e8129d.png",
+    "last_updated": "15/11/2026"
   },
   {
     "id": "the-legend-of-zelda-majoras-mask-nintendo-64",
@@ -5588,6 +5679,19 @@
     "steamgriddb_id": "35507",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/02e75a05854a5ac3c70bdee67fd88e82.png",
     "last_updated": "08/11/2026"
+  },
+  {
+    "id": "arcus-odyssey-sega-genesis",
+    "title": "Arcus Odyssey",
+    "author": "sixtyeightk",
+    "version": "1.0.0",
+    "original_platform": "Sega Genesis",
+    "url": "https://github.com/sixtyeightk/AODX-Recomp",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5278588",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/292d0f1d6599932932ba56622d1a3c1a.png",
+    "last_updated": "16/11/2026"
   },
   {
     "id": "virtua-racing-deluxe-32x-sega-genesis",
