@@ -1976,6 +1976,19 @@
     "last_updated": "14/08/2026"
   },
   {
+    "id": "stupid-zombies-android-64bit",
+    "title": "Stupid Zombies",
+    "author": "Terremotixx",
+    "version": "v1.0.2",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/Terremotixx/Stupid-Zombies-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "16967",
+    "grid_image_url": null,
+    "last_updated": "11/11/2026"
+  },
+  {
     "id": "subway-surfers-android-64bit",
     "title": "Subway Surfers",
     "author": "NaGaa95",
@@ -2379,6 +2392,19 @@
     "last_updated": "03/11/2026"
   },
   {
+    "id": "buffy-the-vampire-slayer-microsoft-xbox",
+    "title": "Buffy the Vampire Slayer",
+    "author": "FOTLabs",
+    "version": "v1.0.1",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/FOTLabs/buffy-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "37822",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/db5d4c3f4b38e886f12fa2bc2599d0cd.png",
+    "last_updated": "21/10/2026"
+  },
+  {
     "id": "burnout-3-takedown-microsoft-xbox",
     "title": "Burnout 3: Takedown",
     "author": "antoxa2584x",
@@ -2743,6 +2769,19 @@
     "last_updated": "22/10/2026"
   },
   {
+    "id": "starcraft-ghost-microsoft-xbox",
+    "title": "StarCraft: Ghost",
+    "author": "Thorhax",
+    "version": "v0.4.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/Thorhax/ScGhost-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5262783",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b03df020304bc12d1f91834ad811309e.png",
+    "last_updated": "15/11/2026"
+  },
+  {
     "id": "tom-and-jerry-war-of-the-whiskers-microsoft-xbox",
     "title": "Tom and Jerry: War of the Whiskers",
     "author": "JohnJames29",
@@ -3029,6 +3068,19 @@
     "last_updated": "16/11/2026"
   },
   {
+    "id": "fear-microsoft-xbox-360",
+    "title": "F.E.A.R.",
+    "author": "infriker",
+    "version": "v0.2.1",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/infriker/fear-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "2012",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/6eaf935a9ba18155b5f0e5f74505f4f1.png",
+    "last_updated": "06/11/2026"
+  },
+  {
     "id": "farcry-4-microsoft-xbox-360",
     "title": "FarCry 4",
     "author": "Steammaker212",
@@ -3066,6 +3118,19 @@
     "steamgriddb_id": "6137",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/250e5ad7a20b4e7552e91e25ba169075.jpg",
     "last_updated": "26/10/2026"
+  },
+  {
+    "id": "final-fantasy-xiii-microsoft-xbox-360",
+    "title": "Final Fantasy XIII",
+    "author": "recomp-nx",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/recomp-nx/fnxf_xiii",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "4268",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/aa2efc5d4abc39907cde97e4e54a154b.png",
+    "last_updated": "17/11/2026"
   },
   {
     "id": "final-fantasy-xiii-2-microsoft-xbox-360",
@@ -3599,6 +3664,19 @@
     "steamgriddb_id": "35889",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a228a3fd54f3096e2fdac092e7127afc.png",
     "last_updated": "30/10/2026"
+  },
+  {
+    "id": "silent-hill-downpour-microsoft-xbox-360",
+    "title": "Silent Hill Downpour",
+    "author": "fungalspores",
+    "version": "0.3.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/fungalspores/silent-hill-downpour-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34912",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/0595e5860fe9c5eaba82fb617087dbc1.png",
+    "last_updated": "26/10/2026"
   },
   {
     "id": "silent-hill-homecoming-microsoft-xbox-360",
@@ -4511,6 +4589,19 @@
     "last_updated": "06/10/2026"
   },
   {
+    "id": "disneys-magical-quest-trilogy-super-nintendo-entertainment-system",
+    "title": "Disney's Magical Quest Trilogy",
+    "author": "simplePsyduck",
+    "version": "beta-v1",
+    "original_platform": "Super Nintendo Entertainment System",
+    "url": "https://github.com/simplePsyduck/MagicalQuestTrilogy-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35186",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/013e18a7ba1d69bb9612e3f12fc31270.png",
+    "last_updated": "17/11/2026"
+  },
+  {
     "id": "donkey-kong-country-souldbminerr-super-nintendo-entertainment-system",
     "title": "Donkey Kong Country (souldbminerr)",
     "author": "souldbminerr",
@@ -4678,6 +4769,19 @@
     "steamgriddb_id": "36054",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3fb22546e0a13fb8b5d7345218eef2a5.png",
     "last_updated": "12/11/2026"
+  },
+  {
+    "id": "new-super-mario-bros-wii-nintendo-wii",
+    "title": "New Super Mario Bros. Wii",
+    "author": "schuler-ph",
+    "version": "0.1.0",
+    "original_platform": "Nintendo Wii",
+    "url": "https://github.com/schuler-ph/nsmbw-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "37961",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/daa4c479f8ca6bccf503a440032e72c2.png",
+    "last_updated": "16/11/2026"
   },
   {
     "id": "super-paper-mario-nintendo-wii",
@@ -4980,7 +5084,7 @@
   },
   {
     "id": "elder-scrolls-iii-morrowind-fgsfdsfgs-pc",
-    "title": "Elder Scrolls III Morrowind (fgsfdsfgs)",
+    "title": "Elder Scrolls III: Morrowind (fgsfdsfgs)",
     "author": "fgsfdsfgs",
     "version": "0.46.0-nx4",
     "original_platform": "PC",
@@ -4993,7 +5097,7 @@
   },
   {
     "id": "elder-scrolls-iii-morrowind-seamusduncmcgrath-pc",
-    "title": "Elder Scrolls III Morrowind (seamusduncmcgrath)",
+    "title": "Elder Scrolls III: Morrowind (seamusduncmcgrath)",
     "author": "seamusduncmcgrath",
     "version": "1.0.0",
     "original_platform": "PC",
@@ -5213,6 +5317,19 @@
     "last_updated": "12/09/2026"
   },
   {
+    "id": "mario-vs-luigi-onlinebrmiibumms-mega-item-mod-pc",
+    "title": "Mario vs. Luigi Online<br>MiiBumm's Mega Item Mod",
+    "author": "aks796",
+    "version": "1.0.2",
+    "original_platform": "PC",
+    "url": "https://github.com/aks796/mmim_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5339613",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e140f4dbe9a991591fb91c0c47b9c482.png",
+    "last_updated": "17/10/2026"
+  },
+  {
     "id": "mcosu-pc",
     "title": "McOsu",
     "author": "McKay42",
@@ -5252,29 +5369,29 @@
     "last_updated": "27/10/2026"
   },
   {
-    "id": "minecraft-java-1122-pc",
-    "title": "Minecraft Java 1.12.2",
+    "id": "minecraftbrjava-1122-pc",
+    "title": "Minecraft<br>Java 1.12.2",
     "author": "etonedemid",
     "version": "*released*",
     "original_platform": "PC",
     "url": "https://github.com/etonedemid/minecraft-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "5248835",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/726c858fb9844f1d203177e1bebdff2d.png",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
     "last_updated": "21/10/2026"
   },
   {
-    "id": "minecraft-rust-pc",
-    "title": "Minecraft Rust",
+    "id": "minecraftbrrust-pc",
+    "title": "Minecraft<br>Rust",
     "author": "JohnUzoka",
     "version": "0.1.0",
     "original_platform": "PC",
     "url": "https://github.com/JohnUzoka/horizon-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38365",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a73027901f88055aaa0fd1a9e25d36c7.png",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
     "last_updated": "04/11/2026"
   },
   {
@@ -5291,16 +5408,16 @@
     "last_updated": "16/11/2026"
   },
   {
-    "id": "need-for-speed-ii-iii-pc",
-    "title": "Need for Speed II / III",
+    "id": "need-for-speed-ii-sebr-need-for-speed-iii-hot-pursuit-pc",
+    "title": "Need for Speed II: SE<br> Need for Speed III: Hot Pursuit",
     "author": "PalindromicBreadLoaf",
     "version": "1.0.1 *pre-release*",
     "original_platform": "PC",
     "url": "https://github.com/PalindromicBreadLoaf/HotPursuitNX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "35936",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/14c59c51f566d68d11c003db0adabe29.png",
+    "steamgriddb_id": "36186",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/15ec8344c987aec960f5d08b1f3ff0a0.png",
     "last_updated": "17/09/2026"
   },
   {
@@ -5785,6 +5902,19 @@
     "last_updated": "09/09/2026"
   },
   {
+    "id": "woody-woodpecker-escape-from-buzz-buzzard-park-pc",
+    "title": "Woody Woodpecker: Escape from Buzz Buzzard Park",
+    "author": "jjmhalew",
+    "version": "v1.0.12",
+    "original_platform": "PC",
+    "url": "https://github.com/jjmhalew/WoodyRE",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5345132",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8f3f0b7199ba7a7f6cb2a56d66282acd.jpg",
+    "last_updated": "05/11/2026"
+  },
+  {
     "id": "wolfenstein-3d-pc",
     "title": "Wolfenstein 3D",
     "author": "Thorhax",
@@ -5809,6 +5939,19 @@
     "steamgriddb_id": "5249562",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/45e8f7def2ebbe4ec68dbc327bfdc10d.png",
     "last_updated": "16/11/2026"
+  },
+  {
+    "id": "yume-nikki-pc",
+    "title": "Yume Nikki",
+    "author": "Electr0Whale",
+    "version": "v1.2.1",
+    "original_platform": "PC",
+    "url": "https://github.com/Electr0Whale/nx-yumenikki",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "18798",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7159ee6744f7862015648fab47a5ef62.png",
+    "last_updated": "10/11/2026"
   },
   {
     "id": "zuma-deluxe-pc",
@@ -5899,6 +6042,32 @@
     "asset_type": "zip",
     "steamgriddb_id": "4598",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9cf18de50ca98ddcd1ba09034ae1a2c5.png",
+    "last_updated": "17/11/2026"
+  },
+  {
+    "id": "ristar-sega-genesis",
+    "title": "Ristar",
+    "author": "simplePsyduck",
+    "version": "beta-v1",
+    "original_platform": "Sega Genesis",
+    "url": "https://github.com/simplePsyduck/Ristar_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35219",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b4b6a8c8fc48b95f935e03ea5e9e3a21.png",
+    "last_updated": "17/11/2026"
+  },
+  {
+    "id": "tiny-toon-adventures-busters-hidden-treasure-sega-genesis",
+    "title": "Tiny Toon Adventures: Buster's Hidden Treasure",
+    "author": "simplePsyduck",
+    "version": "v1.0",
+    "original_platform": "Sega Genesis",
+    "url": "https://github.com/simplePsyduck/BustersHiddenTreasure-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38338",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/ada1538d267b5b0b9d68a3222c8c8bb5.png",
     "last_updated": "17/11/2026"
   },
   {
@@ -5993,6 +6162,19 @@
     "last_updated": "15/11/2026"
   },
   {
+    "id": "need-for-speed-hot-pursuit-2-sony-playstation-2",
+    "title": "Need for Speed: Hot Pursuit 2",
+    "author": "HDErick",
+    "version": "1.0",
+    "original_platform": "Sony Playstation 2",
+    "url": "https://github.com/HDErick/NFSHP2_Switch_Port",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "37208",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7484d46d4e900eb79e8c9f1de6d613c4.png",
+    "last_updated": "18/11/2026"
+  },
+  {
     "id": "rampage-total-destruction-sony-playstation-2",
     "title": "Rampage: Total Destruction",
     "author": "jjmhalew",
@@ -6017,6 +6199,19 @@
     "steamgriddb_id": "35742",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9ab45beb213b81202a330cfa5e99b411.png",
     "last_updated": "16/11/2026"
+  },
+  {
+    "id": "scooby-doo-night-of-100-frights-sony-playstation-2",
+    "title": "Scooby-Doo! Night of 100 Frights",
+    "author": "matthewperiut",
+    "version": "v1.0",
+    "original_platform": "Sony Playstation 2",
+    "url": "https://github.com/matthewperiut/night100",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5270264",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/69903fad46618f37ca56d4039ccb54d7.png",
+    "last_updated": "16/10/2026"
   },
   {
     "id": "sly-cooper-sony-playstation-2",
@@ -6056,5 +6251,31 @@
     "steamgriddb_id": "35024",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4bec99ec5bd39630575692948d9e8169.png",
     "last_updated": "05/11/2026"
+  },
+  {
+    "id": "grand-theft-auto-vice-city-stories-sony-playstation-portable",
+    "title": "Grand Theft Auto: Vice City Stories",
+    "author": "fsalamancar",
+    "version": "v0.4.0",
+    "original_platform": "Sony Playstation Portable",
+    "url": "https://github.com/fsalamancar/VCSNX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34363",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/c8aa48a3667e7a29486f3f978b0e0279.png",
+    "last_updated": "18/10/2026"
+  },
+  {
+    "id": "god-of-war-collection-sony-playstation-vita",
+    "title": "God of War Collection",
+    "author": "gerisson1996",
+    "version": "v1.3",
+    "original_platform": "Sony Playstation Vita",
+    "url": "https://github.com/gerisson1996/gow-collection-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5248520",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5f7f8effa79f036ca41bfce7bb14281c.jpg",
+    "last_updated": "18/11/2026"
   }
 ]
