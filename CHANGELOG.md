@@ -4,6 +4,37 @@ All notable changes to the **NSW Ports** project will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-11-18
+
+### Added
+- **Game Detail Modal UX (`SidebarModal`)**:
+  - Raw HTML rendering support in GitHub README previews via `rehype-raw` (e.g., centered `<p align="center">` headers, tables, and styled text).
+  - Relative asset URL transformer resolving relative paths (e.g. `docs/images/pic.png`, `./assets/banner.png`) against repository raw content on GitHub (`https://raw.githubusercontent.com/{owner}/{repo}/HEAD/{clean_path}`).
+  - Steam/Playnite-inspired ambient glow effect rendering blurred game cover art (`blur-2xl opacity-20 scale-110`) behind the sidebar column.
+  - Dedicated **"Save Cover"** overlay button on the poster for downloading 600x900 box art directly.
+  - Formatted `last_updated` date badge displayed alongside version and author tags.
+  - Clickable **`By {author}`** badge to quickly filter the catalog by developer, with active filter indicator and reset option.
+  - Compact notice reminding users that original commercial game files are required to play ports.
+- **Main Grid & Card Readability (`GameCard`, `GameGrid`)**:
+  - Permanent footer metadata below each 2:3 vertical poster displaying bold white game title and author for immediate readability on dark covers.
+  - High-contrast console badges with `shadow-md` and `ring-1 ring-black/40`.
+  - Glowing green `NEW` badge on cards updated within the last 7 days.
+  - Dynamic result counter above the grid (`Showing X ports`) with active sub-filter chips and quick clear buttons.
+- **Navigation & Discovery Controls (`Header`)**:
+  - Matching port count badges inside all platform filter pills (e.g. `All (483)`, `PC (89)`, `Xbox 360 (85)`).
+  - **"Recently Updated"** filter toggle chip with sparkles icon next to the sort dropdown.
+  - **"Random Port"** button (dice icon) to quickly discover and inspect a random game.
+- **Date & Version Utilities**:
+  - Added `parseCatalogDate`, `isRecentlyUpdated`, and `formatDisplayDate` supporting `DD/MM/YYYY` catalog dates.
+  - Added `formatVersion` utility stripping raw Markdown asterisks and prerelease annotations (e.g. `0.7.0 *prerelease*` → `v0.7.0`).
+
+### Changed
+- Rebranded leftover `"PortsDL-NX Desktop Launcher"` text to **"NSW Ports Desktop Launcher"** in the sidebar callout card.
+- Capped desktop grid density at 7–8 columns (`grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8`) for improved card breathing room.
+- Fixed catalog date sorting by parsing `DD/MM/YYYY` strings instead of relying on default JS Date parsing.
+
+---
+
 ## [1.0.0] - 2026-11-04
 
 ### Added

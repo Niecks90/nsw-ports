@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Search, Settings, X, Download, ArrowUpAZ, ArrowDownAZ, CalendarDays, Coffee } from 'lucide-react';
+import { Search, Settings, X, Download, ArrowUpAZ, ArrowDownAZ, CalendarDays, Coffee, Dices, Sparkles } from 'lucide-react';
 import { invoke } from "@tauri-apps/api/core";
 import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
@@ -9,6 +9,7 @@ import { getShortPlatformName } from '../utils/platforms';
 
 interface HeaderProps {
     filters: string[];
+    filterCounts: Record<string, number>;
     onSearchChange: (query: string) => void;
     onFilterChange: (filter: string) => void;
     activeFilter: string;
@@ -17,10 +18,28 @@ interface HeaderProps {
     onSortChange: (option: 'alpha' | 'recent') => void;
     sortReverse: boolean;
     onSortReverseToggle: () => void;
+    recentOnly: boolean;
+    onRecentOnlyToggle: (val: boolean) => void;
+    onRandomGame: () => void;
+    searchQuery: string;
 }
 
-export function Header({ filters, onSearchChange, onFilterChange, activeFilter, onRefreshCatalog, sortOption, onSortChange, sortReverse, onSortReverseToggle }: HeaderProps) {
-    const [searchQuery, setSearchQuery] = useState('');
+export function Header({
+    filters,
+    filterCounts,
+    onSearchChange,
+    onFilterChange,
+    activeFilter,
+    onRefreshCatalog,
+    sortOption,
+    onSortChange,
+    sortReverse,
+    onSortReverseToggle,
+    recentOnly,
+    onRecentOnlyToggle,
+    onRandomGame,
+    searchQuery,
+}: HeaderProps) {
     const [showSettings, setShowSettings] = useState(false);
 
     // Settings state
@@ -87,23 +106,33 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
     };
 
     const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setSearchQuery(e.target.value);
         onSearchChange(e.target.value);
     };
 
     const handleLogoClick = () => {
-        setSearchQuery('');
         onSearchChange('');
         onFilterChange('All');
+        onRecentOnlyToggle(false);
     };
 
     return (
-        <header className="sticky top-0 z-30 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 p-4 shadow-xl">
-            <div className="flex flex-col md:flex-row gap-4 justify-between">
-                <div className="flex items-center justify-between w-full md:w-auto">
+        <header className="sticky top-0 z-30 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 p-3 sm:p-4 shadow-xl">
+            <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 justify-between items-center">
+                {/* Brand & Mobile Actions */}
+                <div className="flex items-center justify-between w-full lg:w-auto">
                     <Logo onClick={handleLogoClick} />
 
-                    <div className="flex items-center gap-2 md:hidden">
+                    <div className="flex items-center gap-2 lg:hidden">
+                        {/* Mobile Random Port Button */}
+                        <button
+                            onClick={onRandomGame}
+                            className="p-2 bg-slate-800 hover:bg-slate-700 text-cyan-400 border border-slate-700 rounded-lg flex items-center justify-center transition-colors"
+                            title="Open a random port"
+                            aria-label="Random Port"
+                        >
+                            <Dices className="w-5 h-5" />
+                        </button>
+
                         <a
                             href="https://ko-fi.com/niecks90"
                             target="_blank"
@@ -119,7 +148,7 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                                 href="https://github.com/Niecks90/PortsDL-NX/releases"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="p-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md transition-colors shadow-lg flex items-center justify-center"
+                                className="p-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition-colors shadow flex items-center justify-center"
                                 title="Download Windows App"
                             >
                                 <Download className="w-5 h-5" />
@@ -128,58 +157,103 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                     </div>
                 </div>
 
-                <div className="w-full flex-1 max-w-xl flex flex-wrap sm:flex-nowrap items-center gap-2 relative">
-                    <div className="relative w-full flex-1">
+                {/* Search & Controls Container */}
+                <div className="w-full flex-1 max-w-3xl flex flex-col sm:flex-row items-center gap-2">
+                    {/* Search Input */}
+                    <div className="relative w-full flex-1 min-w-[200px]">
                         <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <Search className="h-5 w-5 text-slate-500" />
+                            <Search className="h-4 w-4 text-slate-500" />
                         </div>
                         <input
                             type="text"
-                            placeholder="Search games..."
-                            className="block w-full pl-10 pr-3 py-2 border border-slate-700 rounded-md leading-5 bg-slate-800 text-slate-300 placeholder-slate-500 focus:outline-none focus:bg-slate-700 focus:border-slate-600 transition duration-150 ease-in-out sm:text-sm"
+                            placeholder="Search games, authors, platforms..."
+                            className="block w-full pl-9 pr-8 py-2 border border-slate-700 rounded-lg leading-5 bg-slate-800 text-slate-200 placeholder-slate-500 focus:outline-none focus:bg-slate-750 focus:border-blue-500 transition duration-150 ease-in-out text-sm"
                             value={searchQuery}
                             onChange={handleSearch}
                         />
+                        {searchQuery && (
+                            <button
+                                onClick={() => onSearchChange('')}
+                                className="absolute inset-y-0 right-0 pr-2.5 flex items-center text-slate-500 hover:text-slate-300"
+                                aria-label="Clear search"
+                            >
+                                <X className="w-4 h-4" />
+                            </button>
+                        )}
                     </div>
-                    <div className="flex items-center gap-2 w-full sm:w-auto mt-2 sm:mt-0">
+
+                    {/* Filter & Sort Controls */}
+                    <div className="flex items-center gap-2 w-full sm:w-auto flex-wrap sm:flex-nowrap justify-between sm:justify-start">
+                        {/* "Recently Updated" Filter Toggle Chip */}
+                        <button
+                            onClick={() => onRecentOnlyToggle(!recentOnly)}
+                            className={clsx(
+                                "flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-all whitespace-nowrap border cursor-pointer",
+                                recentOnly
+                                    ? "bg-emerald-500/20 text-emerald-300 border-emerald-500/50 shadow-sm ring-1 ring-emerald-500/30"
+                                    : "bg-slate-800 text-slate-300 hover:text-white border-slate-700 hover:bg-slate-750"
+                            )}
+                            title="Filter to ports updated in the last 7 days"
+                        >
+                            <Sparkles className={clsx("w-3.5 h-3.5", recentOnly ? "text-emerald-400" : "text-slate-400")} />
+                            <span>Recently Updated</span>
+                        </button>
+
+                        {/* Sort Dropdown */}
                         <select
                             value={sortOption}
                             onChange={(e) => onSortChange(e.target.value as 'alpha' | 'recent')}
-                            className="bg-slate-800 flex-1 sm:flex-none text-slate-300 border border-slate-700 rounded-md py-2 px-3 text-sm focus:outline-none focus:bg-slate-700 focus:border-slate-600 transition duration-150 ease-in-out"
+                            className="bg-slate-800 text-slate-200 border border-slate-700 rounded-lg py-2 px-2.5 text-xs sm:text-sm focus:outline-none focus:border-blue-500 transition duration-150 cursor-pointer"
                         >
                             <option value="alpha">Alphabetical (A - Z)</option>
                             <option value="recent">Recently Updated</option>
                         </select>
+
+                        {/* Sort Reverse Toggle Button */}
                         <button
                             onClick={onSortReverseToggle}
-                            className="p-2 text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-md transition-colors"
+                            className="p-2 text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-750 border border-slate-700 rounded-lg transition-colors cursor-pointer"
                             aria-label="Toggle sort direction"
                             title="Toggle sort direction"
                         >
                             {sortOption === 'alpha' ? (
-                                sortReverse ? <ArrowDownAZ className="w-5 h-5" /> : <ArrowUpAZ className="w-5 h-5" />
+                                sortReverse ? <ArrowDownAZ className="w-4 h-4" /> : <ArrowUpAZ className="w-4 h-4" />
                             ) : (
-                                <CalendarDays className="w-5 h-5" />
+                                <CalendarDays className="w-4 h-4" />
                             )}
                         </button>
+
+                        {/* Random Port Button (Desktop) */}
+                        <button
+                            onClick={onRandomGame}
+                            className="hidden sm:flex items-center gap-1.5 px-3 py-2 bg-slate-800 hover:bg-slate-750 text-slate-200 hover:text-white border border-slate-700 rounded-lg transition-colors text-xs sm:text-sm font-medium cursor-pointer"
+                            title="Pick a random port from current catalog"
+                            aria-label="Pick a random port"
+                        >
+                            <Dices className="w-4 h-4 text-cyan-400" />
+                            <span>Random</span>
+                        </button>
+
+                        {/* Settings Button (Tauri Desktop only) */}
                         {isTauri && (
                             <button
                                 onClick={() => setShowSettings(true)}
-                                className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-md transition-colors"
+                                className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors"
                                 aria-label="Settings"
                             >
-                                <Settings className="w-5 h-5" />
+                                <Settings className="w-4 h-4" />
                             </button>
                         )}
                     </div>
                 </div>
 
-                <div className="hidden md:flex items-center gap-2">
+                {/* External Actions (Desktop) */}
+                <div className="hidden lg:flex items-center gap-2.5">
                     <a
                         href="https://ko-fi.com/niecks90"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-[#72a4f2]/20 hover:bg-[#72a4f2]/30 text-[#72a4f2] border border-[#72a4f2]/40 transition-colors px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-sm font-medium"
+                        className="bg-[#72a4f2]/20 hover:bg-[#72a4f2]/30 text-[#72a4f2] border border-[#72a4f2]/40 transition-colors px-3 py-2 rounded-lg flex items-center gap-1.5 text-xs font-semibold"
                     >
                         <Coffee className="w-4 h-4" />
                         <span>Support on Ko-fi</span>
@@ -190,35 +264,47 @@ export function Header({ filters, onSearchChange, onFilterChange, activeFilter, 
                             href="https://github.com/Niecks90/PortsDL-NX/releases"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md font-medium transition-colors shadow-lg"
+                            className="flex items-center gap-2 px-3.5 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg font-medium transition-colors shadow text-xs"
                         >
                             <Download className="w-4 h-4" />
-                            <span>Download Windows App</span>
+                            <span>Download App</span>
                         </a>
                     )}
                 </div>
             </div>
 
-            <div className="mt-4 flex md:flex-wrap overflow-x-auto no-scrollbar scroll-smooth gap-2 py-2 -mx-4 px-4 [&::-webkit-scrollbar]:hidden">
-                {filters.map(filter => (
-                    <button
-                        key={filter}
-                        onClick={() => onFilterChange(filter)}
-                        className={clsx(
-                            "px-4 py-1.5 rounded-full text-sm transition-colors whitespace-nowrap flex-shrink-0",
-                            activeFilter === filter
-                                ? "bg-blue-600 text-white font-medium shadow-sm"
-                                : "bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white border border-slate-700/50"
-                        )}
-                    >
-                        {getShortPlatformName(filter)}
-                    </button>
-                ))}
+            {/* Platform Filter Pills with Counts: e.g. All (406), PC (80), Xbox 360 (45) */}
+            <div className="mt-3 flex md:flex-wrap overflow-x-auto no-scrollbar scroll-smooth gap-1.5 sm:gap-2 py-1 -mx-3 px-3 sm:-mx-4 sm:px-4 [&::-webkit-scrollbar]:hidden">
+                {filters.map(filter => {
+                    const count = filterCounts[filter] ?? 0;
+                    const isActive = activeFilter === filter;
+                    return (
+                        <button
+                            key={filter}
+                            onClick={() => onFilterChange(filter)}
+                            className={clsx(
+                                "px-3 py-1.5 rounded-full text-xs sm:text-sm transition-all whitespace-nowrap flex-shrink-0 flex items-center gap-1.5 cursor-pointer font-medium",
+                                isActive
+                                    ? "bg-blue-600 text-white shadow-md shadow-blue-600/30 ring-1 ring-blue-400/40"
+                                    : "bg-slate-800 text-slate-300 hover:bg-slate-750 hover:text-white border border-slate-700/60"
+                            )}
+                        >
+                            <span>{getShortPlatformName(filter)}</span>
+                            <span className={clsx(
+                                "text-[11px] font-mono",
+                                isActive ? "text-blue-100 opacity-90" : "text-slate-400"
+                            )}>
+                                ({count})
+                            </span>
+                        </button>
+                    );
+                })}
             </div>
 
+            {/* Settings Modal (Tauri Desktop) */}
             {isTauri && showSettings && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-                    <div className="bg-slate-900 border border-slate-800 rounded-lg p-6 w-full max-w-md shadow-2xl">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4">
+                    <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 w-full max-w-md shadow-2xl">
                         <div className="flex justify-between items-center mb-4">
                             <h2 className="text-xl font-bold">Settings</h2>
                             <button onClick={() => setShowSettings(false)} className="text-slate-400 hover:text-white">

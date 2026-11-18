@@ -329,6 +329,13 @@ def main():
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(catalog, f, indent=2, ensure_ascii=False)
         logging.info(f"Fichier {OUTPUT_FILE} mis à jour avec succès.")
+
+        # Keep public/catalog.json in sync for Vite web showcase
+        public_dir = os.path.join(os.path.dirname(__file__), "public")
+        if os.path.exists(public_dir):
+            import shutil
+            shutil.copyfile(OUTPUT_FILE, os.path.join(public_dir, "catalog.json"))
+            logging.info("Fichier public/catalog.json synchronisé.")
     except Exception as e:
         logging.error(f"Erreur d'écriture : {e}")
         sys.exit(1)

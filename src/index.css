@@ -11,4 +11,22 @@
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
   }
+
+  /* Support raw HTML alignments common in GitHub READMEs */
+  [align="center"] {
+    text-align: center;
+  }
+
+  [align="center"] > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  [align="right"] {
+    text-align: right;
+  }
+
+  [align="left"] {
+    text-align: left;
+  }
 }
