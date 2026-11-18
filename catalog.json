@@ -650,19 +650,6 @@
     "last_updated": "03/09/2026"
   },
   {
-    "id": "burger-shop-2-android-64bit",
-    "title": "Burger Shop 2",
-    "author": "ChanseyIsTheBest",
-    "version": "1.0.1",
-    "original_platform": "Android 64bit",
-    "url": "https://github.com/ChanseyIsTheBest/burgershop2_nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "22597",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/30be41d0d9def9452ab0ed1a9722fda7.jpg",
-    "last_updated": "15/07/2026"
-  },
-  {
     "id": "burger-shop-android-64bit",
     "title": "Burger Shop",
     "author": "ChanseyIsTheBest",
@@ -673,6 +660,19 @@
     "asset_type": "zip",
     "steamgriddb_id": "22596",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/fffd44ebd6d03b54bf30c61cb66c8d4f.png",
+    "last_updated": "15/07/2026"
+  },
+  {
+    "id": "burger-shop-2-android-64bit",
+    "title": "Burger Shop 2",
+    "author": "ChanseyIsTheBest",
+    "version": "1.0.1",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/ChanseyIsTheBest/burgershop2_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "22597",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/30be41d0d9def9452ab0ed1a9722fda7.jpg",
     "last_updated": "15/07/2026"
   },
   {
@@ -1014,8 +1014,8 @@
     "last_updated": "03/11/2026"
   },
   {
-    "id": "final-fantasy-iv-3d-remake-android-64bit",
-    "title": "Final Fantasy IV 3D Remake",
+    "id": "final-fantasy-iv-3d-remake-nagaa95-android-64bit",
+    "title": "Final Fantasy IV 3D Remake (NaGaa95)",
     "author": "NaGaa95",
     "version": "1.0.4",
     "original_platform": "Android 64bit",
@@ -1027,8 +1027,8 @@
     "last_updated": "03/11/2026"
   },
   {
-    "id": "final-fantasy-iv-3d-remake-android-64bit-glitcheddeveloper",
-    "title": "Final Fantasy IV 3D Remake",
+    "id": "final-fantasy-iv-3d-remake-glitcheddeveloper-android-64bit",
+    "title": "Final Fantasy IV 3D Remake (GlitchedDeveloper)",
     "author": "GlitchedDeveloper",
     "version": "1.0.4",
     "original_platform": "Android 64bit",
@@ -1181,6 +1181,32 @@
     "steamgriddb_id": "32232",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/31ac2e7a7ffdb7b171f9de6fc556fad7.jpg",
     "last_updated": "23/10/2026"
+  },
+  {
+    "id": "granny-chapter-2-android-64bit",
+    "title": "Granny: Chapter 2",
+    "author": "xflipperkast",
+    "version": "1.0.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/xflipperkast/granny2_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5253601",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/adc5ad34d6476c3397de6606311c143a.jpg",
+    "last_updated": "12/11/2026"
+  },
+  {
+    "id": "granny-3-android-64bit",
+    "title": "Granny 3",
+    "author": "xflipperkast",
+    "version": "1.0",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/xflipperkast/granny3_nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5292323",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b22e94e3dbb9111f73b8b83cd3de06a4.jpg",
+    "last_updated": "16/11/2026"
   },
   {
     "id": "half-life-2-android-64bit",
@@ -1755,29 +1781,29 @@
     "last_updated": "31/10/2026"
   },
   {
-    "id": "rvgl-android-64bit",
-    "title": "RVGL",
+    "id": "rvgl-chanseyisthebest-android-64bit",
+    "title": "RVGL (ChanseyIsTheBest)",
     "author": "ChanseyIsTheBest",
     "version": "1.0.0",
     "original_platform": "Android 64bit",
     "url": "https://github.com/ChanseyIsTheBest/revolt_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38285",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d2acb449be3bc858a00d4146c54bf3f.png",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
     "last_updated": "20/09/2026"
   },
   {
-    "id": "rvgl-android-64bit-birdsentinel",
-    "title": "RVGL",
+    "id": "rvgl-birdsentinel-android-64bit",
+    "title": "RVGL (BirdSentinel)",
     "author": "BirdSentinel",
     "version": "23.1030a1",
     "original_platform": "Android 64bit",
     "url": "https://github.com/BirdSentinel/rvgl-for-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38285",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d2acb449be3bc858a00d4146c54bf3f.png",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
     "last_updated": "21/02/2026"
   },
   {
@@ -1911,19 +1937,6 @@
     "last_updated": "29/06/2026"
   },
   {
-    "id": "soulcalibur-ii-android-64bit",
-    "title": "Soulcalibur II",
-    "author": "markaurel13",
-    "version": "0.4.0",
-    "original_platform": "Android 64bit",
-    "url": "https://github.com/markaurel13/soulcalibur2-nx",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "34146",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/73751fa59c3cfa96c7d3330adb106066.png",
-    "last_updated": "16/11/2026"
-  },
-  {
     "id": "stick-with-it-android-64bit",
     "title": "Stick With It",
     "author": "souldbminerr",
@@ -2026,6 +2039,19 @@
     "steamgriddb_id": "5505315",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3acb2b7d67d0135af62a116e2505d6b5.png",
     "last_updated": "14/08/2026"
+  },
+  {
+    "id": "survive-wilderness-survival-android-64bit",
+    "title": "Survive - Wilderness Survival",
+    "author": "cznn999",
+    "version": "0.10",
+    "original_platform": "Android 64bit",
+    "url": "https://github.com/cznn999/survive-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "19227",
+    "grid_image_url": null,
+    "last_updated": "13/11/2026"
   },
   {
     "id": "swordigo-android-64bit",
@@ -2187,14 +2213,14 @@
     "id": "daytona-usa-arcade",
     "title": "Daytona USA",
     "author": "Thorhax",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "original_platform": "Arcade",
     "url": "https://github.com/Thorhax/Daytona-NX-Modern",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36357",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a2062d9b9b1a226a52980c26c7083840.png",
-    "last_updated": "10/10/2026"
+    "last_updated": "11/11/2026"
   },
   {
     "id": "killer-instinct-arcade",
@@ -2239,14 +2265,14 @@
     "id": "outrunners-arcade",
     "title": "Outrunners",
     "author": "cheviman",
-    "version": "1.2.2",
+    "version": "1.3.2",
     "original_platform": "Arcade",
     "url": "https://github.com/cheviman/outrunners-port",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5246243",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ce2e5fba47bf03aa639a79cb2819ae95.png",
-    "last_updated": "09/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "sega-rally-arcade",
@@ -2260,6 +2286,19 @@
     "steamgriddb_id": "1195",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/662882c6d7c735bf235e128b66549d5c.png",
     "last_updated": "08/10/2026"
+  },
+  {
+    "id": "segasonic-the-hedgehog-arcade",
+    "title": "SegaSonic the Hedgehog",
+    "author": "Thorhax",
+    "version": "1.0.0",
+    "original_platform": "Arcade",
+    "url": "https://github.com/Thorhax/SegaSonic-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5262676",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a1982cdd80157655f8b8bf6bd42b27f8.png",
+    "last_updated": "11/10/2026"
   },
   {
     "id": "sonic-the-fighters-arcade",
@@ -2278,14 +2317,14 @@
     "id": "teenage-mutant-ninja-turtles-arcade",
     "title": "Teenage Mutant Ninja Turtles",
     "author": "cheviman",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "original_platform": "Arcade",
     "url": "https://github.com/cheviman/tmnt-port",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5256611",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ed8ed7dd7e0836bc79f7543fca7de56f.png",
-    "last_updated": "09/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "the-simpsons-arcade",
@@ -2317,14 +2356,14 @@
     "id": "black-microsoft-xbox",
     "title": "Black",
     "author": "gerisson1996",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/gerisson1996/BLACK-NX-PORT/blob/main/README.en.md",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35919",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/e83bab0eff11d84c5e7d4199d9fa45a4.png",
-    "last_updated": "29/10/2026"
+    "last_updated": "17/11/2026"
   },
   {
     "id": "bloody-roar-extreme-microsoft-xbox",
@@ -2369,14 +2408,14 @@
     "id": "cold-fear-microsoft-xbox",
     "title": "Cold Fear",
     "author": "gerisson1996",
-    "version": "0.0.3",
+    "version": "0.1.37",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/gerisson1996/COLD-FEAR-NX-PORT",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1467",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/53092d4becc58b3039fcfe86fdfb8923.jpg",
-    "last_updated": "22/10/2026"
+    "last_updated": "11/11/2026"
   },
   {
     "id": "conker-live-reloaded-microsoft-xbox",
@@ -2392,6 +2431,19 @@
     "last_updated": "07/11/2026"
   },
   {
+    "id": "crazy-taxi-3-high-roller-microsoft-xbox",
+    "title": "Crazy Taxi 3: High Roller",
+    "author": "FurryLilManChild",
+    "version": "0.5.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/FurryLilManChild/CT3-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5245360",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/8887a4a50fd83c2449c3385af1881ff0.png",
+    "last_updated": "16/11/2026"
+  },
+  {
     "id": "dead-or-alive-2-ultimate-microsoft-xbox",
     "title": "Dead or Alive 2 Ultimate",
     "author": "toniisound",
@@ -2402,7 +2454,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5438133",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/6bf3e08dc93915ecefa52d08164426e7.png",
-    "last_updated": "05/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "dead-or-alive-3-microsoft-xbox",
@@ -2473,31 +2525,31 @@
     "id": "the-godfather-microsoft-xbox",
     "title": "The Godfather",
     "author": "CYBERPUNK20",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/CYBERPUNK20/godfather-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2943",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/4117b927c510516edc14da73bb02840a.png",
-    "last_updated": "06/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
-    "id": "halo-combat-evolved-microsoft-xbox",
-    "title": "Halo: Combat Evolved",
+    "id": "halo-combat-evolved-thelinkin3000-microsoft-xbox",
+    "title": "Halo: Combat Evolved (thelinkin3000)",
     "author": "thelinkin3000",
-    "version": "Build 141",
+    "version": "Build 143",
     "original_platform": "Microsoft Xbox",
     "url": "https://github.com/thelinkin3000/halo-ce-universal",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "38383",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png",
-    "last_updated": "09/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
-    "id": "halo-combat-evolved-microsoft-xbox-seamusduncmcgrath",
-    "title": "Halo: Combat Evolved",
+    "id": "halo-combat-evolved-seamusduncmcgrath-microsoft-xbox",
+    "title": "Halo: Combat Evolved (seamusduncmcgrath)",
     "author": "seamusduncmcgrath",
     "version": "1.0.0",
     "original_platform": "Microsoft Xbox",
@@ -2507,6 +2559,45 @@
     "steamgriddb_id": "38383",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/09a146c8d1cfdbdb54ceb60ede93cdab.png",
     "last_updated": "10/10/2026"
+  },
+  {
+    "id": "ice-age-2-the-meltdown-microsoft-xbox",
+    "title": "Ice Age 2: The Meltdown",
+    "author": "Meluxz",
+    "version": "0.3.2",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/Meluxz/iceage2-sw",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38054",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f999094362eeb32f2ef5a275991df98b.jpg",
+    "last_updated": "02/11/2026"
+  },
+  {
+    "id": "jet-set-radio-future-microsoft-xbox",
+    "title": "Jet Set Radio Future",
+    "author": "Eladerino",
+    "version": "0.5.5",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/Eladerino/JetSetRadioFuture-Unleashed-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5248415",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/1af811e7b980f0101940cface13124d4.jpg",
+    "last_updated": "16/11/2026"
+  },
+  {
+    "id": "madagascar-microsoft-xbox",
+    "title": "Madagascar",
+    "author": "gerisson1996",
+    "version": "0.1.8",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/gerisson1996/MADAGASCAR-NX-PORT",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38397",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f21e81ff7fd73e8ed6cc5240d53263be.png",
+    "last_updated": "12/11/2026"
   },
   {
     "id": "midnight-club-3-dub-edition-microsoft-xbox",
@@ -2587,6 +2678,32 @@
     "last_updated": "18/10/2026"
   },
   {
+    "id": "sonic-heroes-microsoft-xbox",
+    "title": "Sonic Heroes",
+    "author": "FurryLilManChild",
+    "version": "0.5.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/FurryLilManChild/sheroes-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38740",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/769ce6d68c27f76ad77cbe1405ee181e.png",
+    "last_updated": "14/11/2026"
+  },
+  {
+    "id": "soulcalibur-ii-microsoft-xbox",
+    "title": "Soulcalibur II",
+    "author": "markaurel13",
+    "version": "0.4.0",
+    "original_platform": "Microsoft Xbox",
+    "url": "https://github.com/markaurel13/soulcalibur2-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "34146",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/73751fa59c3cfa96c7d3330adb106066.png",
+    "last_updated": "16/11/2026"
+  },
+  {
     "id": "splinter-cell-chaos-theory-microsoft-xbox",
     "title": "Splinter Cell: Chaos Theory",
     "author": "itouchdennis",
@@ -2650,6 +2767,19 @@
     "steamgriddb_id": "1615",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/39e42960b233b6999d195eae85d7290b.png",
     "last_updated": "05/11/2026"
+  },
+  {
+    "id": "angry-birds-trilogy-microsoft-xbox-360",
+    "title": "Angry Birds Trilogy",
+    "author": "slicey64",
+    "version": "1.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/slicey64/rehatched-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "33881",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/91baa87f990788efa43959f52041f877.png",
+    "last_updated": "16/11/2026"
   },
   {
     "id": "bakugan-battle-brawlers-microsoft-xbox-360",
@@ -2733,14 +2863,14 @@
     "id": "blue-dragon-microsoft-xbox-360",
     "title": "Blue Dragon",
     "author": "Ad0ky",
-    "version": "1.3.1",
+    "version": "1.3.6",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Ad0ky/reblue",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5254283",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/28e3bed162f123fc16f3084bbe61d98c.png",
-    "last_updated": "28/10/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "call-of-duty-black-ops-ii-microsoft-xbox-360",
@@ -2873,21 +3003,21 @@
     "last_updated": "27/10/2026"
   },
   {
-    "id": "dishonored-microsoft-xbox-360",
-    "title": "Dishonored",
+    "id": "dishonored-cznn999-microsoft-xbox-360",
+    "title": "Dishonored (cznn999)",
     "author": "cznn999",
-    "version": "0.20",
+    "version": "0.50",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/cznn999/dishonored-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1839",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/48b9ef5bcb5ede1575779d29b9eeffe7.png",
-    "last_updated": "11/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
-    "id": "dishonored-microsoft-xbox-360-vibeporter",
-    "title": "Dishonored",
+    "id": "dishonored-vibeporter-microsoft-xbox-360",
+    "title": "Dishonored (VibePorter)",
     "author": "VibePorter",
     "version": "*released*",
     "original_platform": "Microsoft Xbox 360",
@@ -2992,11 +3122,11 @@
   {
     "id": "guitar-hero-iii-legends-of-rock-microsoft-xbox-360",
     "title": "Guitar Hero III: Legends of Rock",
-    "author": "",
+    "author": "guillermedev75",
     "version": "*released*",
     "original_platform": "Microsoft Xbox 360",
-    "url": "",
-    "source_type": "other",
+    "url": "https://github.com/guillermedev75/gh3-nx",
+    "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5247285",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/33a305f7ec25b5c6b54ef08f61e8d41d.jpg",
@@ -3019,14 +3149,14 @@
     "id": "hard-corps-uprising-microsoft-xbox-360",
     "title": "Hard Corps: Uprising",
     "author": "rashevskyv",
-    "version": "0.303 *pre-release*",
+    "version": "0.310 *pre-release*",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/rashevskyv/hard-corps-uprising-recompiled",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5253571",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/360045b0d83a05ef34eb3e4044bf1197.png",
-    "last_updated": "05/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "hexic-hd-microsoft-xbox-360",
@@ -3104,7 +3234,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2309",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b9e8886808531456cd2f4bb4e718e22b.png",
-    "last_updated": "12/11/2026"
+    "last_updated": "11/11/2026"
   },
   {
     "id": "lego-batman-the-videogame-microsoft-xbox-360",
@@ -3123,14 +3253,14 @@
     "id": "lost-odyssey-microsoft-xbox-360",
     "title": "Lost Odyssey",
     "author": "Ad0ky",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Ad0ky/LostOdysseyRecomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36456",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c935ae5eb3f0ae34220b8ea163a59d43.png",
-    "last_updated": "06/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "mass-effect-microsoft-xbox-360",
@@ -3156,7 +3286,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "2993",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f56766ef62b1d6867e6ace4bfc82c82e.png",
-    "last_updated": "06/11/2026"
+    "last_updated": "16/11/2026"
   },
   {
     "id": "max-payne-3-microsoft-xbox-360",
@@ -3195,7 +3325,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5253393",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/433aa82aa5ffd59b1fbd5068e380bb77.png",
-    "last_updated": "14/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "mini-ninjas-microsoft-xbox-360",
@@ -3263,8 +3393,8 @@
     "last_updated": "08/11/2026"
   },
   {
-    "id": "need-for-speed-carbon-microsoft-xbox-360",
-    "title": "Need for Speed: Carbon",
+    "id": "need-for-speed-carbon-kaays-microsoft-xbox-360",
+    "title": "Need for Speed: Carbon (Kaays)",
     "author": "Kaays",
     "version": "0.7.0",
     "original_platform": "Microsoft Xbox 360",
@@ -3276,8 +3406,8 @@
     "last_updated": "14/11/2026"
   },
   {
-    "id": "need-for-speed-carbon-microsoft-xbox-360-zofo007",
-    "title": "Need for Speed: Carbon",
+    "id": "need-for-speed-carbon-zofo007-microsoft-xbox-360",
+    "title": "Need for Speed: Carbon (zofo007)",
     "author": "zofo007",
     "version": "1.1.0",
     "original_platform": "Microsoft Xbox 360",
@@ -3313,6 +3443,19 @@
     "steamgriddb_id": "2252",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/23770696e86230ab2f6d000142be218a.jpg",
     "last_updated": "03/11/2026"
+  },
+  {
+    "id": "operation-darkness-microsoft-xbox-360",
+    "title": "Operation Darkness",
+    "author": "liartes",
+    "version": "1.0.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/liartes/operation-darkness-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5434288",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/faa7824cd4d0f623ea0bd83d2911f0db.png",
+    "last_updated": "13/11/2026"
   },
   {
     "id": "pac-man-championship-edition-dx-microsoft-xbox-360",
@@ -3357,14 +3500,14 @@
     "id": "pure-microsoft-xbox-360",
     "title": "Pure",
     "author": "cznn999",
-    "version": "0.10",
+    "version": "0.25",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/cznn999/pure-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5442",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/7fdfbdb466640e43e4da51b6295e2bf2.jpg",
-    "last_updated": "10/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "ridge-racer-6-microsoft-xbox-360",
@@ -3383,40 +3526,40 @@
     "id": "scud-race-microsoft-xbox-360",
     "title": "Scud Race",
     "author": "Thorhax",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/Thorhax/scudrace-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5254033",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/646ae05a6d5dcdc166fa08da9c00bf74.png",
-    "last_updated": "10/11/2026"
+    "last_updated": "11/11/2026"
   },
   {
     "id": "shank-microsoft-xbox-360",
     "title": "Shank",
     "author": "zhtipu",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/zhtipu/shank1-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "17510",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/df1cd9015c1cd8dd15d874bade18d868.png",
-    "last_updated": "04/11/2026"
+    "last_updated": "14/11/2026"
   },
   {
     "id": "shank-2-microsoft-xbox-360",
     "title": "Shank 2",
     "author": "zhtipu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/zhtipu/shank2-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "987",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/b4b6a4686b2ca011ee0f72d0bc1e7b50.png",
-    "last_updated": "31/10/2026"
+    "last_updated": "14/11/2026"
   },
   {
     "id": "the-simpsons-game-microsoft-xbox-360",
@@ -3461,14 +3604,14 @@
     "id": "silent-hill-homecoming-microsoft-xbox-360",
     "title": "Silent Hill Homecoming",
     "author": "gerisson1996",
-    "version": "1.0",
+    "version": "1.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/gerisson1996/SHH-NX-PORT",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1605",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/512ba6448f63790387e2ad3d3bc630d0.png",
-    "last_updated": "30/10/2026"
+    "last_updated": "13/11/2026"
   },
   {
     "id": "singularity-microsoft-xbox-360",
@@ -3481,7 +3624,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "10026",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3ebe2a87a58cf391399b0bf0cb53c8ae.png",
-    "last_updated": "09/11/2026"
+    "last_updated": "17/11/2026"
   },
   {
     "id": "skate-3-microsoft-xbox-360",
@@ -3523,6 +3666,19 @@
     "last_updated": "02/10/2026"
   },
   {
+    "id": "sonic-the-hedgehog-4-episode-i-microsoft-xbox-360",
+    "title": "Sonic the Hedgehog 4: Episode I",
+    "author": "FurryLilManChild",
+    "version": "0.5.0",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/FurryLilManChild/S4ep1-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "1773",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b3999f2198b3a6ddc547b84352c90e9c.png",
+    "last_updated": "16/11/2026"
+  },
+  {
     "id": "sonic-unleashed-microsoft-xbox-360",
     "title": "Sonic Unleashed",
     "author": "ChanseyIsTheBest",
@@ -3559,7 +3715,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "553",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c2bddf053c4efc35f82eb16a22dd0de5.png",
-    "last_updated": "12/11/2026"
+    "last_updated": "16/11/2026"
   },
   {
     "id": "tony-hawks-project-8-microsoft-xbox-360",
@@ -3575,8 +3731,8 @@
     "last_updated": "01/10/2026"
   },
   {
-    "id": "torchlight-microsoft-xbox-360",
-    "title": "Torchlight",
+    "id": "torchlight-liartes-microsoft-xbox-360",
+    "title": "Torchlight (liartes)",
     "author": "liartes",
     "version": "1.0.5",
     "original_platform": "Microsoft Xbox 360",
@@ -3588,17 +3744,17 @@
     "last_updated": "05/11/2026"
   },
   {
-    "id": "torchlight-microsoft-xbox-360-greenswampdweller",
-    "title": "Torchlight",
+    "id": "torchlight-greenswampdweller-microsoft-xbox-360",
+    "title": "Torchlight (GreenSwampDweller)",
     "author": "GreenSwampDweller",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/GreenSwampDweller/torchlight-rekindled",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "9624",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/165e21946d3b619fb6dff4613f9115c0.png",
-    "last_updated": "29/10/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "ultra-street-fighter-iv-microsoft-xbox-360",
@@ -3627,16 +3783,16 @@
     "last_updated": "13/11/2026"
   },
   {
-    "id": "the-witcher-2-assassins-of-kings-microsoft-xbox-360-recomp-nx",
-    "title": "The Witcher 2: Assassins of Kings",
+    "id": "the-witcher-2-definitive-edition-microsoft-xbox-360",
+    "title": "The Witcher 2: Definitive Edition",
     "author": "recomp-nx",
     "version": "0.1.3",
     "original_platform": "Microsoft Xbox 360",
     "url": "https://github.com/recomp-nx/tw2de_nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38500",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/01e91c5fa75d1dac67001b11e1d34526.png",
+    "steamgriddb_id": "1962",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/df5042d2f18eae9df7a0d41857d87627.png",
     "last_updated": "15/11/2026"
   },
   {
@@ -3669,14 +3825,14 @@
     "id": "castlevania-rondo-of-blood-nec-pc-engine-turbografx-16",
     "title": "Castlevania: Rondo of Blood",
     "author": "FurryLilManChild",
-    "version": "1.1",
+    "version": "1.2.1",
     "original_platform": "NEC PC Engine (TurboGrafx-16)",
     "url": "https://github.com/FurryLilManChild/rondo-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37451",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/2dd919d20fb9d85da9f5bf96531efa3f.jpg",
-    "last_updated": "04/11/2026"
+    "last_updated": "11/11/2026"
   },
   {
     "id": "metroid-prime-hunters-nintendo-ds",
@@ -3695,14 +3851,14 @@
     "id": "the-legend-of-zelda-ocarina-of-time-3d-nintendo-3ds",
     "title": "The Legend of Zelda: Ocarina of Time 3D",
     "author": "JohnUzoka",
-    "version": "0.2.2",
+    "version": "0.2.7",
     "original_platform": "Nintendo 3DS",
     "url": "https://github.com/JohnUzoka/TriAevum-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36271",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab6fe89d793b5a3c4153692779cb0680.png",
-    "last_updated": "09/11/2026"
+    "last_updated": "16/11/2026"
   },
   {
     "id": "metroid-samus-returns-nintendo-3ds",
@@ -3715,7 +3871,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5245261",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/cad7492939c76269441fe77353480fe1.png",
-    "last_updated": "10/11/2026"
+    "last_updated": "11/11/2026"
   },
   {
     "id": "banjo-kazooie-nintendo-64",
@@ -3822,8 +3978,8 @@
     "last_updated": "15/11/2026"
   },
   {
-    "id": "the-legend-of-zelda-majoras-mask-nintendo-64",
-    "title": "The Legend of Zelda: Majora's Mask",
+    "id": "the-legend-of-zelda-majoras-mask-yoshicrystal9-nintendo-64",
+    "title": "The Legend of Zelda: Majora's Mask (YoshiCrystal9)",
     "author": "YoshiCrystal9",
     "version": "4.0.0 nx",
     "original_platform": "Nintendo 64",
@@ -3835,8 +3991,8 @@
     "last_updated": "30/01/2026"
   },
   {
-    "id": "the-legend-of-zelda-majoras-mask-nintendo-64-reflex909",
-    "title": "The Legend of Zelda: Majora's Mask",
+    "id": "the-legend-of-zelda-majoras-mask-reflex909-nintendo-64",
+    "title": "The Legend of Zelda: Majora's Mask (reflex909)",
     "author": "reflex909",
     "version": "5.0.1 v3",
     "original_platform": "Nintendo 64",
@@ -3851,14 +4007,14 @@
     "id": "the-legened-of-zelda-ocarina-of-time-nintendo-64",
     "title": "The Legened of Zelda: Ocarina of Time",
     "author": "timschneeb",
-    "version": "9.3.1-nx2",
+    "version": "9.3.1-nx3",
     "original_platform": "Nintendo 64",
     "url": "https://github.com/timschneeb/Shipwright-Switch/",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "21202",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
-    "last_updated": "28/10/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "mario-kart-64-nintendo-64",
@@ -3887,8 +4043,8 @@
     "last_updated": "22/10/2026"
   },
   {
-    "id": "paper-mario-nintendo-64",
-    "title": "Paper Mario",
+    "id": "paper-mario-thorhax-nintendo-64",
+    "title": "Paper Mario (Thorhax)",
     "author": "Thorhax",
     "version": "1.0.2",
     "original_platform": "Nintendo 64",
@@ -3896,12 +4052,12 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36997",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f98e8082f2b3924b8a137d1cfc12e08b.png",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b109d948a80f5daedcecf2d6e082cfd7.png",
     "last_updated": "01/10/2026"
   },
   {
-    "id": "paper-mario-nintendo-64-cyphernoodle",
-    "title": "Paper Mario",
+    "id": "paper-mario-cyphernoodle-nintendo-64",
+    "title": "Paper Mario (CypherNoodle)",
     "author": "CypherNoodle",
     "version": "1.0.2",
     "original_platform": "Nintendo 64",
@@ -3909,7 +4065,7 @@
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36997",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f98e8082f2b3924b8a137d1cfc12e08b.png",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b109d948a80f5daedcecf2d6e082cfd7.png",
     "last_updated": "28/09/2026"
   },
   {
@@ -3939,8 +4095,8 @@
     "last_updated": "09/10/2026"
   },
   {
-    "id": "starcraft64-nintendo-64",
-    "title": "StarCraft64",
+    "id": "starcraft64-gabryboy12-ai-nintendo-64",
+    "title": "StarCraft64 (gabryboy12-ai)",
     "author": "gabryboy12-ai",
     "version": "1.5.0",
     "original_platform": "Nintendo 64",
@@ -3952,8 +4108,8 @@
     "last_updated": "04/11/2026"
   },
   {
-    "id": "starcraft64-nintendo-64-thorhax",
-    "title": "StarCraft64",
+    "id": "starcraft64-thorhax-nintendo-64",
+    "title": "StarCraft64 (Thorhax)",
     "author": "Thorhax",
     "version": "1.5.0",
     "original_platform": "Nintendo 64",
@@ -3991,8 +4147,8 @@
     "last_updated": "07/09/2026"
   },
   {
-    "id": "super-smash-bros-nintendo-64",
-    "title": "Super Smash Bros.",
+    "id": "super-smash-bros-kawaiibunga-nintendo-64",
+    "title": "Super Smash Bros. (KawaiiBunga)",
     "author": "KawaiiBunga",
     "version": "1.6.0",
     "original_platform": "Nintendo 64",
@@ -4004,8 +4160,8 @@
     "last_updated": "23/09/2026"
   },
   {
-    "id": "super-smash-bros-nintendo-64-delsonazevedo",
-    "title": "Super Smash Bros.",
+    "id": "super-smash-bros-delsonazevedo-nintendo-64",
+    "title": "Super Smash Bros. (delsonazevedo)",
     "author": "delsonazevedo",
     "version": "1.3.0",
     "original_platform": "Nintendo 64",
@@ -4017,8 +4173,8 @@
     "last_updated": "12/06/2026"
   },
   {
-    "id": "wave-race-64-nintendo-64",
-    "title": "Wave Race 64",
+    "id": "wave-race-64-1weell-nintendo-64",
+    "title": "Wave Race 64 (1weell)",
     "author": "1weell",
     "version": "0.1.0",
     "original_platform": "Nintendo 64",
@@ -4030,8 +4186,8 @@
     "last_updated": "21/09/2026"
   },
   {
-    "id": "wave-race-64-nintendo-64-domazinus",
-    "title": "Wave Race 64",
+    "id": "wave-race-64-domazinus-nintendo-64",
+    "title": "Wave Race 64 (DomazinUS)",
     "author": "DomazinUS",
     "version": "RC7",
     "original_platform": "Nintendo 64",
@@ -4046,31 +4202,31 @@
     "id": "pokemon-gen-1-nintendo-gameboy",
     "title": "Pokemon Gen 1",
     "author": "bryanthaboi",
-    "version": "0.4.2",
+    "version": "0.4.8",
     "original_platform": "Nintendo Gameboy",
     "url": "https://github.com/bryanthaboi/gen1recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5356567",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/deaf47d9953d7c0216d9c3aa944fe5ba.png",
-    "last_updated": "07/11/2026"
+    "last_updated": "16/11/2026"
   },
   {
     "id": "pokemon-gen-2-nintendo-gameboy",
     "title": "Pokemon Gen 2",
     "author": "UNDERdecoded",
-    "version": "0.8.57",
+    "version": "0.8.58",
     "original_platform": "Nintendo Gameboy",
     "url": "https://github.com/UNDERdecoded/Gen2Recomped",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5356567",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5696070ba6c2871cd129206316e2574f.png",
-    "last_updated": "08/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
-    "id": "the-legend-of-zelda-the-minish-cap-nintendo-gameboy-advance",
-    "title": "The Legend of Zelda: The Minish Cap",
+    "id": "the-legend-of-zelda-the-minish-cap-hayatog-nintendo-gameboy-advance",
+    "title": "The Legend of Zelda: The Minish Cap (HayatoG)",
     "author": "HayatoG",
     "version": "v0.25",
     "original_platform": "Nintendo Gameboy Advance",
@@ -4082,8 +4238,8 @@
     "last_updated": "04/06/2026"
   },
   {
-    "id": "the-legend-of-zelda-the-minish-cap-nintendo-gameboy-advance-alexgg1014",
-    "title": "The Legend of Zelda: The Minish Cap",
+    "id": "the-legend-of-zelda-the-minish-cap-alexgg1014-nintendo-gameboy-advance",
+    "title": "The Legend of Zelda: The Minish Cap (Alexgg1014)",
     "author": "Alexgg1014",
     "version": "2.0.1",
     "original_platform": "Nintendo Gameboy Advance",
@@ -4098,14 +4254,14 @@
     "id": "mario-kart-super-circuit-nintendo-gameboy-advance",
     "title": "Mario Kart: Super Circuit",
     "author": "Niecks90",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "original_platform": "Nintendo Gameboy Advance",
     "url": "https://github.com/Niecks90/mksc-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35520",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/83d788e65786046542c9354d17b92450.png",
-    "last_updated": "12/11/2026"
+    "last_updated": "14/11/2026"
   },
   {
     "id": "metroid-zero-mission-nintendo-gameboy-advance",
@@ -4124,14 +4280,14 @@
     "id": "pokemon-fulldex-nintendo-gameboy-advance",
     "title": "Pokemon: FullDex",
     "author": "mamesj",
-    "version": "v2",
+    "version": "1.6",
     "original_platform": "Nintendo Gameboy Advance",
     "url": "https://github.com/mamesj/pokemon-fulldex/releases/tag/all-games-v2",
     "source_type": "github_release",
     "asset_type": "zip",
     "steamgriddb_id": "25634",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/052938e7b425df3acdd9dc4be44404ef.png",
-    "last_updated": "08/11/2026"
+    "last_updated": "16/11/2026"
   },
   {
     "id": "sonic-advance-2-nintendo-gameboy-advance",
@@ -4147,8 +4303,8 @@
     "last_updated": "16/09/2026"
   },
   {
-    "id": "the-legend-of-zelda-links-awakening-dx-nintendo-gameboy-color",
-    "title": "The Legend of Zelda: Link's Awakening DX",
+    "id": "the-legend-of-zelda-links-awakening-dx-delsonazevedo-nintendo-gameboy-color",
+    "title": "The Legend of Zelda: Link's Awakening DX (delsonazevedo)",
     "author": "delsonazevedo",
     "version": "1.7.3",
     "original_platform": "Nintendo Gameboy Color",
@@ -4160,8 +4316,8 @@
     "last_updated": "25/04/2026"
   },
   {
-    "id": "the-legend-of-zelda-links-awakening-dx-nintendo-gameboy-color-alexgg1014",
-    "title": "The Legend of Zelda: Link's Awakening DX",
+    "id": "the-legend-of-zelda-links-awakening-dx-alexgg1014-nintendo-gameboy-color",
+    "title": "The Legend of Zelda: Link's Awakening DX (Alexgg1014)",
     "author": "Alexgg1014",
     "version": "1.2.0",
     "original_platform": "Nintendo Gameboy Color",
@@ -4173,29 +4329,29 @@
     "last_updated": "16/10/2026"
   },
   {
-    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-nintendo-gameboy-color",
-    "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages",
+    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-toniisoundoracles-nx-nintendo-gameboy-color",
+    "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages (toniisound/oracles-nx)",
     "author": "toniisound",
     "version": "1.0.0",
     "original_platform": "Nintendo Gameboy Color",
     "url": "https://github.com/toniisound/oracles-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "35190",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5ebf0b6220a49dc848050cc95f3d0442.png",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
     "last_updated": "10/10/2026"
   },
   {
-    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-nintendo-gameboy-color-toniisound",
-    "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages",
+    "id": "the-legend-of-zelda-oracle-of-seasons-oracle-of-ages-toniisoundoracles-project-nintendo-gameboy-color",
+    "title": "The Legend of Zelda: Oracle of Seasons / Oracle of Ages (toniisound/oracles-project)",
     "author": "toniisound",
     "version": "1.3.0",
     "original_platform": "Nintendo Gameboy Color",
     "url": "https://github.com/toniisound/The-Oracles-Project-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "35190",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/5ebf0b6220a49dc848050cc95f3d0442.png",
+    "steamgriddb_id": null,
+    "grid_image_url": null,
     "last_updated": "29/10/2026"
   },
   {
@@ -4212,8 +4368,8 @@
     "last_updated": "29/10/2026"
   },
   {
-    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube",
-    "title": "The Legend of Zelda: Twilight Princess",
+    "id": "the-legend-of-zelda-twilight-princess-hayatog-nintendo-gamecube",
+    "title": "The Legend of Zelda: Twilight Princess (HayatoG)",
     "author": "HayatoG",
     "version": "1.4.3",
     "original_platform": "Nintendo GameCube",
@@ -4225,8 +4381,8 @@
     "last_updated": "02/07/2026"
   },
   {
-    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube-souldbminerr",
-    "title": "The Legend of Zelda: Twilight Princess",
+    "id": "the-legend-of-zelda-twilight-princess-souldbminderr-nintendo-gamecube",
+    "title": "The Legend of Zelda: Twilight Princess (souldbminderr)",
     "author": "souldbminerr",
     "version": "2.0.0.25",
     "original_platform": "Nintendo GameCube",
@@ -4238,8 +4394,8 @@
     "last_updated": "19/06/2026"
   },
   {
-    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube-alexgg1014",
-    "title": "The Legend of Zelda: Twilight Princess",
+    "id": "the-legend-of-zelda-twilight-princess-alexgg1014-nintendo-gamecube",
+    "title": "The Legend of Zelda: Twilight Princess (Alexgg1014)",
     "author": "Alexgg1014",
     "version": "1.1.3",
     "original_platform": "Nintendo GameCube",
@@ -4280,14 +4436,14 @@
     "id": "mario-kart-double-dash-nintendo-gamecube",
     "title": "Mario Kart: Double Dash!",
     "author": "digdat0",
-    "version": "1.9.1",
+    "version": "2.0.1",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/digdat0/mkdd-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36068",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c22ad3828656e72b71489a0e3b20df58.png",
-    "last_updated": "07/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "metroid-prime-2-echoes-nintendo-gamecube",
@@ -4306,27 +4462,27 @@
     "id": "sonic-riders-nintendo-gamecube",
     "title": "Sonic Riders",
     "author": "teclilla18",
-    "version": "0.7.4",
+    "version": "0.8.6",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/teclilla18/sonic-riders-recomp",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "12904",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/1bd4f0f15ab6e834e41a13955a1ec451.png",
-    "last_updated": "10/11/2026"
+    "last_updated": "16/11/2026"
   },
   {
     "id": "the-spongebob-squarepants-movie-nintendo-gamecube",
     "title": "The SpongeBob SquarePants Movie",
     "author": "csskillbad",
-    "version": "1.0.0",
+    "version": "*released*",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/csskillbad/Spongebob_movie-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36796",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f6c8d8e27118385ddb8dc65273dc1d37.png",
-    "last_updated": "15/11/2026"
+    "last_updated": "17/11/2026"
   },
   {
     "id": "super-mario-strikers-nintendo-gamecube",
@@ -4355,8 +4511,8 @@
     "last_updated": "06/10/2026"
   },
   {
-    "id": "donkey-kong-country-super-nintendo-entertainment-system",
-    "title": "Donkey Kong Country",
+    "id": "donkey-kong-country-souldbminerr-super-nintendo-entertainment-system",
+    "title": "Donkey Kong Country (souldbminerr)",
     "author": "souldbminerr",
     "version": "0.1.0-NX",
     "original_platform": "Super Nintendo Entertainment System",
@@ -4368,8 +4524,8 @@
     "last_updated": "09/09/2026"
   },
   {
-    "id": "donkey-kong-country-super-nintendo-entertainment-system-mrot4",
-    "title": "Donkey Kong Country",
+    "id": "donkey-kong-country-mrot4-super-nintendo-entertainment-system",
+    "title": "Donkey Kong Country (mrOt4)",
     "author": "mrOt4",
     "version": "1.0.3",
     "original_platform": "Super Nintendo Entertainment System",
@@ -4394,8 +4550,8 @@
     "last_updated": "09/09/2026"
   },
   {
-    "id": "donkey-kong-country-3-super-nintendo-entertainment-system",
-    "title": "Donkey Kong Country 3",
+    "id": "donkey-kong-country-3-souldbminerr-super-nintendo-entertainment-system",
+    "title": "Donkey Kong Country 3 (souldbminerr)",
     "author": "souldbminerr",
     "version": "0.0.5-NX1",
     "original_platform": "Super Nintendo Entertainment System",
@@ -4407,8 +4563,8 @@
     "last_updated": "30/09/2026"
   },
   {
-    "id": "donkey-kong-country-3-super-nintendo-entertainment-system-1weell",
-    "title": "Donkey Kong Country 3",
+    "id": "donkey-kong-country-3-1weell-super-nintendo-entertainment-system",
+    "title": "Donkey Kong Country 3 (1weell)",
     "author": "1weell",
     "version": "1.1",
     "original_platform": "Super Nintendo Entertainment System",
@@ -4433,19 +4589,6 @@
     "last_updated": "19/09/2026"
   },
   {
-    "id": "the-legend-of-zelda-a-link-to-the-past-alek-s-ultimate-nx-edition-super-nintendo-entertainment-system",
-    "title": "The Legend Of Zelda A Link To The Past Alek S Ultimate Nx Edition",
-    "author": "Alexgg1014",
-    "version": "1.3.0",
-    "original_platform": "Super Nintendo Entertainment System",
-    "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "38124",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
-    "last_updated": "17/10/2026"
-  },
-  {
     "id": "illusion-of-gaia-super-nintendo-entertainment-system",
     "title": "Illusion of Gaia",
     "author": "mrOt4",
@@ -4457,6 +4600,19 @@
     "steamgriddb_id": "36661",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/22abffc0501401bb45afe3b886d5df0f.png",
     "last_updated": "16/10/2026"
+  },
+  {
+    "id": "the-legend-of-zelda-a-link-to-the-past-super-nintendo-entertainment-system",
+    "title": "The Legend of Zelda: A Link to the Past",
+    "author": "Alexgg1014",
+    "version": "1.3.0",
+    "original_platform": "Super Nintendo Entertainment System",
+    "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38124",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
+    "last_updated": "17/10/2026"
   },
   {
     "id": "mega-man-x-super-nintendo-entertainment-system",
@@ -4488,14 +4644,14 @@
     "id": "super-mario-all-stars-super-nintendo-entertainment-system",
     "title": "Super Mario All-Stars",
     "author": "simplePsyduck",
-    "version": "*pre-release 2*",
+    "version": "1.0.1",
     "original_platform": "Super Nintendo Entertainment System",
     "url": "https://github.com/simplePsyduck/SuperMarioAllStars-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35547",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/f3020a5e3bef2326ce6038bf848cd570.png",
-    "last_updated": "08/11/2026"
+    "last_updated": "17/11/2026"
   },
   {
     "id": "super-mario-world-super-nintendo-entertainment-system",
@@ -4514,27 +4670,40 @@
     "id": "mario-kart-wii-nintendo-wii",
     "title": "Mario Kart Wii",
     "author": "KawaiiBunga",
-    "version": "0.4.0-beta",
+    "version": "0.5.0-beta",
     "original_platform": "Nintendo Wii",
     "url": "https://github.com/KawaiiBunga/KartPadNX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36054",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3fb22546e0a13fb8b5d7345218eef2a5.png",
-    "last_updated": "08/11/2026"
+    "last_updated": "12/11/2026"
+  },
+  {
+    "id": "super-paper-mario-nintendo-wii",
+    "title": "Super Paper Mario",
+    "author": "Eladerino",
+    "version": "0.5.0",
+    "original_platform": "Nintendo Wii",
+    "url": "https://github.com/Eladerino/spm-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38613",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b8db81c7134ac8de138a6ae02c78cbfb.png",
+    "last_updated": "16/11/2026"
   },
   {
     "id": "the-legend-of-zelda-wind-waker-hd-nintendo-wii-u",
     "title": "The Legend of Zelda: Wind Waker HD",
     "author": "centollOS",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "original_platform": "Nintendo Wii U",
     "url": "https://github.com/centollOS/SwitchWakerHD",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35048",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png",
-    "last_updated": "07/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "0-ad-pc",
@@ -4615,17 +4784,30 @@
     "last_updated": "27/10/2026"
   },
   {
+    "id": "call-of-duty-black-ops-pc",
+    "title": "Call of Duty - Black Ops",
+    "author": "HDErick",
+    "version": "1.0.0",
+    "original_platform": "PC",
+    "url": "https://github.com/HDErick/OpenBLOPS-NX",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "10034",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/b9b065288cf8d4eba8b9ac1ad9c52aaf.png",
+    "last_updated": "16/11/2026"
+  },
+  {
     "id": "call-of-duty-black-ops-ii-pc",
     "title": "Call of Duty - Black Ops II",
     "author": "HDErick",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "original_platform": "PC",
     "url": "https://github.com/HDErick/BO2-Requiem-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1782",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/853695e4fd475d6b482d94895c6b595d.jpg",
-    "last_updated": "08/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "call-of-duty-united-offensive-pc",
@@ -4696,14 +4878,14 @@
     "id": "death-rally-pc",
     "title": "Death Rally",
     "author": "VLPLAY-Games",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "original_platform": "PC",
     "url": "https://github.com/VLPLAY-Games/dRally_S",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "1256",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/a963528a43e42b1524cad9864926df04.jpg",
-    "last_updated": "12/11/2026"
+    "last_updated": "17/11/2026"
   },
   {
     "id": "descent-pc",
@@ -4758,8 +4940,8 @@
     "last_updated": "04/09/2026"
   },
   {
-    "id": "doom-pc",
-    "title": "Doom",
+    "id": "doom-2026-pc",
+    "title": "Doom (2026)",
     "author": "Thorhax",
     "version": "4.10.0",
     "original_platform": "PC",
@@ -4771,8 +4953,8 @@
     "last_updated": "29/08/2026"
   },
   {
-    "id": "doom-pc-thorhax",
-    "title": "Doom",
+    "id": "doom-modern-pc",
+    "title": "Doom (modern)",
     "author": "Thorhax",
     "version": "Update 2",
     "original_platform": "PC",
@@ -4797,8 +4979,8 @@
     "last_updated": "07/06/2026"
   },
   {
-    "id": "elder-scrolls-iii-morrowind-pc",
-    "title": "Elder Scrolls III Morrowind",
+    "id": "elder-scrolls-iii-morrowind-fgsfdsfgs-pc",
+    "title": "Elder Scrolls III Morrowind (fgsfdsfgs)",
     "author": "fgsfdsfgs",
     "version": "0.46.0-nx4",
     "original_platform": "PC",
@@ -4810,8 +4992,8 @@
     "last_updated": "16/08/2026"
   },
   {
-    "id": "elder-scrolls-iii-morrowind-pc-seamusduncmcgrath",
-    "title": "Elder Scrolls III Morrowind",
+    "id": "elder-scrolls-iii-morrowind-seamusduncmcgrath-pc",
+    "title": "Elder Scrolls III Morrowind (seamusduncmcgrath)",
     "author": "seamusduncmcgrath",
     "version": "1.0.0",
     "original_platform": "PC",
@@ -4878,14 +5060,14 @@
     "id": "half-life-pc",
     "title": "Half Life",
     "author": "FWGS",
-    "version": "4237",
+    "version": "4248",
     "original_platform": "PC",
     "url": "https://github.com/FWGS/xash3d-fwgs/",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "21207",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/10f16ffcd88e1cf00e43178442437763.png",
-    "last_updated": "05/11/2026"
+    "last_updated": "17/11/2026"
   },
   {
     "id": "heroes-of-might-magic-ii-pc",
@@ -5106,7 +5288,7 @@
     "asset_type": "zip",
     "steamgriddb_id": "5439843",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/67276a7a1931f63c1609eec7c2d8f9b5.png",
-    "last_updated": "08/11/2026"
+    "last_updated": "16/11/2026"
   },
   {
     "id": "need-for-speed-ii-iii-pc",
@@ -5216,14 +5398,14 @@
     "id": "quake-4-pc",
     "title": "Quake 4",
     "author": "VLPLAY-Games",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "original_platform": "PC",
     "url": "https://github.com/VLPLAY-Games/openQ4_S",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "2275",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/c5c5a670493f472344cb062852be6505.png",
-    "last_updated": "12/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "rollercoaster-tycoon-2-pc",
@@ -5291,8 +5473,8 @@
     "last_updated": "22/10/2026"
   },
   {
-    "id": "silent-hill-4-the-room-pc",
-    "title": "Silent Hill 4: The Room",
+    "id": "silent-hill-4-the-room-72ak-pc",
+    "title": "Silent Hill 4: The Room (72ak)",
     "author": "72ak",
     "version": "0.1",
     "original_platform": "PC",
@@ -5304,8 +5486,8 @@
     "last_updated": "11/10/2026"
   },
   {
-    "id": "silent-hill-4-the-room-pc-cutarev",
-    "title": "Silent Hill 4: The Room",
+    "id": "silent-hill-4-the-room-cutarev-pc",
+    "title": "Silent Hill 4: The Room (cutarev)",
     "author": "cutarev",
     "version": "0.0.1",
     "original_platform": "PC",
@@ -5330,21 +5512,8 @@
     "last_updated": "28/10/2026"
   },
   {
-    "id": "sly-cooper-and-the-thievius-raccoonus-pc",
-    "title": "Sly Cooper and the Thievius Raccoonus",
-    "author": "NaGaa95",
-    "version": "0.5.0-v2",
-    "original_platform": "PC",
-    "url": "https://github.com/NaGaa95/ProjectCane",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "5248314",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6f550c53b3d9f67c09a5c6feda1e46a.png",
-    "last_updated": "03/11/2026"
-  },
-  {
-    "id": "sonic-r-pc",
-    "title": "Sonic R",
+    "id": "sonic-r-boraeskicioglu-pc",
+    "title": "Sonic R (boraeskicioglu)",
     "author": "boraeskicioglu",
     "version": "0.1",
     "original_platform": "PC",
@@ -5356,8 +5525,8 @@
     "last_updated": "15/09/2026"
   },
   {
-    "id": "sonic-r-pc-thorhax",
-    "title": "Sonic R",
+    "id": "sonic-r-thorhax-pc",
+    "title": "Sonic R (Thorhax)",
     "author": "Thorhax",
     "version": "1.0.1",
     "original_platform": "PC",
@@ -5434,19 +5603,6 @@
     "last_updated": "30/09/2026"
   },
   {
-    "id": "touhou-75-immaterial-and-missing-power-pc",
-    "title": "Touhou 7.5: Immaterial and Missing Power",
-    "author": "saekaze",
-    "version": "1.11-r1",
-    "original_platform": "PC",
-    "url": "https://github.com/saekaze/th075-switch",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "36894",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/155882bd2be6bbd7f2e84ef47700b81a.png",
-    "last_updated": "17/10/2026"
-  },
-  {
     "id": "touhou-7-perfect-cherry-blossom-pc",
     "title": "Touhou 7: Perfect Cherry Blossom",
     "author": "saekaze",
@@ -5458,6 +5614,19 @@
     "steamgriddb_id": "38787",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/513622713be8b84fd8d5b783f6fc82b5.png",
     "last_updated": "30/09/2026"
+  },
+  {
+    "id": "touhou-75-immaterial-and-missing-power-pc",
+    "title": "Touhou 7.5: Immaterial and Missing Power",
+    "author": "saekaze",
+    "version": "1.11-r1",
+    "original_platform": "PC",
+    "url": "https://github.com/saekaze/th075-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "36894",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/155882bd2be6bbd7f2e84ef47700b81a.png",
+    "last_updated": "17/10/2026"
   },
   {
     "id": "touhou-8-imperishable-night-pc",
@@ -5486,30 +5655,17 @@
     "last_updated": "30/09/2026"
   },
   {
-    "id": "touhou-wonderful-waking-world-pc",
-    "title": "Touhou Wonderful Waking World",
-    "author": "saekaze",
-    "version": "update-2",
-    "original_platform": "PC",
-    "url": "https://github.com/saekaze/thWWW-switch",
-    "source_type": "github_repo",
-    "asset_type": "zip",
-    "steamgriddb_id": "104",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png",
-    "last_updated": "07/10/2026"
-  },
-  {
     "id": "touhou-10-mountain-of-faith-pc",
     "title": "Touhou 10: Mountain of Faith",
     "author": "saekaze",
-    "version": "1.00a-r6",
+    "version": "1.00a-r7",
     "original_platform": "PC",
     "url": "https://github.com/saekaze/th10-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5248276",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/5e1ff67e139a8864f865e8291d7dd9ba.png",
-    "last_updated": "27/10/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "touhou-11-subterranean-animism-pc",
@@ -5551,17 +5707,30 @@
     "last_updated": "13/10/2026"
   },
   {
+    "id": "touhou-wonderful-waking-world-pc",
+    "title": "Touhou Wonderful Waking World",
+    "author": "saekaze",
+    "version": "update-2",
+    "original_platform": "PC",
+    "url": "https://github.com/saekaze/thWWW-switch",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "104",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/f82e0b0c45c7babe84db897066335590.png",
+    "last_updated": "07/10/2026"
+  },
+  {
     "id": "ultimate-spider-man-pc",
     "title": "Ultimate Spider-Man",
     "author": "the-deshpande",
-    "version": "1.0.0",
+    "version": "1.1",
     "original_platform": "PC",
     "url": "https://github.com/the-deshpande/usm_switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "37214",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/16813e7554a111c9f9108be005b54442.png",
-    "last_updated": "13/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "undertale-yellow-pc",
@@ -5627,6 +5796,19 @@
     "steamgriddb_id": "2428",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/31017a5aacb8de6b5c793ff5dc1b99eb.jpg",
     "last_updated": "08/09/2026"
+  },
+  {
+    "id": "your-turn-to-die-pc",
+    "title": "Your Turn to Die",
+    "author": "sukalibur9",
+    "version": "1.0.5",
+    "original_platform": "PC",
+    "url": "https://github.com/sukalibur9/yttd-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "5249562",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/45e8f7def2ebbe4ec68dbc327bfdc10d.png",
+    "last_updated": "16/11/2026"
   },
   {
     "id": "zuma-deluxe-pc",
@@ -5710,27 +5892,27 @@
     "id": "mickey-donald-collection-sega-genesis",
     "title": "Mickey & Donald Collection",
     "author": "simplePsyduck",
-    "version": "*pre-release*",
+    "version": "1.1.2",
     "original_platform": "Sega Genesis",
     "url": "https://github.com/simplePsyduck/MickeyAndDonaldCollection-NX",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "4598",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/9cf18de50ca98ddcd1ba09034ae1a2c5.png",
-    "last_updated": "05/11/2026"
+    "last_updated": "17/11/2026"
   },
   {
     "id": "digimon-world-3-sony-playstation",
     "title": "Digimon World 3",
     "author": "Larbaco",
-    "version": "0.9.0-*preview 2*",
+    "version": "0.9.0",
     "original_platform": "Sony Playstation",
     "url": "https://github.com/Larbaco/dw3-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35434",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/41f739730d019057c617cd8b03c18d60.jpg",
-    "last_updated": "02/11/2026"
+    "last_updated": "12/11/2026"
   },
   {
     "id": "lain-sony-playstation",
@@ -5801,53 +5983,66 @@
     "id": "jak-and-daxter-trilogy-sony-playstation-2",
     "title": "Jak and Daxter Trilogy",
     "author": "fildicio",
-    "version": "1.0",
+    "version": "1.1.2-beta",
     "original_platform": "Sony Playstation 2",
     "url": "https://github.com/fildicio/jak-project-switch",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35892",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/dfaf693ee0b7e6c836875161bade2eaa.jpg",
-    "last_updated": "30/10/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "rampage-total-destruction-sony-playstation-2",
     "title": "Rampage: Total Destruction",
     "author": "jjmhalew",
-    "version": "1.2.6",
+    "version": "1.2.8",
     "original_platform": "Sony Playstation 2",
     "url": "https://github.com/jjmhalew/RampageRE",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "36476",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/ab63243d415513c2307a6ff350832d10.png",
-    "last_updated": "08/11/2026"
+    "last_updated": "11/11/2026"
+  },
+  {
+    "id": "resident-evil-code-veronica-x-sony-playstation-2",
+    "title": "Resident Evil Code: Veronica X",
+    "author": "gerisson1996",
+    "version": "1.1",
+    "original_platform": "Sony Playstation 2",
+    "url": "https://github.com/gerisson1996/RESIDENT-CODE-VERONICA-NX-PORT",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "35742",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/9ab45beb213b81202a330cfa5e99b411.png",
+    "last_updated": "16/11/2026"
   },
   {
     "id": "sly-cooper-sony-playstation-2",
     "title": "Sly Cooper",
     "author": "FridiNaTor1",
-    "version": "0.1.44",
+    "version": "0.1.94",
     "original_platform": "Sony Playstation 2",
     "url": "https://github.com/FridiNaTor1/SafeHouse",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "35240",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/3750f0c2ea1c6006004b1f6416761df3.png",
-    "last_updated": "10/11/2026"
+    "last_updated": "15/11/2026"
   },
   {
     "id": "pt-silent-hills-sony-playstation-4",
     "title": "P.T. (Silent Hills)",
     "author": "r4lix",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "original_platform": "Sony Playstation 4",
     "url": "https://github.com/r4lix/pt-nx",
     "source_type": "github_repo",
     "asset_type": "zip",
     "steamgriddb_id": "5250177",
     "grid_image_url": "https://cdn2.steamgriddb.com/grid/377533335b14e2767f4cd93a75573062.png",
-    "last_updated": "02/11/2026"
+    "last_updated": "11/11/2026"
   },
   {
     "id": "ben-10-protector-of-earth-sony-playstation-portable",
