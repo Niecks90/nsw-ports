@@ -16,6 +16,7 @@ export function getShortPlatformName(platform: string): string {
         case "Sony Playstation 2": return "Playstation 2";
         case "Sony Playstation 4": return "Playstation 4";
         case "Sony Playstation Portable": return "Playstation Portable";
+        case "Sony Playstation Vita": return "Playstation Vita";
         case "Sega Dreamcast": return "Dreamcast";
         case "Sega Genesis": return "Megadrive";
         case "Android 32bit": return "Android 32";
@@ -43,7 +44,8 @@ export function getPlatformBadgeClasses(platform: string): string {
         case "Wii U": return "bg-sky-600 text-white";
         case "Playstation":
         case "Playstation 2":
-        case "Playstation Portable":   
+        case "Playstation Portable":
+        case "Playstation Vita":
         case "Playstation 4": return "bg-blue-600 text-white";
         case "Dreamcast": return "bg-orange-600 text-white";
         case "Megadrive": return "bg-blue-900 text-blue-100";
