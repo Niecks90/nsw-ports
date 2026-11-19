@@ -6,6 +6,7 @@ import { Footer } from './components/Footer';
 import { fetchCatalog } from './services/catalog';
 import { PortData } from './types';
 import { parseCatalogDate, isRecentlyUpdated } from './utils/dates';
+import { cleanTitle } from './utils/titles';
 import { Loader2 } from 'lucide-react';
 
 function App() {
@@ -91,8 +92,9 @@ function App() {
 
       const matchesRecent = !recentOnly || isRecentlyUpdated(game.last_updated, 7);
 
+      const title = cleanTitle(game.title);
       const matchesSearch = !query ||
-        game.title.toLowerCase().includes(query) ||
+        title.toLowerCase().includes(query) ||
         (game.author && game.author.toLowerCase().includes(query)) ||
         (platform && platform.toLowerCase().includes(query));
 
@@ -100,6 +102,8 @@ function App() {
     });
 
     filtered.sort((a, b) => {
+      const titleA = cleanTitle(a.title);
+      const titleB = cleanTitle(b.title);
       if (sortOption === 'recent') {
         const timeA = parseCatalogDate(a.last_updated)?.getTime() || 0;
         const timeB = parseCatalogDate(b.last_updated)?.getTime() || 0;
@@ -108,9 +112,9 @@ function App() {
           return sortReverse ? -comparison : comparison;
         }
         // Fallback to title comparison when dates are equal
-        return a.title.localeCompare(b.title);
+        return titleA.localeCompare(titleB);
       } else {
-        const comparison = a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
+        const comparison = titleA.localeCompare(titleB, undefined, { sensitivity: 'base' });
         return sortReverse ? -comparison : comparison;
       }
     });

@@ -4,6 +4,18 @@ All notable changes to the **NSW Ports** project will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2026-11-19
+
+### Fixed
+- **HTML `<br>` Tag Sanitization across Catalog Scraper & Frontend**:
+  - Cleaned up line-wrapping `<br>`, `<br/>`, and `<br />` tags from game titles in `update_catalog.py` prior to slug generation, cache indexing, and SteamGridDB cover queries.
+  - Normalized consecutive whitespace characters to avoid broken `-br-` segments in generated slugs and cover lookup failures.
+  - Added frontend `cleanTitle` utility (`src/utils/titles.ts`) defensively stripping `<br>` tags and collapsing whitespace on display in `GameCard` and `SidebarModal`.
+  - Fixed title search filtering and alphabetical sorting in `App.tsx` when game titles contain `<br>` line breaks.
+  - Added automatic title sanitization in `catalog.ts` on fetch and in `steamgriddb.ts` before querying SteamGridDB API.
+
+---
+
 ## [1.1.0] - 2026-11-18
 
 ### Added

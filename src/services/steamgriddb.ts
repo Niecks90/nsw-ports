@@ -1,7 +1,9 @@
 import { invoke } from "@tauri-apps/api/core";
 import { isTauri } from "../utils/env";
+import { cleanTitle } from "../utils/titles";
 
 export async function fetchGameCoverUrl(title: string, steamgriddbId?: string | null, fallbackUrl?: string | null): Promise<string | null> {
+    const sanitizedTitle = cleanTitle(title);
     if (!isTauri) {
         // Web mode: Do not query SteamGridDB to avoid exposing API keys. Just return the provided grid URL.
         return fallbackUrl || null;
@@ -9,7 +11,7 @@ export async function fetchGameCoverUrl(title: string, steamgriddbId?: string | 
 
     try {
         const cachedUrl = await invoke<string>("cache_cover_image", {
-            title,
+            title: sanitizedTitle,
             url: null
         });
 
@@ -21,7 +23,7 @@ export async function fetchGameCoverUrl(title: string, steamgriddbId?: string | 
         if (!apiKey) {
             // If no API key is set in desktop mode, fallback to catalog image
             if (fallbackUrl) {
-                 return await invoke<string>("cache_cover_image", { title, url: fallbackUrl });
+                 return await invoke<string>("cache_cover_image", { title: sanitizedTitle, url: fallbackUrl });
             }
             return null;
         }
@@ -29,7 +31,7 @@ export async function fetchGameCoverUrl(title: string, steamgriddbId?: string | 
         let gameId = steamgriddbId;
 
         if (!gameId) {
-             const searchRes = await fetch(`https://www.steamgriddb.com/api/v2/search/autocomplete/${encodeURIComponent(title)}`, {
+             const searchRes = await fetch(`https://www.steamgriddb.com/api/v2/search/autocomplete/${encodeURIComponent(sanitizedTitle)}`, {
                  headers: { Authorization: `Bearer ${apiKey}` }
              });
 
@@ -53,7 +55,7 @@ export async function fetchGameCoverUrl(title: string, steamgriddbId?: string | 
 
                  // Cache the image
                  const newlyCachedUrl = await invoke<string>("cache_cover_image", {
-                     title,
+                     title: sanitizedTitle,
                      url: imageUrl
                  });
 
@@ -63,7 +65,7 @@ export async function fetchGameCoverUrl(title: string, steamgriddbId?: string | 
 
         // If all else fails, use the fallback url if available
         if (fallbackUrl) {
-            return await invoke<string>("cache_cover_image", { title, url: fallbackUrl });
+            return await invoke<string>("cache_cover_image", { title: sanitizedTitle, url: fallbackUrl });
         }
 
         return null;

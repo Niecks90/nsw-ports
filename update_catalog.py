@@ -15,7 +15,8 @@ OVERRIDES_FILE = "overrides.json"
 
 def slugify(text):
     """Normalise une chaîne en slug kebab-case."""
-    text = re.sub(r'[^a-zA-Z0-9\s-]', '', str(text)).strip().lower()
+    text = re.sub(r'<\s*br\s*/?>', ' ', str(text), flags=re.IGNORECASE)
+    text = re.sub(r'[^a-zA-Z0-9\s-]', '', text).strip().lower()
     return re.sub(r'[\s-]+', '-', text)
 
 def parse_link(cell_text):
@@ -62,6 +63,7 @@ def determine_url_source(url):
 
 def clean_title_for_search(title):
     """Nettoie les suffixes homebrew pour optimiser la recherche SteamGridDB."""
+    title = re.sub(r'<\s*br\s*/?>', ' ', title, flags=re.IGNORECASE)
     title = re.sub(r'\(.*?\)', '', title)
     title = re.sub(r'\[.*?\]', '', title)
     title = re.sub(r'(?i)\b(port|nx|switch|remastered|hd)\b', '', title)
@@ -133,6 +135,10 @@ def load_existing_catalog(filepath=OUTPUT_FILE):
                     cache[item["id"]] = entry
                 if item.get("title"):
                     cache[f"title::{slugify(item['title'])}"] = entry
+                    # Indexation également avec titre nettoyé des balises <br>
+                    cleaned_title = re.sub(r'<\s*br\s*/?>', ' ', item['title'], flags=re.IGNORECASE)
+                    cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
+                    cache[f"title::{slugify(cleaned_title)}"] = entry
         return cache
     except Exception as e:
         logging.error(f"Erreur chargement {filepath}: {e}")
@@ -227,7 +233,9 @@ def main():
                         break
 
                 raw_game = columns[game_idx] if len(columns) > game_idx else ""
+                raw_game = re.sub(r'<\s*br\s*/?>', ' ', raw_game, flags=re.IGNORECASE)
                 game = re.sub(r'^[🟢🔴🟡🟠🟧✳️🚫♻️\s]+', '', raw_game).strip()
+                game = re.sub(r'\s+', ' ', game).strip()
 
                 # Nettoyage si le nom du jeu n'est composé que de tirets ou caractères de contrôle
                 if re.match(r'^[-—:\s]+$', game):

@@ -4,6 +4,7 @@ import { fetchGameCoverUrl } from '../services/steamgriddb';
 import { Image as ImageIcon } from 'lucide-react';
 import { getShortPlatformName, getPlatformBadgeClasses } from '../utils/platforms';
 import { isRecentlyUpdated } from '../utils/dates';
+import { cleanTitle } from '../utils/titles';
 import clsx from 'clsx';
 
 interface GameCardProps {
@@ -13,16 +14,17 @@ interface GameCardProps {
 
 export function GameCard({ game, onClick }: GameCardProps) {
     const [coverUrl, setCoverUrl] = useState<string | null>(null);
+    const displayTitle = cleanTitle(game.title);
 
     useEffect(() => {
         let mounted = true;
-        fetchGameCoverUrl(game.title, game.steamgriddb_id, game.grid_image_url).then(url => {
+        fetchGameCoverUrl(displayTitle, game.steamgriddb_id, game.grid_image_url).then(url => {
             if (mounted && url) {
                 setCoverUrl(url);
             }
         });
         return () => { mounted = false; };
-    }, [game.title, game.steamgriddb_id, game.grid_image_url]);
+    }, [displayTitle, game.steamgriddb_id, game.grid_image_url]);
 
     const isNew = isRecentlyUpdated(game.last_updated, 7);
 
@@ -36,7 +38,7 @@ export function GameCard({ game, onClick }: GameCardProps) {
                 {coverUrl ? (
                     <img
                         src={coverUrl}
-                        alt={game.title}
+                        alt={displayTitle}
                         className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
                         onError={() => setCoverUrl(null)}
@@ -45,7 +47,7 @@ export function GameCard({ game, onClick }: GameCardProps) {
                     <div className="flex flex-col items-center gap-2 text-slate-600 p-3 text-center">
                         <ImageIcon className="w-8 h-8 opacity-40" />
                         <span className="font-medium text-slate-400 text-xs w-full break-words line-clamp-3">
-                            {game.title}
+                            {displayTitle}
                         </span>
                     </div>
                 )}
@@ -79,9 +81,9 @@ export function GameCard({ game, onClick }: GameCardProps) {
             <div className="p-2 sm:p-2.5 bg-slate-900 border-t border-slate-800/80 flex flex-col justify-center min-w-0">
                 <h3
                     className="text-white font-bold text-xs sm:text-sm truncate leading-tight group-hover:text-blue-400 transition-colors"
-                    title={game.title}
+                    title={displayTitle}
                 >
-                    {game.title}
+                    {displayTitle}
                 </h3>
                 <p
                     className="text-xs text-slate-400 truncate mt-0.5"
