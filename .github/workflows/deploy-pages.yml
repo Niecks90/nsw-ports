@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -57,6 +58,31 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
+
+      - name: Wait for Pages artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          for attempt in $(seq 1 30); do
+            artifact_id=$(
+              gh api \
+                "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?per_page=100" \
+                --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false) | .id][0] // empty'
+            ) || artifact_id=""
+
+            if [ -n "$artifact_id" ]; then
+              echo "Pages artifact ${artifact_id} is available."
+              exit 0
+            fi
+
+            echo "Pages artifact is not visible yet (attempt ${attempt}/30)."
+            sleep 2
+          done
+
+          echo "::error::Pages artifact did not become available within 60 seconds."
+          exit 1
 
       - name: Deploy to GitHub Pages
         id: deployment

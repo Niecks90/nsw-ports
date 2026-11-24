@@ -108,6 +108,8 @@ function App() {
     });
 
     filtered.sort((a, b) => {
+      const titleA = cleanTitle(a.title);
+      const titleB = cleanTitle(b.title);
       if (sortOption === 'recent') {
         const timeA = parseCatalogDate(a.last_updated)?.getTime() || 0;
         const timeB = parseCatalogDate(b.last_updated)?.getTime() || 0;
