@@ -26,8 +26,6 @@ export function SidebarModal({ game, onClose, onSelectAuthor }: SidebarModalProp
     const [coverUrl, setCoverUrl] = useState<string | null>(null);
     const [readmeContent, setReadmeContent] = useState<string | null>(null);
     const [readmeLoading, setReadmeLoading] = useState(false);
-    const displayTitle = cleanTitle(game?.title);
-
     const displayTitle = cleanGameTitle(game?.title, game?.author);
 
     useEffect(() => {

@@ -108,8 +108,8 @@ function App() {
     });
 
     filtered.sort((a, b) => {
-      const titleA = cleanTitle(a.title);
-      const titleB = cleanTitle(b.title);
+      const titleA = cleanGameTitle(a.title, a.author);
+      const titleB = cleanGameTitle(b.title, b.author);
       if (sortOption === 'recent') {
         const timeA = parseCatalogDate(a.last_updated)?.getTime() || 0;
         const timeB = parseCatalogDate(b.last_updated)?.getTime() || 0;
@@ -118,10 +118,8 @@ function App() {
           return sortReverse ? -comparison : comparison;
         }
         // Fallback to title comparison when dates are equal
-        return cleanGameTitle(a.title, a.author).localeCompare(cleanGameTitle(b.title, b.author));
+        return titleA.localeCompare(titleB, undefined, { sensitivity: 'base' });
       } else {
-        const titleA = cleanGameTitle(a.title, a.author);
-        const titleB = cleanGameTitle(b.title, b.author);
         const comparison = titleA.localeCompare(titleB, undefined, { sensitivity: 'base' });
         return sortReverse ? -comparison : comparison;
       }
