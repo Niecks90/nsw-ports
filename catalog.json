@@ -1092,8 +1092,8 @@
     "last_updated": "03/11/2026"
   },
   {
-    "id": "final-fantasy-iv-3d-remake-nagaa95-android-64bit",
-    "title": "Final Fantasy IV 3D Remake (NaGaa95)",
+    "id": "final-fantasy-iv-3d-remake-android-64bit",
+    "title": "Final Fantasy IV 3D Remake",
     "author": "NaGaa95",
     "version": "1.0.4",
     "original_platform": "Android 64bit",
@@ -1105,8 +1105,8 @@
     "last_updated": "03/11/2026"
   },
   {
-    "id": "final-fantasy-iv-3d-remake-glitcheddeveloper-android-64bit",
-    "title": "Final Fantasy IV 3D Remake (GlitchedDeveloper)",
+    "id": "final-fantasy-iv-3d-remake-android-64bit-glitcheddeveloper",
+    "title": "Final Fantasy IV 3D Remake",
     "author": "GlitchedDeveloper",
     "version": "1.0.4",
     "original_platform": "Android 64bit",
@@ -1872,8 +1872,8 @@
     "last_updated": "31/10/2026"
   },
   {
-    "id": "rvgl-chanseyisthebest-android-64bit",
-    "title": "RVGL (ChanseyIsTheBest)",
+    "id": "rvgl-android-64bit",
+    "title": "RVGL",
     "author": "ChanseyIsTheBest",
     "version": "1.0.0",
     "original_platform": "Android 64bit",
@@ -1885,8 +1885,8 @@
     "last_updated": "20/09/2026"
   },
   {
-    "id": "rvgl-birdsentinel-android-64bit",
-    "title": "RVGL (BirdSentinel)",
+    "id": "rvgl-android-64bit-birdsentinel",
+    "title": "RVGL",
     "author": "BirdSentinel",
     "version": "23.1030a1",
     "original_platform": "Android 64bit",
@@ -1976,8 +1976,8 @@
     "last_updated": "21/09/2026"
   },
   {
-    "id": "sonic-dream-team-aks796-android-64bit",
-    "title": "Sonic Dream Team (aks796)",
+    "id": "sonic-dream-team-android-64bit",
+    "title": "Sonic Dream Team",
     "author": "aks796",
     "version": "1.0.1",
     "original_platform": "Android 64bit",
@@ -1989,8 +1989,8 @@
     "last_updated": "20/11/2026"
   },
   {
-    "id": "sonic-dream-team-thorhax-android-64bit",
-    "title": "Sonic Dream Team (Thorhax)",
+    "id": "sonic-dream-team-android-64bit-thorhax",
+    "title": "Sonic Dream Team",
     "author": "Thorhax",
     "version": "1.10.3",
     "original_platform": "Android 64bit",
@@ -2444,8 +2444,8 @@
     "last_updated": "21/11/2026"
   },
   {
-    "id": "the-simpsons-cheviman-arcade",
-    "title": "The Simpsons (cheviman)",
+    "id": "the-simpsons-arcade",
+    "title": "The Simpsons",
     "author": "cheviman",
     "version": "1.0.2",
     "original_platform": "Arcade",
@@ -2457,8 +2457,8 @@
     "last_updated": "19/11/2026"
   },
   {
-    "id": "the-simpsons-thorhax-arcade",
-    "title": "The Simpsons (Thorhax)",
+    "id": "the-simpsons-arcade-thorhax",
+    "title": "The Simpsons",
     "author": "Thorhax",
     "version": "1.2.0",
     "original_platform": "Arcade",
@@ -2678,8 +2678,8 @@
     "last_updated": "12/11/2026"
   },
   {
-    "id": "halo-combat-evolved-thelinkin3000-microsoft-xbox",
-    "title": "Halo: Combat Evolved (thelinkin3000)",
+    "id": "halo-combat-evolved-microsoft-xbox",
+    "title": "Halo: Combat Evolved",
     "author": "thelinkin3000",
     "version": "Build 143",
     "original_platform": "Microsoft Xbox",
@@ -2691,8 +2691,8 @@
     "last_updated": "15/11/2026"
   },
   {
-    "id": "halo-combat-evolved-seamusduncmcgrath-microsoft-xbox",
-    "title": "Halo: Combat Evolved (seamusduncmcgrath)",
+    "id": "halo-combat-evolved-microsoft-xbox-seamusduncmcgrath",
+    "title": "Halo: Combat Evolved",
     "author": "seamusduncmcgrath",
     "version": "1.0.0",
     "original_platform": "Microsoft Xbox",
@@ -3263,8 +3263,8 @@
     "last_updated": "27/10/2026"
   },
   {
-    "id": "dishonored-cznn999-microsoft-xbox-360",
-    "title": "Dishonored (cznn999)",
+    "id": "dishonored-microsoft-xbox-360",
+    "title": "Dishonored",
     "author": "cznn999",
     "version": "0.50",
     "original_platform": "Microsoft Xbox 360",
@@ -3276,8 +3276,8 @@
     "last_updated": "15/11/2026"
   },
   {
-    "id": "dishonored-vibeporter-microsoft-xbox-360",
-    "title": "Dishonored (VibePorter)",
+    "id": "dishonored-microsoft-xbox-360-vibeporter",
+    "title": "Dishonored",
     "author": "VibePorter",
     "version": "*released*",
     "original_platform": "Microsoft Xbox 360",
@@ -3302,8 +3302,8 @@
     "last_updated": "02/11/2026"
   },
   {
-    "id": "dragon-ball-z-budokai-3-hd-alexyt2021es-microsoft-xbox-360",
-    "title": "Dragon Ball Z: Budokai 3 HD (alexyt2021es)",
+    "id": "dragon-ball-z-budokai-3-hd-microsoft-xbox-360",
+    "title": "Dragon Ball Z: Budokai 3 HD",
     "author": "alexyt2021es",
     "version": "1.0",
     "original_platform": "Microsoft Xbox 360",
@@ -3315,8 +3315,8 @@
     "last_updated": "14/11/2026"
   },
   {
-    "id": "dragon-ball-z-budokai-3-hd-ramondias07-microsoft-xbox-360",
-    "title": "Dragon Ball Z: Budokai 3 HD (ramonDias07)",
+    "id": "dragon-ball-z-budokai-3-hd-microsoft-xbox-360-ramondias07",
+    "title": "Dragon Ball Z: Budokai 3 HD",
     "author": "ramonDias07",
     "version": "0.1.56",
     "original_platform": "Microsoft Xbox 360",
@@ -3718,8 +3718,8 @@
     "last_updated": "08/11/2026"
   },
   {
-    "id": "need-for-speed-carbon-kaays-microsoft-xbox-360",
-    "title": "Need for Speed: Carbon (Kaays)",
+    "id": "need-for-speed-carbon-microsoft-xbox-360",
+    "title": "Need for Speed: Carbon",
     "author": "Kaays",
     "version": "0.7.0",
     "original_platform": "Microsoft Xbox 360",
@@ -3731,8 +3731,8 @@
     "last_updated": "14/11/2026"
   },
   {
-    "id": "need-for-speed-carbon-zofo007-microsoft-xbox-360",
-    "title": "Need for Speed: Carbon (zofo007)",
+    "id": "need-for-speed-carbon-microsoft-xbox-360-zofo007",
+    "title": "Need for Speed: Carbon",
     "author": "zofo007",
     "version": "1.1.0",
     "original_platform": "Microsoft Xbox 360",
@@ -4095,8 +4095,8 @@
     "last_updated": "01/10/2026"
   },
   {
-    "id": "torchlight-liartes-microsoft-xbox-360",
-    "title": "Torchlight (liartes)",
+    "id": "torchlight-microsoft-xbox-360",
+    "title": "Torchlight",
     "author": "liartes",
     "version": "1.0.6",
     "original_platform": "Microsoft Xbox 360",
@@ -4108,8 +4108,8 @@
     "last_updated": "18/11/2026"
   },
   {
-    "id": "torchlight-greenswampdweller-microsoft-xbox-360",
-    "title": "Torchlight (GreenSwampDweller)",
+    "id": "torchlight-microsoft-xbox-360-greenswampdweller",
+    "title": "Torchlight",
     "author": "GreenSwampDweller",
     "version": "1.2.0",
     "original_platform": "Microsoft Xbox 360",
@@ -4355,29 +4355,29 @@
     "last_updated": "21/11/2026"
   },
   {
-    "id": "the-legend-of-zelda-majoras-mask-yoshicrystal9-nintendo-64",
-    "title": "The Legend of Zelda: Majora's Mask (YoshiCrystal9)",
+    "id": "the-legend-of-zelda-majoras-mask-nintendo-64",
+    "title": "The Legend of Zelda: Majora's Mask",
     "author": "YoshiCrystal9",
     "version": "4.0.0 nx",
     "original_platform": "Nintendo 64",
     "url": "https://github.com/YoshiCrystal9/2ship2harkinian-Switch/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34302",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
     "last_updated": "30/01/2026"
   },
   {
-    "id": "the-legend-of-zelda-majoras-mask-reflex909-nintendo-64",
-    "title": "The Legend of Zelda: Majora's Mask (reflex909)",
+    "id": "the-legend-of-zelda-majoras-mask-nintendo-64-reflex909",
+    "title": "The Legend of Zelda: Majora's Mask",
     "author": "reflex909",
     "version": "5.0.1 v3",
     "original_platform": "Nintendo 64",
     "url": "https://github.com/reflex909/2ship2harkinian-Switch",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34302",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
     "last_updated": "03/09/2026"
   },
   {
@@ -4433,8 +4433,8 @@
     "last_updated": "23/11/2026"
   },
   {
-    "id": "paper-mario-thorhax-nintendo-64",
-    "title": "Paper Mario (Thorhax)",
+    "id": "paper-mario-nintendo-64",
+    "title": "Paper Mario",
     "author": "Thorhax",
     "version": "1.0.2",
     "original_platform": "Nintendo 64",
@@ -4446,8 +4446,8 @@
     "last_updated": "01/10/2026"
   },
   {
-    "id": "paper-mario-cyphernoodle-nintendo-64",
-    "title": "Paper Mario (CypherNoodle)",
+    "id": "paper-mario-nintendo-64-cyphernoodle",
+    "title": "Paper Mario",
     "author": "CypherNoodle",
     "version": "1.0.2",
     "original_platform": "Nintendo 64",
@@ -4485,8 +4485,8 @@
     "last_updated": "18/11/2026"
   },
   {
-    "id": "starcraft64-gabryboy12-ai-nintendo-64",
-    "title": "StarCraft64 (gabryboy12-ai)",
+    "id": "starcraft64-nintendo-64",
+    "title": "StarCraft64",
     "author": "gabryboy12-ai",
     "version": "1.5.0",
     "original_platform": "Nintendo 64",
@@ -4498,8 +4498,8 @@
     "last_updated": "04/11/2026"
   },
   {
-    "id": "starcraft64-thorhax-nintendo-64",
-    "title": "StarCraft64 (Thorhax)",
+    "id": "starcraft64-nintendo-64-thorhax",
+    "title": "StarCraft64",
     "author": "Thorhax",
     "version": "1.5.0",
     "original_platform": "Nintendo 64",
@@ -4537,8 +4537,8 @@
     "last_updated": "07/09/2026"
   },
   {
-    "id": "super-smash-bros-kawaiibunga-nintendo-64",
-    "title": "Super Smash Bros. (KawaiiBunga)",
+    "id": "super-smash-bros-nintendo-64",
+    "title": "Super Smash Bros.",
     "author": "KawaiiBunga",
     "version": "1.6.0",
     "original_platform": "Nintendo 64",
@@ -4550,8 +4550,8 @@
     "last_updated": "23/09/2026"
   },
   {
-    "id": "super-smash-bros-delsonazevedo-nintendo-64",
-    "title": "Super Smash Bros. (delsonazevedo)",
+    "id": "super-smash-bros-nintendo-64-delsonazevedo",
+    "title": "Super Smash Bros.",
     "author": "delsonazevedo",
     "version": "1.3.0",
     "original_platform": "Nintendo 64",
@@ -4563,8 +4563,8 @@
     "last_updated": "12/06/2026"
   },
   {
-    "id": "wave-race-64-1weell-nintendo-64",
-    "title": "Wave Race 64 (1weell)",
+    "id": "wave-race-64-nintendo-64",
+    "title": "Wave Race 64",
     "author": "1weell",
     "version": "0.1.0",
     "original_platform": "Nintendo 64",
@@ -4576,8 +4576,8 @@
     "last_updated": "21/09/2026"
   },
   {
-    "id": "wave-race-64-domazinus-nintendo-64",
-    "title": "Wave Race 64 (DomazinUS)",
+    "id": "wave-race-64-nintendo-64-domazinus",
+    "title": "Wave Race 64",
     "author": "DomazinUS",
     "version": "RC7",
     "original_platform": "Nintendo 64",
@@ -4615,29 +4615,29 @@
     "last_updated": "12/11/2026"
   },
   {
-    "id": "the-legend-of-zelda-the-minish-cap-hayatog-nintendo-gameboy-advance",
-    "title": "The Legend of Zelda: The Minish Cap (HayatoG)",
+    "id": "the-legend-of-zelda-the-minish-cap-nintendo-gameboy-advance",
+    "title": "The Legend of Zelda: The Minish Cap",
     "author": "HayatoG",
     "version": "v0.25",
     "original_platform": "Nintendo Gameboy Advance",
     "url": "https://github.com/HayatoG/tmc",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34539",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png",
     "last_updated": "04/06/2026"
   },
   {
-    "id": "the-legend-of-zelda-the-minish-cap-alexgg1014-nintendo-gameboy-advance",
-    "title": "The Legend of Zelda: The Minish Cap (Alexgg1014)",
+    "id": "the-legend-of-zelda-the-minish-cap-nintendo-gameboy-advance-alexgg1014",
+    "title": "The Legend of Zelda: The Minish Cap",
     "author": "Alexgg1014",
     "version": "2.0.1",
     "original_platform": "Nintendo Gameboy Advance",
     "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34539",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/a687f78b9842c87225e74921765feb1b.png",
     "last_updated": "17/10/2026"
   },
   {
@@ -4719,29 +4719,29 @@
     "last_updated": "16/09/2026"
   },
   {
-    "id": "the-legend-of-zelda-links-awakening-dx-delsonazevedo-nintendo-gameboy-color",
-    "title": "The Legend of Zelda: Link's Awakening DX (delsonazevedo)",
+    "id": "the-legend-of-zelda-links-awakening-dx-nintendo-gameboy-color",
+    "title": "The Legend of Zelda: Link's Awakening DX",
     "author": "delsonazevedo",
     "version": "1.7.3",
     "original_platform": "Nintendo Gameboy Color",
     "url": "https://github.com/delsonazevedo/Zelda-LA-DX-HD-Updated",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34978",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d7647a0748aafad4a67c21075b180767.png",
     "last_updated": "25/04/2026"
   },
   {
-    "id": "the-legend-of-zelda-links-awakening-dx-alexgg1014-nintendo-gameboy-color",
-    "title": "The Legend of Zelda: Link's Awakening DX (Alexgg1014)",
+    "id": "the-legend-of-zelda-links-awakening-dx-nintendo-gameboy-color-alexgg1014",
+    "title": "The Legend of Zelda: Link's Awakening DX",
     "author": "Alexgg1014",
     "version": "1.2.0",
     "original_platform": "Nintendo Gameboy Color",
     "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34978",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/d7647a0748aafad4a67c21075b180767.png",
     "last_updated": "16/10/2026"
   },
   {
@@ -4784,16 +4784,16 @@
     "last_updated": "29/10/2026"
   },
   {
-    "id": "the-legend-of-zelda-twilight-princess-hayatog-nintendo-gamecube",
-    "title": "The Legend of Zelda: Twilight Princess (HayatoG)",
+    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube",
+    "title": "The Legend of Zelda: Twilight Princess",
     "author": "HayatoG",
     "version": "1.4.3",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/HayatoG/dusklight/",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34645",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
     "last_updated": "02/07/2026"
   },
   {
@@ -4810,16 +4810,16 @@
     "last_updated": "19/06/2026"
   },
   {
-    "id": "the-legend-of-zelda-twilight-princess-alexgg1014-nintendo-gamecube",
-    "title": "The Legend of Zelda: Twilight Princess (Alexgg1014)",
+    "id": "the-legend-of-zelda-twilight-princess-nintendo-gamecube-alexgg1014",
+    "title": "The Legend of Zelda: Twilight Princess",
     "author": "Alexgg1014",
     "version": "1.1.3",
     "original_platform": "Nintendo GameCube",
     "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition",
     "source_type": "github_repo",
     "asset_type": "zip",
-    "steamgriddb_id": "38050",
-    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "steamgriddb_id": "34645",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/36d6a670240681fbbf69cbba0c9065ce.png",
     "last_updated": "09/11/2026"
   },
   {
@@ -4979,8 +4979,8 @@
     "last_updated": "17/11/2026"
   },
   {
-    "id": "donkey-kong-country-souldbminerr-super-nintendo-entertainment-system",
-    "title": "Donkey Kong Country (souldbminerr)",
+    "id": "donkey-kong-country-super-nintendo-entertainment-system",
+    "title": "Donkey Kong Country",
     "author": "souldbminerr",
     "version": "0.1.0-NX",
     "original_platform": "Super Nintendo Entertainment System",
@@ -4992,8 +4992,8 @@
     "last_updated": "09/09/2026"
   },
   {
-    "id": "donkey-kong-country-mrot4-super-nintendo-entertainment-system",
-    "title": "Donkey Kong Country (mrOt4)",
+    "id": "donkey-kong-country-super-nintendo-entertainment-system-mrot4",
+    "title": "Donkey Kong Country",
     "author": "mrOt4",
     "version": "1.0.3",
     "original_platform": "Super Nintendo Entertainment System",
@@ -5018,8 +5018,8 @@
     "last_updated": "09/09/2026"
   },
   {
-    "id": "donkey-kong-country-3-souldbminerr-super-nintendo-entertainment-system",
-    "title": "Donkey Kong Country 3 (souldbminerr)",
+    "id": "donkey-kong-country-3-super-nintendo-entertainment-system",
+    "title": "Donkey Kong Country 3",
     "author": "souldbminerr",
     "version": "0.0.5-NX1",
     "original_platform": "Super Nintendo Entertainment System",
@@ -5031,8 +5031,8 @@
     "last_updated": "30/09/2026"
   },
   {
-    "id": "donkey-kong-country-3-1weell-super-nintendo-entertainment-system",
-    "title": "Donkey Kong Country 3 (1weell)",
+    "id": "donkey-kong-country-3-super-nintendo-entertainment-system-1weell",
+    "title": "Donkey Kong Country 3",
     "author": "1weell",
     "version": "1.1",
     "original_platform": "Super Nintendo Entertainment System",
@@ -5148,8 +5148,8 @@
     "last_updated": "12/11/2026"
   },
   {
-    "id": "new-super-mario-bros-wii-schuler-ph-nintendo-wii",
-    "title": "New Super Mario Bros. Wii (schuler-ph)",
+    "id": "new-super-mario-bros-wii-nintendo-wii",
+    "title": "New Super Mario Bros. Wii",
     "author": "schuler-ph",
     "version": "0.2.0",
     "original_platform": "Nintendo Wii",
@@ -5161,8 +5161,8 @@
     "last_updated": "22/11/2026"
   },
   {
-    "id": "new-super-mario-bros-wii-timschneeb-nintendo-wii",
-    "title": "New Super Mario Bros. Wii (timschneeb)",
+    "id": "new-super-mario-bros-wii-nintendo-wii-timschneeb",
+    "title": "New Super Mario Bros. Wii",
     "author": "timschneeb",
     "version": "1.0.0",
     "original_platform": "Nintendo Wii",
@@ -5486,8 +5486,8 @@
     "last_updated": "07/06/2026"
   },
   {
-    "id": "elder-scrolls-iii-morrowind-fgsfdsfgs-pc",
-    "title": "Elder Scrolls III: Morrowind (fgsfdsfgs)",
+    "id": "elder-scrolls-iii-morrowind-pc",
+    "title": "Elder Scrolls III: Morrowind",
     "author": "fgsfdsfgs",
     "version": "0.46.0-nx4",
     "original_platform": "PC",
@@ -5499,8 +5499,8 @@
     "last_updated": "16/08/2026"
   },
   {
-    "id": "elder-scrolls-iii-morrowind-seamusduncmcgrath-pc",
-    "title": "Elder Scrolls III: Morrowind (seamusduncmcgrath)",
+    "id": "elder-scrolls-iii-morrowind-pc-seamusduncmcgrath",
+    "title": "Elder Scrolls III: Morrowind",
     "author": "seamusduncmcgrath",
     "version": "1.0.0",
     "original_platform": "PC",
@@ -5798,8 +5798,8 @@
     "last_updated": "21/10/2026"
   },
   {
-    "id": "minecraft-rust-johnuzoka-pc",
-    "title": "Minecraft Rust (JohnUzoka)",
+    "id": "minecraft-rust-pc",
+    "title": "Minecraft Rust",
     "author": "JohnUzoka",
     "version": "0.1.0",
     "original_platform": "PC",
@@ -5811,8 +5811,8 @@
     "last_updated": "04/11/2026"
   },
   {
-    "id": "minecraft-rust-kohaku743-pc",
-    "title": "Minecraft Rust (KoHaku743)",
+    "id": "minecraft-rust-pc-kohaku743",
+    "title": "Minecraft Rust",
     "author": "KoHaku743",
     "version": "2.0.2",
     "original_platform": "PC",
@@ -6032,8 +6032,8 @@
     "last_updated": "22/10/2026"
   },
   {
-    "id": "silent-hill-4-the-room-72ak-pc",
-    "title": "Silent Hill 4: The Room (72ak)",
+    "id": "silent-hill-4-the-room-pc",
+    "title": "Silent Hill 4: The Room",
     "author": "72ak",
     "version": "0.1",
     "original_platform": "PC",
@@ -6045,8 +6045,8 @@
     "last_updated": "11/10/2026"
   },
   {
-    "id": "silent-hill-4-the-room-cutarev-pc",
-    "title": "Silent Hill 4: The Room (cutarev)",
+    "id": "silent-hill-4-the-room-pc-cutarev",
+    "title": "Silent Hill 4: The Room",
     "author": "cutarev",
     "version": "0.0.1",
     "original_platform": "PC",
@@ -6071,8 +6071,8 @@
     "last_updated": "28/10/2026"
   },
   {
-    "id": "sonic-r-boraeskicioglu-pc",
-    "title": "Sonic R (boraeskicioglu)",
+    "id": "sonic-r-pc",
+    "title": "Sonic R",
     "author": "boraeskicioglu",
     "version": "0.1",
     "original_platform": "PC",
@@ -6084,8 +6084,8 @@
     "last_updated": "15/09/2026"
   },
   {
-    "id": "sonic-r-thorhax-pc",
-    "title": "Sonic R (Thorhax)",
+    "id": "sonic-r-pc-thorhax",
+    "title": "Sonic R",
     "author": "Thorhax",
     "version": "1.0.1",
     "original_platform": "PC",
@@ -6578,8 +6578,8 @@
     "last_updated": "08/11/2026"
   },
   {
-    "id": "downhill-domination-marmota94-sony-playstation-2",
-    "title": "Downhill Domination (marmota94)",
+    "id": "downhill-domination-sony-playstation-2",
+    "title": "Downhill Domination",
     "author": "marmota94",
     "version": "0.8.10",
     "original_platform": "Sony Playstation 2",
@@ -6591,8 +6591,8 @@
     "last_updated": "20/11/2026"
   },
   {
-    "id": "downhill-domination-alexyt2021es-sony-playstation-2",
-    "title": "Downhill Domination (alexyt2021es)",
+    "id": "downhill-domination-sony-playstation-2-alexyt2021es",
+    "title": "Downhill Domination",
     "author": "alexyt2021es",
     "version": "1.0",
     "original_platform": "Sony Playstation 2",
