@@ -12,7 +12,7 @@ import { getShortPlatformName, getPlatformBadgeClasses } from '../utils/platform
 import { formatVersion } from '../utils/version';
 import { formatDisplayDate } from '../utils/dates';
 import { resolveGithubRawUrl } from '../utils/github';
-import { cleanTitle } from '../utils/titles';
+import { cleanGameTitle } from '../utils/title';
 import clsx from 'clsx';
 
 interface SidebarModalProps {
@@ -27,6 +27,8 @@ export function SidebarModal({ game, onClose, onSelectAuthor }: SidebarModalProp
     const [readmeContent, setReadmeContent] = useState<string | null>(null);
     const [readmeLoading, setReadmeLoading] = useState(false);
     const displayTitle = cleanTitle(game?.title);
+
+    const displayTitle = cleanGameTitle(game?.title, game?.author);
 
     useEffect(() => {
         if (!game) return;

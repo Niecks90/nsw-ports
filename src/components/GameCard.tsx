@@ -4,7 +4,7 @@ import { fetchGameCoverUrl } from '../services/steamgriddb';
 import { Image as ImageIcon } from 'lucide-react';
 import { getShortPlatformName, getPlatformBadgeClasses } from '../utils/platforms';
 import { isRecentlyUpdated } from '../utils/dates';
-import { cleanTitle } from '../utils/titles';
+import { cleanGameTitle } from '../utils/title';
 import clsx from 'clsx';
 
 interface GameCardProps {
@@ -14,7 +14,7 @@ interface GameCardProps {
 
 export function GameCard({ game, onClick }: GameCardProps) {
     const [coverUrl, setCoverUrl] = useState<string | null>(null);
-    const displayTitle = cleanTitle(game.title);
+    const displayTitle = cleanGameTitle(game.title, game.author);
 
     useEffect(() => {
         let mounted = true;

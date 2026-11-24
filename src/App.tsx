@@ -6,7 +6,8 @@ import { Footer } from './components/Footer';
 import { fetchCatalog } from './services/catalog';
 import { PortData } from './types';
 import { parseCatalogDate, isRecentlyUpdated } from './utils/dates';
-import { cleanTitle } from './utils/titles';
+import { getShortPlatformName } from './utils/platforms';
+import { cleanGameTitle } from './utils/title';
 import { Loader2 } from 'lucide-react';
 
 function App() {
@@ -24,7 +25,11 @@ function App() {
   const filterOptions = useMemo(() => {
     const platforms = Array.from(new Set(games.map(g => g.original_platform?.trim()).filter(Boolean)));
     const filteredPlatforms = platforms.filter(p => p.toLowerCase() !== 'emulators');
-    filteredPlatforms.sort((a, b) => a.localeCompare(b));
+    filteredPlatforms.sort((a, b) => {
+      const labelA = getShortPlatformName(a);
+      const labelB = getShortPlatformName(b);
+      return labelA.localeCompare(labelB, undefined, { sensitivity: 'base' });
+    });
     return ['All', ...filteredPlatforms];
   }, [games]);
 
@@ -92,9 +97,10 @@ function App() {
 
       const matchesRecent = !recentOnly || isRecentlyUpdated(game.last_updated, 7);
 
-      const title = cleanTitle(game.title);
+      const cleanTitle = cleanGameTitle(game.title, game.author);
       const matchesSearch = !query ||
-        title.toLowerCase().includes(query) ||
+        cleanTitle.toLowerCase().includes(query) ||
+        game.title.toLowerCase().includes(query) ||
         (game.author && game.author.toLowerCase().includes(query)) ||
         (platform && platform.toLowerCase().includes(query));
 
@@ -112,8 +118,10 @@ function App() {
           return sortReverse ? -comparison : comparison;
         }
         // Fallback to title comparison when dates are equal
-        return titleA.localeCompare(titleB);
+        return cleanGameTitle(a.title, a.author).localeCompare(cleanGameTitle(b.title, b.author));
       } else {
+        const titleA = cleanGameTitle(a.title, a.author);
+        const titleB = cleanGameTitle(b.title, b.author);
         const comparison = titleA.localeCompare(titleB, undefined, { sensitivity: 'base' });
         return sortReverse ? -comparison : comparison;
       }
