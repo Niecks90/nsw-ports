@@ -12,6 +12,7 @@ import { getShortPlatformName, getPlatformBadgeClasses } from '../utils/platform
 import { formatVersion } from '../utils/version';
 import { formatDisplayDate } from '../utils/dates';
 import { resolveGithubRawUrl } from '../utils/github';
+import { cleanGameTitle } from '../utils/title';
 import clsx from 'clsx';
 
 interface SidebarModalProps {
@@ -26,10 +27,12 @@ export function SidebarModal({ game, onClose, onSelectAuthor }: SidebarModalProp
     const [readmeContent, setReadmeContent] = useState<string | null>(null);
     const [readmeLoading, setReadmeLoading] = useState(false);
 
+    const displayTitle = cleanGameTitle(game?.title, game?.author);
+
     useEffect(() => {
         if (!game) return;
         let mounted = true;
-        fetchGameCoverUrl(game.title, game.steamgriddb_id, game.grid_image_url).then(url => {
+        fetchGameCoverUrl(displayTitle, game.steamgriddb_id, game.grid_image_url).then(url => {
             if (mounted && url) setCoverUrl(url);
         });
 
@@ -100,7 +103,7 @@ export function SidebarModal({ game, onClose, onSelectAuthor }: SidebarModalProp
                 const blobUrl = URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = blobUrl;
-                const safeName = game.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+                const safeName = displayTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
                 a.download = `${safeName}-cover.png`;
                 document.body.appendChild(a);
                 a.click();
@@ -153,7 +156,7 @@ export function SidebarModal({ game, onClose, onSelectAuthor }: SidebarModalProp
                                 <>
                                     <img
                                         src={coverUrl}
-                                        alt={game.title}
+                                        alt={displayTitle}
                                         className="w-full h-full object-contain md:object-cover"
                                     />
                                     {/* Subtle Save Cover Download Button Overlay */}
@@ -173,7 +176,7 @@ export function SidebarModal({ game, onClose, onSelectAuthor }: SidebarModalProp
 
                         {/* Title & Badges */}
                         <div className="flex flex-col gap-2 text-center md:text-left">
-                            <h2 className="text-xl sm:text-2xl font-bold text-white leading-tight">{game.title}</h2>
+                            <h2 className="text-xl sm:text-2xl font-bold text-white leading-tight">{displayTitle}</h2>
 
                             <div className="flex flex-wrap gap-1.5 justify-center md:justify-start text-xs font-medium mt-1">
                                 {game.original_platform && (

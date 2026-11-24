@@ -260,6 +260,14 @@ def main():
                 if not game or re.match(r'^[-—:\s]+$', game):
                     continue
 
+                # Strip duplicate (Author) suffix from game title if matching author
+                if author:
+                    match_paren = re.search(r'\s*\(([^)]+)\)\s*$', game)
+                    if match_paren:
+                        paren_content = match_paren.group(1).strip()
+                        if paren_content.lower() == author.strip().lower():
+                            game = game[:match_paren.start()].strip()
+
                 last_updated = None
                 if last_updated_idx != -1 and len(columns) > last_updated_idx:
                     raw_date = columns[last_updated_idx].strip()

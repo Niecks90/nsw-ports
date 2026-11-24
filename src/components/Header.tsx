@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Search, Settings, X, Download, ArrowUpAZ, ArrowDownAZ, CalendarDays, Coffee, Dices, Sparkles } from 'lucide-react';
+import { Search, Settings, X, Download, ArrowUpAZ, ArrowDownAZ, CalendarDays, Coffee, Dices, Sparkles, Bug } from 'lucide-react';
 import { invoke } from "@tauri-apps/api/core";
 import { load } from '@tauri-apps/plugin-store';
 import clsx from 'clsx';
@@ -134,6 +134,16 @@ export function Header({
                         </button>
 
                         <a
+                            href="https://github.com/Niecks90/nsw-ports/issues/new"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-slate-800 hover:bg-slate-750 text-rose-400 border border-slate-700 rounded-lg flex items-center justify-center transition-colors"
+                            title="Report Issue"
+                        >
+                            <Bug className="w-5 h-5" />
+                        </a>
+
+                        <a
                             href="https://ko-fi.com/niecks90"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -257,6 +267,17 @@ export function Header({
                     >
                         <Coffee className="w-4 h-4" />
                         <span>Support on Ko-fi</span>
+                    </a>
+
+                    <a
+                        href="https://github.com/Niecks90/nsw-ports/issues/new"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-slate-800 hover:bg-slate-750 text-slate-300 hover:text-white border border-slate-700 transition-colors px-3 py-2 rounded-lg flex items-center gap-1.5 text-xs font-semibold"
+                        title="Report an issue or suggest a port"
+                    >
+                        <Bug className="w-4 h-4 text-rose-400" />
+                        <span>Report Issue</span>
                     </a>
 
                     {!isTauri && (

@@ -4,6 +4,23 @@ All notable changes to the **NSW Ports** project will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-11-24
+
+### Added
+- **Navigation & Feedback**:
+  - Added a **"Report Issue"** external link button in both desktop and mobile header action bars pointing to `https://github.com/Niecks90/nsw-ports/issues/new` with a bug icon for quick issue reporting.
+  - Added frontend helper utility `cleanGameTitle` (`src/utils/title.ts`) for consistent real-time title normalization.
+
+### Changed
+- **Title Data Cleaning**:
+  - Automatically strip redundant trailing `(author)` suffixes from game titles in `update_catalog.py` and across all React frontend components (`GameCard`, `SidebarModal`, search, and sorting) whenever the parenthesized suffix matches the port author (e.g., `Torchlight (liartes)` → `Torchlight`).
+  - Preserved legitimate non-author parenthesized text (e.g., `Sonic The Hedgehog (2006)`).
+  - Executed title cleaning prior to slug generation, overrides matching, and SteamGridDB artwork querying.
+- **Platform Filter Pills Sorting**:
+  - Alphabetized all platform filter chips based on their displayed short label (`getShortPlatformName`) rather than raw catalog platform strings (e.g. `Android 32`, `Android 64`, `Arcade`, `Dreamcast`, `Gameboy`, ..., `Playstation`, ..., `Xbox`, `Xbox 360`), while keeping the **`All`** pill pinned first.
+
+---
+
 ## [1.1.0] - 2026-11-18
 
 ### Added
