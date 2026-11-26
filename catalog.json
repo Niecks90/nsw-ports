@@ -3718,6 +3718,19 @@
     "last_updated": "08/11/2026"
   },
   {
+    "id": "nier-microsoft-xbox-360",
+    "title": "NieR",
+    "author": "LoLrD",
+    "version": "*released*",
+    "original_platform": "Microsoft Xbox 360",
+    "url": "https://github.com/LoLrD/nier-nx",
+    "source_type": "github_repo",
+    "asset_type": "zip",
+    "steamgriddb_id": "38645",
+    "grid_image_url": "https://cdn2.steamgriddb.com/grid/e6a383f2090d64f1f21166b063a86631.png",
+    "last_updated": "25/11/2026"
+  },
+  {
     "id": "need-for-speed-carbon-microsoft-xbox-360",
     "title": "Need for Speed: Carbon",
     "author": "Kaays",
